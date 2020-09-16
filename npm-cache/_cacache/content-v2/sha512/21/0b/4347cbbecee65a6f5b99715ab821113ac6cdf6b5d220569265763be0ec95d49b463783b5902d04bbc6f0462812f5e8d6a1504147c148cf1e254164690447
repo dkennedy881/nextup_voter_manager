@@ -1,0 +1,2365 @@
+{
+  "_id" : "@expo/image-utils",
+  "_rev" : "54-2475c04ed1c06e01e4befc61ae2b1e02",
+  "name" : "@expo/image-utils",
+  "description" : "A package used by Expo CLI for processing images",
+  "dist-tags" : {
+    "latest" : "0.3.5"
+  },
+  "versions" : {
+    "0.2.4" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.4.tgz",
+        "shasum" : "20dbde2ea0bc1fba8edbbbebe56524db787ef7ea"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.10.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.10.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.5",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "wkozyra",
+        "email" : "wojciech.kozyra@swmansion.com"
+      },
+      "_id" : "@expo/image-utils@0.2.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.4_1563541928392_0.9048809343775173"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "0.3.3" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.3.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.3.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.3.3.tgz",
+        "shasum" : "c7f3377d534d9aad470d16997e73d3cdedd0f30d"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "chalk" : "^4.0.0",
+        "fs-extra" : "9.0.0",
+        "getenv" : "0.7.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.17",
+        "@types/fs-extra" : "^9.0.1",
+        "@types/getenv" : "^0.7.0",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "test" : "jest",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.3.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.3.3_1598549155525_0.6013524890961537"
+      },
+      "_nodeVersion" : "14.6.0"
+    },
+    "0.2.5" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.5.tgz",
+        "shasum" : "dc7a5696fdbda5968cec6c8a7dcec1ac8bf69352"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.10.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.10.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.0",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/image-utils@0.2.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.5_1565107207063_0.3155461392471661"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.4" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.3.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.3.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.3.4.tgz",
+        "shasum" : "ff042ff33dfb107f4bfa3421c2e6c9ecdc46aa64"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "chalk" : "^4.0.0",
+        "fs-extra" : "9.0.0",
+        "getenv" : "0.7.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.17",
+        "@types/fs-extra" : "^9.0.1",
+        "@types/getenv" : "^0.7.0",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "test" : "jest",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.3.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.3.4_1599004107766_0.8193879885876256"
+      },
+      "_nodeVersion" : "14.6.0"
+    },
+    "0.2.2" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.2.tgz",
+        "shasum" : "29f6c2fed7b03669189e7cdd22f9d3b8b37173fb"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.10.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.10.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.3",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "rm -rf ./build && tsc",
+        "prepare" : "yarn build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/image-utils@0.2.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.2_1562338579241_0.4983325476724907"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.1" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.3.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.3.1.tgz",
+        "shasum" : "e222c3bc81df0ac79649287647ab3dc0806c69f3"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.17",
+        "@types/fs-extra" : "^9.0.1",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "test" : "jest",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.3.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.3.1_1596141826786_0.13904478345821514"
+      },
+      "_nodeVersion" : "14.6.0"
+    },
+    "0.2.3" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.3.tgz",
+        "shasum" : "d380ad8de20a885c82455379645eb99775ad9a24"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.10.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.10.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.4",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "wkozyra",
+        "email" : "wojciech.kozyra@swmansion.com"
+      },
+      "_id" : "@expo/image-utils@0.2.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.3_1563521746340_0.909579742044921"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "0.3.2" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.3.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.3.2.tgz",
+        "shasum" : "2cca2b7448cbca6daf67067fea90e1116d52b91e"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.17",
+        "@types/fs-extra" : "^9.0.1",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "test" : "jest",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "dsokal",
+        "email" : "dominiksokal@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.3.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.3.2_1598436858137_0.28593758669697"
+      },
+      "_nodeVersion" : "12.13.1"
+    },
+    "0.2.8" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.8.tgz",
+        "shasum" : "26c452e70f6d796c2ac589efba9f05c3aaead795"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.10.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.10.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.1",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "evanbacon",
+        "email" : "baconbrix@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.8_1573765985187_0.9071147701341709"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.14.1"
+    },
+    "0.2.9" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.9.tgz",
+        "shasum" : "e06690e2e7c76ec77975a0d051d01d2c8332520f"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.10.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.10.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.2",
+        "@types/semver" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.9_1575662523273_0.1279224939053445"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "0.2.6" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.6.tgz",
+        "shasum" : "3f1c19b2f373402181be570ca6ff2a2b437f95ce"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.10.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.10.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.1-alpha.0",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/image-utils@0.2.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.6_1569012205800_0.8874150807493284"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.5" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.3.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.3.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.3.5.tgz",
+        "shasum" : "5ad6ff3c4bebfcbc36fa0999b604a114121598de"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "chalk" : "^4.0.0",
+        "fs-extra" : "9.0.0",
+        "getenv" : "0.7.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.17",
+        "@types/fs-extra" : "^9.0.1",
+        "@types/getenv" : "^0.7.0",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "test" : "jest",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "sjchmiela",
+        "email" : "sjchmiela@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.3.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.3.5_1599567736451_0.9078125391340397"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "0.2.7" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.7.tgz",
+        "shasum" : "1669aad4e4d8e923d91ba612974cfc30db6c2661"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.10.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.10.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.1",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/image-utils@0.2.7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.7_1571160530587_0.6576291159528354"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.2.28" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.28",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.28.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.28.tgz",
+        "shasum" : "9a78489635cdc4a70e885bde255e37aa0d3b8459"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "^9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.16",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "dsokal",
+        "email" : "dominiksokal@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.28",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.28_1590495268427_0.8991553154707501"
+      },
+      "_nodeVersion" : "12.13.1"
+    },
+    "0.2.29" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.29",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.29.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.29.tgz",
+        "shasum" : "7794932e025050578dd76c3fd366916be3ae2f01"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.16",
+        "@types/fs-extra" : "^9.0.1",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "dsokal",
+        "email" : "dominiksokal@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.29",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.29_1591095854803_0.1836955148082411"
+      },
+      "_nodeVersion" : "12.13.1"
+    },
+    "0.1.1" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.1.1.tgz",
+        "shasum" : "eb21933d6c611bc3b39584eab8f9f0fc0c18107c"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.9.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.9.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.2",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sjchmiela",
+        "email" : "sjchmiela@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.1.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.1.1_1561393696448_0.9902813443181588"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.2.0" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.0.tgz",
+        "shasum" : "6a77b0acc5fc97f3264f9d5d656e9c6080bbf8be"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.10.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.10.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.2",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/image-utils@0.2.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.0_1561656244728_0.18025708905247995"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.1.2" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.1.2.tgz",
+        "shasum" : "8f7488241c62ccfa3e874fd32e90df11501fdf36"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.9.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.9.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.2",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/image-utils@0.1.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.1.2_1561409012821_0.8027960174746975"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.2.1" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.1.tgz",
+        "shasum" : "b73dc445c256ee0af1bdbb38dd511b0cfee9876f"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.10.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.10.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.2",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "rm -rf ./build && tsc",
+        "prepare" : "yarn build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/image-utils@0.2.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.1_1561657670772_0.724558324965626"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.0" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.3.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.3.0.tgz",
+        "shasum" : "ef5994e0e15268bf47f1c89978fbd0cce89d1af5"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.16",
+        "@types/fs-extra" : "^9.0.1",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "test" : "jest",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.2",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/image-utils@0.3.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.3.0_1592468073701_0.5099441386746353"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "0.2.6-alpha.0" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.6-alpha.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.6-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.6-alpha.0.tgz",
+        "shasum" : "527c1da79815132c02018aa230608ee6252e794d"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.10.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.10.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.1-alpha.0",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "tsapeta",
+        "email" : "sapeta.tomasz@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.6-alpha.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.6-alpha.0_1568819547590_0.2791709133388802"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "11.6.0"
+    },
+    "0.2.10" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.10.tgz",
+        "shasum" : "2ad9ac3f26bbe9924bc5025804351fbfea5945ce"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.3",
+        "@types/semver" : "^6.0.0"
+      },
+      "peerDependencies" : {
+        "sharp-cli" : "^1.10.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.10",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.10_1576627873766_0.787209882177411"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "0.2.11" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.11.tgz",
+        "shasum" : "3e60cd3a2cb89bb8e5621d0e78af3634abe40123"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.4",
+        "@types/semver" : "^6.0.0"
+      },
+      "peerDependencies" : {
+        "sharp-cli" : "^1.10.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.11",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.11_1578507749574_0.9728597218628157"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.14.0"
+    },
+    "0.2.12" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.12.tgz",
+        "shasum" : "e70d4b3bdb292a233f2f73a59a644b4cefea876d"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.5",
+        "@types/semver" : "^6.0.0"
+      },
+      "peerDependencies" : {
+        "sharp-cli" : "^1.10.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dsokal",
+        "email" : "dominiksokal@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.12",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.12_1579008495840_0.5144783578826742"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "0.2.13" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.13",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.13.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.13.tgz",
+        "shasum" : "ae71851943e44af2ede0c8e4d6d846b473c508ce"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.6",
+        "@types/semver" : "^6.0.0"
+      },
+      "peerDependencies" : {
+        "sharp-cli" : "^1.10.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.7",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.13",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.13_1583546053435_0.04536215494776785"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "13.8.0"
+    },
+    "0.2.14" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.14",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.14.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.14.tgz",
+        "shasum" : "5f949d4a3becf9053f91f7fc10a2ddb35d738b17"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "jimp" : "^0.9.3",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.7",
+        "@types/semver" : "^6.0.0"
+      },
+      "peerDependencies" : {
+        "sharp-cli" : "^1.10.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.14",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.14_1584752942684_0.48224467104640323"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.13.1"
+    },
+    "0.2.15" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.15",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.15.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.15.tgz",
+        "shasum" : "c99ee26b1dd8323ff5c9d90b4c84dc6b6cc38fe3"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "jimp" : "^0.9.3",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.7",
+        "@types/semver" : "^6.0.0"
+      },
+      "peerDependencies" : {
+        "sharp-cli" : "^1.10.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "esamelson",
+        "email" : "eric@expo.io"
+      },
+      "_id" : "@expo/image-utils@0.2.15",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.15_1585255006240_0.2965088567182983"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.13.1"
+    },
+    "0.2.16" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.16",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.16.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.16.tgz",
+        "shasum" : "72b95127a96e126e806dac108dda62223602666a"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "^9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "^0.5.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.7",
+        "@types/semver" : "^6.0.0"
+      },
+      "peerDependencies" : {
+        "sharp-cli" : "^1.10.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "esamelson",
+        "email" : "eric@expo.io"
+      },
+      "_id" : "@expo/image-utils@0.2.16",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.16_1585280858419_0.04973820166397047"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.13.1"
+    },
+    "0.1.3-beta" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.1.3-beta",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.1.3-beta.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.1.3-beta.tgz",
+        "shasum" : "9430cd8f8e3632a5dedcba1ae355faae2ba2629c"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1",
+        "sharp-cli" : "1.9.0"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.9.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.2",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/image-utils@0.1.3-beta",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.1.3-beta_1561409562636_0.46702502923377187"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.2.17" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.17",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.17.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.17.tgz",
+        "shasum" : "447cf4595d39db8c39d6aeb3c43cd9ac9c7ac972"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "^9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.7",
+        "@types/semver" : "^6.0.0"
+      },
+      "peerDependencies" : {
+        "sharp-cli" : "^1.10.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.17",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.17_1585688784997_0.07998996488313836"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.13.1"
+    },
+    "0.2.18" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.18",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.18.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.18.tgz",
+        "shasum" : "b4a454e150295808337f7cfa02ff9aad2c2f1e7f"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "^9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.8",
+        "@types/semver" : "^6.0.0"
+      },
+      "peerDependencies" : {
+        "sharp-cli" : "^1.10.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.18",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.18_1586200052967_0.10608964186747882"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "0.2.19" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.19",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.19.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.19.tgz",
+        "shasum" : "bf9c8d84e9f5e1d448167141a49cbd08147bce6d"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "^9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.8",
+        "@types/semver" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.19",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.19_1586911672149_0.4532652301363167"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "0.2.20" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.20",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.20.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.20.tgz",
+        "shasum" : "a5c5fca56331958999db546fbcc702051025b301"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "^9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.9",
+        "@types/semver" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.20",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.20_1587607661021_0.6074359535878493"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "0.2.21" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.21",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.21.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.21.tgz",
+        "shasum" : "8043cd85fc8955a334f914e7f752dd716f8addcb"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "^9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.10",
+        "@types/semver" : "^6.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.21",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.21_1587857233263_0.6328599455580013"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "0.2.22" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.22",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.22.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.22.tgz",
+        "shasum" : "343373890953b957fc6b1b45cf8c47793c41078a"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "^9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.11",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.2",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/image-utils@0.2.22",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.22_1588195538345_0.2669272679324386"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "0.2.23" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.23",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.23.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.23.tgz",
+        "shasum" : "0a90ee0b8ba6014a589a12ec483de664fdd80516"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "^9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.12",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "quinlanj",
+        "email" : "quinlanjung@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.23",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.23_1589228669816_0.4565770565011922"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.16.2"
+    },
+    "0.2.24" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.24",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.24.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.24.tgz",
+        "shasum" : "ef5a85cbe35c5d0e1d514486bfeea234465c2148"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "^9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.13",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.24",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.24_1589325115209_0.08508184972159882"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.2.25" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.25",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.25.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.25.tgz",
+        "shasum" : "1b986a1db23358232d7cff48d43f3b15f55905d4"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "^9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.13",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.25",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.25_1589506662392_0.41580092822053705"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.2.26" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.26",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.26.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.26.tgz",
+        "shasum" : "651720d157f53ce13c04efb3db6c582a71211093"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "^9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.14",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.26",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.26_1589520962089_0.38914603756319455"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.2.27" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.2.27",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.2.27.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.2.27.tgz",
+        "shasum" : "c6b9fd61b2e9496c4eda061399cc1b15e91daf7f"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "fs-extra" : "^9.0.0",
+        "jimp" : "^0.9.6",
+        "mime" : "^2.4.4",
+        "node-fetch" : "^2.6.0",
+        "parse-png" : "^2.1.0",
+        "resolve-from" : "^5.0.0",
+        "semver" : "6.1.1",
+        "tempy" : "0.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.15",
+        "@types/semver" : "^6.0.0",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/image-utils@0.2.27",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.2.27_1589571061030_0.3439241429740476"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.1.3-beta.2" : {
+      "name" : "@expo/image-utils",
+      "description" : "A package used by Expo CLI for processing images",
+      "version" : "0.1.3-beta.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expo/expo-cli.git",
+        "directory" : "packages/image-utils"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/image-utils/-/image-utils-0.1.3-beta.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fimage-utils%2F-%2Fimage-utils-0.1.3-beta.2.tgz",
+        "shasum" : "e8dbc77a16ad82830b0ebabee79ebd6b60787960"
+      },
+      "dependencies" : {
+        "@expo/spawn-async" : "1.5.0",
+        "semver" : "6.1.1"
+      },
+      "optionalDependencies" : {
+        "sharp-cli" : "1.9.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.2",
+        "@types/semver" : "^6.0.0",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/image-utils@0.1.3-beta.2",
+      "licenseText" : "The MIT License (MIT)\n\nCopyright (c) 2015-present 650 Industries, Inc. (aka Expo)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/image-utils_0.1.3-beta.2_1561409771122_0.30156331514027834"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      }
+    }
+  },
+  "readme" : "# `@expo/image-utils`\n\nA library for image processing functionality in Expo CLI. It uses `sharp` for image processing if it's available through a global `sharp-cli` installation. Otherwise it uses `jimp`, a Node library with no native dependencies, and warns the user that they may want to install `sharp-cli` for faster image processing.\n\n## Advanced Configuration\n\nThis package can be configured using the following environment variables.\n\n### EXPO_IMAGE_UTILS_NO_SHARP\n\nWhen truthy, this will force global `sharp-cli` resolution methods like `isAvailableAsync()` and `findSharpInstanceAsync()` to fail. Other processes can use this to fallback on Jimp for image modifications. By default this is falsy (undefined).\n\n`findSharpInstanceAsync()` will throw an error if disabled because it shouldn't be invoked if `isAvailableAsync()` returns `false`.\n",
+  "time" : {
+    "0.2.4" : "2019-07-19T13:12:08.501Z",
+    "0.3.3" : "2020-08-27T17:25:55.697Z",
+    "0.2.5" : "2019-08-06T16:00:07.186Z",
+    "0.3.4" : "2020-09-01T23:48:27.896Z",
+    "0.2.2" : "2019-07-05T14:56:19.342Z",
+    "0.3.1" : "2020-07-30T20:43:46.885Z",
+    "0.2.3" : "2019-07-19T07:35:46.522Z",
+    "0.3.2" : "2020-08-26T10:14:18.239Z",
+    "0.2.8" : "2019-11-14T21:13:05.338Z",
+    "0.2.9" : "2019-12-06T20:02:03.386Z",
+    "0.2.6" : "2019-09-20T20:43:25.968Z",
+    "0.3.5" : "2020-09-08T12:22:16.594Z",
+    "0.2.7" : "2019-10-15T17:28:50.757Z",
+    "0.2.28" : "2020-05-26T12:14:28.540Z",
+    "0.2.29" : "2020-06-02T11:04:14.901Z",
+    "0.1.1" : "2019-06-24T16:28:16.566Z",
+    "0.2.0" : "2019-06-27T17:24:04.863Z",
+    "0.1.2" : "2019-06-24T20:43:32.928Z",
+    "0.2.1" : "2019-06-27T17:47:50.910Z",
+    "0.3.0" : "2020-06-18T08:14:33.869Z",
+    "0.2.6-alpha.0" : "2019-09-18T15:12:27.774Z",
+    "0.2.10" : "2019-12-18T00:11:13.867Z",
+    "0.2.11" : "2020-01-08T18:22:29.734Z",
+    "0.2.12" : "2020-01-14T13:28:15.964Z",
+    "0.2.13" : "2020-03-07T01:54:13.570Z",
+    "0.2.14" : "2020-03-21T01:09:02.806Z",
+    "0.2.15" : "2020-03-26T20:36:46.353Z",
+    "0.2.16" : "2020-03-27T03:47:38.573Z",
+    "modified" : "2020-09-08T12:22:19.285Z",
+    "0.1.3-beta" : "2019-06-24T20:52:42.772Z",
+    "created" : "2019-06-24T16:28:16.286Z",
+    "0.2.17" : "2020-03-31T21:06:25.122Z",
+    "0.2.18" : "2020-04-06T19:07:33.259Z",
+    "0.2.19" : "2020-04-15T00:47:52.355Z",
+    "0.2.20" : "2020-04-23T02:07:41.201Z",
+    "0.2.21" : "2020-04-25T23:27:13.363Z",
+    "0.2.22" : "2020-04-29T21:25:38.463Z",
+    "0.2.23" : "2020-05-11T20:24:29.917Z",
+    "0.2.24" : "2020-05-12T23:11:55.304Z",
+    "0.2.25" : "2020-05-15T01:37:42.608Z",
+    "0.2.26" : "2020-05-15T05:36:02.217Z",
+    "0.2.27" : "2020-05-15T19:31:01.185Z",
+    "0.1.3-beta.2" : "2019-06-24T20:56:11.226Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/expo/expo-cli.git",
+    "directory" : "packages/image-utils"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

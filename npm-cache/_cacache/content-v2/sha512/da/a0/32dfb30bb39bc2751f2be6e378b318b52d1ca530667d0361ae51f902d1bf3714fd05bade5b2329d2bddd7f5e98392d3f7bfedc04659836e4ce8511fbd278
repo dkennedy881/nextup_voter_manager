@@ -1,0 +1,308 @@
+{
+  "_id" : "bplist-parser",
+  "_rev" : "20-1fd754438677394a2ac31afaa9cc3db1",
+  "name" : "bplist-parser",
+  "description" : "Binary plist parser.",
+  "dist-tags" : {
+    "latest" : "0.2.0"
+  },
+  "versions" : {
+    "0.0.6" : {
+      "name" : "bplist-parser",
+      "description" : "Binary plist parser.",
+      "version" : "0.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nearinfinity/node-bplist-parser.git"
+      },
+      "main" : "bplistParser.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/bplist-parser/-/bplist-parser-0.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbplist-parser%2F-%2Fbplist-parser-0.0.6.tgz",
+        "shasum" : "38da3471817df9d44ab3892e27707bbbd75a11b9"
+      },
+      "devDependencies" : {
+        "nodeunit" : "~0.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/nodeunit/bin/nodeunit test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "joeferner",
+        "email" : "joe@fernsroth.com"
+      },
+      "_id" : "bplist-parser@0.0.6",
+      "gitHead" : "a2230a5df3c7014ffbe5761bcb091ea2d061b47b",
+      "_shasum" : "38da3471817df9d44ab3892e27707bbbd75a11b9"
+    },
+    "0.0.4" : {
+      "name" : "bplist-parser",
+      "description" : "Binary plist parser.",
+      "version" : "0.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nearinfinity/node-bplist-parser.git"
+      },
+      "main" : "bplistParser.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/bplist-parser/-/bplist-parser-0.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbplist-parser%2F-%2Fbplist-parser-0.0.4.tgz",
+        "shasum" : "09c6b53565c1e0590ee498b73500b9092cfd080e"
+      },
+      "devDependencies" : {
+        "nodeunit" : "~0.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/nodeunit/bin/nodeunit test"
+      },
+      "_id" : "bplist-parser@0.0.4"
+    },
+    "0.0.5" : {
+      "name" : "bplist-parser",
+      "description" : "Binary plist parser.",
+      "version" : "0.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nearinfinity/node-bplist-parser.git"
+      },
+      "main" : "bplistParser.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/bplist-parser/-/bplist-parser-0.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbplist-parser%2F-%2Fbplist-parser-0.0.5.tgz",
+        "shasum" : "07120d9763e7418e5bf353a49820b52aa93622ae"
+      },
+      "devDependencies" : {
+        "nodeunit" : "~0.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/nodeunit/bin/nodeunit test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.4",
+      "_npmUser" : {
+        "name" : "joeferner",
+        "email" : "joe@fernsroth.com"
+      },
+      "_id" : "bplist-parser@0.0.5"
+    },
+    "0.0.2" : {
+      "name" : "bplist-parser",
+      "description" : "Binary plist parser.",
+      "version" : "0.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nearinfinity/node-bplist-parser.git"
+      },
+      "main" : "bplistParser.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/bplist-parser/-/bplist-parser-0.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbplist-parser%2F-%2Fbplist-parser-0.0.2.tgz",
+        "shasum" : "de267c12abf6399c7803ec68e5e6343f86592893"
+      },
+      "devDependencies" : {
+        "nodeunit" : "~0.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/nodeunit/bin/nodeunit test"
+      },
+      "_id" : "bplist-parser@0.0.2"
+    },
+    "0.1.1" : {
+      "name" : "bplist-parser",
+      "description" : "Binary plist parser.",
+      "version" : "0.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/nearinfinity/node-bplist-parser.git"
+      },
+      "main" : "bplistParser.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/bplist-parser/-/bplist-parser-0.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbplist-parser%2F-%2Fbplist-parser-0.1.1.tgz",
+        "shasum" : "d60d5dcc20cba6dc7e1f299b35d3e1f95dafbae6"
+      },
+      "dependencies" : {
+        "big-integer" : "^1.6.7"
+      },
+      "devDependencies" : {
+        "nodeunit" : "~0.9.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/nodeunit/bin/nodeunit test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.4.0",
+      "_npmUser" : {
+        "name" : "joeferner",
+        "email" : "joe@fernsroth.com"
+      },
+      "_id" : "bplist-parser@0.1.1",
+      "gitHead" : "c4f22650de2cc95edd21a6e609ff0654a2b951bd",
+      "_shasum" : "d60d5dcc20cba6dc7e1f299b35d3e1f95dafbae6",
+      "_nodeVersion" : "5.1.0"
+    },
+    "0.2.0" : {
+      "name" : "bplist-parser",
+      "description" : "Binary plist parser.",
+      "version" : "0.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/nearinfinity/node-bplist-parser.git"
+      },
+      "engines" : {
+        "node" : ">= 5.10.0"
+      },
+      "main" : "bplistParser.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/bplist-parser/-/bplist-parser-0.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbplist-parser%2F-%2Fbplist-parser-0.2.0.tgz",
+        "shasum" : "43a9d183e5bf9d545200ceac3e712f79ebbe8d0e"
+      },
+      "dependencies" : {
+        "big-integer" : "^1.6.44"
+      },
+      "devDependencies" : {
+        "mocha" : "^6.1.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "mocha test"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "joeferner",
+        "email" : "joe@fernsroth.com"
+      },
+      "_id" : "bplist-parser@0.2.0",
+      "gitHead" : "d8fa1f571e064042c04f7995b363d602269747e7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/bplist-parser_0.2.0_1562962045295_0.3646977891925949"
+      },
+      "_nodeVersion" : "8.11.2"
+    },
+    "0.0.3" : {
+      "name" : "bplist-parser",
+      "description" : "Binary plist parser.",
+      "version" : "0.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nearinfinity/node-bplist-parser.git"
+      },
+      "main" : "bplistParser.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/bplist-parser/-/bplist-parser-0.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbplist-parser%2F-%2Fbplist-parser-0.0.3.tgz",
+        "shasum" : "5da813655bf6b8dad3487f3e178f0ee64c355c92"
+      },
+      "devDependencies" : {
+        "nodeunit" : "~0.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/nodeunit/bin/nodeunit test"
+      },
+      "_npmVersion" : "1.1.49",
+      "_npmUser" : {
+        "name" : "joeferner",
+        "email" : "joe@fernsroth.com"
+      },
+      "_id" : "bplist-parser@0.0.3"
+    },
+    "0.0.1" : {
+      "name" : "bplist-parser",
+      "description" : "Binary plist parser.",
+      "version" : "0.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nearinfinity/node-bplist-parser.git"
+      },
+      "main" : "bplistParser.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/bplist-parser/-/bplist-parser-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbplist-parser%2F-%2Fbplist-parser-0.0.1.tgz",
+        "shasum" : "508d0064551b546918e6c5d779743813cf9ff09f"
+      },
+      "devDependencies" : {
+        "nodeunit" : "~0.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/nodeunit/bin/nodeunit test"
+      },
+      "_id" : "bplist-parser@0.0.1"
+    },
+    "0.1.0" : {
+      "name" : "bplist-parser",
+      "description" : "Binary plist parser.",
+      "version" : "0.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nearinfinity/node-bplist-parser.git"
+      },
+      "main" : "bplistParser.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/bplist-parser/-/bplist-parser-0.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbplist-parser%2F-%2Fbplist-parser-0.1.0.tgz",
+        "shasum" : "630823f2056437d4dbefc20e84017f8bac48e008"
+      },
+      "devDependencies" : {
+        "nodeunit" : "~0.9.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "./node_modules/nodeunit/bin/nodeunit test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.14",
+      "_npmUser" : {
+        "name" : "joeferner",
+        "email" : "joe@fernsroth.com"
+      },
+      "_id" : "bplist-parser@0.1.0",
+      "gitHead" : "82d14f8defa7fc1e9f78a469c76c235ac244fd8f",
+      "_shasum" : "630823f2056437d4dbefc20e84017f8bac48e008"
+    }
+  },
+  "readme" : "# bplist-parser\n\nBinary Mac OS X Plist (property list) parser.\n\n## Installation\n\n```bash\n$ npm install bplist-parser\n```\n\n## Quick Examples\n\n```javascript\nconst bplist = require('bplist-parser');\n\n(async () => {\n\n  const obj = await bplist.parseFile('myPlist.bplist');\n\n  console.log(JSON.stringify(obj));\n\n})();\n```\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2012 Near Infinity Corporation\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+  "time" : {
+    "0.0.6" : "2014-10-23T11:53:04.308Z",
+    "0.0.4" : "2012-09-08T21:16:16.193Z",
+    "0.0.5" : "2014-02-28T19:21:31.306Z",
+    "created" : "2012-08-06T17:03:08.165Z",
+    "modified" : "2019-07-12T20:07:27.936Z",
+    "0.0.2" : "2012-08-14T16:20:20.621Z",
+    "0.1.1" : "2015-11-19T12:59:58.204Z",
+    "0.2.0" : "2019-07-12T20:07:25.427Z",
+    "0.0.3" : "2012-08-23T14:10:47.192Z",
+    "0.0.1" : "2012-08-06T17:03:08.795Z",
+    "0.1.0" : "2015-05-18T12:22:10.214Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/nearinfinity/node-bplist-parser.git"
+  },
+  "users" : {
+    "frabert" : true,
+    "operandom" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

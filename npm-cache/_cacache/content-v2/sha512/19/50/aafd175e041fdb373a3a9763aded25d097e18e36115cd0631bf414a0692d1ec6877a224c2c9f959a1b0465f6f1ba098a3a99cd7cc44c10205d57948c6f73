@@ -1,0 +1,1427 @@
+{
+  "_id" : "slugify",
+  "_rev" : "56-0232fe9a2082b0ddc2012493c261f1e0",
+  "name" : "slugify",
+  "description" : "Slugifies a String",
+  "dist-tags" : {
+    "latest" : "1.4.5"
+  },
+  "versions" : {
+    "1.2.9" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.2.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.2.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.2.9.tgz",
+        "shasum" : "c3d518f5136b3c69345d5d0bbbcde7412b5694aa"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.15",
+        "eslint" : "^3.12.2",
+        "eslint-config-standard" : "^6.2.1",
+        "eslint-plugin-promise" : "^3.4.0",
+        "eslint-plugin-standard" : "^2.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^3.2.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "index.d.ts", "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint **/*.js && echo Lint Passed"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.2.9",
+      "gitHead" : "ac8a9cf2a62a9f09d02516c208ed2f6283ac7cb2",
+      "types" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify-1.2.9.tgz_1514637806712_0.09512258437462151"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "0.1.1" : {
+      "name" : "slugify",
+      "description" : "Slugifies a string",
+      "version" : "0.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/simov/slugify.git"
+      },
+      "main" : "./lib/slugify",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-0.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-0.1.1.tgz",
+        "shasum" : "b11e28eb28625a764cfd128ee4ccfb9592b62772"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.21",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@0.1.1",
+      "gitHead" : "d5f09b731a4e4a7c22b7f5a8904a8a688752cd44",
+      "_shasum" : "b11e28eb28625a764cfd128ee4ccfb9592b62772"
+    },
+    "0.1.0" : {
+      "name" : "slugify",
+      "description" : "Slugifies a string.",
+      "version" : "0.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/simov/slugify.git"
+      },
+      "main" : "./lib/slugify",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-0.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-0.1.0.tgz",
+        "shasum" : "2ee3a5cd3627371be6fd2cb8cb4433d3a266302b"
+      },
+      "devDependencies" : {
+        "mocha" : "*",
+        "should" : "*"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.59",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@0.1.0"
+    },
+    "1.2.1" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.2.1.tgz",
+        "shasum" : "2118f4b0fbcfd79d7b2c451c22b724e5c1991330"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.15",
+        "eslint" : "^3.12.2",
+        "eslint-config-standard" : "^6.2.1",
+        "eslint-plugin-promise" : "^3.4.0",
+        "eslint-plugin-standard" : "^2.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^3.2.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint **/*.js && echo Lint Passed"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.2.1",
+      "gitHead" : "f4ef0c3c5900982313a78035beb72d1445f29556",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify-1.2.1.tgz_1502803238967_0.7001916060689837"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "1.3.0" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.3.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.3.0.tgz",
+        "shasum" : "787919259d28c825fbcae6da2e01c77a109793f6"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.1",
+        "eslint" : "^4.19.1",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.11.0",
+        "eslint-plugin-node" : "^6.0.1",
+        "eslint-plugin-promise" : "^3.7.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^5.1.1"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "index.d.ts", "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint index.js test.js && echo Lint Passed",
+        "test" : "npm run lint && npm run test:ci && echo Tests Passed",
+        "test:ci" : "mocha",
+        "test:cov" : "istanbul cover _mocha"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.3.0",
+      "gitHead" : "8c7dba9655d08f53876987b15b034041df86a199",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify_1.3.0_1526222489276_0.45733075044088745"
+      },
+      "_nodeVersion" : "8.11.1"
+    },
+    "1.2.2" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.2.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.2.2.tgz",
+        "shasum" : "1e00de11c744b7c1d89e6bd89e8d862831836453"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.15",
+        "eslint" : "^3.12.2",
+        "eslint-config-standard" : "^6.2.1",
+        "eslint-plugin-promise" : "^3.4.0",
+        "eslint-plugin-standard" : "^2.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^3.2.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint **/*.js && echo Lint Passed"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.2.2",
+      "gitHead" : "5eb1d930d65222191ed9d2e79ec419555dd315de",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify-1.2.2.tgz_1510225616327_0.5193956596776843"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "1.3.1" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.3.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.3.1.tgz",
+        "shasum" : "f572127e8535329fbc6c1edb74ab856b61ad7de2"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.1",
+        "eslint" : "^4.19.1",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.11.0",
+        "eslint-plugin-node" : "^6.0.1",
+        "eslint-plugin-promise" : "^3.7.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^5.1.1"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "index.d.ts", "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint index.js test.js && echo Lint Passed",
+        "test" : "npm run lint && npm run test:ci && echo Tests Passed",
+        "test:ci" : "mocha",
+        "test:cov" : "istanbul cover _mocha"
+      },
+      "_npmVersion" : "6.3.0",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.3.1",
+      "gitHead" : "df2eddad47f4bd6f61b648e55b993bafc0144eef",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify_1.3.1_1533473422628_0.9429101441643422"
+      },
+      "_nodeVersion" : "8.11.2"
+    },
+    "1.4.0" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=8.0.0"
+      },
+      "main" : "./slugify.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.4.0.tgz",
+        "shasum" : "c9557c653c54b0c7f7a8e786ef3431add676d2cb"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^5.2.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node bin/build",
+        "test:ci" : "mocha test/",
+        "test:cov" : "istanbul cover _mocha",
+        "test" : "npm run build && npm run test:ci"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.4.0",
+      "gitHead" : "fba0d90fa81f1217cd51eb7b193dacdde60eac55",
+      "types" : "slugify.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify_1.4.0_1583077786439_0.5049961976733244"
+      },
+      "_nodeVersion" : "8.17.0"
+    },
+    "1.2.3" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.2.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.2.3.tgz",
+        "shasum" : "632f4127a5b3cd4a31d888a6ce006d621a83fc16"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.15",
+        "eslint" : "^3.12.2",
+        "eslint-config-standard" : "^6.2.1",
+        "eslint-plugin-promise" : "^3.4.0",
+        "eslint-plugin-standard" : "^2.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^3.2.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint **/*.js && echo Lint Passed"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.2.3",
+      "gitHead" : "7eda77e6744a74386d337dad1395a88566862d75",
+      "types" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify-1.2.3.tgz_1510564473489_0.3791071940213442"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "1.3.2" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.3.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.3.2.tgz",
+        "shasum" : "b9aac7a964b94319871cf3f6e2cd06d47ee218aa"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.1",
+        "eslint" : "^4.19.1",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.11.0",
+        "eslint-plugin-node" : "^6.0.1",
+        "eslint-plugin-promise" : "^3.7.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^5.1.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint index.js test.js && echo Lint Passed",
+        "test" : "npm run lint && npm run test:ci && echo Tests Passed",
+        "test:ci" : "mocha",
+        "test:cov" : "istanbul cover _mocha"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.3.2",
+      "gitHead" : "b9e95ff4d14a3d47877a53b60eac568d3df51917",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify_1.3.2_1540473193842_0.793870938942858"
+      },
+      "_nodeVersion" : "8.11.2"
+    },
+    "1.4.1" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.4.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=8.0.0"
+      },
+      "main" : "./slugify.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.4.1.tgz",
+        "shasum" : "36c0c7153ad43f884f4a258cbf1e35befd422b38"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.1.0",
+        "mocha" : "^7.2.0",
+        "nyc" : "^15.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node bin/build",
+        "test:ci" : "npx mocha --recursive",
+        "test:cov" : "npx nyc --reporter=lcov --reporter=text-summary mocha -- --recursive",
+        "test" : "npm run build && npm run test:ci"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.4.1",
+      "gitHead" : "8c41dbe795fb91aae11381fc2fe461fbf7843feb",
+      "types" : "slugify.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify_1.4.1_1592904983764_0.3452435850524962"
+      },
+      "_nodeVersion" : "8.17.0"
+    },
+    "1.2.4" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.2.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.2.4.tgz",
+        "shasum" : "8f52cf264068a71e991459bd2aa7a2b6cd87f868"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.15",
+        "eslint" : "^3.12.2",
+        "eslint-config-standard" : "^6.2.1",
+        "eslint-plugin-promise" : "^3.4.0",
+        "eslint-plugin-standard" : "^2.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^3.2.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "index.d.ts", "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint **/*.js && echo Lint Passed"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.2.4",
+      "gitHead" : "dd936c915d63bb86bfbbd2ea2e80bc7237e9e05c",
+      "types" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify-1.2.4.tgz_1510649243530_0.2047145371325314"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "1.3.3" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.3.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.3.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.3.3.tgz",
+        "shasum" : "86200672a4ad7e88dc5190210176b62f9c19ecdf"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.1",
+        "eslint" : "^4.19.1",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.14.0",
+        "eslint-plugin-node" : "^6.0.1",
+        "eslint-plugin-promise" : "^3.7.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^5.1.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint index.js test.js && echo Lint Passed",
+        "test" : "npm run lint && npm run test:ci && echo Tests Passed",
+        "test:ci" : "mocha",
+        "test:cov" : "istanbul cover _mocha"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.3.3",
+      "gitHead" : "05ba8d0b9146e2c0a6a2b7feb37f78f70f675aba",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify_1.3.3_1541926151708_0.17136534452277075"
+      },
+      "_nodeVersion" : "8.11.2"
+    },
+    "1.4.2" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.4.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=8.0.0"
+      },
+      "main" : "./slugify.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.4.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.4.2.tgz",
+        "shasum" : "2c9b2b3321c43110a0058982eea7102b998d5068"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.1.0",
+        "mocha" : "^7.2.0",
+        "nyc" : "^15.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node bin/build",
+        "test:ci" : "npx mocha --recursive",
+        "test:cov" : "npx nyc --reporter=lcov --reporter=text-summary mocha -- --recursive",
+        "test" : "npm run build && npm run test:ci"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.4.2",
+      "gitHead" : "45f9c7e5a13feebe249374ef77f74f9407ec7238",
+      "types" : "slugify.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify_1.4.2_1592906994220_0.3484678149422267"
+      },
+      "_nodeVersion" : "8.17.0"
+    },
+    "1.2.5" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.2.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.2.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.2.5.tgz",
+        "shasum" : "0ae52a92b70802036951ce6ee29bf6c60ba6676e"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.15",
+        "eslint" : "^3.12.2",
+        "eslint-config-standard" : "^6.2.1",
+        "eslint-plugin-promise" : "^3.4.0",
+        "eslint-plugin-standard" : "^2.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^3.2.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "index.d.ts", "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint **/*.js && echo Lint Passed"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.2.5",
+      "gitHead" : "4279e425bf9370c205f8bb00aa9e6be5729b1b64",
+      "types" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify-1.2.5.tgz_1511448591540_0.29626082838512957"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "1.3.4" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.3.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.3.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.3.4.tgz",
+        "shasum" : "78d2792d7222b55cd9fc81fa018df99af779efeb"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.1",
+        "eslint" : "^4.19.1",
+        "eslint-config-standard" : "^11.0.0",
+        "eslint-plugin-import" : "^2.14.0",
+        "eslint-plugin-node" : "^6.0.1",
+        "eslint-plugin-promise" : "^3.7.0",
+        "eslint-plugin-standard" : "^3.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^5.1.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint index.js test.js && echo Lint Passed",
+        "test" : "npm run lint && npm run test:ci && echo Tests Passed",
+        "test:ci" : "mocha",
+        "test:cov" : "istanbul cover _mocha"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.3.4",
+      "gitHead" : "9bc9c9b46611bc6d9b2933df304c64c0e04f9986",
+      "types" : "index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify_1.3.4_1544121632137_0.6717098003788067"
+      },
+      "_nodeVersion" : "8.11.2"
+    },
+    "1.4.3" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.4.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=8.0.0"
+      },
+      "main" : "./slugify.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.4.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.4.3.tgz",
+        "shasum" : "badf73d52b55b36946b47efea615f7ef401fec98"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.1.0",
+        "mocha" : "^7.2.0",
+        "nyc" : "^15.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node bin/build",
+        "test:ci" : "npx mocha --recursive",
+        "test:cov" : "npx nyc --reporter=lcov --reporter=text-summary mocha -- --recursive",
+        "test" : "npm run build && npm run test:ci"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.4.3",
+      "gitHead" : "e845283d6284cc5966f536859a847556628c9825",
+      "types" : "slugify.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify_1.4.3_1593287923116_0.45096040247096236"
+      },
+      "_nodeVersion" : "8.17.0"
+    },
+    "1.2.6" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.2.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.2.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.2.6.tgz",
+        "shasum" : "98c8f7e3c78f06af71e44670d8086715d86fc528"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.15",
+        "eslint" : "^3.12.2",
+        "eslint-config-standard" : "^6.2.1",
+        "eslint-plugin-promise" : "^3.4.0",
+        "eslint-plugin-standard" : "^2.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^3.2.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "index.d.ts", "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint **/*.js && echo Lint Passed"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.2.6",
+      "gitHead" : "09c0a302245767b3f7ecbde62cab0a918047534c",
+      "types" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify-1.2.6.tgz_1511528386500_0.8650731765665114"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "1.3.5" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.3.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./slugify.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.3.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.3.5.tgz",
+        "shasum" : "90210678818b6d533cb060083aed0e8238133508"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^5.2.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node bin/build",
+        "test:ci" : "mocha test/",
+        "test:cov" : "istanbul cover _mocha",
+        "test" : "npm run build && npm run test:ci"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.3.5",
+      "gitHead" : "3edab0a8be23911a387be2a9b01b634dfb2134bc",
+      "types" : "slugify.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify_1.3.5_1567963782076_0.40568640061235084"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "1.4.4" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.4.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=8.0.0"
+      },
+      "main" : "./slugify.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.4.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.4.4.tgz",
+        "shasum" : "2f032ffa52b1e1ca2a27737c1ce47baae3d0883a"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.1.0",
+        "mocha" : "^7.2.0",
+        "nyc" : "^15.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node bin/build",
+        "test:ci" : "npx mocha --recursive",
+        "test:cov" : "npx nyc --reporter=lcov --reporter=text-summary mocha -- --recursive",
+        "test" : "npm run build && npm run test:ci"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.4.4",
+      "gitHead" : "b4525e749d9692ba4ccaa5c2dd5bb3a35aa9ce3e",
+      "types" : "slugify.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify_1.4.4_1593288478548_0.34649463921134793"
+      },
+      "_nodeVersion" : "8.17.0"
+    },
+    "1.2.7" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.2.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.2.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.2.7.tgz",
+        "shasum" : "49998fa5f26e001ca366298937ad25fb6e9742cf"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.15",
+        "eslint" : "^3.12.2",
+        "eslint-config-standard" : "^6.2.1",
+        "eslint-plugin-promise" : "^3.4.0",
+        "eslint-plugin-standard" : "^2.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^3.2.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "index.d.ts", "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint **/*.js && echo Lint Passed"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.2.7",
+      "gitHead" : "8e2769ff0e4fda50381ed6081ad4bfeee363d951",
+      "types" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify-1.2.7.tgz_1513509322971_0.420762779423967"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "1.3.6" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.3.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./slugify.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.3.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.3.6.tgz",
+        "shasum" : "ba5fd6159b570fe4811d02ea9b1f4906677638c3"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^5.2.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node bin/build",
+        "test:ci" : "mocha test/",
+        "test:cov" : "istanbul cover _mocha",
+        "test" : "npm run build && npm run test:ci"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.3.6",
+      "gitHead" : "ca87de4deb60085787b333944394735239ba40bf",
+      "types" : "slugify.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify_1.3.6_1572790166271_0.10448130372855213"
+      },
+      "_nodeVersion" : "8.16.2"
+    },
+    "1.4.5" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.4.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=8.0.0"
+      },
+      "main" : "./slugify.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.4.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.4.5.tgz",
+        "shasum" : "a7517acf5f4c02a4df41e735354b660a4ed1efcf"
+      },
+      "devDependencies" : {
+        "coveralls" : "^3.1.0",
+        "mocha" : "^7.2.0",
+        "nyc" : "^15.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "node bin/build",
+        "test:ci" : "npx mocha --recursive",
+        "test:cov" : "npx nyc --reporter=lcov --reporter=text-summary mocha -- --recursive",
+        "test" : "npm run build && npm run test:ci"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.4.5",
+      "gitHead" : "a6c5a30788e19af44e75a5a7761eb26db1fbd249",
+      "types" : "slugify.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify_1.4.5_1595784141982_0.38747919379512785"
+      },
+      "_nodeVersion" : "8.17.0"
+    },
+    "1.2.8" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.2.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.2.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.2.8.tgz",
+        "shasum" : "f74581b0376d1ccec9a4abfaf06c7aaa9737caef"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.15",
+        "eslint" : "^3.12.2",
+        "eslint-config-standard" : "^6.2.1",
+        "eslint-plugin-promise" : "^3.4.0",
+        "eslint-plugin-standard" : "^2.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^3.2.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "index.d.ts", "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint **/*.js && echo Lint Passed"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.2.8",
+      "gitHead" : "3d5738e96ccf1b93992fc356c0fffb2d13bc13d3",
+      "types" : "index.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify-1.2.8.tgz_1514017286013_0.6921789166517556"
+      },
+      "_nodeVersion" : "8.1.2"
+    },
+    "1.0.0" : {
+      "name" : "slugify",
+      "description" : "Slugifies a string",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "main" : "./lib/slugify",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.0.0.tgz",
+        "shasum" : "3309264e822a3887b657e40a795b5b9d66a4d6ac"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.12",
+        "eslint" : "^3.2.2",
+        "eslint-config-standard" : "^5.3.5",
+        "eslint-plugin-promise" : "^2.0.1",
+        "eslint-plugin-standard" : "^2.0.0",
+        "istanbul" : "^0.4.4",
+        "mocha" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "lib/index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint . test/ && echo Lint Passed"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.6",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.0.0",
+      "gitHead" : "b8dd01aaeb697d6428aef09e7306dd7f83d69e1a",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/slugify-1.0.0.tgz_1470661295849_0.7070484894793481"
+      },
+      "_shasum" : "3309264e822a3887b657e40a795b5b9d66a4d6ac",
+      "_nodeVersion" : "6.2.2"
+    },
+    "1.0.1" : {
+      "name" : "slugify",
+      "description" : "Slugifies a string",
+      "version" : "1.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.0.1.tgz",
+        "shasum" : "9920c724a34537c08b5ce7e1b2204a4bb60ecf54"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.12",
+        "eslint" : "^3.2.2",
+        "eslint-config-standard" : "^5.3.5",
+        "eslint-plugin-promise" : "^2.0.1",
+        "eslint-plugin-standard" : "^2.0.0",
+        "istanbul" : "^0.4.4",
+        "mocha" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "lib/index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint . test/ && echo Lint Passed"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.6",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.0.1",
+      "gitHead" : "94b5d71b0e09df1e9f0c5af37d4e9cb3f5271b0b",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/slugify-1.0.1.tgz_1470663772995_0.6246835219208151"
+      },
+      "_shasum" : "9920c724a34537c08b5ce7e1b2204a4bb60ecf54",
+      "_nodeVersion" : "6.2.2"
+    },
+    "1.1.0" : {
+      "name" : "slugify",
+      "description" : "Slugifies a string",
+      "version" : "1.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : ">=4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.1.0.tgz",
+        "shasum" : "7e5b0938d52b5efab1878247ef0f6a4f05db7ee0"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.15",
+        "eslint" : "^3.12.2",
+        "eslint-config-standard" : "^6.2.1",
+        "eslint-plugin-promise" : "^3.4.0",
+        "eslint-plugin-standard" : "^2.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^3.2.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint **/*.js && echo Lint Passed"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.1.0",
+      "gitHead" : "da072f844fd101997d7dd9b65d13a02ea968d893",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/slugify-1.1.0.tgz_1483904671170_0.12458101264201105"
+      },
+      "_shasum" : "7e5b0938d52b5efab1878247ef0f6a4f05db7ee0",
+      "_nodeVersion" : "7.2.1"
+    },
+    "1.0.2" : {
+      "name" : "slugify",
+      "description" : "Slugifies a string",
+      "version" : "1.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.0.2.tgz",
+        "shasum" : "dd8e70cdcff737c599d384020eb398596ecfd348"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.12",
+        "eslint" : "^3.2.2",
+        "eslint-config-standard" : "^5.3.5",
+        "eslint-plugin-promise" : "^2.0.1",
+        "eslint-plugin-standard" : "^2.0.0",
+        "istanbul" : "^0.4.4",
+        "mocha" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "lib/index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint **/*.js test/ && echo Lint Passed"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.6",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.0.2",
+      "gitHead" : "c7d4da7e5870f5ea3ac029c8e054e72ab2529e70",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/slugify-1.0.2.tgz_1470668135480_0.5709183926228434"
+      },
+      "_shasum" : "dd8e70cdcff737c599d384020eb398596ecfd348",
+      "_nodeVersion" : "6.2.2"
+    },
+    "1.2.0" : {
+      "name" : "slugify",
+      "description" : "Slugifies a String",
+      "version" : "1.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/simov/slugify.git"
+      },
+      "engines" : {
+        "node" : "^4.0.0"
+      },
+      "main" : "./index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/slugify/-/slugify-1.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fslugify%2F-%2Fslugify-1.2.0.tgz",
+        "shasum" : "cd66e49d83217366e4a3a6a99d841e9cddc895f1"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.15",
+        "eslint" : "^3.12.2",
+        "eslint-config-standard" : "^6.2.1",
+        "eslint-plugin-promise" : "^3.4.0",
+        "eslint-plugin-standard" : "^2.0.1",
+        "istanbul" : "^0.4.5",
+        "mocha" : "^3.2.0"
+      },
+      "license" : "MIT",
+      "files" : [ "LICENSE", "README.md", "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run lint && npm run test-ci && echo Tests Passed",
+        "test-ci" : "mocha",
+        "test-cov" : "istanbul cover _mocha",
+        "lint" : "eslint **/*.js && echo Lint Passed"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "simov",
+        "email" : "simeonvelichkov@gmail.com"
+      },
+      "_id" : "slugify@1.2.0",
+      "gitHead" : "53fa14cf4d80a7b5b4849eaf87326551fd6afc36",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/slugify-1.2.0.tgz_1502799927819_0.4678598144091666"
+      },
+      "_nodeVersion" : "8.1.2"
+    }
+  },
+  "readme" : "\n# slugify\n\n[![npm-version]][npm] [![travis-ci]][travis] [![coveralls-status]][coveralls]\n\n```js\nvar slugify = require('slugify')\n\nslugify('some string') // some-string\n\n// if you prefer something other than '-' as separator\nslugify('some string', '_')  // some_string\n```\n\n- Vanilla ES5 JavaScript\n- No dependencies\n- Coerces foreign symbols to their English equivalent (check out the [charMap][charmap] for more details)\n- Works in the browser (window.slugify) and AMD/CommonJS-flavored module loaders\n\n## Options\n\n```js\nslugify('some string', {\n  replacement: '-',  // replace spaces with replacement character, defaults to `-`\n  remove: undefined, // remove characters that match regex, defaults to `undefined`\n  lower: false,      // convert to lower case, defaults to `false`\n  strict: false,     // strip special characters except replacement, defaults to `false`\n  locale: 'vi'       // language code of the locale to use\n})\n```\n\n## Remove\n\nFor example, to remove `*+~.()'\"!:@` from the result slug, you can use `slugify('..', {remove: /[*+~.()'\"!:@]/g})`.\n\n## Locales\n\nThe main `charmap.json` file contains all known characters and their transliteration. All new characters should be added there first. In case you stumble upon a character already set in `charmap.json`, but not transliterated correctly according to your language, then you have to add those characters in `locales.json` to override the already existing transliteration in `charmap.json`, but for your locale only.\n\nYou can get the correct language code of your language from [here](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).\n\n## Extend\n\nOut of the box `slugify` comes with support for a handful of Unicode symbols. For example the `☢` (radioactive) symbol is not defined in the [`charMap`][charmap] and therefore it will be stripped by default:\n\n```js\nslugify('unicode ♥ is ☢') // unicode-love-is\n```\n\nHowever you can extend the supported symbols, or override the existing ones with your own:\n\n```js\nslugify.extend({'☢': 'radioactive'})\nslugify('unicode ♥ is ☢') // unicode-love-is-radioactive\n```\n\nKeep in mind that the `extend` method extends/overrides the default `charMap` for the entire process. In case you need a fresh instance of the slugify's `charMap` object you have to clean up the module cache first:\n\n```js\ndelete require.cache[require.resolve('slugify')]\nvar slugify = require('slugify')\n```\n\n## Contribute\n\n1. Add chars to `charmap.json`\n2. Run tests `npm test`\n3. The tests will build the charmap in `index.js` and will sort the `charmap.json`\n4. Commit **all** modified files\n\n---\n\n> This module was originally a vanilla javascript port of [node-slug][node-slug].<br>\n> Note that the original [slug][slug] module has been ported to vanilla javascript too.<br>\n> One major difference between the two modules is that `slugify` does not depend on the external [unicode][unicode] module.\n\n\n  [npm-version]: https://img.shields.io/npm/v/slugify.svg?style=flat-square (NPM Package Version)\n  [travis-ci]: https://img.shields.io/travis/simov/slugify/master.svg?style=flat-square (Build Status - Travis CI)\n  [coveralls-status]: https://img.shields.io/coveralls/simov/slugify.svg?style=flat-square (Test Coverage - Coveralls)\n\n  [npm]: https://www.npmjs.com/package/slugify\n  [travis]: https://travis-ci.org/simov/slugify\n  [coveralls]: https://coveralls.io/r/simov/slugify?branch=master\n\n  [node-slug]: https://github.com/dodo/node-slug\n  [slug]: https://www.npmjs.com/package/slug\n  [unicode]: https://www.npmjs.com/package/unicode\n  [index]: https://github.com/simov/slugify/blob/master/index.js\n  [charmap]: https://github.com/simov/slugify/blob/master/config/charmap.json\n",
+  "time" : {
+    "1.2.9" : "2017-12-30T12:43:27.631Z",
+    "0.1.1" : "2015-03-03T09:32:04.690Z",
+    "0.1.0" : "2013-02-05T21:57:33.506Z",
+    "modified" : "2020-07-26T17:22:24.293Z",
+    "created" : "2013-02-05T21:57:31.242Z",
+    "1.2.1" : "2017-08-15T13:20:39.929Z",
+    "1.3.0" : "2018-05-13T14:41:29.360Z",
+    "1.2.2" : "2017-11-09T11:06:57.399Z",
+    "1.3.1" : "2018-08-05T12:50:22.927Z",
+    "1.4.0" : "2020-03-01T15:49:46.579Z",
+    "1.2.3" : "2017-11-13T09:14:34.393Z",
+    "1.3.2" : "2018-10-25T13:13:13.950Z",
+    "1.4.1" : "2020-06-23T09:36:23.890Z",
+    "1.2.4" : "2017-11-14T08:47:24.397Z",
+    "1.3.3" : "2018-11-11T08:49:11.873Z",
+    "1.4.2" : "2020-06-23T10:09:54.401Z",
+    "1.2.5" : "2017-11-23T14:49:52.476Z",
+    "1.3.4" : "2018-12-06T18:40:32.320Z",
+    "1.4.3" : "2020-06-27T19:58:43.257Z",
+    "1.2.6" : "2017-11-24T12:59:47.534Z",
+    "1.3.5" : "2019-09-08T17:29:42.193Z",
+    "1.4.4" : "2020-06-27T20:07:58.696Z",
+    "1.2.7" : "2017-12-17T11:15:23.103Z",
+    "1.3.6" : "2019-11-03T14:09:26.394Z",
+    "1.4.5" : "2020-07-26T17:22:22.080Z",
+    "1.2.8" : "2017-12-23T08:21:26.912Z",
+    "1.0.0" : "2016-08-08T13:01:37.569Z",
+    "1.0.1" : "2016-08-08T13:42:54.785Z",
+    "1.1.0" : "2017-01-08T19:44:33.142Z",
+    "1.0.2" : "2016-08-08T14:55:37.475Z",
+    "1.2.0" : "2017-08-15T12:25:28.778Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/simov/slugify.git"
+  },
+  "users" : {
+    "ivan.marquez" : true,
+    "coolhanddev" : true,
+    "jillmolloy" : true,
+    "adilibre" : true,
+    "akiva" : true,
+    "ivanoats" : true,
+    "nemolo" : true,
+    "rikstam" : true,
+    "preco21" : true,
+    "creativeadea" : true,
+    "cubiio" : true,
+    "5tormtrooper" : true,
+    "jalik" : true,
+    "thejohnsmith" : true,
+    "jameschen" : true,
+    "ishida" : true,
+    "mostafanawara" : true,
+    "markthethomas" : true,
+    "batosai" : true,
+    "bradleybossard" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

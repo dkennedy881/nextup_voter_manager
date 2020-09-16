@@ -1,0 +1,272 @@
+{
+  "_id" : "parse-bmfont-ascii",
+  "_rev" : "15-11c6a81f152c1cdbc571180cefe523b4",
+  "name" : "parse-bmfont-ascii",
+  "description" : "parses ASCII BMFont files to a JavaScript object",
+  "dist-tags" : {
+    "latest" : "1.0.6"
+  },
+  "versions" : {
+    "1.0.3" : {
+      "name" : "parse-bmfont-ascii",
+      "description" : "parses ASCII BMFont files to a JavaScript object",
+      "version" : "1.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mattdesl/parse-bmfont-ascii.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-ascii/-/parse-bmfont-ascii-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-ascii%2F-%2Fparse-bmfont-ascii-1.0.3.tgz",
+        "shasum" : "00fd22a7a6c7dac52bb8fc97a5a85a94cdcd20b6"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-ascii@1.0.3",
+      "gitHead" : "e26dcc84ad34d8fd8644125d1293e3cfa2ab17bd",
+      "_shasum" : "00fd22a7a6c7dac52bb8fc97a5a85a94cdcd20b6"
+    },
+    "1.0.4" : {
+      "name" : "parse-bmfont-ascii",
+      "description" : "parses ASCII BMFont files to a JavaScript object",
+      "version" : "1.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mattdesl/parse-bmfont-ascii.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-ascii/-/parse-bmfont-ascii-1.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-ascii%2F-%2Fparse-bmfont-ascii-1.0.4.tgz",
+        "shasum" : "e42a35f58242d582a928312a8b135a0e9958f568"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-ascii@1.0.4",
+      "gitHead" : "d4c0ca418ba8b28a497a4ac2f046f4e6e8bf72a7",
+      "_shasum" : "e42a35f58242d582a928312a8b135a0e9958f568"
+    },
+    "1.0.5" : {
+      "name" : "parse-bmfont-ascii",
+      "description" : "parses ASCII BMFont files to a JavaScript object",
+      "version" : "1.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mattdesl/parse-bmfont-ascii.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-ascii/-/parse-bmfont-ascii-1.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-ascii%2F-%2Fparse-bmfont-ascii-1.0.5.tgz",
+        "shasum" : "6c0ae6fc483caa657b3d203d427bfa2bcd2d6782"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-ascii@1.0.5",
+      "gitHead" : "0821cff389d466c44c381bc3323983b8ffc2b0db",
+      "_shasum" : "6c0ae6fc483caa657b3d203d427bfa2bcd2d6782"
+    },
+    "1.0.6" : {
+      "name" : "parse-bmfont-ascii",
+      "description" : "parses ASCII BMFont files to a JavaScript object",
+      "version" : "1.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mattdesl/parse-bmfont-ascii.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-ascii/-/parse-bmfont-ascii-1.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-ascii%2F-%2Fparse-bmfont-ascii-1.0.6.tgz",
+        "shasum" : "11ac3c3ff58f7c2020ab22769079108d4dfa0285"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-ascii@1.0.6",
+      "gitHead" : "5f22b037ae7460f629dd681db23cd9b543a76b06",
+      "_shasum" : "11ac3c3ff58f7c2020ab22769079108d4dfa0285"
+    },
+    "1.0.0" : {
+      "name" : "parse-bmfont-ascii",
+      "description" : "parses BMFont files (text) to a JavaScript object",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/Jam3/parse-bmfont-ascii.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-ascii/-/parse-bmfont-ascii-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-ascii%2F-%2Fparse-bmfont-ascii-1.0.0.tgz",
+        "shasum" : "5cd35925c531af4c2d59bdf7b9d84d461e4724ab"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-ascii@1.0.0",
+      "gitHead" : "86a403556ec6ac437e825bb68736ef9834a1c1df",
+      "_shasum" : "5cd35925c531af4c2d59bdf7b9d84d461e4724ab"
+    },
+    "1.0.1" : {
+      "name" : "parse-bmfont-ascii",
+      "description" : "parses BMFont files (text) to a JavaScript object",
+      "version" : "1.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mattdesl/parse-bmfont-ascii.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-ascii/-/parse-bmfont-ascii-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-ascii%2F-%2Fparse-bmfont-ascii-1.0.1.tgz",
+        "shasum" : "87c83e38244caf924b4d2fbf46d0c550e887c29b"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-ascii@1.0.1",
+      "gitHead" : "a230b71cb54de99cd0b4fa0543ccb8d2725f71b6",
+      "_shasum" : "87c83e38244caf924b4d2fbf46d0c550e887c29b"
+    },
+    "1.0.2" : {
+      "name" : "parse-bmfont-ascii",
+      "description" : "parses BMFont files (text) to a JavaScript object",
+      "version" : "1.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mattdesl/parse-bmfont-ascii.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-ascii/-/parse-bmfont-ascii-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-ascii%2F-%2Fparse-bmfont-ascii-1.0.2.tgz",
+        "shasum" : "dc8ed1daedbbb39c84497ba9442787b64809de53"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+        "tape" : "^3.5.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-ascii@1.0.2",
+      "gitHead" : "1e49ba4f6421c19f1a1aee016490c8c5b2add2bf",
+      "_shasum" : "dc8ed1daedbbb39c84497ba9442787b64809de53"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# parse-bmfont-ascii\n\n[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)\n\nParses ASCII (text) [BMFont files](http://www.angelcode.com/products/bmfont/).\n\nTakes a string or Buffer:\n\n```js\nvar fs = require('fs')\nvar parse = require('parse-bmfont-xml')\n\nfs.readFileSync(__dirname+'/Arial.fnt', function(err, data) {\n  var result = parse(data)\n  console.log(result.info.face)   // \"Arial\"\n  console.log(result.pages)       // [ 'sheet0.png' ]\n  console.log(result.chars)       // [ ... char data ... ]\n  console.log(result.kernings)    // [ ... kernings data ... ]\n})\n```\n\nThe spec for the returned JSON object is [here](https://github.com/mattdesl/bmfont2json/wiki/JsonSpec). The input data should match the spec, see [test/Nexa Light-32.fnt](test/Nexa Light-32.fnt) for an example.\n\n## See Also\n\nSee [text-modules](https://github.com/mattdesl/text-modules) for related modules.\n\n## Usage\n\n[![NPM](https://nodei.co/npm/parse-bmfont-ascii.png)](https://www.npmjs.com/package/parse-bmfont-ascii)\n\n#### `result = parse(data)`\n\nParses `data`, a string or Buffer that represents ASCII (text) data of an AngelCode BMFont file. The returned `result` object looks like this:\n\n```js\n{\n     pages: [\n         \"sheet_0.png\", \n         \"sheet_1.png\"\n     ],\n     chars: [\n         { chnl, height, id, page, width, x, y, xoffset, yoffset, xadvance },\n         ...\n     ],\n     info: { ... },\n     common: { ... },\n     kernings: [\n         { first, second, amount }\n     ]\n}\n```\n\n## License\n\nMIT, see [LICENSE.md](http://github.com/mattdesl/parse-bmfont-ascii/blob/master/LICENSE.md) for details.\n",
+  "time" : {
+    "1.0.3" : "2015-03-10T20:20:11.530Z",
+    "1.0.4" : "2015-03-13T16:25:13.014Z",
+    "1.0.5" : "2015-03-13T20:07:38.070Z",
+    "1.0.6" : "2015-03-14T19:27:26.188Z",
+    "created" : "2015-03-10T19:53:10.372Z",
+    "modified" : "2016-11-01T17:59:20.505Z",
+    "1.0.0" : "2015-03-10T19:53:10.372Z",
+    "1.0.1" : "2015-03-10T19:54:37.017Z",
+    "1.0.2" : "2015-03-10T19:56:13.597Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/mattdesl/parse-bmfont-ascii.git"
+  },
+  "users" : {
+    "mojaray2k" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

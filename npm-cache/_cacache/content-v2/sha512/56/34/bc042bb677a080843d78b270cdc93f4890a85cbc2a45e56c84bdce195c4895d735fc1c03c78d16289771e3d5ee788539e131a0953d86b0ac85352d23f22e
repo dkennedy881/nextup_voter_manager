@@ -1,0 +1,172 @@
+{
+  "_id" : "bmp-js",
+  "_rev" : "7-1691d870173077fa7773e115454dc417",
+  "name" : "bmp-js",
+  "description" : "A pure javascript BMP encoder and decoder",
+  "dist-tags" : {
+    "latest" : "0.1.0"
+  },
+  "versions" : {
+    "0.0.2" : {
+      "name" : "bmp-js",
+      "description" : "A pure javascript BMP encoder and decoder",
+      "version" : "0.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shaozilee/bmp-js.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/bmp-js/-/bmp-js-0.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbmp-js%2F-%2Fbmp-js-0.0.2.tgz",
+        "shasum" : "c268321f8085df177dfcaaa059c19254862fa158"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.3",
+      "_npmUser" : {
+        "name" : "shaozilee",
+        "email" : "shaozilee@gmail.com"
+      },
+      "_id" : "bmp-js@0.0.2",
+      "gitHead" : "a93b7b4d1afeeb2a52c3bb96969e158d6403a142",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/bmp-js-0.0.2.tgz_1472181302837_0.6284751661587507"
+      },
+      "_shasum" : "c268321f8085df177dfcaaa059c19254862fa158",
+      "_nodeVersion" : "5.10.1"
+    },
+    "0.0.3" : {
+      "name" : "bmp-js",
+      "description" : "A pure javascript BMP encoder and decoder",
+      "version" : "0.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shaozilee/bmp-js.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/bmp-js/-/bmp-js-0.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbmp-js%2F-%2Fbmp-js-0.0.3.tgz",
+        "shasum" : "64113e9c7cf1202b376ed607bf30626ebe57b18a"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.20",
+      "_npmUser" : {
+        "name" : "shaozilee",
+        "email" : "shaozilee@gmail.com"
+      },
+      "_id" : "bmp-js@0.0.3",
+      "gitHead" : "ed420afbf1682ebe34abcbbe23dfbcabaaf161f0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/bmp-js-0.0.3.tgz_1479792875581_0.47241814457811415"
+      },
+      "_shasum" : "64113e9c7cf1202b376ed607bf30626ebe57b18a",
+      "_nodeVersion" : "4.4.1"
+    },
+    "0.0.1" : {
+      "name" : "bmp-js",
+      "description" : "A pure javascript BMP encoder and decoder",
+      "version" : "0.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/shaozilee/bmp-js"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/bmp-js/-/bmp-js-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbmp-js%2F-%2Fbmp-js-0.0.1.tgz",
+        "shasum" : "5ad0147099d13a9f38aa7b99af1d6e78666ed37f"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "shaozilee",
+        "email" : "shaozilee@gmail.com"
+      },
+      "_id" : "bmp-js@0.0.1",
+      "_shasum" : "5ad0147099d13a9f38aa7b99af1d6e78666ed37f"
+    },
+    "0.1.0" : {
+      "name" : "bmp-js",
+      "description" : "A pure javascript BMP encoder and decoder",
+      "version" : "0.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/shaozilee/bmp-js.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/bmp-js/-/bmp-js-0.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbmp-js%2F-%2Fbmp-js-0.1.0.tgz",
+        "shasum" : "e05a63f796a6c1ff25f4771ec7adadc148c07233"
+      },
+      "dependencies" : {
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "shaozilee",
+        "email" : "shaozilee@gmail.com"
+      },
+      "_id" : "bmp-js@0.1.0",
+      "gitHead" : "60fa5ad6ac2f0ce0d2d157de187831a82cdb2cd6",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/bmp-js_0.1.0_1524459640834_0.7767685293103714"
+      },
+      "_shasum" : "e05a63f796a6c1ff25f4771ec7adadc148c07233",
+      "_nodeVersion" : "6.10.3"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "bmp-js\n======\n\nA pure javascript Bmp encoder and decoder for node.js\n\nSupports all bits decoding(1,4,8,16,24,32) and encoding with 24bit.\n\n##Install\n\n\t$ npm install bmp-js\n\n\nHow to use?\n---\n###Decode BMP\n```js\nvar bmp = require(\"bmp-js\");\nvar bmpBuffer = fs.readFileSync('bit24.bmp');\nvar bmpData = bmp.decode(bmpBuffer);\n\n```\n\n`bmpData` has all properties includes:\n\n1. fileSize,reserved,offset\n\n2. headerSize,width,height,planes,bitPP,compress,rawSize,hr,vr,colors,importantColors\n\n3. palette\n\n4. data-------byte array order by ABGR ABGR ABGR,4 bytes per pixel\n\n\n###Encode RGB\n```js\nvar bmp = require(\"bmp-js\");\n//bmpData={data:Buffer,width:Number,height:Height}\nvar rawData = bmp.encode(bmpData);//default no compression,write rawData to .bmp file\n\n```\n\nLicense\n---\nU can use on free with [MIT License](https://github.com/shaozilee/bmp-js/blob/master/LICENSE)",
+  "time" : {
+    "created" : "2014-08-04T07:23:12.671Z",
+    "modified" : "2018-04-23T05:00:44.514Z",
+    "0.0.2" : "2016-08-26T03:15:04.595Z",
+    "0.0.3" : "2016-11-22T05:34:37.598Z",
+    "0.0.1" : "2014-08-04T07:23:12.671Z",
+    "0.1.0" : "2018-04-23T05:00:40.902Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/shaozilee/bmp-js.git"
+  },
+  "users" : {
+    "dofy" : true,
+    "leizongmin" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

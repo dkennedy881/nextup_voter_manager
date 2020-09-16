@@ -2,11 +2,16 @@
   "expo": {
     "name": "nextup_voter_manager",
     "slug": "nextup_voter_manager",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,10 +22,10 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "nextupvoter"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "githubUrl": "https://github.com/dkennedy881/nextup_voter_manager",
+    "description": ""
   }
 }

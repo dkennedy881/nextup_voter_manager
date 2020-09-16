@@ -1,0 +1,325 @@
+{
+  "_id" : "parse-bmfont-xml",
+  "_rev" : "14-dd6fafb868ae6a9e89b4e593e15800f4",
+  "name" : "parse-bmfont-xml",
+  "description" : "parses XML BMFont files into a JavaScript object",
+  "dist-tags" : {
+    "latest" : "1.1.4"
+  },
+  "versions" : {
+    "1.1.2" : {
+      "name" : "parse-bmfont-xml",
+      "description" : "parses XML BMFont files into a JavaScript object",
+      "version" : "1.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mattdesl/parse-bmfont-xml.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-xml/-/parse-bmfont-xml-1.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-xml%2F-%2Fparse-bmfont-xml-1.1.2.tgz",
+        "shasum" : "deaab46a13b1537d92736821559e21eb515bb471"
+      },
+      "dependencies" : {
+        "xml-parse-from-string" : "^1.0.0",
+        "xml2js" : "^0.4.5"
+      },
+      "devDependencies" : {
+        "brfs" : "^1.4.0",
+        "browserify" : "^9.0.3",
+        "faucet" : "0.0.1",
+        "tape" : "^3.5.0",
+        "testling" : "^1.7.1",
+        "xhr" : "^2.0.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test-browser" : "browserify test/test-browser.js -t brfs | testling | faucet",
+        "test-node" : "node test/test.js | faucet",
+        "test" : "npm run test-node && npm run test-browser"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-xml@1.1.2",
+      "gitHead" : "8b4f9e57b02215fd3f1efb2f7085b74bd58ffb38",
+      "browser" : "lib/browser.js",
+      "_shasum" : "deaab46a13b1537d92736821559e21eb515bb471"
+    },
+    "1.1.3" : {
+      "name" : "parse-bmfont-xml",
+      "description" : "parses XML BMFont files into a JavaScript object",
+      "version" : "1.1.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mattdesl/parse-bmfont-xml.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-xml/-/parse-bmfont-xml-1.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-xml%2F-%2Fparse-bmfont-xml-1.1.3.tgz",
+        "shasum" : "d6b66a371afd39c5007d9f0eeb262a4f2cce7b7c"
+      },
+      "dependencies" : {
+        "xml-parse-from-string" : "^1.0.0",
+        "xml2js" : "^0.4.5"
+      },
+      "devDependencies" : {
+        "brfs" : "^1.4.0",
+        "browserify" : "^9.0.3",
+        "faucet" : "0.0.1",
+        "tape" : "^3.5.0",
+        "testling" : "^1.7.1",
+        "xhr" : "^2.0.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test-browser" : "browserify test/test-browser.js -t brfs | testling | faucet",
+        "test-node" : "node test/test.js | faucet",
+        "test" : "npm run test-node && npm run test-browser"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-xml@1.1.3",
+      "gitHead" : "4a22fe8ac0ac82ead4de5b6988b436e376456baa",
+      "browser" : "lib/browser.js",
+      "_shasum" : "d6b66a371afd39c5007d9f0eeb262a4f2cce7b7c"
+    },
+    "1.1.4" : {
+      "name" : "parse-bmfont-xml",
+      "description" : "parses XML BMFont files into a JavaScript object",
+      "version" : "1.1.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mattdesl/parse-bmfont-xml.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-xml/-/parse-bmfont-xml-1.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-xml%2F-%2Fparse-bmfont-xml-1.1.4.tgz",
+        "shasum" : "015319797e3e12f9e739c4d513872cd2fa35f389"
+      },
+      "dependencies" : {
+        "xml-parse-from-string" : "^1.0.0",
+        "xml2js" : "^0.4.5"
+      },
+      "devDependencies" : {
+        "brfs" : "^1.4.0",
+        "browserify" : "^9.0.3",
+        "faucet" : "0.0.1",
+        "tape" : "^3.5.0",
+        "testling" : "^1.7.1",
+        "xhr" : "^2.0.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test-browser" : "browserify test/test-browser.js -t brfs | testling | faucet",
+        "test-node" : "node test/test.js | faucet",
+        "test" : "npm run test-node && npm run test-browser"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-xml@1.1.4",
+      "gitHead" : "0ce406408e47c606ae7c9d2881aa858d7a3a7328",
+      "browser" : "lib/browser.js",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/parse-bmfont-xml_1.1.4_1534320330889_0.1406218956033043"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "1.0.0" : {
+      "name" : "parse-bmfont-xml",
+      "description" : "parses XML BMFont files into a JavaScript object",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mattdesl/parse-bmfont-xml.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-xml/-/parse-bmfont-xml-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-xml%2F-%2Fparse-bmfont-xml-1.0.0.tgz",
+        "shasum" : "0a720f1ef514c7aa2e233a95752df58429c9319b"
+      },
+      "dependencies" : {
+        "xml2js" : "^0.4.5"
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-xml@1.0.0",
+      "gitHead" : "87c7a437425345bcafc896ec91d42235dddbabfb",
+      "_shasum" : "0a720f1ef514c7aa2e233a95752df58429c9319b"
+    },
+    "1.0.1" : {
+      "name" : "parse-bmfont-xml",
+      "description" : "parses XML BMFont files into a JavaScript object",
+      "version" : "1.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mattdesl/parse-bmfont-xml.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-xml/-/parse-bmfont-xml-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-xml%2F-%2Fparse-bmfont-xml-1.0.1.tgz",
+        "shasum" : "bd99518862fb600af6b6cd2c3935435cc4523473"
+      },
+      "dependencies" : {
+        "xml2js" : "^0.4.5"
+      },
+      "devDependencies" : {
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-xml@1.0.1",
+      "gitHead" : "683d04317e89d336d275f73a755366ee81329e84",
+      "_shasum" : "bd99518862fb600af6b6cd2c3935435cc4523473"
+    },
+    "1.1.0" : {
+      "name" : "parse-bmfont-xml",
+      "description" : "parses XML BMFont files into a JavaScript object",
+      "version" : "1.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mattdesl/parse-bmfont-xml.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-xml/-/parse-bmfont-xml-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-xml%2F-%2Fparse-bmfont-xml-1.1.0.tgz",
+        "shasum" : "9be3af7827fd8ae61954b2decec10647edaa7cb7"
+      },
+      "dependencies" : {
+        "xhr" : "^2.0.1",
+        "xml-parse-from-string" : "^1.0.0",
+        "xml2js" : "^0.4.5",
+        "xtend" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "brfs" : "^1.4.0",
+        "browserify" : "^9.0.3",
+        "faucet" : "0.0.1",
+        "testling" : "^1.7.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test-browser" : "browserify test/test-browser.js -t brfs | testling | faucet",
+        "test-node" : "node test/test.js | faucet",
+        "test" : "npm run test-node && npm run test-browser"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-xml@1.1.0",
+      "gitHead" : "381316e356e0e0d58fb656c43d73d4ec40559d30",
+      "browser" : "lib/browser.js",
+      "_shasum" : "9be3af7827fd8ae61954b2decec10647edaa7cb7"
+    },
+    "1.1.1" : {
+      "name" : "parse-bmfont-xml",
+      "description" : "parses XML BMFont files into a JavaScript object",
+      "version" : "1.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/mattdesl/parse-bmfont-xml.git"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/parse-bmfont-xml/-/parse-bmfont-xml-1.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fparse-bmfont-xml%2F-%2Fparse-bmfont-xml-1.1.1.tgz",
+        "shasum" : "d1774f1eeb765a90aae361f5ef22ac3ff65333d9"
+      },
+      "dependencies" : {
+        "xml-parse-from-string" : "^1.0.0",
+        "xml2js" : "^0.4.5"
+      },
+      "devDependencies" : {
+        "brfs" : "^1.4.0",
+        "browserify" : "^9.0.3",
+        "faucet" : "0.0.1",
+        "tape" : "^3.5.0",
+        "testling" : "^1.7.1",
+        "xhr" : "^2.0.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test-browser" : "browserify test/test-browser.js -t brfs | testling | faucet",
+        "test-node" : "node test/test.js | faucet",
+        "test" : "npm run test-node && npm run test-browser"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "mattdesl",
+        "email" : "dave.des@gmail.com"
+      },
+      "_id" : "parse-bmfont-xml@1.1.1",
+      "gitHead" : "b69410195da54d973ba0cfae785fbded39c7ce4f",
+      "browser" : "lib/browser.js",
+      "_shasum" : "d1774f1eeb765a90aae361f5ef22ac3ff65333d9"
+    }
+  },
+  "_attachments" : {
+  },
+  "readme" : "# parse-bmfont-xml\n\n[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)\n\nParses XML [BMFont files](http://www.angelcode.com/products/bmfont/).\n\nTakes a string or Buffer:\n\n```js\nvar fs = require('fs')\nvar parse = require('parse-bmfont-xml')\n\nfs.readFileSync(__dirname+'/Arial.fnt', function(err, data) {\n  var result = parse(data)\n  console.log(result.info.face)   // \"Arial\"\n  console.log(result.pages)       // [ 'sheet0.png' ]\n  console.log(result.chars)       // [ ... char data ... ]\n  console.log(result.kernings)    // [ ... kernings data ... ]\n})\n```\n\nAlso works in the browser, for example using XHR:\n\n```js\nvar parse = require('parse-bmfont-xml')\nvar xhr = require('xhr')\n\nxhr({ uri: 'fonts/NexaLight32.xml' }, function(err, res, body) {\n  if (err)\n    throw err\n  var result = parse(body)\n  console.log(result.info.face)\n})\n```\n\nThe spec for the returned JSON object is [here](https://github.com/mattdesl/bmfont2json/wiki/JsonSpec). The input XML should match the spec with a `<font>` root element, see [test/Nexa Light-32.fnt](test/Nexa Light-32.fnt) for an example.\n\n## See Also\n\nSee [text-modules](https://github.com/mattdesl/text-modules) for related modules.\n\n## Usage\n\n[![NPM](https://nodei.co/npm/parse-bmfont-xml.png)](https://www.npmjs.com/package/parse-bmfont-xml)\n\n#### `result = parse(data)`\n\nParses `data`, a string or Buffer that represents XML data of an AngelCode BMFont file. The returned `result` object looks like this:\n\n```js\n{\n     pages: [\n         \"sheet_0.png\", \n         \"sheet_1.png\"\n     ],\n     chars: [\n         { chnl, height, id, page, width, x, y, xoffset, yoffset, xadvance },\n         ...\n     ],\n     info: { ... },\n     common: { ... },\n     kernings: [\n         { first, second, amount }\n     ]\n}\n```\n\nIf the data is malformed, an error will be thrown.\n\nThe browser implementation relies on [xml-parse-from-string](https://github.com/Jam3/xml-parse-from-string), which may not work in environments without valid DOM APIs (like CocoonJS).\n\n## License\n\nMIT, see [LICENSE.md](http://github.com/mattdesl/parse-bmfont-xml/blob/master/LICENSE.md) for details.\n",
+  "time" : {
+    "1.1.2" : "2015-03-13T20:25:10.023Z",
+    "1.1.3" : "2015-03-14T19:27:14.196Z",
+    "1.1.4" : "2018-08-15T08:05:30.970Z",
+    "created" : "2015-03-10T20:15:30.543Z",
+    "modified" : "2018-08-15T08:05:34.135Z",
+    "1.0.0" : "2015-03-10T20:15:30.543Z",
+    "1.0.1" : "2015-03-10T20:19:03.721Z",
+    "1.1.0" : "2015-03-13T19:07:34.783Z",
+    "1.1.1" : "2015-03-13T19:30:55.974Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/mattdesl/parse-bmfont-xml.git"
+  },
+  "users" : {
+    "mojaray2k" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

@@ -1,0 +1,828 @@
+{
+  "_id" : "expo-status-bar",
+  "_rev" : "12-ec2976deafcd0155dcc1083d1f01cad9",
+  "name" : "expo-status-bar",
+  "description" : "Provides the same interface as the React Native StatusBar API, but with slightly different defaults to work great in Expo environments.",
+  "dist-tags" : {
+    "next" : "1.0.2",
+    "latest" : "1.0.2"
+  },
+  "versions" : {
+    "0.1.5" : {
+      "name" : "expo-status-bar",
+      "description" : "Provides the same interface as the React Native StatusBar API, but with slightly different defaults to work great in Expo environments.",
+      "version" : "0.1.5",
+      "author" : {
+        "name" : "650 Industries, Inc."
+      },
+      "homepage" : "https://docs.expo.io/versions/latest/sdk/module-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/expo-status-bar"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "build/StatusBar.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/expo-status-bar/-/expo-status-bar-0.1.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexpo-status-bar%2F-%2Fexpo-status-bar-0.1.5.tgz",
+        "shasum" : "9950727b83cc502eedec0987297ac402cf8fb22c"
+      },
+      "dependencies" : {
+        "expo-constants" : "^9.0.0"
+      },
+      "devDependencies" : {
+        "expo-module-scripts" : "^1.2.0"
+      },
+      "keywords" : [ "react-native", "expo", "expo-status-bar" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "expo-module build",
+        "clean" : "expo-module clean",
+        "lint" : "expo-module lint",
+        "test" : "expo-module test",
+        "prepare" : "expo-module prepare",
+        "prepublishOnly" : "expo-module prepublishOnly",
+        "expo-module" : "expo-module"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "expo-status-bar@0.1.5",
+      "types" : "build/StatusBar.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/expo-status-bar_0.1.5_1591322198037_0.40234132807407263"
+      },
+      "jest" : {
+        "preset" : "expo-module-scripts/enzyme"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.1.6" : {
+      "name" : "expo-status-bar",
+      "description" : "Provides the same interface as the React Native StatusBar API, but with slightly different defaults to work great in Expo environments.",
+      "version" : "0.1.6",
+      "author" : {
+        "name" : "650 Industries, Inc."
+      },
+      "homepage" : "https://docs.expo.io/versions/latest/sdk/module-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/expo-status-bar"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "build/StatusBar.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/expo-status-bar/-/expo-status-bar-0.1.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexpo-status-bar%2F-%2Fexpo-status-bar-0.1.6.tgz",
+        "shasum" : "93277a3d95008ee7451beeee5c39ad846d68d339"
+      },
+      "dependencies" : {
+        "expo-constants" : "^9.0.0"
+      },
+      "devDependencies" : {
+        "expo-module-scripts" : "^1.2.0"
+      },
+      "keywords" : [ "react-native", "expo", "expo-status-bar" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "expo-module build",
+        "clean" : "expo-module clean",
+        "lint" : "expo-module lint",
+        "test" : "expo-module test",
+        "prepare" : "expo-module prepare",
+        "prepublishOnly" : "expo-module prepublishOnly",
+        "expo-module" : "expo-module"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "expo-status-bar@0.1.6",
+      "types" : "build/StatusBar.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/expo-status-bar_0.1.6_1591322293032_0.843867071148868"
+      },
+      "jest" : {
+        "preset" : "expo-module-scripts/enzyme"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.1.3" : {
+      "name" : "expo-status-bar",
+      "description" : "Provides the same interface as the React Native StatusBar API, but with slightly different defaults to work great in Expo environments.",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "650 Industries, Inc."
+      },
+      "homepage" : "https://docs.expo.io/versions/latest/sdk/module-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/expo-status-bar"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "build/StatusBar.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/expo-status-bar/-/expo-status-bar-0.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexpo-status-bar%2F-%2Fexpo-status-bar-0.1.3.tgz",
+        "shasum" : "9b7b5b5ccc30e3701cdd562f4cda211e292fb015"
+      },
+      "dependencies" : {
+        "expo-constants" : "^9.0.0"
+      },
+      "devDependencies" : {
+        "expo-module-scripts" : "^1.2.0"
+      },
+      "keywords" : [ "react-native", "expo", "expo-status-bar" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "expo-module build",
+        "clean" : "expo-module clean",
+        "lint" : "expo-module lint",
+        "test" : "expo-module test",
+        "prepare" : "expo-module prepare",
+        "prepublishOnly" : "expo-module prepublishOnly",
+        "expo-module" : "expo-module"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "expo-status-bar@0.1.3",
+      "types" : "build/StatusBar.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/expo-status-bar_0.1.3_1591321856296_0.6794315084913118"
+      },
+      "jest" : {
+        "preset" : "expo-module-scripts/enzyme"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.1.4" : {
+      "name" : "expo-status-bar",
+      "description" : "Provides the same interface as the React Native StatusBar API, but with slightly different defaults to work great in Expo environments.",
+      "version" : "0.1.4",
+      "author" : {
+        "name" : "650 Industries, Inc."
+      },
+      "homepage" : "https://docs.expo.io/versions/latest/sdk/module-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/expo-status-bar"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "build/StatusBar.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/expo-status-bar/-/expo-status-bar-0.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexpo-status-bar%2F-%2Fexpo-status-bar-0.1.4.tgz",
+        "shasum" : "75af4c322d85c28dd835b0cbf97fea2b5e3afca2"
+      },
+      "dependencies" : {
+        "expo-constants" : "^9.0.0"
+      },
+      "devDependencies" : {
+        "expo-module-scripts" : "^1.2.0"
+      },
+      "keywords" : [ "react-native", "expo", "expo-status-bar" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "expo-module build",
+        "clean" : "expo-module clean",
+        "lint" : "expo-module lint",
+        "test" : "expo-module test",
+        "prepare" : "expo-module prepare",
+        "prepublishOnly" : "expo-module prepublishOnly",
+        "expo-module" : "expo-module"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "expo-status-bar@0.1.4",
+      "types" : "build/StatusBar.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/expo-status-bar_0.1.4_1591321997959_0.4724166448287488"
+      },
+      "jest" : {
+        "preset" : "expo-module-scripts/enzyme"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.1.1" : {
+      "name" : "expo-status-bar",
+      "description" : "Provides the same interface as the React Native StatusBar API, but with slightly different defaults to work great in Expo environments.",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "650 Industries, Inc."
+      },
+      "homepage" : "https://docs.expo.io/versions/latest/sdk/module-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/expo-status-bar"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "build/StatusBar.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/expo-status-bar/-/expo-status-bar-0.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexpo-status-bar%2F-%2Fexpo-status-bar-0.1.1.tgz",
+        "shasum" : "6609277ba07db3c30d18de265d4e226758362737"
+      },
+      "dependencies" : {
+        "expo-constants" : "^9.0.0"
+      },
+      "devDependencies" : {
+        "expo-module-scripts" : "^1.2.0"
+      },
+      "keywords" : [ "react-native", "expo", "expo-status-bar" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "expo-module build",
+        "clean" : "expo-module clean",
+        "lint" : "expo-module lint",
+        "test" : "expo-module test",
+        "prepare" : "expo-module prepare",
+        "prepublishOnly" : "expo-module prepublishOnly",
+        "expo-module" : "expo-module"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "expo-status-bar@0.1.1",
+      "types" : "build/StatusBar.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/expo-status-bar_0.1.1_1591317301130_0.19243136920435933"
+      },
+      "jest" : {
+        "preset" : "expo-module-scripts/enzyme"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.2.0" : {
+      "name" : "expo-status-bar",
+      "description" : "Provides the same interface as the React Native StatusBar API, but with slightly different defaults to work great in Expo environments.",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "650 Industries, Inc."
+      },
+      "homepage" : "https://docs.expo.io/versions/latest/sdk/module-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/expo-status-bar"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "build/StatusBar.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/expo-status-bar/-/expo-status-bar-0.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexpo-status-bar%2F-%2Fexpo-status-bar-0.2.0.tgz",
+        "shasum" : "ba0b90719ae78f3a7643b87ca464e4434bbf8969"
+      },
+      "devDependencies" : {
+        "expo-module-scripts" : "^1.2.0"
+      },
+      "keywords" : [ "react-native", "expo", "expo-status-bar" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "expo-module build",
+        "clean" : "expo-module clean",
+        "lint" : "expo-module lint",
+        "test" : "expo-module test",
+        "prepare" : "expo-module prepare",
+        "prepublishOnly" : "expo-module prepublishOnly",
+        "expo-module" : "expo-module"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "expo-status-bar@0.2.0",
+      "types" : "build/StatusBar.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/expo-status-bar_0.2.0_1591404969577_0.7091203657378431"
+      },
+      "jest" : {
+        "preset" : "expo-module-scripts/enzyme"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.1.2" : {
+      "name" : "expo-status-bar",
+      "description" : "Provides the same interface as the React Native StatusBar API, but with slightly different defaults to work great in Expo environments.",
+      "version" : "0.1.2",
+      "author" : {
+        "name" : "650 Industries, Inc."
+      },
+      "homepage" : "https://docs.expo.io/versions/latest/sdk/module-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/expo-status-bar"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "build/StatusBar.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/expo-status-bar/-/expo-status-bar-0.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexpo-status-bar%2F-%2Fexpo-status-bar-0.1.2.tgz",
+        "shasum" : "64d4aeb237ed24380b6f72ffda8f04c1251bbeb4"
+      },
+      "dependencies" : {
+        "expo-constants" : "^9.0.0"
+      },
+      "devDependencies" : {
+        "expo-module-scripts" : "^1.2.0"
+      },
+      "keywords" : [ "react-native", "expo", "expo-status-bar" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "expo-module build",
+        "clean" : "expo-module clean",
+        "lint" : "expo-module lint",
+        "test" : "expo-module test",
+        "prepare" : "expo-module prepare",
+        "prepublishOnly" : "expo-module prepublishOnly",
+        "expo-module" : "expo-module"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "expo-status-bar@0.1.2",
+      "types" : "build/StatusBar.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/expo-status-bar_0.1.2_1591320364096_0.43482189652129777"
+      },
+      "jest" : {
+        "preset" : "expo-module-scripts/enzyme"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.2.1" : {
+      "name" : "expo-status-bar",
+      "description" : "Provides the same interface as the React Native StatusBar API, but with slightly different defaults to work great in Expo environments.",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "650 Industries, Inc."
+      },
+      "homepage" : "https://docs.expo.io/versions/latest/sdk/module-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/expo-status-bar"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "build/StatusBar.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/expo-status-bar/-/expo-status-bar-0.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexpo-status-bar%2F-%2Fexpo-status-bar-0.2.1.tgz",
+        "shasum" : "3f0a7b8246d87f658e13e5f17b5d62b7fdabbb83"
+      },
+      "devDependencies" : {
+        "expo-module-scripts" : "^1.2.0"
+      },
+      "keywords" : [ "react-native", "expo", "expo-status-bar" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "expo-module build",
+        "clean" : "expo-module clean",
+        "lint" : "expo-module lint",
+        "test" : "expo-module test",
+        "prepare" : "expo-module prepare",
+        "prepublishOnly" : "expo-module prepublishOnly",
+        "expo-module" : "expo-module"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "expo-status-bar@0.2.1",
+      "types" : "build/StatusBar.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/expo-status-bar_0.2.1_1591749037353_0.6067806734610006"
+      },
+      "jest" : {
+        "preset" : "expo-module-scripts/enzyme"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "1.0.0" : {
+      "name" : "expo-status-bar",
+      "description" : "Provides the same interface as the React Native StatusBar API, but with slightly different defaults to work great in Expo environments.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "650 Industries, Inc."
+      },
+      "homepage" : "https://docs.expo.io/versions/latest/sdk/module-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/expo-status-bar"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "build/StatusBar.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/expo-status-bar/-/expo-status-bar-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexpo-status-bar%2F-%2Fexpo-status-bar-1.0.0.tgz",
+        "shasum" : "06b54974c0aef9bb614fd497c7fbc397e5cd8072"
+      },
+      "devDependencies" : {
+        "expo-module-scripts" : "^1.2.0"
+      },
+      "keywords" : [ "react-native", "expo", "expo-status-bar" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "expo-module build",
+        "clean" : "expo-module clean",
+        "lint" : "expo-module lint",
+        "test" : "expo-module test",
+        "prepare" : "expo-module prepare",
+        "prepublishOnly" : "expo-module prepublishOnly",
+        "expo-module" : "expo-module"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "expo-status-bar@1.0.0",
+      "types" : "build/StatusBar.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/expo-status-bar_1.0.0_1592000404589_0.6553430549256569"
+      },
+      "jest" : {
+        "preset" : "expo-module-scripts/enzyme"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.1.0" : {
+      "name" : "expo-status-bar",
+      "description" : "Provides the same interface as the React Native StatusBar API, but with slightly different defaults to work great in Expo environments.",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "650 Industries, Inc."
+      },
+      "homepage" : "https://docs.expo.io/versions/latest/sdk/module-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/expo-status-bar"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "build/StatusBar.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/expo-status-bar/-/expo-status-bar-0.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexpo-status-bar%2F-%2Fexpo-status-bar-0.1.0.tgz",
+        "shasum" : "4b6c53626382e8d3ab3f8837fe4789435392ead5"
+      },
+      "devDependencies" : {
+        "expo-module-scripts" : "^1.2.0"
+      },
+      "keywords" : [ "react-native", "expo", "expo-status-bar" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "expo-module build",
+        "clean" : "expo-module clean",
+        "lint" : "expo-module lint",
+        "test" : "expo-module test",
+        "prepare" : "expo-module prepare",
+        "prepublishOnly" : "expo-module prepublishOnly",
+        "expo-module" : "expo-module"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "expo-status-bar@0.1.0",
+      "types" : "build/StatusBar.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/expo-status-bar_0.1.0_1591310271714_0.9189148708853554"
+      },
+      "jest" : {
+        "preset" : "expo-module-scripts/enzyme"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "1.0.2" : {
+      "name" : "expo-status-bar",
+      "description" : "Provides the same interface as the React Native StatusBar API, but with slightly different defaults to work great in Expo environments.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "650 Industries, Inc."
+      },
+      "homepage" : "https://docs.expo.io/versions/latest/sdk/module-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/expo-status-bar"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "build/StatusBar.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/expo-status-bar/-/expo-status-bar-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fexpo-status-bar%2F-%2Fexpo-status-bar-1.0.2.tgz",
+        "shasum" : "2441a77c56be31597898337b0d086981f2adefd8"
+      },
+      "devDependencies" : {
+        "expo-module-scripts" : "^1.2.0"
+      },
+      "keywords" : [ "react-native", "expo", "expo-status-bar" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "bbarthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "me@bycedric.com",
+        "name" : "bycedric"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "charliecruzan@gmail.com",
+        "name" : "charliecruzan"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "exponent.team@gmail.com",
+        "name" : "exponent"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "hrutjes@gmail.com",
+        "name" : "ijzerenhein"
+      }, {
+        "email" : "jonathan@expo.io",
+        "name" : "jkhales"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "tc@expo.io",
+        "name" : "tcdavis"
+      }, {
+        "email" : "npm@tsapeta.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      }, {
+        "email" : "wschurman@gmail.com",
+        "name" : "wschurman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "expo-module build",
+        "clean" : "expo-module clean",
+        "lint" : "expo-module lint",
+        "test" : "expo-module test",
+        "prepare" : "expo-module prepare",
+        "prepublishOnly" : "expo-module prepublishOnly",
+        "expo-module" : "expo-module"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "expo-status-bar@1.0.2",
+      "gitHead" : "ba7fe7fd2da08121d1265797e6b39b34d68d1980",
+      "types" : "build/StatusBar.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/expo-status-bar_1.0.2_1593118015533_0.910511296099684"
+      },
+      "readme" : "# expo-status-bar\n\nProvides the same interface as the React Native [StatusBar API](https://reactnative.dev/docs/statusbar), but with slightly different defaults to work great in Expo environments.\n\n- Default to `translucent={true}` on Android.\n- The `style=\"auto\"` maps to a dark status bar when in light mode and a light status bar when in dark moded. `style=\"inverted\"` inverts this behavior.\n\n# API documentation\n\n- [Documentation for the master branch](https://github.com/expo/expo/blob/master/docs/pages/versions/unversioned/sdk/status-bar.md)\n- [Documentation for the latest stable release](https://docs.expo.io/versions/latest/sdk/status-bar/)\n\n# Installation in managed Expo projects\n\nFor managed [managed](https://docs.expo.io/versions/latest/introduction/managed-vs-bare/) Expo projects, please follow the installation instructions in the [API documentation for the latest stable release](https://docs.expo.io/versions/latest/sdk/image/). If you follow the link and there is no documentation available then this library is not yet usable within managed projects &mdash; it is likely to be included in an upcoming Expo SDK release.\n\nPlease refer to the [React Native StatusBar API documentation](https://reactnative.dev/docs/statusbar).\n\n# Installation in bare React Native projects\n\n```\nnpm install expo-status-bar\n```\n\n### Configure for iOS\n\nRun `npx pod-install` after installing the npm package.\n\n### Configure for Android\n\nNo additional setup necessary.\n\n# Contributing\n\nContributions are very welcome! Please refer to guidelines described in the [contributing guide](https://github.com/expo/expo#contributing).\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "preset" : "expo-module-scripts/enzyme"
+      },
+      "_nodeVersion" : "14.2.0"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "email" : "bartlomiejbukowski.b@gmail.com",
+    "name" : "bbarthec"
+  }, {
+    "email" : "brentvatne@gmail.com",
+    "name" : "brentvatne"
+  }, {
+    "email" : "me@bycedric.com",
+    "name" : "bycedric"
+  }, {
+    "email" : "ccheever@gmail.com",
+    "name" : "ccheever"
+  }, {
+    "email" : "charliecruzan@gmail.com",
+    "name" : "charliecruzan"
+  }, {
+    "email" : "dominiksokal@gmail.com",
+    "name" : "dsokal"
+  }, {
+    "email" : "eric@expo.io",
+    "name" : "esamelson"
+  }, {
+    "email" : "baconbrix@gmail.com",
+    "name" : "evanbacon"
+  }, {
+    "email" : "support@expo.io",
+    "name" : "expoadmin"
+  }, {
+    "email" : "exponent.team@gmail.com",
+    "name" : "exponent"
+  }, {
+    "email" : "ville.immonen@iki.fi",
+    "name" : "fson"
+  }, {
+    "email" : "ide+npm@jameside.com",
+    "name" : "ide"
+  }, {
+    "email" : "hrutjes@gmail.com",
+    "name" : "ijzerenhein"
+  }, {
+    "email" : "jonathan@expo.io",
+    "name" : "jkhales"
+  }, {
+    "email" : "czernekmichal@gmail.com",
+    "name" : "mczernek"
+  }, {
+    "email" : "quinlanjung@gmail.com",
+    "name" : "quinlanj"
+  }, {
+    "email" : "sjchmiela@gmail.com",
+    "name" : "sjchmiela"
+  }, {
+    "email" : "tc@expo.io",
+    "name" : "tcdavis"
+  }, {
+    "email" : "npm@tsapeta.com",
+    "name" : "tsapeta"
+  }, {
+    "email" : "wojciech.kozyra@swmansion.com",
+    "name" : "wkozyra"
+  }, {
+    "email" : "wschurman@gmail.com",
+    "name" : "wschurman"
+  } ],
+  "author" : {
+    "name" : "650 Industries, Inc."
+  },
+  "time" : {
+    "0.1.5" : "2020-06-05T01:56:38.155Z",
+    "0.1.6" : "2020-06-05T01:58:13.273Z",
+    "0.1.3" : "2020-06-05T01:50:56.404Z",
+    "0.1.4" : "2020-06-05T01:53:18.061Z",
+    "created" : "2020-06-04T22:37:51.713Z",
+    "0.1.1" : "2020-06-05T00:35:01.270Z",
+    "0.2.0" : "2020-06-06T00:56:09.672Z",
+    "0.1.2" : "2020-06-05T01:26:04.231Z",
+    "0.2.1" : "2020-06-10T00:30:37.457Z",
+    "0.1.0" : "2020-06-04T22:37:51.846Z",
+    "modified" : "2020-06-25T20:47:29.029Z",
+    "1.0.0" : "2020-06-12T22:20:04.868Z",
+    "1.0.2" : "2020-06-25T20:46:55.695Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/expo/expo.git",
+    "directory" : "packages/expo-status-bar"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://docs.expo.io/versions/latest/sdk/module-template",
+  "keywords" : [ "react-native", "expo", "expo-status-bar" ],
+  "bugs" : {
+    "url" : "https://github.com/expo/expo/issues"
+  },
+  "license" : "MIT"
+}

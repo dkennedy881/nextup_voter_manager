@@ -8,6 +8,7 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
-
+.npm-cache
+npm-cache
 # macOS
 .DS_Store

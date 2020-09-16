@@ -1,0 +1,2258 @@
+{
+  "_id" : "phin",
+  "_rev" : "68-38bb1b3ffd09c5dc6c55b39b7a7e9d8e",
+  "name" : "phin",
+  "description" : "The ultra-lightweight Node.js HTTP client",
+  "dist-tags" : {
+    "latest" : "3.5.0"
+  },
+  "versions" : {
+    "2.2.81" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.81",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.81.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.81.tgz",
+        "shasum" : "6ed36d835b85b3771e749e73f0a231ee96968243"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.81",
+      "gitHead" : "e50210982041a5530830e2824194cca2d40e97f4",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.81.tgz_1503010410680_0.5212105647660792"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.3.11" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.3.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.3.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.3.11.tgz",
+        "shasum" : "39038642694db4dcf596ff9dcb88de8620daa320"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm install --only=dev && npm test"
+      },
+      "_npmVersion" : "5.4.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.3.11",
+      "gitHead" : "6381b26dfdb2fb5b4bd3ea6c4248350fba7eb7b0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.3.11.tgz_1504469786808_0.5173570476472378"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.2.8" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.8.tgz",
+        "shasum" : "8c8abc107e0f74197a522555a655d2fec8abc801"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.8",
+      "gitHead" : "e2851782122573b7d238198fbfab0a0b21dc8792",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.8.tgz_1503010059137_0.5846966356039047"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "3.5.0" : {
+      "name" : "phin",
+      "description" : "The ultra-lightweight Node.js HTTP client",
+      "version" : "3.5.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-3.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-3.5.0.tgz",
+        "shasum" : "f223aa26b22bb682b3eaf150ccb66c06998037b0"
+      },
+      "dependencies" : {
+        "centra" : "^2.4.2"
+      },
+      "devDependencies" : {
+        "jsdoc" : "^3.5.5",
+        "whew" : "^1.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@3.5.0",
+      "gitHead" : "85a14b8b548f2f9b294cf8b17782d639cb414d50",
+      "types" : "types.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_3.5.0_1591911435865_0.7919858070162191"
+      },
+      "_nodeVersion" : "12.8.0"
+    },
+    "3.1.0" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "3.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.min.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-3.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-3.1.0.tgz",
+        "shasum" : "fb8fcaae3e592612ed6a32de7915b30ec8b85580"
+      },
+      "dependencies" : {
+        "centra" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "whew" : "^1.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@3.1.0",
+      "gitHead" : "71b308f284f0196d2d088c0de4f50621920f72bb",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_3.1.0_1541267635100_0.7262158545526374"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.1.1" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "3.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.min.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-3.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-3.1.1.tgz",
+        "shasum" : "aaf497a9368a826d6346939ce09eac39971da275"
+      },
+      "dependencies" : {
+        "centra" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "whew" : "^1.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@3.1.1",
+      "gitHead" : "f94500eeda86262568c75894b115f332441d5938",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_3.1.1_1542501626053_0.6275010913684036"
+      },
+      "_nodeVersion" : "9.10.1"
+    },
+    "3.3.0" : {
+      "name" : "phin",
+      "description" : "The ultra-lightweight Node.js HTTP client",
+      "version" : "3.3.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "lib/phin.min.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-3.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-3.3.0.tgz",
+        "shasum" : "bad57617bc7d78b56ff2103a85064cc2b5d01d9b"
+      },
+      "dependencies" : {
+        "centra" : "^2.2.1"
+      },
+      "devDependencies" : {
+        "jsdoc" : "^3.5.5",
+        "whew" : "^1.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@3.3.0",
+      "gitHead" : "ad88f787ad4dbc70cd6fa989efd9e4f1961bd439",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_3.3.0_1547609537747_0.39807944461509437"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "2.1.0" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.1.0.tgz",
+        "shasum" : "6d4524a82531fc55a70d6ba2d5ecc63634b5c00f"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.1.0",
+      "gitHead" : "dd1736e04097b16186cfd6b2f1420d91a275ccc1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.1.0.tgz_1501198638484_0.7544979413505644"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "2.5.3" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.5.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.5.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.5.3.tgz",
+        "shasum" : "e6a037031de929a9de2de4380dfca2b1e8671300"
+      },
+      "devDependencies" : {
+        "hitched" : "^1.1.24",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm install --only=dev && node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "prepush" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.5.3",
+      "gitHead" : "5c9f46b64e99d49e8b6dac176cdb7601e759a982",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.5.3.tgz_1512192861037_0.3516528136096895"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.7.1" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.7.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.7.1.tgz",
+        "shasum" : "a2cb2ae55810726f71b82c39cb6ad3b62e81eb07"
+      },
+      "devDependencies" : {
+        "hitched" : "^1.1.24",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Tested before deployment.\" && exit 0",
+        "test-dev" : "npm install --only=dev && node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "prepush" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.7.1",
+      "gitHead" : "dab7e255abbe9d59110ee5c9864dff9437635f85",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.7.1.tgz_1514608671448_0.5514273173175752"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.5.4" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.5.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.5.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.5.4.tgz",
+        "shasum" : "06723633a86af35553510300924febcd72c7c72e"
+      },
+      "devDependencies" : {
+        "hitched" : "^1.1.24",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm install --only=dev && node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "prepush" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.5.4",
+      "gitHead" : "72fc262f790f07636a36771738b9ca6dd22968b4",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.5.4.tgz_1512345135585_0.8762136879377067"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.9.0" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.9.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.compiled.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.9.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.9.0.tgz",
+        "shasum" : "c7ec9fcacbcf43da53936915404c62fafcd3046a"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-preset-env" : "^1.6.1",
+        "poky" : "^1.0.1",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "files" : [ "lib/phin.compiled.js", "LICENSE.md" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Tested before deployment.\" && exit 0",
+        "test-dev" : "node ./tests/test.js",
+        "prepublishOnly" : "npm run test-dev",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js",
+        "compile" : "npx babel lib/phin.js --out-file lib/phin.compiled.js --presets env --minified --no-comments"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.9.0",
+      "gitHead" : "9dd9eaec165132ccddd4bed6a8b83509409ea81e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.9.0.tgz_1515199390396_0.14869150565937161"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.5.1" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.5.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.5.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.5.1.tgz",
+        "shasum" : "3a8d832ff1d644713e09f2ac09867351d4ea5953"
+      },
+      "devDependencies" : {
+        "hitched" : "^1.1.24",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm install --only=dev && node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "prepush" : "npm test"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.5.1",
+      "gitHead" : "c062888b4b77454d04f45b5d41ca50088d86572c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.5.1.tgz_1512189809121_0.9454000608529896"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.5.2" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.5.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.5.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.5.2.tgz",
+        "shasum" : "a00e4b634156f845356cf74b379d3a1bbc24560c"
+      },
+      "devDependencies" : {
+        "hitched" : "^1.1.24",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm install --only=dev && node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "prepush" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.5.2",
+      "gitHead" : "745d5d32833f9222a9a751011ddfd9126fc66c8e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.5.2.tgz_1512192476197_0.4508562886621803"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.7.0" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.7.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.7.0.tgz",
+        "shasum" : "3c3f2b8265d9b2f3ebe32e0d7666a99407dd78bf"
+      },
+      "devDependencies" : {
+        "hitched" : "^1.1.24",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm install --only=dev && node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "prepush" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.7.0",
+      "gitHead" : "0b2166249ef8fb1f9f2c2b3d549b1c3b82020086",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.7.0.tgz_1514571090335_0.9489861326292157"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.4.18" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.4.18",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.4.18.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.4.18.tgz",
+        "shasum" : "1a517cb4b93cf74232745159bce69421aac584d0"
+      },
+      "devDependencies" : {
+        "hitched" : "^1.1.24",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm install --only=dev && node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "prepush" : "npm test"
+      },
+      "_npmVersion" : "5.4.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.4.18",
+      "gitHead" : "a8748d55b90edf285ab227372f39bbcb71e6b72b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.4.18.tgz_1504551687990_0.43214539578184485"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "3.0.0" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "3.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.min.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-3.0.0.tgz",
+        "shasum" : "11667414fd4f76079a118effb82acd3a2338f35d"
+      },
+      "dependencies" : {
+        "centra" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "whew" : "^1.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@3.0.0",
+      "gitHead" : "296077227b0bb3bfdff7dcbab53b989178c4eb6b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_3.0.0_1540698854300_0.3652146748446521"
+      },
+      "_nodeVersion" : "8.12.0"
+    },
+    "2.9.3" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.9.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.compiled.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.9.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.9.3.tgz",
+        "shasum" : "f9b6ac10a035636fb65dfc576aaaa17b8743125c"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-preset-env" : "^1.6.1",
+        "whew" : "^1.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Tested before deployment.\" && exit 0",
+        "test-dev" : "node ./tests/test.js",
+        "prepublishOnly" : "npm run test-dev",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js",
+        "build" : "npx babel lib/phin.js --out-file lib/phin.compiled.js --presets env --minified --no-comments"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.9.3",
+      "gitHead" : "c769799b4c683639ae14f94943b7e02696a9686b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_2.9.3_1540174120719_0.6390752362179963"
+      },
+      "_nodeVersion" : "8.12.0"
+    },
+    "2.5.5" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.5.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.5.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.5.5.tgz",
+        "shasum" : "1bcc91428e5f2976687fca384f5526284969cafd"
+      },
+      "devDependencies" : {
+        "hitched" : "^1.1.24",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm install --only=dev && node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "prepush" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.5.5",
+      "gitHead" : "72fc262f790f07636a36771738b9ca6dd22968b4",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.5.5.tgz_1514525320939_0.017979757860302925"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.9.1" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.9.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.compiled.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.9.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.9.1.tgz",
+        "shasum" : "0de9059b1a9bd56fcb1bd8a374344a06f25f1901"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-preset-env" : "^1.6.1",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "files" : [ "lib/phin.compiled.js", "LICENSE.md" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Tested before deployment.\" && exit 0",
+        "test-dev" : "node ./tests/test.js",
+        "prepublishOnly" : "npm run test-dev",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js",
+        "compile" : "npx babel lib/phin.js --out-file lib/phin.compiled.js --presets env --minified --no-comments"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.9.1",
+      "gitHead" : "1e896b322d8c79645ddb006e6fdf1b339041f12e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_2.9.1_1533793036165_0.008098128766571788"
+      },
+      "_nodeVersion" : "8.11.3"
+    },
+    "2.5.6" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.5.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.5.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.5.6.tgz",
+        "shasum" : "35fdff6db510db1034836a3fcaebee55f9012965"
+      },
+      "devDependencies" : {
+        "hitched" : "^1.1.24",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm install --only=dev && node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "prepush" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.5.6",
+      "gitHead" : "5efa5b104b95422200587a922232d5953f98662c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.5.6.tgz_1514528538789_0.515200202120468"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.9.2" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.9.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.compiled.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.9.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.9.2.tgz",
+        "shasum" : "0a82d5b6dd75552b665f371f8060689c1af7336e"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-preset-env" : "^1.6.1",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Tested before deployment.\" && exit 0",
+        "test-dev" : "node ./tests/test.js",
+        "prepublishOnly" : "npm run test-dev",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js",
+        "build" : "npx babel lib/phin.js --out-file lib/phin.compiled.js --presets env --minified --no-comments"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.9.2",
+      "gitHead" : "c769799b4c683639ae14f94943b7e02696a9686b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_2.9.2_1536366323900_0.14712549365597294"
+      },
+      "_nodeVersion" : "8.11.4"
+    },
+    "3.2.3" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "3.2.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "lib/phin.min.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-3.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-3.2.3.tgz",
+        "shasum" : "f382cd53d70157db21c4785c3260828867446922"
+      },
+      "dependencies" : {
+        "centra" : "^2.2.1"
+      },
+      "devDependencies" : {
+        "jsdoc" : "^3.5.5",
+        "whew" : "^1.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@3.2.3",
+      "gitHead" : "8d2d41844181b70dbb033cb514e1942bedb49239",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_3.2.3_1546588068193_0.8372127309167223"
+      },
+      "_nodeVersion" : "10.14.0"
+    },
+    "3.4.1" : {
+      "name" : "phin",
+      "description" : "The ultra-lightweight Node.js HTTP client",
+      "version" : "3.4.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "lib/phin.min.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-3.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-3.4.1.tgz",
+        "shasum" : "b023d14fa86fc6e4b40b6d0dfd5fe478c9c1bbb8"
+      },
+      "dependencies" : {
+        "centra" : "^2.2.1"
+      },
+      "devDependencies" : {
+        "jsdoc" : "^3.5.5",
+        "whew" : "^1.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@3.4.1",
+      "gitHead" : "fafe3cc5c4a6837507c91fab77d9e814a80bb841",
+      "types" : "types.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_3.4.1_1573798922358_0.757556806772838"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "3.2.4" : {
+      "name" : "phin",
+      "description" : "The ultra-lightweight Node.js HTTP client",
+      "version" : "3.2.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "lib/phin.min.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-3.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-3.2.4.tgz",
+        "shasum" : "1ae8be5ec2b1746b7aced7059c661a3095881d44"
+      },
+      "dependencies" : {
+        "centra" : "^2.2.1"
+      },
+      "devDependencies" : {
+        "jsdoc" : "^3.5.5",
+        "whew" : "^1.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@3.2.4",
+      "gitHead" : "9026be78975909b670032ffd4e7fc42143f7fc0d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_3.2.4_1546590322810_0.958373556648531"
+      },
+      "_nodeVersion" : "10.14.0"
+    },
+    "3.2.0" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "3.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.min.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-3.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-3.2.0.tgz",
+        "shasum" : "e3561430cd768c8cffc0f3d442e0878052203e99"
+      },
+      "dependencies" : {
+        "centra" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "whew" : "^1.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@3.2.0",
+      "gitHead" : "eca62f389c3f8b7d106595a945c4a090e2eb52bc",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_3.2.0_1542590138695_0.22626085288091402"
+      },
+      "_nodeVersion" : "9.10.1"
+    },
+    "3.2.1" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "3.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "lib/phin.min.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-3.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-3.2.1.tgz",
+        "shasum" : "e037af07723799fab986c58f328351ce4c5832cc"
+      },
+      "dependencies" : {
+        "centra" : "^2.2.1"
+      },
+      "devDependencies" : {
+        "whew" : "^1.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@3.2.1",
+      "gitHead" : "18dc5979aaed524e20b4446ba679350e29058a73",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_3.2.1_1546310157862_0.15384036907637078"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "3.2.2" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "3.2.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "lib/phin.min.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-3.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-3.2.2.tgz",
+        "shasum" : "b4c451a54d3e36a04989d97b80310ad36dc810e5"
+      },
+      "dependencies" : {
+        "centra" : "^2.2.1"
+      },
+      "devDependencies" : {
+        "jsdoc" : "^3.5.5",
+        "whew" : "^1.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@3.2.2",
+      "gitHead" : "12887433de029607c54710a2c1c3e03348e7c4fb",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_3.2.2_1546587535846_0.16094598926504422"
+      },
+      "_nodeVersion" : "10.14.0"
+    },
+    "3.4.0" : {
+      "name" : "phin",
+      "description" : "The ultra-lightweight Node.js HTTP client",
+      "version" : "3.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "lib/phin.min.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-3.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-3.4.0.tgz",
+        "shasum" : "479df2ecfbbc2b8a6039852970b8b15a78da5169"
+      },
+      "dependencies" : {
+        "centra" : "^2.2.1"
+      },
+      "devDependencies" : {
+        "jsdoc" : "^3.5.5",
+        "whew" : "^1.1.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@3.4.0",
+      "gitHead" : "3dad3d15c65401c9992ea3f57d111d7d78b988cb",
+      "types" : "types.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin_3.4.0_1559616328306_0.46251749807398834"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "2.0.0" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.0.0.tgz",
+        "shasum" : "0ae2ea8e3deac88b6301a1a5ed62e292b584ad12"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.0.0",
+      "gitHead" : "644b44861f1b7481b079e7eaaa3cca83190f3897",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.0.0.tgz_1500958164294_0.2671117205172777"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "2.2.92" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.92",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.92.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.92.tgz",
+        "shasum" : "6fb4449d41be638abc0d7a430f259b568afd2e5e"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.92",
+      "gitHead" : "471f3a0a63c67e47a4ed3e42c90326e8bf65a0fe",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.92.tgz_1503344348755_0.3994270854163915"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.2.91" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.91",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.91.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.91.tgz",
+        "shasum" : "b169ded560d6dd0288376ad3725dfb230eb02ecd"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.91",
+      "gitHead" : "3e7f4d01de10dc041ce1e6c704c8d07d8307410a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.91.tgz_1503343939536_0.47528872708790004"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.2.94" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.94",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.94.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.94.tgz",
+        "shasum" : "7c9f8a024a82330f70df4eaf7278c91dc73e8d68"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm install --only=dev && npm test"
+      },
+      "_npmVersion" : "5.4.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.94",
+      "gitHead" : "11b08af41d4ff8b69ffef5529ee9215ab3a9d10d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.94.tgz_1504324950469_0.04926471645012498"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.2.93" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.93",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.93.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.93.tgz",
+        "shasum" : "294c0b759dca39f02003ea44a7b67e523b2ad378"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm install --only=dev && npm test"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.93",
+      "gitHead" : "69607697cf878e83dfe20558d5bd93c9c590d40d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.93.tgz_1503862225007_0.1752501663286239"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.2.95" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.95",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.95.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.95.tgz",
+        "shasum" : "2a5f7c5e4067cb2f4ffd2c14f053b434ac3a2c72"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js",
+        "prepublishOnly" : "npm install --only=dev && npm test"
+      },
+      "_npmVersion" : "5.4.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.95",
+      "gitHead" : "fabcd650205d508aecfaaa8aaeb7f344359638b7",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.95.tgz_1504398186627_0.9016718515194952"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.2.6" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.6.tgz",
+        "shasum" : "bec624a1bd71e27518350bc3b0737adc713c5a1c"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.6",
+      "gitHead" : "d15484455db0295dfef1b37d96d47d926a0109bb",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.6.tgz_1502938405973_0.242522026412189"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.8.0" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.8.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.compiled.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.8.0.tgz",
+        "shasum" : "b3a6bb1c20d4861299a23c55207b8c5336f2c09c"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-preset-env" : "^1.6.1",
+        "hitched" : "^1.1.24",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "files" : [ "lib/phin.compiled.js", "LICENSE.md" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Tested before deployment.\" && exit 0",
+        "test-dev" : "npm install --only=dev && node ./tests/test.js",
+        "prepublishOnly" : "npm run test-dev",
+        "prepush" : "npm run test-dev",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js",
+        "compile" : "npx babel lib/phin.js --out-file lib/phin.compiled.js --presets env --minified --no-comments"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.8.0",
+      "gitHead" : "9820c644c146235d6543bf10a7fd0a05e5b407db",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.8.0.tgz_1514685690908_0.4559519614558667"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.2.7" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.7.tgz",
+        "shasum" : "ad7e6eae156d92ecd6e5ab0b977b1858369f763b"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.7",
+      "gitHead" : "325bcfdc06844a564f8d82a71367929ebe12a25a",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.7.tgz_1503009946469_0.5282965393271297"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.8.1" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.8.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.compiled.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.8.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.8.1.tgz",
+        "shasum" : "85d46fd3f13f72ebff1fbd81fa61719baa7237cb"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-preset-env" : "^1.6.1",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "files" : [ "lib/phin.compiled.js", "LICENSE.md" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Tested before deployment.\" && exit 0",
+        "test-dev" : "npm install --only=dev && node ./tests/test.compiled.js",
+        "prepublishOnly" : "npm run test-dev",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js",
+        "compile" : "npx babel lib/phin.js --out-file lib/phin.compiled.js --presets env --minified --no-comments && npx babel tests/test.js --out-file tests/test.compiled.js --presets env --minified --no-comments"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.8.1",
+      "gitHead" : "9dd9eaec165132ccddd4bed6a8b83509409ea81e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.8.1.tgz_1514686586561_0.02292162668891251"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.2.4" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.4.tgz",
+        "shasum" : "7b63c83bcabff569d35eb9bb80c574d1e77f272b"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.4",
+      "gitHead" : "a4896d6bba2b7ce9109874c4a5bb90ba15d587a3",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.4.tgz_1502913639017_0.4903759218286723"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.6.0" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.6.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ethanent/phin.git"
+      },
+      "main" : "lib/phin.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.6.0.tgz",
+        "shasum" : "496c7aa011cd0bd238afd31c2608cb2fbd7e288c"
+      },
+      "devDependencies" : {
+        "hitched" : "^1.1.24",
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm install --only=dev && node ./tests/test.js",
+        "prepublishOnly" : "npm test",
+        "prepush" : "npm test",
+        "gendocs" : "rm -r docs || true && jsdoc -R README.md -d ./docs lib/phin.js"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.6.0",
+      "gitHead" : "5efa5b104b95422200587a922232d5953f98662c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.6.0.tgz_1514533700714_0.680282088695094"
+      },
+      "_nodeVersion" : "9.2.0"
+    },
+    "2.2.5" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.5.tgz",
+        "shasum" : "834c728356a07b884420f51e3cc5504f702af588"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.5",
+      "gitHead" : "017e135962cd3844db2233bc91c29e39b8511e25",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.5.tgz_1502935773262_0.2523271150421351"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.2.2" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.2.tgz",
+        "shasum" : "5dabf877f9310a49b07c84c52f6b8b9614fdd778"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.2",
+      "gitHead" : "5dfd79f8bcc1c15402db9d3be4b8d4eaed445a11",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.2.tgz_1502838444382_0.8563989906106144"
+      },
+      "_shasum" : "5dabf877f9310a49b07c84c52f6b8b9614fdd778",
+      "_nodeVersion" : "6.11.1"
+    },
+    "2.2.3" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.3.tgz",
+        "shasum" : "846de907fd330e5cb1fa9cd0aa2420ca53c72925"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.3",
+      "gitHead" : "3b8e2a77eeb517ea87f392c39d5a314e6d2e1c31",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.3.tgz_1502839064665_0.446464923908934"
+      },
+      "_shasum" : "846de907fd330e5cb1fa9cd0aa2420ca53c72925",
+      "_nodeVersion" : "6.11.1"
+    },
+    "2.0.2" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.0.2.tgz",
+        "shasum" : "b4aae75c81732f72dbae0f0e0cc3ad966ec1068f"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.0.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.0.2",
+      "gitHead" : "dd1736e04097b16186cfd6b2f1420d91a275ccc1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.0.2.tgz_1501196696840_0.3431743001565337"
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "2.2.0" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.0.tgz",
+        "shasum" : "da01a28eefd62f58ecb32f1860022363fae0e67e"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.0",
+      "gitHead" : "861d7bf0cf147509c081e1e961aafb70a407b947",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.0.tgz_1501708847237_0.9231311611365527"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "2.2.1" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.1.tgz",
+        "shasum" : "b87d72a80846fe75eb22e239527dd8da1874e0a3"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.1",
+      "gitHead" : "d3e35aefe93999175bd2964dba32e2064af8f6aa",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.1.tgz_1501713373655_0.6040168614126742"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "1.0.3" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "1.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-1.0.3.tgz",
+        "shasum" : "dd00a183bf11592a6deccf79e700c72891c7e650"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@1.0.3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/phin-1.0.3.tgz_1487823665475_0.44109904672950506"
+      },
+      "_shasum" : "dd00a183bf11592a6deccf79e700c72891c7e650",
+      "_nodeVersion" : "6.9.2"
+    },
+    "1.0.4" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "1.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-1.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-1.0.4.tgz",
+        "shasum" : "d062e7eba0eaf2bb59e55caf2837f13d0f465f4e"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "Stuff/Big Projects/phin/Compressed",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@1.0.4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/phin-1.0.4.tgz_1487884162265_0.6848325221799314"
+      },
+      "_shasum" : "d062e7eba0eaf2bb59e55caf2837f13d0f465f4e",
+      "_resolved" : "file:Stuff/Big Projects/phin/Compressed",
+      "_nodeVersion" : "6.9.2"
+    },
+    "1.0.5" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "1.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-1.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-1.0.5.tgz",
+        "shasum" : "6abf506fd15502d8ca02e61f302482afeaaa997c"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@1.0.5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/phin-1.0.5.tgz_1487971729507_0.9630451463162899"
+      },
+      "_shasum" : "6abf506fd15502d8ca02e61f302482afeaaa997c",
+      "_nodeVersion" : "6.9.2"
+    },
+    "1.0.6" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "1.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-1.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-1.0.6.tgz",
+        "shasum" : "f32e3570b2a36795721e15d4d32945c89fffc014"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@1.0.6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/phin-1.0.6.tgz_1492288663110_0.4550996439065784"
+      },
+      "_shasum" : "f32e3570b2a36795721e15d4d32945c89fffc014",
+      "_nodeVersion" : "7.6.0"
+    },
+    "1.0.7" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "1.0.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-1.0.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-1.0.7.tgz",
+        "shasum" : "d64cd9d58bc6867875b5dbb44872a5e1e2cbe5bf"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@1.0.7",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/phin-1.0.7.tgz_1492291029300_0.9730478825513273"
+      },
+      "_shasum" : "d64cd9d58bc6867875b5dbb44872a5e1e2cbe5bf",
+      "_nodeVersion" : "7.6.0"
+    },
+    "1.0.8" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "1.0.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-1.0.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-1.0.8.tgz",
+        "shasum" : "9cbce5c20dc0708bab4aaa4e8415330e21a5e72f"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@1.0.8",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/phin-1.0.8.tgz_1494182464209_0.068937728414312"
+      },
+      "_shasum" : "9cbce5c20dc0708bab4aaa4e8415330e21a5e72f",
+      "_nodeVersion" : "7.6.0"
+    },
+    "1.0.0" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-1.0.0.tgz",
+        "shasum" : "14ba39ab1a9a30b962dd1d563e01253fda41889f"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@1.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/phin-1.0.0.tgz_1487666936548_0.43583712284453213"
+      },
+      "_shasum" : "14ba39ab1a9a30b962dd1d563e01253fda41889f",
+      "_nodeVersion" : "6.9.2"
+    },
+    "1.0.1" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "1.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-1.0.1.tgz",
+        "shasum" : "39b394e06eccd2d78dd4f06e77f715d69d8bcf32"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : "Stuff/Big Projects/phin/Compressed",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@1.0.1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/phin-1.0.1.tgz_1487667326647_0.9416540181264281"
+      },
+      "_shasum" : "39b394e06eccd2d78dd4f06e77f715d69d8bcf32",
+      "_resolved" : "file:Stuff/Big Projects/phin/Compressed",
+      "_nodeVersion" : "6.9.2"
+    },
+    "2.2.90" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "2.2.90",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/Ethanent/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-2.2.90.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-2.2.90.tgz",
+        "shasum" : "f17709b8e3613ae52d5ef82a66a2d92aab2e500f"
+      },
+      "devDependencies" : {
+        "whew" : "^1.0.0"
+      },
+      "license" : "SEE LICENSE IN LICENSE.md",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node ./tests/test.js"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@2.2.90",
+      "gitHead" : "30cc8beeb29e47808f0a9550f9c7cc92cb8e3b08",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/phin-2.2.90.tgz_1503176645215_0.7298328208271414"
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "1.0.2" : {
+      "name" : "phin",
+      "description" : "Ultra-simple, lightweight, dependency-free Node.JS HTTP request client",
+      "version" : "1.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/FuturisticCake/phin.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/phin/-/phin-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fphin%2F-%2Fphin-1.0.2.tgz",
+        "shasum" : "4c41036222538baa7e6a4a25d2c239f232efe8fd"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "ethan_",
+        "email" : "futuristiccake@gmail.com"
+      },
+      "_id" : "phin@1.0.2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/phin-1.0.2.tgz_1487668553360_0.18835013266652822"
+      },
+      "_shasum" : "4c41036222538baa7e6a4a25d2c239f232efe8fd",
+      "_nodeVersion" : "6.9.2"
+    }
+  },
+  "readme" : "<p align=\"center\" style=\"text-align: center\"><img src=\"https://raw.githubusercontent.com/ethanent/phin/master/media/phin-textIncluded.png\" width=\"250\" alt=\"phin logo\"/></p>\n\n---\n\n> The ultra-lightweight Node.js HTTP client\n\n[Full documentation](https://ethanent.github.io/phin/) | [GitHub](https://github.com/ethanent/phin) | [NPM](https://www.npmjs.com/package/phin)\n\n\n## Simple Usage\n\n```javascript\nconst p = require('phin')\n\nconst res = await p('https://ethanent.me')\n\nconsole.log(res.body)\n```\n\nNote that the above should be in an async context! phin also provides an unpromisified version of the library.\n\n\n## Install\n\n```\nnpm install phin\n```\n\n\n## Why phin?\n\nphin is **trusted** by some really important projects. The hundreds of contributors at [Less](https://github.com/less/less.js), for example, depend on phin as part of their development process.\n\nAlso, phin is super **lightweight**. Like **99.8% smaller than request** lightweight. To compare to other libraries, see [phin vs. the Competition](https://github.com/ethanent/phin/blob/master/README.md#phin-vs-the-competition).\n\n<img src=\"https://pbs.twimg.com/media/DSPF9TaUQAA0tIe.jpg:large\" alt=\"phin became 33% lighter with release 2.7.0!\"/>\n\n\n## Quick Demos\n\nSimple POST:\n\n```js\nawait p({\n\turl: 'https://ethanent.me',\n\tmethod: 'POST',\n\tdata: {\n\t\they: 'hi'\n\t}\n})\n```\n\n### Unpromisified Usage\n\n```js\nconst p = require('phin').unpromisified\n\np('https://ethanent.me', (err, res) => {\n\tif (!err) console.log(res.body)\n})\n```\n\nSimple parsing of JSON:\n\n```js\n// (In async function in this case.)\n\nconst res = await p({\n\t'url': 'https://ethanent.me/name',\n\t'parse': 'json'\n})\n\nconsole.log(res.body.first)\n```\n\n### Default Options\n\n```js\nconst ppostjson = p.defaults({\n\t'method': 'POST',\n\t'parse': 'json',\n\t'timeout': 2000\n})\n\n// In async function...\n\nconst res = await ppostjson('https://ethanent.me/somejson')\n// ^ An options object could also be used here to set other options.\n\n// Do things with res.body?\n```\n\n### Custom Core HTTP Options\n\nphin allows you to set [core HTTP options](https://nodejs.org/api/http.html#http_http_request_url_options_callback).\n\n```js\nawait p({\n\t'url': 'https://ethanent.me/name',\n\t'core': {\n\t\t'agent': myAgent // Assuming you'd already created myAgent earlier.\n\t}\n})\n```\n\n\n## Full Documentation\n\nThere's a lot more which can be done with the phin library.\n\nSee [the phin documentation](https://ethanent.github.io/phin/).\n\n\n## phin vs. the Competition\n\nphin is a very lightweight library, yet it contains all of the common HTTP client features included in competing libraries!\n\nHere's a size comparison table:\n\nPackage | Size\n--- | ---\nrequest | [![request package size](https://packagephobia.now.sh/badge?p=request)](https://packagephobia.now.sh/result?p=request)\nsuperagent | [![superagent package size](https://packagephobia.now.sh/badge?p=superagent)](https://packagephobia.now.sh/result?p=superagent)\nisomorphic-fetch | [![isomorphic-fetch package size](https://packagephobia.now.sh/badge?p=isomorphic-fetch)](https://packagephobia.now.sh/result?p=isomorphic-fetch)\naxios | [![axios package size](https://packagephobia.now.sh/badge?p=axios)](https://packagephobia.now.sh/result?p=axios)\ngot | [![got package size](https://packagephobia.now.sh/badge?p=got)](https://packagephobia.now.sh/result?p=got)\nr2 | [![r2 package size](https://packagephobia.now.sh/badge?p=r2)](https://packagephobia.now.sh/result?p=r2)\nnode-fetch | [![node-fetch package size](https://packagephobia.now.sh/badge?p=node-fetch)](https://packagephobia.now.sh/result?p=node-fetch)\nsnekfetch | [![snekfetch package size](https://packagephobia.now.sh/badge?p=snekfetch)](https://packagephobia.now.sh/result?p=snekfetch)\nphin | [![phin package size](https://packagephobia.now.sh/badge?p=phin)](https://packagephobia.now.sh/result?p=phin)",
+  "time" : {
+    "2.2.81" : "2017-08-17T22:53:30.748Z",
+    "2.3.11" : "2017-09-03T20:16:26.919Z",
+    "0.0.2" : "2014-05-30T04:53:43.062Z",
+    "0.0.1" : "2014-05-21T03:41:11.311Z",
+    "2.2.8" : "2017-08-17T22:47:39.239Z",
+    "3.5.0" : "2020-06-11T21:37:16.028Z",
+    "modified" : "2020-06-11T21:37:20.589Z",
+    "3.1.0" : "2018-11-03T17:53:55.243Z",
+    "3.1.1" : "2018-11-18T00:40:26.144Z",
+    "3.3.0" : "2019-01-16T03:32:17.872Z",
+    "2.1.0" : "2017-07-27T23:37:18.616Z",
+    "created" : "2014-05-21T03:41:11.311Z",
+    "2.5.3" : "2017-12-02T05:34:21.148Z",
+    "2.7.1" : "2017-12-30T04:37:51.541Z",
+    "2.5.4" : "2017-12-03T23:52:15.784Z",
+    "2.9.0" : "2018-01-06T00:43:10.545Z",
+    "2.5.1" : "2017-12-02T04:43:29.201Z",
+    "2.5.2" : "2017-12-02T05:27:56.308Z",
+    "2.7.0" : "2017-12-29T18:11:30.426Z",
+    "2.4.18" : "2017-09-04T19:01:28.140Z",
+    "3.0.0" : "2018-10-28T03:54:14.475Z",
+    "2.9.3" : "2018-10-22T02:08:40.842Z",
+    "2.5.5" : "2017-12-29T05:28:41.064Z",
+    "2.9.1" : "2018-08-09T05:37:16.301Z",
+    "2.5.6" : "2017-12-29T06:22:18.870Z",
+    "2.9.2" : "2018-09-08T00:25:24.009Z",
+    "3.2.3" : "2019-01-04T07:47:48.272Z",
+    "3.4.1" : "2019-11-15T06:22:02.506Z",
+    "3.2.4" : "2019-01-04T08:25:23.056Z",
+    "3.2.0" : "2018-11-19T01:15:39.718Z",
+    "3.2.1" : "2019-01-01T02:35:57.966Z",
+    "3.2.2" : "2019-01-04T07:38:55.951Z",
+    "3.4.0" : "2019-06-04T02:45:28.514Z",
+    "2.0.0" : "2017-07-25T04:49:24.474Z",
+    "2.2.92" : "2017-08-21T19:39:09.944Z",
+    "2.0.1" : "2017-07-27T06:35:20.705Z",
+    "2.2.91" : "2017-08-21T19:32:19.634Z",
+    "2.2.94" : "2017-09-02T04:02:30.603Z",
+    "2.2.93" : "2017-08-27T19:30:25.122Z",
+    "2.2.95" : "2017-09-03T00:23:07.005Z",
+    "2.2.6" : "2017-08-17T02:53:26.052Z",
+    "2.8.0" : "2017-12-31T02:01:31.084Z",
+    "2.2.7" : "2017-08-17T22:45:46.537Z",
+    "2.8.1" : "2017-12-31T02:16:26.667Z",
+    "2.2.4" : "2017-08-16T20:00:39.280Z",
+    "2.6.0" : "2017-12-29T07:48:20.799Z",
+    "2.2.5" : "2017-08-17T02:09:33.808Z",
+    "2.2.2" : "2017-08-15T23:07:25.630Z",
+    "2.2.3" : "2017-08-15T23:17:44.779Z",
+    "2.0.2" : "2017-07-27T23:04:57.037Z",
+    "2.2.0" : "2017-08-02T21:20:47.553Z",
+    "2.2.1" : "2017-08-02T22:36:16.552Z",
+    "1.0.3" : "2017-02-23T04:21:07.237Z",
+    "1.0.4" : "2017-02-23T21:09:22.482Z",
+    "1.0.5" : "2017-02-24T21:28:51.218Z",
+    "1.0.6" : "2017-04-15T20:37:43.355Z",
+    "1.0.7" : "2017-04-15T21:17:09.572Z",
+    "1.0.8" : "2017-05-07T18:41:06.692Z",
+    "1.0.0" : "2017-02-21T08:48:58.382Z",
+    "1.0.1" : "2017-02-21T08:55:28.321Z",
+    "2.2.90" : "2017-08-19T21:04:05.324Z",
+    "1.0.2" : "2017-02-21T09:15:55.045Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/ethanent/phin.git"
+  },
+  "users" : {
+    "azder" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

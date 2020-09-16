@@ -1,0 +1,4206 @@
+{
+  "_id" : "big-integer",
+  "_rev" : "154-2cf8dfefdd1102828813b1c869ac09e5",
+  "name" : "big-integer",
+  "description" : "An arbitrary length integer library for Javascript",
+  "dist-tags" : {
+    "latest" : "1.6.48"
+  },
+  "versions" : {
+    "1.4.7" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.4.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.4.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.4.7.tgz",
+        "shasum" : "cb48a13fa79f858d453f0ec6317822f2f77b0eb2"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.4.7",
+      "gitHead" : "05237fa5041e65ff5042cd4140128bad9f3d6a6e",
+      "_shasum" : "cb48a13fa79f858d453f0ec6317822f2f77b0eb2",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.4.8" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.4.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.4.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.4.8.tgz",
+        "shasum" : "3febc45b513cfeb77eee3ea87f527dfa75cf4fc9"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.4.8",
+      "gitHead" : "32fd0f0663fc822fa7709ee831149539ef0e31be",
+      "_shasum" : "3febc45b513cfeb77eee3ea87f527dfa75cf4fc9",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.4.9" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.4.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.4.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.4.9.tgz",
+        "shasum" : "dd29906f5389f29e6fd8155b99537e3cf635709b"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.4.9",
+      "gitHead" : "f8035a5fb0eaf6a35b661abe17a387318315e769",
+      "_shasum" : "dd29906f5389f29e6fd8155b99537e3cf635709b",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.18" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.18",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.18.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.18.tgz",
+        "shasum" : "24e435411e08a3be17bd80c7391c1fc2ea64e1d5"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.18",
+      "gitHead" : "6f8adb70b17c0a39ff07172e8d0a13afaff4d117",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/big-integer-1.6.18.tgz_1491095951432_0.9666773425415158"
+      },
+      "_shasum" : "24e435411e08a3be17bd80c7391c1fc2ea64e1d5",
+      "_nodeVersion" : "6.9.4"
+    },
+    "1.6.19" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.19",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.19.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.19.tgz",
+        "shasum" : "4a5e915e3188c8708f254b356196f28542acc1e0"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.19",
+      "gitHead" : "f0f751478d6623a84a5ed9618d94937829bbd015",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/big-integer-1.6.19.tgz_1491096256363_0.04815615131519735"
+      },
+      "_shasum" : "4a5e915e3188c8708f254b356196f28542acc1e0",
+      "_nodeVersion" : "6.9.4"
+    },
+    "1.6.16" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.16",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.16.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.16.tgz",
+        "shasum" : "0ca30b58013db46b10084a09242ca1d8954724cc"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.5",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.16",
+      "gitHead" : "09b50ab4e701a2ec4d403fa3ecf12ae327227190",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/big-integer-1.6.16.tgz_1473665148825_0.5824211346916854"
+      },
+      "_shasum" : "0ca30b58013db46b10084a09242ca1d8954724cc",
+      "_nodeVersion" : "4.4.5"
+    },
+    "1.6.17" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.17",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.17.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.17.tgz",
+        "shasum" : "f0dcf5109a949e42a993ee3e8fb2070452817b51"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.5",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.17",
+      "gitHead" : "d25d0bfcd96f31001ec8572c8d01de4770d99e63",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/big-integer-1.6.17.tgz_1478721202721_0.8068355675786734"
+      },
+      "_shasum" : "f0dcf5109a949e42a993ee3e8fb2070452817b51",
+      "_nodeVersion" : "4.4.5"
+    },
+    "1.6.14" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.14",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.14.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.14.tgz",
+        "shasum" : "8f6f03d7d6cce2917d8d5d81420f41fbaaeecd06"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.14",
+      "gitHead" : "1faf54de1b080cd98a1cfa34789ffeb7c3f1ab4c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/big-integer-1.6.14.tgz_1459823951506_0.987418916542083"
+      },
+      "_shasum" : "8f6f03d7d6cce2917d8d5d81420f41fbaaeecd06",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.15" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.15",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.15.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.15.tgz",
+        "shasum" : "33d27d3b7388dfcc4b86d3130c10740cec01fb9e"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.15",
+      "gitHead" : "cda5bcce74c3a4eb34951201d50c1b8776a56eca",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/big-integer-1.6.15.tgz_1460079231162_0.7087579960934818"
+      },
+      "_shasum" : "33d27d3b7388dfcc4b86d3130c10740cec01fb9e",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.5.6" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.5.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.5.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.5.6.tgz",
+        "shasum" : "c6ae533b87cb50a18ea4bbed3023540902119593"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.5.6",
+      "gitHead" : "2f64f4f559a909a9491ed097f0a826c436da218f",
+      "_shasum" : "c6ae533b87cb50a18ea4bbed3023540902119593",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.12" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.12.tgz",
+        "shasum" : "39afcddafcd5c4480864efb757337d508938bb26"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.12",
+      "gitHead" : "56f449108e31542f939e701f1fe562a46e6c1fab",
+      "_npmOperationalInternal" : {
+        "host" : "packages-6-west.internal.npmjs.com",
+        "tmp" : "tmp/big-integer-1.6.12.tgz_1455702804335_0.11810904298909009"
+      },
+      "_shasum" : "39afcddafcd5c4480864efb757337d508938bb26",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.5.7" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.5.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.5.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.5.7.tgz",
+        "shasum" : "9a9d0029211143e75fb356a1e4f146c8185cdb0d"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.5.7",
+      "gitHead" : "725c98bd6f39c6d0d7e26523e5376e0fe943e5f5",
+      "_shasum" : "9a9d0029211143e75fb356a1e4f146c8185cdb0d",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.13" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.13",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.13.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.13.tgz",
+        "shasum" : "1d207ff8ccc6c79d3dd555bc447ec1ef7778e8d5"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.13",
+      "gitHead" : "e642ff89337dc922dd5a5eec01358c5b9a0de8c2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/big-integer-1.6.13.tgz_1459301238165_0.4259801849257201"
+      },
+      "_shasum" : "1d207ff8ccc6c79d3dd555bc447ec1ef7778e8d5",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.10" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.10.tgz",
+        "shasum" : "0f05dcce24278bc33bd8eb9297f4858acacb1fea"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.10",
+      "gitHead" : "e9a739fa1a15fe3da4eb302ea7072112ec91e318",
+      "_shasum" : "0f05dcce24278bc33bd8eb9297f4858acacb1fea",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.3.20" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.3.20",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.3.20.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.3.20.tgz",
+        "shasum" : "5785301137361a720642e9787662f000c7280027"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.3.20"
+    },
+    "1.6.11" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.11.tgz",
+        "shasum" : "4ac4980529423406ca8f65868797d312291fed5c"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.11",
+      "gitHead" : "eec52e8d6afe13d824840f5544de82e4a8c33e65",
+      "_shasum" : "4ac4980529423406ca8f65868797d312291fed5c",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.3.19" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.3.19",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.3.19.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.3.19.tgz",
+        "shasum" : "f315af3f06812f78a1b9750903a0adf1f340f0bd"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.3.19"
+    },
+    "1.3.16" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.3.16",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.3.16.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.3.16.tgz",
+        "shasum" : "ed09ef5348f97a3011e17a20f30212ca5b393fe2"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.3.16"
+    },
+    "1.3.15" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.3.15",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.3.15.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.3.15.tgz",
+        "shasum" : "c134ad9a2b43ee954ba1857a9929f57621aefb83"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.3.15"
+    },
+    "1.3.18" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.3.18",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.3.18.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.3.18.tgz",
+        "shasum" : "df62bd0c26063c72198e221bf3b49c95bf7076e2"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.3.18"
+    },
+    "1.3.17" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.3.17",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.3.17.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.3.17.tgz",
+        "shasum" : "7a79175243c855bb4cfcd5a0e5bb2096a6f95129"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.3.17"
+    },
+    "1.3.14" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.3.14",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.3.14.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.3.14.tgz",
+        "shasum" : "adb3aafc2b811d4f78b5de5139b7ce2abab2f3a0"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.3.14"
+    },
+    "1.0.3" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.0.3.tgz",
+        "shasum" : "8c518936872ebda1f5fc80ceae45bbe03eb72549"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.0.3"
+    },
+    "1.0.4" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.0.4.tgz",
+        "shasum" : "d81d09ae87c73411d04961d20cfa224a840ec149"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.0.4"
+    },
+    "1.4.0" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.4.0.tgz",
+        "shasum" : "cea164216529c661ff03ce1f8bbbd5810665abd5"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.4.0"
+    },
+    "1.0.5" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.0.5.tgz",
+        "shasum" : "75602f2190c70f0dc4132b5a88e252bcf08d15cc"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.0.5"
+    },
+    "1.4.1" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.4.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.4.1.tgz",
+        "shasum" : "29e31acb556db5c92de26c517ddc6360f99517db"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.4.1"
+    },
+    "1.0.6" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.0.6.tgz",
+        "shasum" : "f653befff2898f6834d61c6e0eb1e8af0b03d8fd"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.0.6"
+    },
+    "1.0.7" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.0.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.0.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.0.7.tgz",
+        "shasum" : "70bdd0b865047aedfd105955a17713b0931cb828"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.0.7"
+    },
+    "1.4.3" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.4.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.4.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.4.3.tgz",
+        "shasum" : "2ec41a136c85bf0b3bcea26f9569368b7049529d"
+      },
+      "dependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.4.3"
+    },
+    "1.4.4" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.4.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.4.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.4.4.tgz",
+        "shasum" : "304d9d29bd11a7a3a912c6c884e1a32c9d67ee1e"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.4.4"
+    },
+    "1.4.5" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.4.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.4.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.4.5.tgz",
+        "shasum" : "7c1ae01aefd597b335327479dcae02c4cbcc8f16"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.4.5",
+      "gitHead" : "f6a64e5e84a0145423a1b9f89e1b120222c7e499",
+      "_shasum" : "7c1ae01aefd597b335327479dcae02c4cbcc8f16",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.4.6" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.4.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.4.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.4.6.tgz",
+        "shasum" : "639eaf6d74736847e5eb3b5f1d7a03ae9c75f8e4"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.4.6",
+      "gitHead" : "3fb76bc0c80f093173f89ae6efb7ee4dc0a2ccf3",
+      "_shasum" : "639eaf6d74736847e5eb3b5f1d7a03ae9c75f8e4",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.0.0" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.0.0.tgz",
+        "shasum" : "db1f188f94e984416cbc03c1ec701a7396dd444e"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.0.0"
+    },
+    "1.0.1" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.0.1.tgz",
+        "shasum" : "4448494e16b9d2b3752cf3ad8ffe546889539f72"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.0.1"
+    },
+    "1.0.2" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.0.2.tgz",
+        "shasum" : "635a7d2dbe41ae9ca2b0a6659e8e014ace1c3627"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.0.2"
+    },
+    "1.6.38" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.38",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.38.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.38.tgz",
+        "shasum" : "e5ae0a2d08a05bb194cf9e0c0641798eda4ea044"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.118",
+        "@types/node" : "^7.10.2",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.11",
+        "typescript" : "^2.9.2",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.38",
+      "gitHead" : "bf283df222ec54ec464a82234a26947f679edaac",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.38_1543799060376_0.18285730257320454"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.6.39" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.39",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.39.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.39.tgz",
+        "shasum" : "57dffd6b8008cfc429e1b8b3fcd32d77f6694ecf"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.118",
+        "@types/node" : "^7.10.2",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.11",
+        "typescript" : "^2.9.2",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.39",
+      "gitHead" : "c263df10ac12ab1279cc5954c7bfac9cb4343849",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.39_1543888057863_0.5143330301824525"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.4.12" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.4.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.4.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.4.12.tgz",
+        "shasum" : "6acf5bfc4da661b3235ddd9f91b7f3c25b3c3c25"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.4.12",
+      "gitHead" : "3aba5db580b0a94920ba25666aa248c6f9efa768",
+      "_shasum" : "6acf5bfc4da661b3235ddd9f91b7f3c25b3c3c25",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.36" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.36",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.36.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.36.tgz",
+        "shasum" : "78631076265d4ae3555c04f85e7d9d2f3a071a36"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.109",
+        "@types/node" : "^7.0.65",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.36",
+      "gitHead" : "a6523000e8b2fc1d9840acc49dbffff0f76f72fb",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.36_1536285672181_0.2729720093439738"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.6.37" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.37",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.37.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.37.tgz",
+        "shasum" : "12fda6f2abec26932fee91dcfeeec2da0ab759b9"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.109",
+        "@types/node" : "^7.0.65",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.37",
+      "gitHead" : "97950e9a611edf23133bca19d191dd28928426fe",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.37_1543795463735_0.24626922887510272"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.2.9" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.2.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.2.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.2.9.tgz",
+        "shasum" : "908ddda21ed1b08e1f25912da257e3299ebebd03"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.2.9"
+    },
+    "1.4.10" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.4.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.4.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.4.10.tgz",
+        "shasum" : "96f8b352b415b3dcbb71bf78363e56a0af80fa9f"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.4.10",
+      "gitHead" : "c04fa686a2c0ccf93d39dbc05def4a4fea0e2015",
+      "_shasum" : "96f8b352b415b3dcbb71bf78363e56a0af80fa9f",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.5" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.5.tgz",
+        "shasum" : "59fa4dd7f301b32d984cf4390fb636eefe3732fd"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.5",
+      "gitHead" : "4712e2364149ddcfe3594c64fe6f5672c5b1448e",
+      "_shasum" : "59fa4dd7f301b32d984cf4390fb636eefe3732fd",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.34" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.34",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.34.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.34.tgz",
+        "shasum" : "701affc8f0d73c490930a6b482dc23ed6ffc7484"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.109",
+        "@types/node" : "^7.0.65",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.34",
+      "gitHead" : "092c29dbc5288d6a041128f6c0a88af284a15bca",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.34_1533169020564_0.32006503723931234"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.4.11" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.4.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.4.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.4.11.tgz",
+        "shasum" : "e386809dca7ab1c299c981c8a7559cbe38362664"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.4.11",
+      "gitHead" : "4757fa78d0db131ab196b050fa3ddd1320a812bc",
+      "_shasum" : "e386809dca7ab1c299c981c8a7559cbe38362664",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.35" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.35",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.35.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.35.tgz",
+        "shasum" : "e093c3a50f63fb6bda0b5511c9425f1befcba74d"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.109",
+        "@types/node" : "^7.0.65",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.35",
+      "gitHead" : "ee602ccb7acaedc75f5b1a1df82820e4d839c1be",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.35_1535768335808_0.5440963069910689"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.6.7" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.7.tgz",
+        "shasum" : "dc0be9aa7c3c2150c064b0e5a058ac23501ffde3"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.7",
+      "gitHead" : "3ac9a71b863bb23f725a77c04e42f606c9a88264",
+      "_shasum" : "dc0be9aa7c3c2150c064b0e5a058ac23501ffde3",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.32" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.32",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.32.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.32.tgz",
+        "shasum" : "5867458b25ecd5bcb36b627c30bb501a13c07e89"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.109",
+        "@types/node" : "^7.0.65",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.32",
+      "gitHead" : "944c421631ed775e32f01b90a74d8f94ab5989f6",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.32_1530055980148_0.42649268840015964"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.6.8" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.8.tgz",
+        "shasum" : "ab3ac70aa2349b0caa8dfe014b6c66ae1c73ccd9"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.8",
+      "gitHead" : "bce61549f830ecb022d49c405ee52387f01081f8",
+      "_shasum" : "ab3ac70aa2349b0caa8dfe014b6c66ae1c73ccd9",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.33" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.33",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.33.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.33.tgz",
+        "shasum" : "6295b55e6010d2b2b4d234d32be93bfebddbba67"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.109",
+        "@types/node" : "^7.0.65",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.33",
+      "gitHead" : "cf6754e3ee8e447ca60430614d6e9a678a537f18",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.33_1533085840099_0.5340880595326885"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.6.9" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.9.tgz",
+        "shasum" : "6ec58774357892f1f7f1b9f5488becc11737294f"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.9",
+      "gitHead" : "9a07e3d2d0663197be6fd01ece256bae7b0efce0",
+      "_shasum" : "6ec58774357892f1f7f1b9f5488becc11737294f",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.30" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.30",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.30.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.30.tgz",
+        "shasum" : "7796f04acdd6ba56345f19049c8fffd427f09d16"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.109",
+        "@types/node" : "^7.0.65",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.30",
+      "gitHead" : "18be6e38e56bc8d2edcadf463698899b37c598fe",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.30_1527646306960_0.33502428505443604"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.6.31" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.31",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.31.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.31.tgz",
+        "shasum" : "6d7852486e67c642502dcc03f7225a245c9fc7fa"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.109",
+        "@types/node" : "^7.0.65",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.31",
+      "gitHead" : "178dd190121336aa18d95976d1e9f89af702dd00",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.31_1528424277906_0.6871956934367633"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.6.27" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.27",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.27.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.27.tgz",
+        "shasum" : "8e56c6f8b2dd6c4fe8d32102b83d4f25868e4b3a"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.64",
+        "@types/node" : "^7.0.22",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && node_modules/.bin/karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.27",
+      "gitHead" : "6bf73a7b84bec60b68c36059008ce69e4a598f48",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.27_1521412838304_0.24342242855763052"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.6.28" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.28",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.28.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.28.tgz",
+        "shasum" : "8cef0fda3ccde8759c2c66efcfacc35aea658283"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.64",
+        "@types/node" : "^7.0.22",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && node_modules/.bin/karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "5.7.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.28",
+      "gitHead" : "f4b839c473e1ac2dd72b370c26f9ea8963203c52",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.28_1523393448413_0.32117931572496783"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.6.25" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.25",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.25.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.25.tgz",
+        "shasum" : "1de45a9f57542ac20121c682f8d642220a34e823"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.64",
+        "@types/node" : "^7.0.22",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && node_modules/.bin/karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.25",
+      "gitHead" : "a0c10d68aae8f5df56a67b3e3eb353b428abf170",
+      "typings" : "./BigInteger.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer-1.6.25.tgz_1504748727289_0.9231066561769694"
+      },
+      "_shasum" : "1de45a9f57542ac20121c682f8d642220a34e823",
+      "_nodeVersion" : "6.10.3"
+    },
+    "1.6.26" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.26",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.26.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.26.tgz",
+        "shasum" : "3af1672fa62daf2d5ecafacf6e5aa0d25e02c1c8"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.64",
+        "@types/node" : "^7.0.22",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && node_modules/.bin/karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.26",
+      "gitHead" : "b1c6e0e95eca0a0d19ebbb9cc81ec492448a9e8a",
+      "typings" : "./BigInteger.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer-1.6.26.tgz_1510889021794_0.842821853235364"
+      },
+      "_shasum" : "3af1672fa62daf2d5ecafacf6e5aa0d25e02c1c8",
+      "_nodeVersion" : "6.10.3"
+    },
+    "1.6.23" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.23",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.23.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.23.tgz",
+        "shasum" : "e85d508220c74e3f43a4ce72eed51f3da4db94d1"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.64",
+        "@types/node" : "^7.0.22",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && node_modules/.bin/karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.23",
+      "gitHead" : "4d1e835ef70940154f2a11bf9285647471142e53",
+      "typings" : "./BigInteger.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer-1.6.23.tgz_1496279247548_0.4221919390838593"
+      },
+      "_shasum" : "e85d508220c74e3f43a4ce72eed51f3da4db94d1",
+      "_nodeVersion" : "6.10.3"
+    },
+    "1.6.24" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.24",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.24.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.24.tgz",
+        "shasum" : "1ed84d018ac3c1c72b307e7f7d94008e8ee20311"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.64",
+        "@types/node" : "^7.0.22",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.4",
+        "typescript" : "^2.3.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && node_modules/.bin/karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.24",
+      "gitHead" : "8ac5ef5b7c4abce8e943776fa2f18d3d41697988",
+      "typings" : "./BigInteger.d.ts",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer-1.6.24.tgz_1503027511676_0.881959781749174"
+      },
+      "_shasum" : "1ed84d018ac3c1c72b307e7f7d94008e8ee20311",
+      "_nodeVersion" : "6.10.3"
+    },
+    "1.6.21" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.21",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.21.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.21.tgz",
+        "shasum" : "ac7b4fd2d635d3cc7c337bf1bab9762e690e8e45"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.21",
+      "gitHead" : "441ca6ed02655abc778beb0baf07259f6912018e",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/big-integer-1.6.21.tgz_1492650768313_0.15313681541010737"
+      },
+      "_shasum" : "ac7b4fd2d635d3cc7c337bf1bab9762e690e8e45",
+      "_nodeVersion" : "6.9.4"
+    },
+    "1.6.22" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.22",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.22.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.22.tgz",
+        "shasum" : "487c95fce886022ea48ff5f19e388932df46dd2e"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.22",
+      "gitHead" : "40483b881b4380931e5af6f2f8a161b6caa71690",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/big-integer-1.6.22.tgz_1493091323169_0.5048394540790468"
+      },
+      "_shasum" : "487c95fce886022ea48ff5f19e388932df46dd2e",
+      "_nodeVersion" : "6.9.4"
+    },
+    "1.6.20" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.20",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.20.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.20.tgz",
+        "shasum" : "94d84320a7de3eda5e37af7913ffc961ac94997c"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.20",
+      "gitHead" : "40ac46ac1b29c70b2f8402d5646c8f467e5c0c11",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/big-integer-1.6.20.tgz_1492571519139_0.10141715663485229"
+      },
+      "_shasum" : "94d84320a7de3eda5e37af7913ffc961ac94997c",
+      "_nodeVersion" : "6.9.4"
+    },
+    "1.1.2" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.1.2.tgz",
+        "shasum" : "6c79c45268f76a08e69cd46f83d6e1260fbfed32"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.1.2"
+    },
+    "1.1.3" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.1.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.1.3.tgz",
+        "shasum" : "cca2150d745b1f517c35d9c4fe3c55fa3a457155"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.1.3"
+    },
+    "1.1.4" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.1.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.1.4.tgz",
+        "shasum" : "28186df9243ebabf01698a840712049f4132a42c"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.1.4"
+    },
+    "1.5.0" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.5.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.5.0.tgz",
+        "shasum" : "06b6e86b0f0e2f000c932d82d73a147438b4de88"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.5.0",
+      "gitHead" : "26a29f6f0d82e7dead64420c8438334c529f8256",
+      "_shasum" : "06b6e86b0f0e2f000c932d82d73a147438b4de88",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.1.5" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.1.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.1.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.1.5.tgz",
+        "shasum" : "8a90a7824038e78c9fca18ba810f3c87de76a1d8"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.1.5"
+    },
+    "1.5.1" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.5.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.5.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.5.1.tgz",
+        "shasum" : "f3ec8a34573bd299af6039a98ee699c05d96c3e6"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.5.1",
+      "gitHead" : "c04e48ae6ef3ed43942cff95256a0417cedfc502",
+      "_shasum" : "f3ec8a34573bd299af6039a98ee699c05d96c3e6",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.1.6" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.1.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.1.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.1.6.tgz",
+        "shasum" : "254385917a109d1a86cae3f722fc1c28a0e6ecf5"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.1.6"
+    },
+    "1.5.2" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.5.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.5.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.5.2.tgz",
+        "shasum" : "7ff72d69b659318ae5f97225a76ead56ca66e4a0"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.5.2",
+      "gitHead" : "3aba5db580b0a94920ba25666aa248c6f9efa768",
+      "_shasum" : "7ff72d69b659318ae5f97225a76ead56ca66e4a0",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.1.7" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.1.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.1.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.1.7.tgz",
+        "shasum" : "54759395810baf9c330195dbbf23baef00ffcf76"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.1.7"
+    },
+    "1.5.3" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.5.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.5.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.5.3.tgz",
+        "shasum" : "96ed62c5f9f746efd0c157c43dc0168f43057187"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.5.3",
+      "gitHead" : "b5a66453f1f5ee0b62fbebabdfc89d2afcf96afc",
+      "_shasum" : "96ed62c5f9f746efd0c157c43dc0168f43057187",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.1.8" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.1.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.1.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.1.8.tgz",
+        "shasum" : "4bb150e4bc5388c5603ad228406feefc8fd379c0"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.1.8"
+    },
+    "1.5.4" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.5.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.5.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.5.4.tgz",
+        "shasum" : "5aa3d71c2df4f1ac60336cda440a49408a519c42"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.5.4",
+      "gitHead" : "f5fe2ea49b004bfbc57de191db4aed6613710078",
+      "_shasum" : "5aa3d71c2df4f1ac60336cda440a49408a519c42",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.5.5" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.5.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.5.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.5.5.tgz",
+        "shasum" : "02b2fc4f957639723adc8bbfad216d049d568648"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x"
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jasmine"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.5.5",
+      "gitHead" : "a3ba13986bbdd3e86e8d8e04a3a97a61af3e63c1",
+      "_shasum" : "02b2fc4f957639723adc8bbfad216d049d568648",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.1.0" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.1.0.tgz",
+        "shasum" : "bae8d0a196d570f97d5e6d5339ac17fc3b2f3260"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.1.0"
+    },
+    "1.1.1" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.1.1.tgz",
+        "shasum" : "eea758cd4fe9d0c257517d9ae9fc79c02aad7921"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_id" : "big-integer@1.1.1"
+    },
+    "1.2.14" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.2.14",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.2.14.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.2.14.tgz",
+        "shasum" : "81521ff835a991212f8af9daa803e394c56dc422"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.2.14"
+    },
+    "1.2.11" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.2.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.2.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.2.11.tgz",
+        "shasum" : "32c66dbef1472e3c5ce87ebc0e796267a75105ae"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.2.11"
+    },
+    "1.2.10" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.2.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.2.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.2.10.tgz",
+        "shasum" : "aae0d020d9398241d9aea2599b6125029532c0b6"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.2.10"
+    },
+    "1.2.13" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.2.13",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.2.13.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.2.13.tgz",
+        "shasum" : "6f55f3ed7eb7564314420a706fdd3492a0e30626"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.2.13"
+    },
+    "1.2.12" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.2.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.2.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.2.12.tgz",
+        "shasum" : "661a8e10c1123100e886fa7fb8cf38fe5e0f2400"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.2.12"
+    },
+    "1.6.47" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.47",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.47.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.47.tgz",
+        "shasum" : "e1e9320e26c4cc81f64fbf4b3bb20e025bf18e2d"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.118",
+        "@types/node" : "^7.10.2",
+        "coveralls" : "^3.0.6",
+        "jasmine" : "3.5.0",
+        "jasmine-core" : "^3.5.0",
+        "karma" : "^4.3.0",
+        "karma-cli" : "^2.0.0",
+        "karma-coverage" : "^2.0.1",
+        "karma-jasmine" : "^2.0.1",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.11",
+        "typescript" : "^3.6.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.47",
+      "gitHead" : "c012f0af01846b3de0d54fe0075f4c6e037fe412",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.47_1570258169327_0.4196155431175548"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.6.48" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.48",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.48.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.48.tgz",
+        "shasum" : "8fd88bd1632cba4a1c8c3e3d7159f08bb95b4b9e"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.118",
+        "@types/node" : "^7.10.2",
+        "coveralls" : "^3.0.6",
+        "jasmine" : "3.5.0",
+        "jasmine-core" : "^3.5.0",
+        "karma" : "^4.3.0",
+        "karma-cli" : "^2.0.0",
+        "karma-coverage" : "^2.0.1",
+        "karma-jasmine" : "^2.0.1",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.11",
+        "typescript" : "^3.6.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.48",
+      "gitHead" : "67a715c917bd0eb0c106c45935b889269a24dcef",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.48_1573453376015_0.8123264160209147"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.6.45" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.45",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.45.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.45.tgz",
+        "shasum" : "1bf2fa1271bfd20d4c52c3d6c6f08cab8d91c77e"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.118",
+        "@types/node" : "^7.10.2",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.11",
+        "typescript" : "^3.6.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.45",
+      "gitHead" : "4e99b15b7951338f164728377c906caae5a78202",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.45_1568737952289_0.8211693650800211"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.6.46" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.46",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.46.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.46.tgz",
+        "shasum" : "e18a75f0515be0f3ad10c0d110e37fa882b3f223"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.118",
+        "@types/node" : "^7.10.2",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.11",
+        "typescript" : "^3.6.3",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.46",
+      "gitHead" : "d7f4ea63df949c0a1f2f53d1b3c14d7dc393a8d8",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.46_1569815131264_0.012774074748082676"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.6.43" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.43",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.43.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.43.tgz",
+        "shasum" : "8ac15bf13e93e509500859061233e19d8d0d99d1"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.118",
+        "@types/node" : "^7.10.2",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.11",
+        "typescript" : "^2.9.2",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.8.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.43",
+      "gitHead" : "2e0619371f90aedb8e44cb3ab983b18a5ac699aa",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.43_1553221932997_0.9036191409173484"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.6.44" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.44",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.44.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.44.tgz",
+        "shasum" : "4ee9ae5f5839fc11ade338fea216b4513454a539"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.118",
+        "@types/node" : "^7.10.2",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.11",
+        "typescript" : "^2.9.2",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.44",
+      "gitHead" : "825bdbd626191f64642d201c11f19b498cb80f83",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.44_1560263397911_0.46793448557247586"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.6.41" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.41",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.41.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.41.tgz",
+        "shasum" : "6fb0e51bc8661129ef3832d46c939170b81ca794"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.118",
+        "@types/node" : "^7.10.2",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.11",
+        "typescript" : "^2.9.2",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.41",
+      "gitHead" : "38b0773e2db34de1dedf89bddbb01da8a92ceac8",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.41_1548200359134_0.2160386501168181"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.6.42" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.42",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.42.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.42.tgz",
+        "shasum" : "91623ae5ceeff9a47416c56c9440a66f12f534f1"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.118",
+        "@types/node" : "^7.10.2",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.11",
+        "typescript" : "^2.9.2",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.42",
+      "gitHead" : "790436fb2498a5225a4b32db39e7dbf879cd4072",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.42_1550880122959_0.5514082898192827"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.6.40" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.40",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.40.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.40.tgz",
+        "shasum" : "02e4cd4d6e266c4d9ece2469c05cb6439149fc78"
+      },
+      "devDependencies" : {
+        "@types/lodash" : "^4.14.118",
+        "@types/node" : "^7.10.2",
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.22",
+        "karma-cli" : "^1.0.1",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "^1.0.4",
+        "lodash" : "^4.17.11",
+        "typescript" : "^2.9.2",
+        "uglifyjs" : "^2.4.10"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "tsc && karma start my.conf.js && node spec/tsDefinitions.js",
+        "minify" : "uglifyjs BigInteger.js -o BigInteger.min.js"
+      },
+      "_npmVersion" : "6.0.0",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.40",
+      "gitHead" : "5403791730a132d9446860b553f7cb5abcd63f56",
+      "typings" : "./BigInteger.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/big-integer_1.6.40_1543964667078_0.8550102763845058"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.6.0" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.0.tgz",
+        "shasum" : "75a3a493722598be6de2b04c93c2966430c54e8d"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.0",
+      "gitHead" : "5cbae5ba16ecd4c5e6149e31f88cf7c78bc39256",
+      "_shasum" : "75a3a493722598be6de2b04c93c2966430c54e8d",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.1" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.1.tgz",
+        "shasum" : "1c08ae28a50084f4dcefacf6b608be37552144b5"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.1",
+      "gitHead" : "3231b6962c5b13f730ae5dc3a859a037a1f05e88",
+      "_shasum" : "1c08ae28a50084f4dcefacf6b608be37552144b5",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.2" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.2.tgz",
+        "shasum" : "d5d167621a8f5d0d3f4792992a6194fdb7cc3c51"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.2",
+      "gitHead" : "1a53bca5fd9e26eb45330b1829c9afc7dfacd8e3",
+      "_shasum" : "d5d167621a8f5d0d3f4792992a6194fdb7cc3c51",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.6.3" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.3.tgz",
+        "shasum" : "ebf0939f4d077e120a8a50d8d06a8d672ee8e776"
+      },
+      "devDependencies" : {
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.3",
+      "gitHead" : "0d2573263ad174d406687a4a69ab11dc4861e6e7",
+      "_shasum" : "ebf0939f4d077e120a8a50d8d06a8d672ee8e776",
+      "_nodeVersion" : "0.12.3"
+    },
+    "1.2.8" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.2.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git@github.com:peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.2.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.2.8.tgz",
+        "shasum" : "a08d194276864c490bacb9462fbf056ffccbbc0a"
+      },
+      "dependencies" : {
+      },
+      "license" : "WTFPL",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.24",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.2.8"
+    },
+    "1.6.4" : {
+      "name" : "big-integer",
+      "description" : "An arbitrary length integer library for Javascript",
+      "version" : "1.6.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+      },
+      "engines" : {
+        "node" : ">=0.6"
+      },
+      "main" : "./BigInteger",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/big-integer/-/big-integer-1.6.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbig-integer%2F-%2Fbig-integer-1.6.4.tgz",
+        "shasum" : "085f9811bc4fb436ce57b3647ed029d8ba337432"
+      },
+      "devDependencies" : {
+        "coveralls" : "^2.11.4",
+        "jasmine" : "2.1.x",
+        "jasmine-core" : "^2.3.4",
+        "karma" : "^0.13.3",
+        "karma-coverage" : "^0.4.2",
+        "karma-jasmine" : "^0.3.6",
+        "karma-phantomjs-launcher" : "~0.1"
+      },
+      "license" : "Unlicense",
+      "bin" : {
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "karma start my.conf.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "peterolson",
+        "email" : "peter.e.c.olson+npm@gmail.com"
+      },
+      "_id" : "big-integer@1.6.4",
+      "gitHead" : "fb2be903bf0d06648ac54d3954d5112a8489e66e",
+      "_shasum" : "085f9811bc4fb436ce57b3647ed029d8ba337432",
+      "_nodeVersion" : "0.12.3"
+    }
+  },
+  "readme" : "# BigInteger.js [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url] [![Monthly Downloads][downloads-img]][downloads-url]\r\n\r\n[travis-url]: https://travis-ci.org/peterolson/BigInteger.js\r\n[travis-img]: https://travis-ci.org/peterolson/BigInteger.js.svg?branch=master\r\n[coveralls-url]: https://coveralls.io/github/peterolson/BigInteger.js?branch=master\r\n[coveralls-img]: https://coveralls.io/repos/peterolson/BigInteger.js/badge.svg?branch=master&service=github\r\n[downloads-url]: https://www.npmjs.com/package/big-integer\r\n[downloads-img]: https://img.shields.io/npm/dm/big-integer.svg\r\n\r\n**BigInteger.js** is an arbitrary-length integer library for Javascript, allowing arithmetic operations on integers of unlimited size, notwithstanding memory and time limitations.\r\n\r\n**Update (December 2, 2018):** [`BigInt` is being added as a native feature of JavaScript](https://tc39.github.io/proposal-bigint/). This library now works as a polyfill: if the environment supports the native `BigInt`, this library acts as a thin wrapper over the native implementation.\r\n\r\n## Installation\r\n\r\nIf you are using a browser, you can download [BigInteger.js from GitHub](http://peterolson.github.com/BigInteger.js/BigInteger.min.js) or just hotlink to it:\r\n\r\n\t<script src=\"https://peterolson.github.io/BigInteger.js/BigInteger.min.js\"></script>\r\n\r\nIf you are using node, you can install BigInteger with [npm](https://npmjs.org/).\r\n\r\n    npm install big-integer\r\n\r\nThen you can include it in your code:\r\n\r\n\tvar bigInt = require(\"big-integer\");\r\n\r\n\r\n## Usage\r\n### `bigInt(number, [base], [alphabet], [caseSensitive])`\r\n\r\nYou can create a bigInt by calling the `bigInt` function. You can pass in\r\n\r\n - a string, which it will parse as an bigInt and throw an `\"Invalid integer\"` error if the parsing fails.\r\n - a Javascript number, which it will parse as an bigInt and throw an `\"Invalid integer\"` error if the parsing fails.\r\n - another bigInt.\r\n - nothing, and it will return `bigInt.zero`.\r\n\r\n If you provide a second parameter, then it will parse `number` as a number in base `base`. Note that `base` can be any bigInt (even negative or zero). The letters \"a-z\" and \"A-Z\" will be interpreted as the numbers 10 to 35. Higher digits can be specified in angle brackets (`<` and `>`). The default `base` is `10`.\r\n\r\n You can specify a custom alphabet for base conversion with the third parameter. The default `alphabet` is `\"0123456789abcdefghijklmnopqrstuvwxyz\"`.\r\n\r\n The fourth parameter specifies whether or not the number string should be case-sensitive, i.e. whether `a` and `A` should be treated as different digits. By default `caseSensitive` is `false`.\r\n\r\nExamples:\r\n\r\n    var zero = bigInt();\r\n    var ninetyThree = bigInt(93);\r\n\tvar largeNumber = bigInt(\"75643564363473453456342378564387956906736546456235345\");\r\n\tvar googol = bigInt(\"1e100\");\r\n\tvar bigNumber = bigInt(largeNumber);\r\n\r\n\tvar maximumByte = bigInt(\"FF\", 16);\r\n\tvar fiftyFiveGoogol = bigInt(\"<55>0\", googol);\r\n\r\nNote that Javascript numbers larger than `9007199254740992` and smaller than `-9007199254740992` are not precisely represented numbers and will not produce exact results. If you are dealing with numbers outside that range, it is better to pass in strings.\r\n\r\n### Method Chaining\r\n\r\nNote that bigInt operations return bigInts, which allows you to chain methods, for example:\r\n\r\n    var salary = bigInt(dollarsPerHour).times(hoursWorked).plus(randomBonuses)\r\n\r\n### Constants\r\n\r\nThere are three named constants already stored that you do not have to construct with the `bigInt` function yourself:\r\n\r\n - `bigInt.one`, equivalent to `bigInt(1)`\r\n - `bigInt.zero`, equivalent to `bigInt(0)`\r\n - `bigInt.minusOne`, equivalent to `bigInt(-1)`\r\n\r\nThe numbers from -999 to 999 are also already prestored and can be accessed using `bigInt[index]`, for example:\r\n\r\n - `bigInt[-999]`, equivalent to `bigInt(-999)`\r\n - `bigInt[256]`, equivalent to `bigInt(256)`\r\n\r\n### Methods\r\n\r\n#### `abs()`\r\n\r\nReturns the absolute value of a bigInt.\r\n\r\n - `bigInt(-45).abs()` => `45`\r\n - `bigInt(45).abs()` => `45`\r\n\r\n#### `add(number)`\r\n\r\nPerforms addition.\r\n\r\n - `bigInt(5).add(7)` => `12`\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Addition)\r\n\r\n#### `and(number)`\r\n\r\nPerforms the bitwise AND operation. The operands are treated as if they were represented using [two's complement representation](http://en.wikipedia.org/wiki/Two%27s_complement).\r\n\r\n - `bigInt(6).and(3)` => `2`\r\n - `bigInt(6).and(-3)` => `4`\r\n\r\n#### `bitLength()`\r\n\r\nReturns the number of digits required to represent a bigInt in binary.\r\n\r\n - `bigInt(5)` => `3` (since 5 is `101` in binary, which is three digits long)\r\n\r\n#### `compare(number)`\r\n\r\nPerforms a comparison between two numbers. If the numbers are equal, it returns `0`. If the first number is greater, it returns `1`. If the first number is lesser, it returns `-1`.\r\n\r\n - `bigInt(5).compare(5)` => `0`\r\n - `bigInt(5).compare(4)` => `1`\r\n - `bigInt(4).compare(5)` => `-1`\r\n\r\n#### `compareAbs(number)`\r\n\r\nPerforms a comparison between the absolute value of two numbers.\r\n\r\n - `bigInt(5).compareAbs(-5)` => `0`\r\n - `bigInt(5).compareAbs(4)` => `1`\r\n - `bigInt(4).compareAbs(-5)` => `-1`\r\n\r\n#### `compareTo(number)`\r\n\r\nAlias for the `compare` method.\r\n\r\n#### `divide(number)`\r\n\r\nPerforms integer division, disregarding the remainder.\r\n\r\n - `bigInt(59).divide(5)` => `11`\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Division)\r\n\r\n#### `divmod(number)`\r\n\r\nPerforms division and returns an object with two properties: `quotient` and `remainder`. The sign of the remainder will match the sign of the dividend.\r\n\r\n - `bigInt(59).divmod(5)` => `{quotient: bigInt(11), remainder: bigInt(4) }`\r\n - `bigInt(-5).divmod(2)` => `{quotient: bigInt(-2), remainder: bigInt(-1) }`\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Division)\r\n\r\n#### `eq(number)`\r\n\r\nAlias for the `equals` method.\r\n\r\n#### `equals(number)`\r\n\r\nChecks if two numbers are equal.\r\n\r\n - `bigInt(5).equals(5)` => `true`\r\n - `bigInt(4).equals(7)` => `false`\r\n\r\n#### `geq(number)`\r\n\r\nAlias for the `greaterOrEquals` method.\r\n\r\n\r\n#### `greater(number)`\r\n\r\nChecks if the first number is greater than the second.\r\n\r\n - `bigInt(5).greater(6)` => `false`\r\n - `bigInt(5).greater(5)` => `false`\r\n - `bigInt(5).greater(4)` => `true`\r\n\r\n#### `greaterOrEquals(number)`\r\n\r\nChecks if the first number is greater than or equal to the second.\r\n\r\n - `bigInt(5).greaterOrEquals(6)` => `false`\r\n - `bigInt(5).greaterOrEquals(5)` => `true`\r\n - `bigInt(5).greaterOrEquals(4)` => `true`\r\n\r\n#### `gt(number)`\r\n\r\nAlias for the `greater` method.\r\n\r\n#### `isDivisibleBy(number)`\r\n\r\nReturns `true` if the first number is divisible by the second number, `false` otherwise.\r\n\r\n - `bigInt(999).isDivisibleBy(333)` => `true`\r\n - `bigInt(99).isDivisibleBy(5)` => `false`\r\n\r\n#### `isEven()`\r\n\r\nReturns `true` if the number is even, `false` otherwise.\r\n\r\n - `bigInt(6).isEven()` => `true`\r\n - `bigInt(3).isEven()` => `false`\r\n\r\n#### `isNegative()`\r\n\r\nReturns `true` if the number is negative, `false` otherwise.\r\nReturns `false` for `0` and `-0`.\r\n\r\n - `bigInt(-23).isNegative()` => `true`\r\n - `bigInt(50).isNegative()` => `false`\r\n\r\n#### `isOdd()`\r\n\r\nReturns `true` if the number is odd, `false` otherwise.\r\n\r\n - `bigInt(13).isOdd()` => `true`\r\n - `bigInt(40).isOdd()` => `false`\r\n\r\n#### `isPositive()`\r\n\r\nReturn `true` if the number is positive, `false` otherwise.\r\nReturns `false` for `0` and `-0`.\r\n\r\n - `bigInt(54).isPositive()` => `true`\r\n - `bigInt(-1).isPositive()` => `false`\r\n\r\n#### `isPrime()`\r\n\r\nReturns `true` if the number is prime, `false` otherwise.\r\n\r\n - `bigInt(5).isPrime()` => `true`\r\n - `bigInt(6).isPrime()` => `false`\r\n\r\n#### `isProbablePrime([iterations], [rng])`\r\n\r\nReturns `true` if the number is very likely to be prime, `false` otherwise.\r\nSupplying `iterations` is optional - it determines the number of iterations of the test (default: `5`). The more iterations, the lower chance of getting a false positive.\r\nThis uses the [Miller Rabin test](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test).\r\n\r\n - `bigInt(5).isProbablePrime()` => `true`\r\n - `bigInt(49).isProbablePrime()` => `false`\r\n - `bigInt(1729).isProbablePrime()` => `false`\r\n\r\nNote that this function is not deterministic, since it relies on random sampling of factors, so the result for some numbers is not always the same - unless you pass a predictable random number generator as `rng`. The behavior and requirements are the same as with `randBetween`.\r\n\r\n - `bigInt(1729).isProbablePrime(1, () => 0.1)` => `false`\r\n - `bigInt(1729).isProbablePrime(1, () => 0.2)` => `true`\r\n\r\nIf the number is composite then the Miller–Rabin primality test declares the number probably prime with a probability at most `4` to the power `−iterations`.\r\nIf the number is prime, this function always returns `true`.\r\n\r\n#### `isUnit()`\r\n\r\nReturns `true` if the number is `1` or `-1`, `false` otherwise.\r\n\r\n - `bigInt.one.isUnit()` => `true`\r\n - `bigInt.minusOne.isUnit()` => `true`\r\n - `bigInt(5).isUnit()` => `false`\r\n\r\n#### `isZero()`\r\n\r\nReturn `true` if the number is `0` or `-0`, `false` otherwise.\r\n\r\n - `bigInt.zero.isZero()` => `true`\r\n - `bigInt(\"-0\").isZero()` => `true`\r\n - `bigInt(50).isZero()` => `false`\r\n\r\n#### `leq(number)`\r\n\r\nAlias for the `lesserOrEquals` method.\r\n\r\n#### `lesser(number)`\r\n\r\nChecks if the first number is lesser than the second.\r\n\r\n - `bigInt(5).lesser(6)` => `true`\r\n - `bigInt(5).lesser(5)` => `false`\r\n - `bigInt(5).lesser(4)` => `false`\r\n\r\n#### `lesserOrEquals(number)`\r\n\r\nChecks if the first number is less than or equal to the second.\r\n\r\n - `bigInt(5).lesserOrEquals(6)` => `true`\r\n - `bigInt(5).lesserOrEquals(5)` => `true`\r\n - `bigInt(5).lesserOrEquals(4)` => `false`\r\n\r\n#### `lt(number)`\r\n\r\nAlias for the `lesser` method.\r\n\r\n#### `minus(number)`\r\n\r\nAlias for the `subtract` method.\r\n\r\n - `bigInt(3).minus(5)` => `-2`\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Subtraction)\r\n\r\n#### `mod(number)`\r\n\r\nPerforms division and returns the remainder, disregarding the quotient. The sign of the remainder will match the sign of the dividend.\r\n\r\n - `bigInt(59).mod(5)` =>  `4`\r\n - `bigInt(-5).mod(2)` => `-1`\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Division)\r\n\r\n#### `modInv(mod)`\r\n\r\nFinds the [multiplicative inverse](https://en.wikipedia.org/wiki/Modular_multiplicative_inverse) of the number modulo `mod`.\r\n\r\n - `bigInt(3).modInv(11)` => `4`\r\n - `bigInt(42).modInv(2017)` => `1969`\r\n\r\n#### `modPow(exp, mod)`\r\n\r\nTakes the number to the power `exp` modulo `mod`.\r\n\r\n - `bigInt(10).modPow(3, 30)` => `10`\r\n\r\n#### `multiply(number)`\r\n\r\nPerforms multiplication.\r\n\r\n - `bigInt(111).multiply(111)` => `12321`\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Multiplication)\r\n\r\n#### `neq(number)`\r\n\r\nAlias for the `notEquals` method.\r\n\r\n#### `next()`\r\n\r\nAdds one to the number.\r\n\r\n - `bigInt(6).next()` => `7`\r\n\r\n#### `not()`\r\n\r\nPerforms the bitwise NOT operation. The operands are treated as if they were represented using [two's complement representation](http://en.wikipedia.org/wiki/Two%27s_complement).\r\n\r\n - `bigInt(10).not()` => `-11`\r\n - `bigInt(0).not()` => `-1`\r\n\r\n#### `notEquals(number)`\r\n\r\nChecks if two numbers are not equal.\r\n\r\n - `bigInt(5).notEquals(5)` => `false`\r\n - `bigInt(4).notEquals(7)` => `true`\r\n\r\n#### `or(number)`\r\n\r\nPerforms the bitwise OR operation. The operands are treated as if they were represented using [two's complement representation](http://en.wikipedia.org/wiki/Two%27s_complement).\r\n\r\n - `bigInt(13).or(10)` => `15`\r\n - `bigInt(13).or(-8)` => `-3`\r\n\r\n#### `over(number)`\r\n\r\nAlias for the `divide` method.\r\n\r\n - `bigInt(59).over(5)` => `11`\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Division)\r\n\r\n#### `plus(number)`\r\n\r\nAlias for the `add` method.\r\n\r\n - `bigInt(5).plus(7)` => `12`\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Addition)\r\n\r\n#### `pow(number)`\r\n\r\nPerforms exponentiation. If the exponent is less than `0`, `pow` returns `0`. `bigInt.zero.pow(0)` returns `1`.\r\n\r\n - `bigInt(16).pow(16)` => `18446744073709551616`\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Exponentiation)\r\n\r\n#### `prev(number)`\r\n\r\nSubtracts one from the number.\r\n\r\n - `bigInt(6).prev()` => `5`\r\n\r\n#### `remainder(number)`\r\n\r\nAlias for the `mod` method.\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Division)\r\n\r\n#### `shiftLeft(n)`\r\n\r\nShifts the number left by `n` places in its binary representation. If a negative number is provided, it will shift right. Throws an error if `n` is outside of the range `[-9007199254740992, 9007199254740992]`.\r\n\r\n - `bigInt(8).shiftLeft(2)` => `32`\r\n - `bigInt(8).shiftLeft(-2)` => `2`\r\n\r\n#### `shiftRight(n)`\r\n\r\nShifts the number right by `n` places in its binary representation. If a negative number is provided, it will shift left. Throws an error if `n` is outside of the range `[-9007199254740992, 9007199254740992]`.\r\n\r\n - `bigInt(8).shiftRight(2)` => `2`\r\n - `bigInt(8).shiftRight(-2)` => `32`\r\n\r\n#### `square()`\r\n\r\nSquares the number\r\n\r\n - `bigInt(3).square()` => `9`\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Squaring)\r\n\r\n#### `subtract(number)`\r\n\r\nPerforms subtraction.\r\n\r\n - `bigInt(3).subtract(5)` => `-2`\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Subtraction)\r\n\r\n#### `times(number)`\r\n\r\nAlias for the `multiply` method.\r\n\r\n - `bigInt(111).times(111)` => `12321`\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Multiplication)\r\n\r\n#### `toArray(radix)`\r\n\r\nConverts a bigInt into an object with the properties \"value\" and \"isNegative.\" \"Value\" is an array of integers modulo the given radix. \"isNegative\" is a boolean that represents the sign of the result.\r\n\r\n - `bigInt(\"1e9\").toArray(10)` => {\r\n     value: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],\r\n     isNegative: false\r\n   }\r\n - `bigInt(\"1e9\").toArray(16)` => {\r\n     value: [3, 11, 9, 10, 12, 10, 0, 0],\r\n     isNegative: false\r\n   }\r\n - `bigInt(567890).toArray(100)` => {\r\n     value: [56, 78, 90],\r\n     isNegative: false\r\n   }\r\n\r\nNegative bases are supported.\r\n\r\n - `bigInt(12345).toArray(-10)` => {\r\n     value: [2, 8, 4, 6, 5],\r\n     isNegative: false\r\n   }\r\n\r\nBase 1 and base -1 are also supported.\r\n\r\n - `bigInt(-15).toArray(1)` => {\r\n     value: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],\r\n     isNegative: true\r\n   }\r\n - `bigInt(-15).toArray(-1)` => {\r\n     value: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1,\r\n             0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],\r\n     isNegative: false\r\n   }\r\n\r\nBase 0 is only allowed for the number zero.\r\n\r\n - `bigInt(0).toArray(0)` => {\r\n     value: [0],\r\n     isNegative: false\r\n   }\r\n - `bigInt(1).toArray(0)` => `Error: Cannot convert nonzero numbers to base 0.`\r\n\r\n#### `toJSNumber()`\r\n\r\nConverts a bigInt into a native Javascript number. Loses precision for numbers outside the range `[-9007199254740992, 9007199254740992]`.\r\n\r\n - `bigInt(\"18446744073709551616\").toJSNumber()` => `18446744073709552000`\r\n\r\n#### `xor(number)`\r\n\r\nPerforms the bitwise XOR operation. The operands are treated as if they were represented using [two's complement representation](http://en.wikipedia.org/wiki/Two%27s_complement).\r\n\r\n - `bigInt(12).xor(5)` => `9`\r\n - `bigInt(12).xor(-5)` => `-9`\r\n\r\n### Static Methods\r\n\r\n#### `fromArray(digits, base = 10, isNegative?)`\r\n\r\nConstructs a bigInt from an array of digits in base `base`. The optional `isNegative` flag will make the number negative.\r\n\r\n - `bigInt.fromArray([1, 2, 3, 4, 5], 10)` => `12345`\r\n - `bigInt.fromArray([1, 0, 0], 2, true)` => `-4`\r\n\r\n#### `gcd(a, b)`\r\n\r\nFinds the greatest common denominator of `a` and `b`.\r\n\r\n - `bigInt.gcd(42,56)` => `14`\r\n\r\n#### `isInstance(x)`\r\n\r\nReturns `true` if `x` is a BigInteger, `false` otherwise.\r\n\r\n - `bigInt.isInstance(bigInt(14))` => `true`\r\n - `bigInt.isInstance(14)` => `false`\r\n\r\n#### `lcm(a,b)`\r\n\r\nFinds the least common multiple of `a` and `b`.\r\n\r\n - `bigInt.lcm(21, 6)` => `42`\r\n\r\n#### `max(a,b)`\r\n\r\nReturns the largest of `a` and `b`.\r\n\r\n - `bigInt.max(77, 432)` => `432`\r\n\r\n#### `min(a,b)`\r\n\r\nReturns the smallest of `a` and `b`.\r\n\r\n - `bigInt.min(77, 432)` => `77`\r\n\r\n#### `randBetween(min, max, [rng])`\r\n\r\nReturns a random number between `min` and `max`, optionally using `rng` to generate randomness.\r\n\r\n - `bigInt.randBetween(\"-1e100\", \"1e100\")` => (for example) `8494907165436643479673097939554427056789510374838494147955756275846226209006506706784609314471378745`\r\n\r\n`rng` should take no arguments and return a `number` between 0 and 1. It defaults to `Math.random`.\r\n\r\n  - `bigInt.randBetween(\"-1e100\", \"1e100\", () => 0.5)` => (always) `50000005000000500000050000005000000500000050000005000000500000050000005000000500000050000005000000`\r\n\r\n\r\n### Override Methods\r\n\r\n#### `toString(radix = 10, [alphabet])`\r\n\r\nConverts a bigInt to a string. There is an optional radix parameter (which defaults to 10) that converts the number to the given radix. Digits in the range `10-35` will use the letters `a-z`.\r\n\r\n - `bigInt(\"1e9\").toString()` => `\"1000000000\"`\r\n - `bigInt(\"1e9\").toString(16)` => `\"3b9aca00\"`\r\n\r\n You can use a custom base alphabet with the second parameter. The default `alphabet` is `\"0123456789abcdefghijklmnopqrstuvwxyz\"`.\r\n\r\n  - `bigInt(\"5\").toString(2, \"aA\")` => `\"AaA\"`\r\n\r\n**Note that arithmetical operators will trigger the `valueOf` function rather than the `toString` function.** When converting a bigInteger to a string, you should use the `toString` method or the `String` function instead of adding the empty string.\r\n\r\n - `bigInt(\"999999999999999999\").toString()` => `\"999999999999999999\"`\r\n - `String(bigInt(\"999999999999999999\"))` => `\"999999999999999999\"`\r\n - `bigInt(\"999999999999999999\") + \"\"` => `1000000000000000000`\r\n\r\nBases larger than 36 are supported. If a digit is greater than or equal to 36, it will be enclosed in angle brackets.\r\n\r\n - `bigInt(567890).toString(100)` => `\"<56><78><90>\"`\r\n\r\nNegative bases are also supported.\r\n\r\n - `bigInt(12345).toString(-10)` => `\"28465\"`\r\n\r\nBase 1 and base -1 are also supported.\r\n\r\n - `bigInt(-15).toString(1)` => `\"-111111111111111\"`\r\n - `bigInt(-15).toString(-1)` => `\"101010101010101010101010101010\"`\r\n\r\nBase 0 is only allowed for the number zero.\r\n\r\n - `bigInt(0).toString(0)` => `0`\r\n - `bigInt(1).toString(0)` => `Error: Cannot convert nonzero numbers to base 0.`\r\n\r\n[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#toString)\r\n\r\n#### `valueOf()`\r\n\r\nConverts a bigInt to a native Javascript number. This override allows you to use native arithmetic operators without explicit conversion:\r\n\r\n - `bigInt(\"100\") + bigInt(\"200\") === 300; //true`\r\n\r\n## Contributors\r\n\r\nTo contribute, just fork the project, make some changes, and submit a pull request. Please verify that the unit tests pass before submitting.\r\n\r\nThe unit tests are contained in the `spec/spec.js` file. You can run them locally by opening the `spec/SpecRunner.html` or file or running `npm test`. You can also [run the tests online from GitHub](http://peterolson.github.io/BigInteger.js/spec/SpecRunner.html).\r\n\r\nThere are performance benchmarks that can be viewed from the `benchmarks/index.html` page. You can [run them online from GitHub](http://peterolson.github.io/BigInteger.js/benchmark/).\r\n\r\n## License\r\n\r\nThis project is public domain. For more details, read about the [Unlicense](http://unlicense.org/).\r\n",
+  "time" : {
+    "1.4.7" : "2015-06-23T08:03:26.189Z",
+    "1.4.8" : "2015-06-23T08:27:51.793Z",
+    "1.4.9" : "2015-06-24T02:13:09.414Z",
+    "1.6.18" : "2017-04-02T01:19:12.310Z",
+    "1.6.19" : "2017-04-02T01:24:18.526Z",
+    "1.6.16" : "2016-09-12T07:25:52.029Z",
+    "1.6.17" : "2016-11-09T19:53:24.975Z",
+    "1.6.14" : "2016-04-05T02:39:12.077Z",
+    "1.6.15" : "2016-04-08T01:33:51.595Z",
+    "1.5.6" : "2015-08-03T06:23:53.219Z",
+    "1.6.12" : "2016-02-17T09:53:26.470Z",
+    "1.5.7" : "2015-09-22T02:21:41.956Z",
+    "1.6.13" : "2016-03-30T01:27:18.586Z",
+    "1.6.10" : "2016-01-04T03:31:51.765Z",
+    "1.3.20" : "2014-12-30T16:49:51.604Z",
+    "1.6.11" : "2016-01-27T01:47:30.423Z",
+    "1.3.19" : "2014-12-18T20:30:22.879Z",
+    "1.3.16" : "2014-10-08T19:57:03.593Z",
+    "1.3.15" : "2014-10-05T05:37:37.988Z",
+    "1.3.18" : "2014-11-15T02:45:50.535Z",
+    "1.3.17" : "2014-10-11T02:14:06.823Z",
+    "1.3.14" : "2014-10-04T20:47:29.820Z",
+    "1.0.3" : "2013-01-11T18:46:49.531Z",
+    "1.0.4" : "2013-01-11T22:12:26.437Z",
+    "1.4.0" : "2015-01-11T17:54:22.800Z",
+    "1.0.5" : "2013-01-12T19:49:11.866Z",
+    "1.4.1" : "2015-01-11T18:00:37.988Z",
+    "1.0.6" : "2013-01-12T20:25:26.576Z",
+    "1.0.7" : "2013-01-13T03:05:59.004Z",
+    "1.4.3" : "2015-02-01T18:35:44.793Z",
+    "1.4.4" : "2015-02-07T16:11:57.303Z",
+    "1.4.5" : "2015-05-20T18:56:33.408Z",
+    "1.4.6" : "2015-06-04T09:30:33.284Z",
+    "1.0.0" : "2013-01-10T02:55:26.325Z",
+    "1.0.1" : "2013-01-10T03:35:17.765Z",
+    "1.0.2" : "2013-01-11T18:27:55.989Z",
+    "1.6.38" : "2018-12-03T01:04:20.601Z",
+    "1.6.39" : "2018-12-04T01:47:38.056Z",
+    "1.4.12" : "2015-06-26T09:23:19.198Z",
+    "1.6.36" : "2018-09-07T02:01:12.351Z",
+    "1.6.37" : "2018-12-03T00:04:25.822Z",
+    "1.2.9" : "2014-05-28T21:39:05.039Z",
+    "1.4.10" : "2015-06-24T03:28:40.775Z",
+    "1.6.5" : "2015-11-04T01:36:58.558Z",
+    "1.6.34" : "2018-08-02T00:17:00.636Z",
+    "1.4.11" : "2015-06-25T05:17:46.166Z",
+    "1.6.35" : "2018-09-01T02:18:56.004Z",
+    "1.6.7" : "2015-11-11T01:57:57.086Z",
+    "1.6.32" : "2018-06-26T23:33:00.262Z",
+    "1.6.8" : "2015-12-01T07:22:59.436Z",
+    "1.6.33" : "2018-08-01T01:10:40.178Z",
+    "1.6.9" : "2015-12-22T05:03:51.506Z",
+    "1.6.30" : "2018-05-30T02:11:47.145Z",
+    "1.6.31" : "2018-06-08T02:17:58.168Z",
+    "modified" : "2019-11-11T06:22:59.561Z",
+    "1.6.27" : "2018-03-18T22:40:38.387Z",
+    "1.6.28" : "2018-04-10T20:50:48.499Z",
+    "created" : "2013-01-10T02:55:25.037Z",
+    "1.6.25" : "2017-09-07T01:45:28.427Z",
+    "1.6.26" : "2017-11-17T03:23:43.095Z",
+    "1.6.23" : "2017-06-01T01:07:28.695Z",
+    "1.6.24" : "2017-08-18T03:38:32.766Z",
+    "1.6.21" : "2017-04-20T01:12:50.375Z",
+    "1.6.22" : "2017-04-25T03:35:25.232Z",
+    "1.6.20" : "2017-04-19T03:12:01.465Z",
+    "1.1.2" : "2013-01-17T23:59:24.350Z",
+    "1.1.3" : "2013-01-21T18:26:59.152Z",
+    "1.1.4" : "2013-01-21T22:32:02.085Z",
+    "1.5.0" : "2015-06-26T01:25:17.310Z",
+    "1.1.5" : "2013-02-11T04:07:33.377Z",
+    "1.5.1" : "2015-06-26T02:37:49.812Z",
+    "1.1.6" : "2014-02-02T12:25:35.008Z",
+    "1.5.2" : "2015-06-26T09:23:49.482Z",
+    "1.1.7" : "2014-02-02T12:27:20.888Z",
+    "1.5.3" : "2015-06-28T02:02:51.756Z",
+    "1.1.8" : "2014-02-04T08:03:59.849Z",
+    "1.5.4" : "2015-07-13T01:33:16.228Z",
+    "1.5.5" : "2015-07-22T05:23:13.416Z",
+    "1.1.0" : "2013-01-14T00:03:28.101Z",
+    "1.1.1" : "2013-01-14T00:15:49.400Z",
+    "1.2.14" : "2014-10-04T16:37:50.750Z",
+    "1.2.11" : "2014-09-16T22:51:45.320Z",
+    "1.2.10" : "2014-05-29T18:41:01.048Z",
+    "1.2.13" : "2014-09-22T00:31:26.942Z",
+    "1.2.12" : "2014-09-16T22:54:40.590Z",
+    "1.6.47" : "2019-10-05T06:49:29.835Z",
+    "1.6.48" : "2019-11-11T06:22:56.164Z",
+    "1.6.45" : "2019-09-17T16:32:32.480Z",
+    "1.6.46" : "2019-09-30T03:45:31.405Z",
+    "1.6.43" : "2019-03-22T02:32:13.084Z",
+    "1.6.44" : "2019-06-11T14:29:58.048Z",
+    "1.6.41" : "2019-01-22T23:39:19.303Z",
+    "1.6.42" : "2019-02-23T00:02:03.078Z",
+    "1.6.40" : "2018-12-04T23:04:27.219Z",
+    "1.6.0" : "2015-09-25T02:40:57.599Z",
+    "1.6.1" : "2015-10-15T01:29:02.680Z",
+    "1.6.2" : "2015-10-15T07:34:28.623Z",
+    "1.6.3" : "2015-10-20T00:55:36.351Z",
+    "1.2.8" : "2014-05-28T21:27:54.845Z",
+    "1.6.4" : "2015-11-03T03:10:42.122Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+ssh://git@github.com/peterolson/BigInteger.js.git"
+  },
+  "users" : {
+    "daviddias" : true,
+    "shahyar" : true,
+    "cognivator" : true,
+    "davidchase" : true,
+    "xieranmaya" : true,
+    "naumanumer" : true,
+    "surajs21" : true,
+    "rishabhmhjn" : true,
+    "jabbalaci" : true,
+    "gbmhunter" : true,
+    "gamersdelight" : true,
+    "floriannagel" : true,
+    "diosney" : true,
+    "zhangaz1" : true,
+    "maycon_ribeiro" : true,
+    "epiq" : true,
+    "natterstefan" : true,
+    "ahmedelgabri" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "Unlicense"
+}

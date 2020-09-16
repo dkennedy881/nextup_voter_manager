@@ -1,0 +1,1028 @@
+{
+  "_id" : "@expo/babel-preset-cli",
+  "_rev" : "38-7491e0c96c375f82621adb666eb74f46",
+  "name" : "@expo/babel-preset-cli",
+  "description" : "The Babel preset for Expo CLI packages",
+  "dist-tags" : {
+    "latest" : "0.2.17"
+  },
+  "versions" : {
+    "0.1.5" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.1.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.1.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.1.5.tgz",
+        "shasum" : "df89ab11a80941eddba5946a8fdaff0bcf843735"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "wkozyra",
+        "email" : "wojciech.kozyra@swmansion.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.1.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.1.5_1563541854116_0.47594408850284897"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "0.2.4" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.4.tgz",
+        "shasum" : "db8fed01ee75a9ea863af8499368c11879fd8497"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3",
+        "typescript" : "3.7.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.4_1578507611837_0.22681897645529903"
+      },
+      "_nodeVersion" : "12.14.0"
+    },
+    "0.2.1-alpha.0" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.1-alpha.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.1-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.1-alpha.0.tgz",
+        "shasum" : "49a82ef5584fa2b8b3b56aa1d04ff6829affd99a"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "tsapeta",
+        "email" : "sapeta.tomasz@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.1-alpha.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.1-alpha.0_1568819297046_0.8908781122361555"
+      },
+      "_nodeVersion" : "11.6.0"
+    },
+    "0.2.5" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.5.tgz",
+        "shasum" : "baaab6b9617383f25e35db2c3a9aafea283d9885"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3",
+        "typescript" : "3.7.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dsokal",
+        "email" : "dominiksokal@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.5_1579008465584_0.04690687020326201"
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "0.1.3" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.1.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.1.3.tgz",
+        "shasum" : "62f23034352b5ba2ecd51f15c1e2ea9ce70ab275"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/babel-preset-cli@0.1.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.1.3_1562338456565_0.14610597928489422"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.2.2" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.2.tgz",
+        "shasum" : "65c95e1ab5e41c03f10028b252a8711d938c9159"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3",
+        "typescript" : "3.7.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.2_1575662431725_0.8594845998931167"
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "0.1.4" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.1.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.1.4.tgz",
+        "shasum" : "7fa13d5f01646d7766a8653e7e04d4de6244d481"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "wkozyra",
+        "email" : "wojciech.kozyra@swmansion.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.1.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.1.4_1563521371114_0.05693562304719335"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "0.2.3" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.3.tgz",
+        "shasum" : "69fc0fce8105b50cf894ec2370cc2902b12fdbce"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3",
+        "typescript" : "3.7.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.3_1576627831125_0.8622238778417055"
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "0.2.8" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.8.tgz",
+        "shasum" : "d925cd356e7b4994a8e1d569beb9d132686a17fe"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3",
+        "typescript" : "3.7.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.8_1586199989116_0.9833395480363563"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "0.2.9" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.9.tgz",
+        "shasum" : "c052e8787d139737bdd90e9a2176854c6ecb100c"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3",
+        "typescript" : "3.7.3"
+      },
+      "devDependencies" : {
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.9_1587607584394_0.2352752545448391"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "0.2.6" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.6.tgz",
+        "shasum" : "e638744ad69925471dd06c8b16ade4ac3a510354"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3",
+        "typescript" : "3.7.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.13.7",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.6_1583545989014_0.9454244042626225"
+      },
+      "_nodeVersion" : "13.8.0"
+    },
+    "0.2.7" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.7.tgz",
+        "shasum" : "251b60e530943d2b29a1065295001039410e9a69"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3",
+        "typescript" : "3.7.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.7_1584752897256_0.33687936157052834"
+      },
+      "_nodeVersion" : "12.13.1"
+    },
+    "0.2.17" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.17",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.17.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.17.tgz",
+        "shasum" : "308ce8a8519e10e3756eb7b5d550bcda99b24159"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3"
+      },
+      "devDependencies" : {
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.17",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.17_1596141777131_0.01569390874226073"
+      },
+      "_nodeVersion" : "14.6.0"
+    },
+    "0.1.1" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.1.1.tgz",
+        "shasum" : "f750d865ac1d47ab17f235b327e06465b506ad92"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "quinlanj",
+        "email" : "quinlanjung@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.1.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.1.1_1558655030174_0.9958067019026511"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "0.2.0" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.0.tgz",
+        "shasum" : "a9ee7e3ac93ca55e69c42e5edd32e6ecd04a12d9"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.0_1565107172629_0.49294749424621465"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.1.2" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.1.2.tgz",
+        "shasum" : "98030ece84dc4bd1f7784146bc9be76170ef5626"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sjchmiela",
+        "email" : "sjchmiela@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.1.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.1.2_1561393484968_0.29053068177535946"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "0.2.1" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-expo-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.1.tgz",
+        "shasum" : "f2d309879b23d4a910a5b66eb1eb1e44a9b8594b"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.1_1571160498848_0.26275144977472653"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.2.10" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.10.tgz",
+        "shasum" : "f480b20cb1ded23f8fe0a66cce19d979b066382f"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3",
+        "typescript" : "3.7.3"
+      },
+      "devDependencies" : {
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.10",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.10_1587857207135_0.9883337635347897"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "0.2.11" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.11.tgz",
+        "shasum" : "d5cf88268cb3b27a4790b3a077debe5e92c831c2"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3",
+        "typescript" : "3.7.3"
+      },
+      "devDependencies" : {
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.14.2",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.11",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.11_1588195436701_0.22602299109426438"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "0.2.12" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.12.tgz",
+        "shasum" : "90e522c6002c3562caefe9b3563aa9c8d32b3fdf"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3",
+        "typescript" : "^3.8.3"
+      },
+      "devDependencies" : {
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "quinlanj",
+        "email" : "quinlanjung@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.12",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.12_1589228623938_0.9336830920307468"
+      },
+      "_nodeVersion" : "12.16.2"
+    },
+    "0.2.13" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.13",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.13.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.13.tgz",
+        "shasum" : "304dba5e38927f89d57a61258c038556d1085ab6"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3",
+        "typescript" : "^3.8.3"
+      },
+      "devDependencies" : {
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.13",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.13_1589324968338_0.3448178010506797"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.2.14" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.14",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.14.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.14.tgz",
+        "shasum" : "b50b3482c693340fea3166b5a316f24f59271c08"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3",
+        "typescript" : "^3.8.3"
+      },
+      "devDependencies" : {
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.14",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.14_1589520905287_0.07571298103697588"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.2.15" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.15",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.15.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.15.tgz",
+        "shasum" : "cfe1f7574b9da6703a008f5cb4ace412b42881b5"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3"
+      },
+      "devDependencies" : {
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.15",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.15_1589570791488_0.701290532287115"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.2.16" : {
+      "name" : "@expo/babel-preset-cli",
+      "description" : "The Babel preset for Expo CLI packages",
+      "version" : "0.2.16",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/babel-preset-cli"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/babel-preset-cli/-/babel-preset-cli-0.2.16.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fbabel-preset-cli%2F-%2Fbabel-preset-cli-0.2.16.tgz",
+        "shasum" : "64102032ae9b6cb931c80d8b6371dd08f2f5e748"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.4.5",
+        "@babel/plugin-proposal-class-properties" : "^7.4.4",
+        "@babel/plugin-proposal-nullish-coalescing-operator" : "^7.7.4",
+        "@babel/plugin-proposal-optional-chaining" : "^7.7.5",
+        "@babel/plugin-transform-modules-commonjs" : "^7.5.0",
+        "@babel/preset-env" : "^7.4.4",
+        "@babel/preset-typescript" : "^7.3.3"
+      },
+      "devDependencies" : {
+        "jest-snapshot-serializer-raw" : "^1.1.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "dsokal",
+        "email" : "dominiksokal@gmail.com"
+      },
+      "_id" : "@expo/babel-preset-cli@0.2.16",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-cli_0.2.16_1590495220592_0.7260963603303359"
+      },
+      "_nodeVersion" : "12.13.1"
+    }
+  },
+  "readme" : "# @expo/babel-preset-cli\n\nA Babel preset used across Expo CLI packages.\n",
+  "time" : {
+    "0.1.5" : "2019-07-19T13:10:54.240Z",
+    "0.2.4" : "2020-01-08T18:20:12.002Z",
+    "0.2.5" : "2020-01-14T13:27:45.719Z",
+    "0.1.3" : "2019-07-05T14:54:16.679Z",
+    "0.2.2" : "2019-12-06T20:00:31.931Z",
+    "0.1.4" : "2019-07-19T07:29:31.243Z",
+    "0.2.3" : "2019-12-18T00:10:31.283Z",
+    "0.2.8" : "2020-04-06T19:06:29.302Z",
+    "0.2.9" : "2020-04-23T02:06:24.554Z",
+    "0.2.6" : "2020-03-07T01:53:09.145Z",
+    "0.2.7" : "2020-03-21T01:08:17.406Z",
+    "0.1.1" : "2019-05-23T23:43:50.311Z",
+    "0.2.0" : "2019-08-06T15:59:32.788Z",
+    "0.1.2" : "2019-06-24T16:24:45.109Z",
+    "0.2.1" : "2019-10-15T17:28:19.064Z",
+    "0.2.10" : "2020-04-25T23:26:47.265Z",
+    "0.2.11" : "2020-04-29T21:23:56.882Z",
+    "0.2.12" : "2020-05-11T20:23:44.113Z",
+    "0.2.13" : "2020-05-12T23:09:28.499Z",
+    "0.2.14" : "2020-05-15T05:35:05.409Z",
+    "0.2.15" : "2020-05-15T19:26:31.609Z",
+    "0.2.16" : "2020-05-26T12:13:40.709Z",
+    "modified" : "2020-07-30T20:43:00.813Z",
+    "0.2.1-alpha.0" : "2019-09-18T15:08:17.154Z",
+    "created" : "2019-05-23T23:43:49.975Z",
+    "0.2.17" : "2020-07-30T20:42:57.219Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/expo/expo-cli.git",
+    "directory" : "packages/babel-preset-cli"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

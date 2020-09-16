@@ -1,0 +1,507 @@
+{
+  "_id" : "simple-plist",
+  "_rev" : "22-3c09bc5f535eed868e652a3babff40b1",
+  "name" : "simple-plist",
+  "description" : "A wrapper utility for interacting with plist data.",
+  "dist-tags" : {
+    "next" : "2.0.0-rc.0",
+    "latest" : "1.1.0"
+  },
+  "versions" : {
+    "0.0.4" : {
+      "name" : "simple-plist",
+      "description" : "A wrapper utility for interacting with plist data.",
+      "version" : "0.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/wollardj/node-simple-plist.git"
+      },
+      "main" : "simple-plist.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/simple-plist/-/simple-plist-0.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fsimple-plist%2F-%2Fsimple-plist-0.0.4.tgz",
+        "shasum" : "7f863438b63cb75df99dd81b8336d7c5075cfc0b"
+      },
+      "dependencies" : {
+        "plist" : "1.1.0",
+        "bplist-parser" : "0.0.6",
+        "bplist-creator" : "0.0.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.28",
+      "_npmUser" : {
+        "name" : "wollardj",
+        "email" : "wollardj@denison.edu"
+      },
+      "_id" : "simple-plist@0.0.4",
+      "gitHead" : "3ef628e1d08f670123fb003da4f2839aea1a1293",
+      "_shasum" : "7f863438b63cb75df99dd81b8336d7c5075cfc0b"
+    },
+    "0.1.4" : {
+      "name" : "simple-plist",
+      "description" : "A wrapper utility for interacting with plist data.",
+      "version" : "0.1.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/wollardj/node-simple-plist.git"
+      },
+      "main" : "simple-plist.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/simple-plist/-/simple-plist-0.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fsimple-plist%2F-%2Fsimple-plist-0.1.4.tgz",
+        "shasum" : "10eb51b47e33c556eb8ec46d5ee64d64e717db5d"
+      },
+      "dependencies" : {
+        "plist" : "1.2.0",
+        "bplist-parser" : "0.0.6",
+        "bplist-creator" : "0.0.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.3",
+      "_npmUser" : {
+        "name" : "wollardj",
+        "email" : "joe.wollard@gmail.com"
+      },
+      "_id" : "simple-plist@0.1.4",
+      "gitHead" : "a01406ab0d347b5a1a9a0f59395fe6d464b0f962",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/simple-plist-0.1.4.tgz_1462930930371_0.9155550985597074"
+      },
+      "_shasum" : "10eb51b47e33c556eb8ec46d5ee64d64e717db5d",
+      "_nodeVersion" : "0.12.7"
+    },
+    "2.0.0-rc.0" : {
+      "name" : "simple-plist",
+      "description" : "A wrapper utility for interacting with plist data.",
+      "version" : "2.0.0-rc.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://gitlab.com/joe.wollard/node-simple-plist.git"
+      },
+      "main" : "dist/simple-plist.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/simple-plist/-/simple-plist-2.0.0-rc.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fsimple-plist%2F-%2Fsimple-plist-2.0.0-rc.0.tgz",
+        "shasum" : "d3518aadbfbea1a28a7b1495cd5fdd5c1041828e"
+      },
+      "dependencies" : {
+        "bplist-creator" : "0.0.8",
+        "bplist-parser" : "0.2.0",
+        "jest-junit" : "^11.1.0",
+        "plist" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "@types/jest" : "^26.0.7",
+        "@types/plist" : "^3.0.2",
+        "commitizen" : "^4.1.2",
+        "cz-conventional-changelog" : "^3.2.0",
+        "eslint" : "^7.5.0",
+        "eslint-config-airbnb" : "^18.2.0",
+        "eslint-config-prettier" : "^6.11.0",
+        "eslint-config-typescript" : "^3.0.0",
+        "eslint-plugin-import" : "^2.22.0",
+        "eslint-plugin-jsx-a11y" : "^6.3.1",
+        "eslint-plugin-react" : "^7.20.3",
+        "husky" : "^4.2.5",
+        "jest" : "^26.1.0",
+        "lint-staged" : "^10.2.11",
+        "prettier" : "^2.0.5",
+        "rimraf" : "^3.0.2",
+        "ts-jest" : "^26.1.3",
+        "typescript" : "^3.9.7",
+        "typescript-eslint" : "^0.0.1-alpha.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "tsc",
+        "format:fix" : "prettier --write *.{ts,js,json} __tests__/*.ts",
+        "format" : "prettier --check *.{ts,js,json} __tests__/*.ts",
+        "jest:verbose" : "jest --coverage --verbose",
+        "jest" : "jest --coverage ",
+        "lint:fix" : "eslint --fix",
+        "lint" : "eslint",
+        "prebuild" : "rimraf dist coverage",
+        "test:verbose" : "jest:verbose",
+        "test" : "jest"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "./node_modules/cz-conventional-changelog"
+        }
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "wollardj",
+        "email" : "joe.wollard@gmail.com"
+      },
+      "_id" : "simple-plist@2.0.0-rc.0",
+      "lint-staged" : {
+        "*.{js,ts}" : [ "yarn lint:fix", "yarn format:fix", "git add" ],
+        ".ts" : [ "tsc -p tsconfig.json --noEmit" ]
+      },
+      "gitHead" : "896656f7f18fa81eff6b311092a90ae811e928ba",
+      "types" : "dist/simple-plist.d.ts",
+      "husky" : {
+        "hooks" : {
+          "pre-commit" : "yarn test",
+          "prepare-commit-msg" : "sh -c 'exec < /dev/tty && git cz --hook || true'"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/simple-plist_2.0.0-rc.0_1595799418244_0.40434403470763747"
+      },
+      "readme" : "# node-simple-plist\n\n[![npm](https://img.shields.io/npm/dw/simple-plist.svg?style=popout&logo=npm)](https://www.npmjs.org/package/simple-plist)\n[![npm](https://img.shields.io/npm/v/simple-plist.svg?style=popout&logo=npm)](https://www.npmjs.com/package/simple-plist)\n[![Travis (.com) branch](https://img.shields.io/travis/com/wollardj/node-simple-plist/develop.svg?style=popout&logo=Travis%20CI)](https://travis-ci.com/wollardj/node-simple-plist)\n\nA simple API for interacting with binary and plain text plist data.\n\n## Installation\n\n```sh\n# with yarn\nyarn add simple-plist\n\n# or with npm\nnpm install simple-plist\n```\n\n## Reading Data\n\n```js\nimport Plist from \"simple-plist\";\n\nasync function foo() {\n  const data = await Plist.read(\"/path/to/some.plist\");\n  console.log(data);\n}\n```\n\n## Writing Data\n\n```js\nimport Plist from \"simple-plist\";\n\nasync function foo() {\n  const myPlist = { foo: \"bar\" };\n  // Write data to xml file\n  await Plist.write({\n    file: \"/path/to/xml.plist\",\n    input: myPlist,\n  });\n\n  // Write data to binary file\n  await Plist.write({\n    binary: true,\n    file: \"/path/to/xml.plist\",\n    input: myPlist,\n  });\n}\n```\n\n## In-Memory Conversion\n\n```js\nimport Plist from \"simple-plist\";\n\nasync function foo() {\n  // Convert a Javascript object to a plist xml string\n  const xml = Plist.stringify({ name: \"Joe\", answer: 42 });\n\n  // Convert a plist xml string or a binary plist buffer to a Javascript object\n  const data = await parse(\n    \"<plist><dict><key>name</key><string>Joe</string></dict></plist>\"\n  );\n}\n```\n\n## TypeScript Generics\n\nIf you're using TypeScript, the `parse` and `read` methods both support\ngenerics so you don't lose type information. If no type is specified, the\ndefault of `PlistValue` will be used.\n\n```ts\nimport Plist from \"simple-plist\";\n\ninterface Settings {\n  showToolbar?: boolean;\n  avatar?: string;\n}\n\nasync function loadSettings() {\n  return Plist.read<MyDatabase>(\"/path/to/settings.plist\");\n}\n```\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "12.13.0"
+    },
+    "0.0.2" : {
+      "name" : "simple-plist",
+      "description" : "A wrapper utility for interacting with plist data.",
+      "version" : "0.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/wollardj/node-simple-plist.git"
+      },
+      "main" : "simple-plist.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/simple-plist/-/simple-plist-0.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fsimple-plist%2F-%2Fsimple-plist-0.0.2.tgz",
+        "shasum" : "20ac7bc7a46d0b04352316652b10aa99c38e284e"
+      },
+      "dependencies" : {
+        "plist" : "0.4.3",
+        "bplist-parser" : "0.0.4",
+        "bplist-creator" : "0.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.30",
+      "_npmUser" : {
+        "name" : "wollardj",
+        "email" : "wollardj@denison.edu"
+      },
+      "_id" : "simple-plist@0.0.2"
+    },
+    "0.0.3" : {
+      "name" : "simple-plist",
+      "description" : "A wrapper utility for interacting with plist data.",
+      "version" : "0.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/wollardj/node-simple-plist.git"
+      },
+      "main" : "simple-plist.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/simple-plist/-/simple-plist-0.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fsimple-plist%2F-%2Fsimple-plist-0.0.3.tgz",
+        "shasum" : "e7e7c5c3d12bef0716dee7edc0abcab6ca6a08eb"
+      },
+      "dependencies" : {
+        "plist" : "1.1.0",
+        "bplist-parser" : "0.0.6",
+        "bplist-creator" : "0.0.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.23",
+      "_npmUser" : {
+        "name" : "wollardj",
+        "email" : "wollardj@denison.edu"
+      },
+      "_id" : "simple-plist@0.0.3",
+      "gitHead" : "b93f0c7ed825987d2789e91a46eb7abc4d7432d4",
+      "_shasum" : "e7e7c5c3d12bef0716dee7edc0abcab6ca6a08eb"
+    },
+    "0.2.1" : {
+      "name" : "simple-plist",
+      "description" : "A wrapper utility for interacting with plist data.",
+      "version" : "0.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/wollardj/node-simple-plist.git"
+      },
+      "main" : "simple-plist.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/simple-plist/-/simple-plist-0.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fsimple-plist%2F-%2Fsimple-plist-0.2.1.tgz",
+        "shasum" : "71766db352326928cf3a807242ba762322636723"
+      },
+      "dependencies" : {
+        "bplist-creator" : "0.0.7",
+        "bplist-parser" : "0.1.1",
+        "plist" : "2.0.1"
+      },
+      "devDependencies" : {
+        "coffee-script" : "^1.11.1",
+        "jest" : "^16.0.2"
+      },
+      "license" : "MIT",
+      "files" : [ "simple-plist.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "npm run-script clean && ./node_modules/.bin/coffee -c . && ./node_modules/.bin/jest --coverage",
+        "clean" : "rm -rf *.js __tests__/*.js __tests__/write-test* coverage",
+        "prepublish" : "npm test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.8",
+      "_npmUser" : {
+        "name" : "wollardj",
+        "email" : "joe.wollard@gmail.com"
+      },
+      "_id" : "simple-plist@0.2.1",
+      "gitHead" : "977f4a2fdadefc53c27db370b292b4d2de68ca71",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/simple-plist-0.2.1.tgz_1477979624873_0.24517794768325984"
+      },
+      "_shasum" : "71766db352326928cf3a807242ba762322636723",
+      "_nodeVersion" : "4.4.7"
+    },
+    "0.3.0" : {
+      "name" : "simple-plist",
+      "description" : "A wrapper utility for interacting with plist data.",
+      "version" : "0.3.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/wollardj/node-simple-plist.git"
+      },
+      "main" : "simple-plist.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/simple-plist/-/simple-plist-0.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fsimple-plist%2F-%2Fsimple-plist-0.3.0.tgz",
+        "shasum" : "929b0e81e826b47929f7561c324a3d348e700a09"
+      },
+      "dependencies" : {
+        "bplist-creator" : "0.0.7",
+        "bplist-parser" : "0.1.1",
+        "plist" : "2.1.0"
+      },
+      "devDependencies" : {
+        "coffee-script" : "^1.11.1",
+        "jest" : "^16.0.2"
+      },
+      "license" : "MIT",
+      "files" : [ "simple-plist.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "coffee -c .",
+        "clean" : "rm -rf *.js __tests__/*.js __tests__/write-test* coverage",
+        "prepublish" : "npm run test",
+        "test" : "npm run clean && npm run build && jest --coverage"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "wollardj",
+        "email" : "joe.wollard@gmail.com"
+      },
+      "_id" : "simple-plist@0.3.0",
+      "gitHead" : "28ea7e980f7ee53a2bd0afb38e208cdb1d09ddc9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/simple-plist_0.3.0_1522000221176_0.12863830654935926"
+      },
+      "_nodeVersion" : "9.5.0"
+    },
+    "1.0.0" : {
+      "name" : "simple-plist",
+      "description" : "A wrapper utility for interacting with plist data.",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/wollardj/node-simple-plist.git"
+      },
+      "main" : "simple-plist.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/simple-plist/-/simple-plist-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fsimple-plist%2F-%2Fsimple-plist-1.0.0.tgz",
+        "shasum" : "bed3085633b22f371e111f45d159a1ccf94b81eb"
+      },
+      "dependencies" : {
+        "bplist-creator" : "0.0.7",
+        "bplist-parser" : "0.1.1",
+        "plist" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.9.0",
+        "eslint-config-airbnb" : "^17.1.0",
+        "eslint-config-prettier" : "^3.3.0",
+        "eslint-plugin-import" : "^2.14.0",
+        "eslint-plugin-jsx-a11y" : "^6.1.2",
+        "eslint-plugin-react" : "^7.11.1",
+        "husky" : "^1.2.0",
+        "jest" : "^23.6.0",
+        "lint-staged" : "^8.1.0",
+        "npm-run-all" : "^4.1.5",
+        "prettier" : "^1.15.3",
+        "rimraf" : "^2.6.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "rimraf __tests__/write-test* coverage",
+        "jest" : "jest --coverage",
+        "test" : "run-s clean jest"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "wollardj",
+        "email" : "joe.wollard@gmail.com"
+      },
+      "_id" : "simple-plist@1.0.0",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "prettier --write", "git add" ]
+      },
+      "gitHead" : "a611fe7176ac5a9886446362ec6f4964b94c07fe",
+      "husky" : {
+        "hooks" : {
+          "pre-commit" : "npx run-s test",
+          "pre-push" : "npx run-s test"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/simple-plist_1.0.0_1544076701839_0.5038560126463159"
+      },
+      "_nodeVersion" : "8.11.4"
+    },
+    "1.1.0" : {
+      "name" : "simple-plist",
+      "description" : "A wrapper utility for interacting with plist data.",
+      "version" : "1.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/wollardj/node-simple-plist.git"
+      },
+      "main" : "simple-plist.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/simple-plist/-/simple-plist-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fsimple-plist%2F-%2Fsimple-plist-1.1.0.tgz",
+        "shasum" : "8354ab63eb3922a054c78ce96c209c532e907a23"
+      },
+      "dependencies" : {
+        "bplist-creator" : "0.0.8",
+        "bplist-parser" : "0.2.0",
+        "plist" : "^3.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^6.6.0",
+        "eslint-config-airbnb" : "^18.0.1",
+        "eslint-config-prettier" : "^6.5.0",
+        "eslint-plugin-import" : "^2.18.2",
+        "eslint-plugin-jsx-a11y" : "^6.2.3",
+        "eslint-plugin-react" : "^7.16.0",
+        "husky" : "^3.0.9",
+        "jest" : "^24.9.0",
+        "lint-staged" : "^9.4.2",
+        "npm-run-all" : "^4.1.5",
+        "prettier" : "^1.18.2",
+        "rimraf" : "^3.0.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "clean" : "rimraf __tests__/write-test* coverage",
+        "jest" : "jest --coverage ",
+        "jest:verbose" : "jest --coverage --verbose",
+        "test" : "run-s clean jest",
+        "test:verbose" : "run-s clean jest:verbose"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "wollardj",
+        "email" : "joe.wollard@gmail.com"
+      },
+      "_id" : "simple-plist@1.1.0",
+      "lint-staged" : {
+        "*.js" : [ "eslint --fix", "prettier --write", "git add" ]
+      },
+      "gitHead" : "8749d93ec5d1a28ac0c294f5e5126116eea8bdf9",
+      "husky" : {
+        "hooks" : {
+          "pre-commit" : "npx run-s test",
+          "pre-push" : "npx run-s test"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/simple-plist_1.1.0_1573092511029_0.6743072146943632"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "0.0.1" : {
+      "name" : "simple-plist",
+      "description" : "A wrapper utility for interacting with plist data.",
+      "version" : "0.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/wollardj/node-simple-plist.git"
+      },
+      "main" : "universal-plist.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/simple-plist/-/simple-plist-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fsimple-plist%2F-%2Fsimple-plist-0.0.1.tgz",
+        "shasum" : "c3ba2015eb2040f3790f7034453131c25a4f394e"
+      },
+      "dependencies" : {
+        "plist" : "0.4.3",
+        "bplist-parser" : "0.0.4",
+        "bplist-creator" : "0.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.30",
+      "_npmUser" : {
+        "name" : "wollardj",
+        "email" : "wollardj@denison.edu"
+      },
+      "_id" : "simple-plist@0.0.1"
+    }
+  },
+  "readme" : "",
+  "time" : {
+    "0.0.4" : "2015-01-22T20:42:27.309Z",
+    "0.1.4" : "2016-05-11T01:42:11.693Z",
+    "created" : "2013-10-03T03:52:36.789Z",
+    "0.0.2" : "2013-10-05T04:23:55.471Z",
+    "0.2.0" : "2016-11-01T05:49:08.123Z",
+    "0.0.3" : "2014-11-19T17:12:06.215Z",
+    "0.2.1" : "2016-11-01T05:53:45.384Z",
+    "0.3.0" : "2018-03-25T17:50:21.280Z",
+    "0.0.1" : "2013-10-03T03:52:37.782Z",
+    "modified" : "2020-07-26T21:37:00.657Z",
+    "2.0.0-rc.0" : "2020-07-26T21:36:58.379Z",
+    "1.0.0" : "2018-12-06T06:11:42.022Z",
+    "1.1.0" : "2019-11-07T02:08:31.202Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/wollardj/node-simple-plist.git"
+  },
+  "users" : {
+    "operandom" : true,
+    "brentonhouse" : true
+  },
+  "readmeFilename" : "",
+  "license" : "MIT"
+}

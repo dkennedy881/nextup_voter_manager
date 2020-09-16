@@ -1,0 +1,468 @@
+{
+  "_id" : "@expo/plist",
+  "_rev" : "12-a745c3ce2617341d16b4dff7b5a79c16",
+  "name" : "@expo/plist",
+  "description" : "Mac OS X Plist parser/builder for Node.js and browsers",
+  "dist-tags" : {
+    "latest" : "0.0.9"
+  },
+  "versions" : {
+    "0.0.6" : {
+      "name" : "@expo/plist",
+      "description" : "Mac OS X Plist parser/builder for Node.js and browsers",
+      "version" : "0.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/plist"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/plist/-/plist-0.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fplist%2F-%2Fplist-0.0.6.tgz",
+        "shasum" : "69760d20a2d7e1d76871e47ce6e31f26881009ba"
+      },
+      "dependencies" : {
+        "base64-js" : "^1.2.3",
+        "xmlbuilder" : "^14.0.0",
+        "xmldom" : "~0.1.31"
+      },
+      "devDependencies" : {
+        "@types/base64-js" : "^1.2.5",
+        "@types/xmldom" : "^0.1.29"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/plist@0.0.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plist_0.0.6_1589520914404_0.7172671102013115"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.0.7" : {
+      "name" : "@expo/plist",
+      "description" : "Mac OS X Plist parser/builder for Node.js and browsers",
+      "version" : "0.0.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/plist"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/plist/-/plist-0.0.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fplist%2F-%2Fplist-0.0.7.tgz",
+        "shasum" : "2a6e6cbe8032154df4e29ca5f516def019c5f1b2"
+      },
+      "dependencies" : {
+        "base64-js" : "^1.2.3",
+        "xmlbuilder" : "^14.0.0",
+        "xmldom" : "~0.1.31"
+      },
+      "devDependencies" : {
+        "@types/base64-js" : "^1.2.5",
+        "@types/xmldom" : "^0.1.29"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/plist@0.0.7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plist_0.0.7_1589570797671_0.6946776188237809"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.0.4" : {
+      "name" : "@expo/plist",
+      "description" : "Mac OS X Plist parser/builder for Node.js and browsers",
+      "version" : "0.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/plist"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/plist/-/plist-0.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fplist%2F-%2Fplist-0.0.4.tgz",
+        "shasum" : "175af54b0f9aa46681338ee93af183bf2cd3ac7b"
+      },
+      "dependencies" : {
+        "base64-js" : "^1.2.3",
+        "xmlbuilder" : "^14.0.0",
+        "xmldom" : "~0.1.31"
+      },
+      "devDependencies" : {
+        "@types/base64-js" : "^1.2.5",
+        "@types/xmldom" : "^0.1.29"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/plist@0.0.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plist_0.0.4_1587607591275_0.16103898188613242"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "0.0.5" : {
+      "name" : "@expo/plist",
+      "description" : "Mac OS X Plist parser/builder for Node.js and browsers",
+      "version" : "0.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/plist"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/plist/-/plist-0.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fplist%2F-%2Fplist-0.0.5.tgz",
+        "shasum" : "6cbd9c184ce464b0ef5e13c8d121e19c30e1f8ac"
+      },
+      "dependencies" : {
+        "base64-js" : "^1.2.3",
+        "xmlbuilder" : "^14.0.0",
+        "xmldom" : "~0.1.31"
+      },
+      "devDependencies" : {
+        "@types/base64-js" : "^1.2.5",
+        "@types/xmldom" : "^0.1.29"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/plist@0.0.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plist_0.0.5_1589506647879_0.7703870097651129"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "0.0.8" : {
+      "name" : "@expo/plist",
+      "description" : "Mac OS X Plist parser/builder for Node.js and browsers",
+      "version" : "0.0.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/plist"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/plist/-/plist-0.0.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fplist%2F-%2Fplist-0.0.8.tgz",
+        "shasum" : "616fd2b9e511368aaa860759acf0d87228c3b228"
+      },
+      "dependencies" : {
+        "base64-js" : "^1.2.3",
+        "xmlbuilder" : "^14.0.0",
+        "xmldom" : "~0.1.31"
+      },
+      "devDependencies" : {
+        "@types/base64-js" : "^1.2.5",
+        "@types/xmldom" : "^0.1.29"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "dsokal",
+        "email" : "dominiksokal@gmail.com"
+      },
+      "_id" : "@expo/plist@0.0.8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plist_0.0.8_1590495233756_0.09670738453232297"
+      },
+      "_nodeVersion" : "12.13.1"
+    },
+    "0.0.9" : {
+      "name" : "@expo/plist",
+      "description" : "Mac OS X Plist parser/builder for Node.js and browsers",
+      "version" : "0.0.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/plist"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/plist/-/plist-0.0.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fplist%2F-%2Fplist-0.0.9.tgz",
+        "shasum" : "7ada91d10bbc3d94b6646f57b5b805e763a27a4c"
+      },
+      "dependencies" : {
+        "base64-js" : "^1.2.3",
+        "xmlbuilder" : "^14.0.0",
+        "xmldom" : "~0.1.31"
+      },
+      "devDependencies" : {
+        "@types/base64-js" : "^1.2.5",
+        "@types/xmldom" : "^0.1.29"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/plist@0.0.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plist_0.0.9_1596141784535_0.09493101216077138"
+      },
+      "_nodeVersion" : "14.6.0"
+    },
+    "0.0.2" : {
+      "name" : "@expo/plist",
+      "description" : "Mac OS X Plist parser/builder for Node.js and browsers",
+      "version" : "0.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/plist"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/plist/-/plist-0.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fplist%2F-%2Fplist-0.0.2.tgz",
+        "shasum" : "c13474f7bc6776e945d5b1341089aa8d4de230fa"
+      },
+      "dependencies" : {
+        "base64-js" : "^1.2.3",
+        "xmlbuilder" : "^14.0.0",
+        "xmldom" : "~0.1.31"
+      },
+      "devDependencies" : {
+        "@types/base64-js" : "^1.2.5",
+        "@types/jest" : "^24.9.1",
+        "@types/xmldom" : "^0.1.29"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/plist@0.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plist_0.0.2_1586199995801_0.5371512266352434"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "0.0.3" : {
+      "name" : "@expo/plist",
+      "description" : "Mac OS X Plist parser/builder for Node.js and browsers",
+      "version" : "0.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/plist"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/plist/-/plist-0.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fplist%2F-%2Fplist-0.0.3.tgz",
+        "shasum" : "696da7b3d58ee251a1e8b1d471c25b00ecd2f2c9"
+      },
+      "dependencies" : {
+        "base64-js" : "^1.2.3",
+        "xmlbuilder" : "^14.0.0",
+        "xmldom" : "~0.1.31"
+      },
+      "devDependencies" : {
+        "@types/base64-js" : "^1.2.5",
+        "@types/xmldom" : "^0.1.29"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/plist@0.0.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plist_0.0.3_1587317007316_0.4968475259186551"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "0.0.1" : {
+      "name" : "@expo/plist",
+      "description" : "Mac OS X Plist parser/builder for Node.js and browsers",
+      "version" : "0.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/plist"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/plist/-/plist-0.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fplist%2F-%2Fplist-0.0.1.tgz",
+        "shasum" : "a2b12e7c51a82dae9a006677213a1afc0e29145f"
+      },
+      "dependencies" : {
+        "base64-js" : "^1.2.3",
+        "xmlbuilder" : "^14.0.0",
+        "xmldom" : "~0.1.31"
+      },
+      "devDependencies" : {
+        "@types/base64-js" : "^1.2.5",
+        "@types/jest" : "^24.9.1",
+        "@types/xmldom" : "^0.1.29"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "quinlanj",
+        "email" : "quinlanjung@gmail.com"
+      },
+      "_id" : "@expo/plist@0.0.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/plist_0.0.1_1583776699350_0.14854349445333437"
+      },
+      "_nodeVersion" : "12.16.1"
+    }
+  },
+  "readme" : "# plist [![CircleCI](https://circleci.com/gh/expo/plist.svg?style=svg)](https://circleci.com/gh/expo/plist)\n\nMac OS X Plist parser/builder for Node.js and browsers, forked from this [repo](https://github.com/TooTallNate/plist.js)\n",
+  "time" : {
+    "0.0.6" : "2020-05-15T05:35:14.521Z",
+    "0.0.7" : "2020-05-15T19:26:37.770Z",
+    "0.0.4" : "2020-04-23T02:06:31.384Z",
+    "0.0.5" : "2020-05-15T01:37:28.011Z",
+    "created" : "2020-03-09T17:58:19.153Z",
+    "0.0.8" : "2020-05-26T12:13:53.866Z",
+    "0.0.9" : "2020-07-30T20:43:04.656Z",
+    "modified" : "2020-07-30T20:43:07.921Z",
+    "0.0.2" : "2020-04-06T19:06:35.992Z",
+    "0.0.3" : "2020-04-19T17:23:27.426Z",
+    "0.0.1" : "2020-03-09T17:58:19.482Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/expo/expo-cli.git",
+    "directory" : "packages/plist"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

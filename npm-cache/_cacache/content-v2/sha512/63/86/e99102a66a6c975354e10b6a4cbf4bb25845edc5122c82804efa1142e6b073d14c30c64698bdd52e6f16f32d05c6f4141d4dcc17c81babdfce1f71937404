@@ -1,0 +1,3606 @@
+{
+  "_id" : "mongodb-stitch-react-native-services-mongodb-remote",
+  "_rev" : "36-65fc7e55d9f134757b00b4515038e75f",
+  "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+  "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+  "dist-tags" : {
+    "next" : "4.9.0",
+    "alpha" : "4.0.14-2",
+    "beta" : "4.0.15-beta-2.0",
+    "latest" : "4.8.0"
+  },
+  "versions" : {
+    "4.0.13" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.0.13",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.0.13.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.0.13.tgz",
+        "shasum" : "e4689d70f5e5f10050c1a6b649cbd28f69ff438f"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.0.13",
+        "mongodb-stitch-react-native-core" : "^4.0.13"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-bson" : "^1.0.0",
+        "mongodb-stitch-core-admin-client" : "^4.0.13",
+        "mongodb-stitch-core-sdk" : "^4.0.13",
+        "mongodb-stitch-react-native-testutils" : "^4.0.13",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.0.13",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.0.13_1533241907540_0.5417254095163373"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.umd.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "4.0.14" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.0.14",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.0.14.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.0.14.tgz",
+        "shasum" : "dd607ecfc02190da14175fd20448b89d94fe2756"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.0.14",
+        "mongodb-stitch-react-native-core" : "^4.0.14"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-bson" : "^1.0.0",
+        "mongodb-stitch-core-admin-client" : "^4.0.14",
+        "mongodb-stitch-core-sdk" : "^4.0.14",
+        "mongodb-stitch-react-native-testutils" : "^4.0.14",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.0.14",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.0.14_1539572713862_0.6778254231679224"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.umd.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.11" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.0.11",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.0.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.0.11.tgz",
+        "shasum" : "90aaa7884cf8258c47049a6aa9db7ca0171c3762"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.0.11",
+        "mongodb-stitch-react-native-core" : "^4.0.11"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-bson" : "^1.0.0",
+        "mongodb-stitch-core-admin-client" : "^4.0.11",
+        "mongodb-stitch-core-sdk" : "^4.0.11",
+        "mongodb-stitch-react-native-testutils" : "^4.0.11",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.0.11",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.0.11_1532722554065_0.858458922179306"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.umd.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "4.0.12" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.0.12",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.0.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.0.12.tgz",
+        "shasum" : "c2e5aeb6607dbe482525e8886a7d80a29db0cce4"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.0.12",
+        "mongodb-stitch-react-native-core" : "^4.0.12"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-bson" : "^1.0.0",
+        "mongodb-stitch-core-admin-client" : "^4.0.12",
+        "mongodb-stitch-core-sdk" : "^4.0.12",
+        "mongodb-stitch-react-native-testutils" : "^4.0.12",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.0.12",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.0.12_1532722955706_0.5876075740500226"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.umd.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "4.1.1" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.1.1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.1.1.tgz",
+        "shasum" : "5a87be332501b425c41dcc8251b65ed54f74f329"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.1.1",
+        "mongodb-stitch-react-native-core" : "^4.1.1"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.1.1",
+        "mongodb-stitch-core-sdk" : "^4.1.1",
+        "mongodb-stitch-react-native-testutils" : "^4.1.1",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_from" : "file:mongodb-stitch-react-native-services-mongodb-remote-4.1.1.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dkaminsky",
+        "email" : "kaminsky@alumni.upenn.edu"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.1.1",
+      "gitHead" : "f6cfcb0320a931abc734ee9e8483ae08800d0135",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.1.1_1544122450997_0.8291857555745825"
+      },
+      "_resolved" : "",
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.2.0" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.2.0.tgz",
+        "shasum" : "d1962e8a6d479440873dd525f9bac88f8fa6c7bd"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.2.0",
+        "mongodb-stitch-react-native-core" : "^4.2.0"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.2.0",
+        "mongodb-stitch-core-sdk" : "^4.2.0",
+        "mongodb-stitch-react-native-testutils" : "^4.2.0",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.2.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.2.0_1548791786039_0.374715380566524"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.1.2" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.1.2",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.1.2.tgz",
+        "shasum" : "e25ba926a9e7b08704363bd7319d37d7dd75ecc6"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.1.2",
+        "mongodb-stitch-react-native-core" : "^4.1.2"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.1.2",
+        "mongodb-stitch-core-sdk" : "^4.1.2",
+        "mongodb-stitch-react-native-testutils" : "^4.1.2",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.1.2",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.1.2_1545867804264_0.5281836344675161"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.3.0" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.3.0.tgz",
+        "shasum" : "cc5d02e4a7a9ffa99701f1f688d59eca2f469e06"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.3.0",
+        "mongodb-stitch-react-native-core" : "^4.3.0"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.3.0",
+        "mongodb-stitch-core-sdk" : "^4.3.0",
+        "mongodb-stitch-react-native-testutils" : "^4.3.0",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.3.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.3.0_1550266477278_0.8895568604985213"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.1.0" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.1.0.tgz",
+        "shasum" : "b503d0e9e008d6d33782da137609fe3e7cecdb40"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.1.0",
+        "mongodb-stitch-react-native-core" : "^4.1.0"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.1.0",
+        "mongodb-stitch-core-sdk" : "^4.1.0",
+        "mongodb-stitch-react-native-testutils" : "^4.1.0",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.1.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.1.0_1543351448338_0.3171634221302635"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.6.0" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.6.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.6.0.tgz",
+        "shasum" : "c29944ea3099319b71e306fc1cd98fd77f2ffa98"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.6.0",
+        "mongodb-stitch-react-native-core" : "^4.6.0"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.2",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.6.0",
+        "mongodb-stitch-core-sdk" : "^4.6.0",
+        "mongodb-stitch-react-native-testutils" : "^4.6.0",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.6.0",
+      "gitHead" : "e75a2ea025db58b785161bd68b6baed6802607fb",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.6.0_1571867130278_0.14794792326546258"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.7.0" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.7.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.7.0.tgz",
+        "shasum" : "0633ec7ef50237f3df819dc28db22c8ededdc131"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.7.0",
+        "mongodb-stitch-react-native-core" : "^4.7.0"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.2",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.7.0",
+        "mongodb-stitch-core-sdk" : "^4.7.0",
+        "mongodb-stitch-react-native-testutils" : "^4.7.0",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.7.0",
+      "gitHead" : "070b17bbb2c3b4713a11ca83d5d19b40da344f30",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.7.0_1573059812904_0.45398298597506304"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.1.3" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.1.3",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.1.3.tgz",
+        "shasum" : "a482b8117ffaa6f9e081c08fe46452418263df69"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.1.3",
+        "mongodb-stitch-react-native-core" : "^4.1.3"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.1.3",
+        "mongodb-stitch-core-sdk" : "^4.1.3",
+        "mongodb-stitch-react-native-testutils" : "^4.1.3",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_from" : "file:mongodb-stitch-react-native-services-mongodb-remote-4.1.3.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dkaminsky",
+        "email" : "kaminsky@alumni.upenn.edu"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.1.3",
+      "gitHead" : "cb14eb5abc144027cec5698cc39f5141c1c08556",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.1.3_1548359718563_0.4388192702208933"
+      },
+      "_resolved" : "",
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.3.1" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.3.1.tgz",
+        "shasum" : "586d7f3afe1677d990a31cf8ca2901c885401a04"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.3.1",
+        "mongodb-stitch-react-native-core" : "^4.3.1"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.3.1",
+        "mongodb-stitch-core-sdk" : "^4.3.1",
+        "mongodb-stitch-react-native-testutils" : "^4.3.1",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.3.1",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.3.1_1551811381681_0.8611187636940543"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.4.0" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.4.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.4.0.tgz",
+        "shasum" : "8bc3064bfa264df7e5163d782f9237928838a229"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.4.0",
+        "mongodb-stitch-react-native-core" : "^4.4.0"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.2",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.4.0",
+        "mongodb-stitch-core-sdk" : "^4.4.0",
+        "mongodb-stitch-react-native-testutils" : "^4.4.0",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.4.0",
+      "gitHead" : "d5fea6f2c4b591ce07928c36cc483b976d2c1cdc",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.4.0_1558044137665_0.8514499119080892"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.3.2" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.3.2",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.3.2.tgz",
+        "shasum" : "4b13cc5ad7c23bb63ade65381736f8342dfe5ed6"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.3.2",
+        "mongodb-stitch-react-native-core" : "^4.3.2"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.2",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.3.2",
+        "mongodb-stitch-core-sdk" : "^4.3.2",
+        "mongodb-stitch-react-native-testutils" : "^4.3.2",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_from" : "file:mongodb-stitch-react-native-services-mongodb-remote-4.3.2.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dkaminsky",
+        "email" : "kaminsky@alumni.upenn.edu"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.3.2",
+      "gitHead" : "caca19bc636aa2d25927bce1f0140b232a004923",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.3.2_1552422402373_0.7951803400669446"
+      },
+      "_resolved" : "",
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.4.1" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.4.1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.4.1.tgz",
+        "shasum" : "7559b02378c998bc6a7354cd6de7b3c01256339b"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.4.1",
+        "mongodb-stitch-react-native-core" : "^4.4.1"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.2",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.4.1",
+        "mongodb-stitch-core-sdk" : "^4.4.1",
+        "mongodb-stitch-react-native-testutils" : "^4.4.1",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.4.1",
+      "gitHead" : "361eedb76ac999763ee4b4663412f8e72c9f2758",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.4.1_1560291320389_0.7738235377195886"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.5.0" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.5.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.5.0.tgz",
+        "shasum" : "e2b8e9d5237e4a64fb9d2e74aefc918bd40b655c"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.5.0",
+        "mongodb-stitch-react-native-core" : "^4.5.0"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.2",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.5.0",
+        "mongodb-stitch-core-sdk" : "^4.5.0",
+        "mongodb-stitch-react-native-testutils" : "^4.5.0",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.5.0",
+      "gitHead" : "a4a4a78022ce343ee7f918e1793d4656c09c5e3b",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.5.0_1562953037385_0.37925435261975693"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.0.14-1" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.0.14-1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.0.14-1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.0.14-1.tgz",
+        "shasum" : "25ff1f3c5b0d84655ce27c7e3d1fca28cc3460d1"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.0.14-1",
+        "mongodb-stitch-react-native-core" : "^4.0.14-1"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0-rc3",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.0.14-1",
+        "mongodb-stitch-core-sdk" : "^4.0.14-1",
+        "mongodb-stitch-react-native-testutils" : "^4.0.14-1",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.0.14-1",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.0.14-1_1539211331055_0.7364072143540403"
+      },
+      "readme" : "# mongodb-stitch-react-native-services-mongodb-remote\n\nThis package contains the React Native Remote MongoDB Service.\n\n**For more information on using this in a React Native app, see the [mongodb-stitch-react-native-sdk](https://www.npmjs.com/package/mongodb-stitch-react-native-sdk) package.**",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.umd.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.15-0" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.0.15-0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.0.15-0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.0.15-0.tgz",
+        "shasum" : "a8b6977338dbc96c34534f7128d772a766709c21"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.0.15-0",
+        "mongodb-stitch-react-native-core" : "^4.0.15-0"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-bson" : "^1.0.0",
+        "mongodb-stitch-core-admin-client" : "^4.0.15-0",
+        "mongodb-stitch-core-sdk" : "^4.0.15-0",
+        "mongodb-stitch-react-native-testutils" : "^4.0.15-0",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.0.15-0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.0.15-0_1539573733409_0.24554341803910584"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.umd.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-5" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.0.14-5",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.0.14-5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.0.14-5.tgz",
+        "shasum" : "5b648cfa4e83e4d1c615a2b525f9ad7e86adfc43"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.0.14-5",
+        "mongodb-stitch-react-native-core" : "^4.0.14-5"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0-rc7",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.0.14-5",
+        "mongodb-stitch-core-sdk" : "^4.0.14-5",
+        "mongodb-stitch-react-native-testutils" : "^4.0.14-5",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.0.14-5",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.0.14-5_1540319448467_0.1135043715983366"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.umd.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-4" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.0.14-4",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.0.14-4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.0.14-4.tgz",
+        "shasum" : "6081020999eba2cc9c78351564ca55ecab3a0e13"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.0.14-4",
+        "mongodb-stitch-react-native-core" : "^4.0.14-4"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0-rc6",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.0.14-4",
+        "mongodb-stitch-core-sdk" : "^4.0.14-4",
+        "mongodb-stitch-react-native-testutils" : "^4.0.14-4",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.0.14-4",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.0.14-4_1540317551506_0.7821207438580613"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.umd.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-3" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.0.14-3",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.0.14-3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.0.14-3.tgz",
+        "shasum" : "c0de274e080fe645c94fc349bb77020f72fc2345"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.0.14-3",
+        "mongodb-stitch-react-native-core" : "^4.0.14-3"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0-rc5",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.0.14-3",
+        "mongodb-stitch-core-sdk" : "^4.0.14-3",
+        "mongodb-stitch-react-native-testutils" : "^4.0.14-3",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.0.14-3",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.0.14-3_1540316583395_0.7236023167190666"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.umd.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-2" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.0.14-2",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.0.14-2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.0.14-2.tgz",
+        "shasum" : "3951dd7d79c5192e4bf43a20a80d33ce8cfb3e4a"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.0.14-2",
+        "mongodb-stitch-react-native-core" : "^4.0.14-2"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0-rc5",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.0.14-2",
+        "mongodb-stitch-core-sdk" : "^4.0.14-2",
+        "mongodb-stitch-react-native-testutils" : "^4.0.14-2",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.0.14-2",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.0.14-2_1539379771677_0.07350158301010246"
+      },
+      "readme" : "# mongodb-stitch-react-native-services-mongodb-remote\n\nThis package contains the React Native Remote MongoDB Service.\n\n**For more information on using this in a React Native app, see the [mongodb-stitch-react-native-sdk](https://www.npmjs.com/package/mongodb-stitch-react-native-sdk) package.**",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.umd.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-6" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.0.14-6",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.0.14-6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.0.14-6.tgz",
+        "shasum" : "d577775191f19bc70ef6abd3487cf83d3c2a04e9"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.0.14-6",
+        "mongodb-stitch-react-native-core" : "^4.0.14-6"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0-rc8",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.0.14-6",
+        "mongodb-stitch-core-sdk" : "^4.0.14-6",
+        "mongodb-stitch-react-native-testutils" : "^4.0.14-6",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.0.14-6",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.0.14-6_1542056494895_0.04366169373087336"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.umd.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.7.1" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.7.1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.7.1.tgz",
+        "shasum" : "4c83e182e49ad3bee125721bf0b32e85bbcf38f8"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.7.1",
+        "mongodb-stitch-react-native-core" : "^4.7.1"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.2",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.7.1",
+        "mongodb-stitch-core-sdk" : "^4.7.1",
+        "mongodb-stitch-react-native-testutils" : "^4.7.1",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.7.1",
+      "gitHead" : "7a05455129f9e1cc4ac2c285e0385ccd51c9d1e4",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.7.1_1573469837482_0.021401399254734166"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.8.0" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.8.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.8.0.tgz",
+        "shasum" : "98023a83a0a473f3c3ace9d21a28232af2e4b06b"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.8.0",
+        "mongodb-stitch-react-native-core" : "^4.8.0"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.2",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.8.0",
+        "mongodb-stitch-core-sdk" : "^4.8.0",
+        "mongodb-stitch-react-native-testutils" : "^4.8.0",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.8.0",
+      "gitHead" : "bd07a3d71727dd4ee9388daf80805e81d787df8b",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.8.0_1578071496532_0.9122288453061596"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.9.0" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.9.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.9.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.9.0.tgz",
+        "shasum" : "f39056523fa240b068ecaba27eea13516ab70056"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.9.0",
+        "mongodb-stitch-react-native-core" : "^4.9.0"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.2",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.9.0",
+        "mongodb-stitch-core-sdk" : "^4.9.0",
+        "mongodb-stitch-react-native-testutils" : "^4.9.0",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "tim.sedgwick@mongodb.com",
+        "name" : "tim.sedgwick"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.9.0",
+      "gitHead" : "d09b65d43124791e12aaee6b96761697633d7ddc",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.9.0_1580484693960_0.8071672325417969"
+      },
+      "readme" : "# mongodb-stitch-react-native-services-mongodb-remote\n\nThis package contains the React Native Remote MongoDB Service.\n\n**For more information on using this in a React Native app, see the [mongodb-stitch-react-native-sdk](https://www.npmjs.com/package/mongodb-stitch-react-native-sdk) package.**",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.0.15-beta-1.0" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.0.15-beta-1.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.0.15-beta-1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.0.15-beta-1.0.tgz",
+        "shasum" : "985982c08f877337e3731e61e7521c441f25691b"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.0.15-beta-1.0",
+        "mongodb-stitch-react-native-core" : "^4.0.15-beta-1.0"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.0.15-beta-1.0",
+        "mongodb-stitch-core-sdk" : "^4.0.15-beta-1.0",
+        "mongodb-stitch-react-native-testutils" : "^4.0.15-beta-1.0",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.0.15-beta-1.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.0.15-beta-1.0_1542735811752_0.3251552404755367"
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.0.15-beta-2.0" : {
+      "name" : "mongodb-stitch-react-native-services-mongodb-remote",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Remote MongoDB Service",
+      "version" : "4.0.15-beta-2.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote/-/mongodb-stitch-react-native-services-mongodb-remote-4.0.15-beta-2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-services-mongodb-remote%2F-%2Fmongodb-stitch-react-native-services-mongodb-remote-4.0.15-beta-2.0.tgz",
+        "shasum" : "f794511e86a0dd8a8a22d652d8844626a3a0baa3"
+      },
+      "dependencies" : {
+        "mongodb-stitch-core-services-mongodb-remote" : "^4.0.15-beta-2.0",
+        "mongodb-stitch-react-native-core" : "^4.0.15-beta-2.0"
+      },
+      "devDependencies" : {
+        "babel-jest" : "^23.4.0",
+        "babel-preset-react-native" : "^4.0.0",
+        "bson" : "4.0.0",
+        "jest" : "^23.1.0",
+        "mongodb-stitch-core-admin-client" : "^4.0.15-beta-2.0",
+        "mongodb-stitch-core-sdk" : "^4.0.15-beta-2.0",
+        "mongodb-stitch-react-native-testutils" : "^4.0.15-beta-2.0",
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "test" : "jest",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-services-mongodb-remote@4.0.15-beta-2.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-services-mongodb-remote_4.0.15-beta-2.0_1543261007647_0.2527199763865884"
+      },
+      "readme" : "# mongodb-stitch-react-native-services-mongodb-remote\n\nThis package contains the React Native Remote MongoDB Service.\n\n**For more information on using this in a React Native app, see the [mongodb-stitch-react-native-sdk](https://www.npmjs.com/package/mongodb-stitch-react-native-sdk) package.**",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "preset" : "react-native",
+        "globals" : {
+          "ts-jest" : {
+            "useBabelrc" : true,
+            "tsConfigFile" : "tsconfig.cjs.json"
+          }
+        },
+        "reporters" : [ "default", [ "jest-junit", {
+          "output" : "./build/test-results/junit.xml"
+        } ] ],
+        "transform" : {
+          "^.+\\.jsx?$" : "<rootDir>/node_modules/babel-jest",
+          "^.+\\.tsx?$" : "ts-jest"
+        },
+        "testRegex" : "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+        "testPathIgnorePatterns" : [ "/lib/", "/node_modules/" ],
+        "moduleFileExtensions" : [ "ts", "tsx", "js", "jsx", "json", "node" ],
+        "collectCoverage" : true,
+        "testURL" : "http://localhost/"
+      },
+      "_nodeVersion" : "11.1.0"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "email" : "npm622@yahoo.com",
+    "name" : "npm622"
+  }, {
+    "email" : "martin.burdette@mongodb.com",
+    "name" : "martyb"
+  }, {
+    "email" : "tim.sedgwick@mongodb.com",
+    "name" : "tim.sedgwick"
+  }, {
+    "email" : "mpobrien005@gmail.com",
+    "name" : "mpobrien"
+  }, {
+    "email" : "jsflax@gmail.com",
+    "name" : "jsflax"
+  }, {
+    "email" : "eric@erdaniels.com",
+    "name" : "edaniels"
+  }, {
+    "email" : "adam.chelminski@mongodb.com",
+    "name" : "adamchel_mongodb"
+  }, {
+    "email" : "caplingerc@gmail.com",
+    "name" : "unicodesnowman"
+  } ],
+  "author" : {
+    "name" : "MongoDB Inc."
+  },
+  "time" : {
+    "4.0.13" : "2018-08-02T20:31:47.608Z",
+    "4.0.14" : "2018-10-15T03:05:13.984Z",
+    "4.0.11" : "2018-07-27T20:15:54.205Z",
+    "4.0.12" : "2018-07-27T20:22:35.830Z",
+    "4.1.1" : "2018-12-06T18:54:11.203Z",
+    "4.2.0" : "2019-01-29T19:56:26.158Z",
+    "4.1.2" : "2018-12-26T23:43:24.435Z",
+    "4.3.0" : "2019-02-15T21:34:37.430Z",
+    "4.1.0" : "2018-11-27T20:44:08.460Z",
+    "4.6.0" : "2019-10-23T21:45:30.427Z",
+    "4.7.0" : "2019-11-06T17:03:33.100Z",
+    "4.1.3" : "2019-01-24T19:55:18.711Z",
+    "4.3.1" : "2019-03-05T18:43:01.804Z",
+    "4.4.0" : "2019-05-16T22:02:17.793Z",
+    "4.3.2" : "2019-03-12T20:26:42.581Z",
+    "4.4.1" : "2019-06-11T22:15:20.673Z",
+    "4.5.0" : "2019-07-12T17:37:17.501Z",
+    "modified" : "2020-04-16T19:33:49.216Z",
+    "4.0.14-1" : "2018-10-10T22:42:11.170Z",
+    "4.0.15-0" : "2018-10-15T03:22:13.560Z",
+    "4.0.14-5" : "2018-10-23T18:30:48.606Z",
+    "4.0.14-4" : "2018-10-23T17:59:11.658Z",
+    "4.0.14-3" : "2018-10-23T17:43:03.510Z",
+    "4.0.14-2" : "2018-10-12T21:29:32.134Z",
+    "created" : "2018-07-27T20:15:54.065Z",
+    "4.0.14-6" : "2018-11-12T21:01:35.037Z",
+    "4.7.1" : "2019-11-11T10:57:17.646Z",
+    "4.8.0" : "2020-01-03T17:11:36.675Z",
+    "4.9.0" : "2020-01-31T15:31:34.111Z",
+    "4.0.15-beta-1.0" : "2018-11-20T17:43:31.896Z",
+    "4.0.15-beta-2.0" : "2018-11-26T19:36:47.889Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+  "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+  "contributors" : [ {
+    "name" : "Adam Chelminski",
+    "email" : "adam.chelminski@mongodb.com"
+  }, {
+    "name" : "Eric Daniels",
+    "email" : "eric.daniels@mongodb.com"
+  }, {
+    "name" : "Jason Flax",
+    "email" : "jason.flax@mongodb.com"
+  }, {
+    "name" : "Doug Kaminsky",
+    "email" : "douglas.kaminsky@mongodb.com"
+  }, {
+    "name" : "Tyler Kaye",
+    "email" : "tyler.kaye@mongodb.com"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+  },
+  "license" : "Apache-2.0"
+}
