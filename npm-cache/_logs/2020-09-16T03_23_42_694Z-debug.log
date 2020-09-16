@@ -1,0 +1,633 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Users/demarcus/.nvm/versions/node/v12.14.0/bin/node',
+1 verbose cli   '/Users/demarcus/.nvm/versions/node/v12.14.0/bin/npm',
+1 verbose cli   'i'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.14.0
+4 verbose npm-session 8c20a31f440abd6f
+5 silly install runPreinstallTopLevelLifecycles
+6 silly preinstall nextup_voter_manager
+7 info lifecycle @~preinstall: @
+8 silly install loadCurrentTree
+9 silly install readLocalPackageData
+10 timing stage:loadCurrentTree Completed in 914ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 6ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 216ms
+16 silly install loadAllDepsIntoIdealTree
+17 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk 501ms
+18 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community%2fasync-storage 506ms
+19 silly pacote range manifest for @react-native-community/async-storage@~1.11.0 fetched in 513ms
+20 silly pacote range manifest for mongodb-stitch-react-native-sdk@^4.8.0 fetched in 512ms
+21 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/mem 546ms
+22 silly pacote range manifest for mem@>=4.0.0 fetched in 554ms
+23 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo 654ms
+24 silly pacote range manifest for babel-preset-expo@^8.2.3 fetched in 662ms
+25 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/axios 686ms
+26 silly pacote range manifest for axios@^0.19.2 fetched in 692ms
+27 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community%2fdatetimepicker 732ms
+28 silly pacote version manifest for @react-native-community/datetimepicker@2.4.0 fetched in 738ms
+29 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-elements 782ms
+30 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/map-age-cleaner 138ms
+31 silly pacote range manifest for react-native-elements@^2.0.0 fetched in 795ms
+32 silly pacote range manifest for map-age-cleaner@^0.1.3 fetched in 145ms
+33 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/mimic-fn 121ms
+34 silly pacote range manifest for mimic-fn@^3.0.0 fetched in 124ms
+35 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/follow-redirects 131ms
+36 silly pacote version manifest for follow-redirects@1.5.10 fetched in 137ms
+37 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-linear-gradient 885ms
+38 silly pacote range manifest for react-native-linear-gradient@^2.5.6 fetched in 891ms
+39 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/color 98ms
+40 silly pacote range manifest for color@^3.1.0 fetched in 102ms
+41 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com 966ms
+42 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/deepmerge 154ms
+43 silly pacote range manifest for emailjs-com@^2.4.1 fetched in 977ms
+44 silly pacote range manifest for deepmerge@^4.2.2 fetched in 164ms
+45 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/hoist-non-react-statics 108ms
+46 silly pacote range manifest for hoist-non-react-statics@^3.1.0 fetched in 112ms
+47 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.isequal 134ms
+48 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/opencollective-postinstall 133ms
+49 silly pacote range manifest for opencollective-postinstall@^2.0.0 fetched in 139ms
+50 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core 565ms
+51 silly pacote range manifest for mongodb-stitch-react-native-core@^4.8.0 fetched in 570ms
+52 http fetch GET 200 https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.isequal/-/lodash.isequal-4.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Flodash.isequal%2F-%2Flodash.isequal-4.5.0.tgz 85ms
+53 silly pacote range manifest for lodash.isequal@^4.5.0 fetched in 227ms
+54 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/p-defer 143ms
+55 http fetch GET 200 https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/p-defer/-/p-defer-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fp-defer%2F-%2Fp-defer-1.0.0.tgz 107ms
+56 silly pacote range manifest for p-defer@^1.0.0 fetched in 253ms
+57 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-picker-select 735ms
+58 silly pacote range manifest for react-native-picker-select@^7.0.0 fetched in 740ms
+59 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/debug 238ms
+60 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-modal-datetime-picker 1291ms
+61 silly pacote range manifest for react-native-modal-datetime-picker@^8.7.1 fetched in 1296ms
+62 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-services-mongodb-remote 762ms
+63 silly pacote range manifest for mongodb-stitch-react-native-services-mongodb-remote@^4.8.0 fetched in 766ms
+64 http fetch GET 200 https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/debug/-/debug-3.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fdebug%2F-%2Fdebug-3.1.0.tgz 45ms
+65 silly pacote version manifest for debug@=3.1.0 fetched in 295ms
+66 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/bson 280ms
+67 silly pacote version manifest for bson@4.0.2 fetched in 289ms
+68 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/buffer 309ms
+69 silly pacote range manifest for buffer@^5.1.0 fetched in 314ms
+70 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings 788ms
+71 silly pacote range manifest for react-native-ratings@^7.2.0 fetched in 794ms
+72 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types%2freact-native-vector-icons 1121ms
+73 silly pacote range manifest for @types/react-native-vector-icons@^6.4.5 fetched in 1125ms
+74 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-core-services-mongodb-remote 650ms
+75 silly pacote range manifest for mongodb-stitch-core-services-mongodb-remote@^4.8.0 fetched in 656ms
+76 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-core-sdk 871ms
+77 silly pacote range manifest for mongodb-stitch-core-sdk@^4.8.0 fetched in 874ms
+78 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-status-bar-height 1069ms
+79 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/ieee754 363ms
+80 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/long 678ms
+81 silly pacote range manifest for react-native-status-bar-height@^2.5.0 fetched in 1075ms
+82 silly pacote range manifest for ieee754@^1.1.4 fetched in 368ms
+83 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/jsonwebtoken 391ms
+84 silly pacote version manifest for jsonwebtoken@8.2.1 fetched in 396ms
+85 http fetch GET 200 https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/long/-/long-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Flong%2F-%2Flong-4.0.0.tgz 684ms
+86 silly pacote range manifest for long@^4.0.0 fetched in 1366ms
+87 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types%2freact 819ms
+88 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/jws 362ms
+89 silly pacote range manifest for @types/react@* fetched in 833ms
+90 silly pacote range manifest for jws@^3.1.4 fetched in 367ms
+91 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.once 121ms
+92 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/ms 140ms
+93 silly pacote range manifest for ms@^2.1.1 fetched in 144ms
+94 http fetch GET 200 https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.once/-/lodash.once-4.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Flodash.once%2F-%2Flodash.once-4.1.1.tgz 99ms
+95 silly pacote range manifest for lodash.once@^4.0.0 fetched in 223ms
+96 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types%2fprop-types 238ms
+97 silly pacote range manifest for @types/prop-types@* fetched in 240ms
+98 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.isstring 627ms
+99 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.isinteger 629ms
+100 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.isnumber 632ms
+101 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.isboolean 637ms
+102 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.isplainobject 637ms
+103 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.includes 643ms
+104 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/csstype 176ms
+105 silly pacote range manifest for csstype@^3.0.2 fetched in 184ms
+106 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/jwa 140ms
+107 silly pacote range manifest for jwa@^1.4.1 fetched in 143ms
+108 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/buffer-equal-constant-time 117ms
+109 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/ecdsa-sig-formatter 122ms
+110 silly pacote version manifest for ecdsa-sig-formatter@1.0.11 fetched in 130ms
+111 http fetch GET 200 https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbuffer-equal-constant-time%2F-%2Fbuffer-equal-constant-time-1.0.1.tgz 75ms
+112 silly pacote version manifest for buffer-equal-constant-time@1.0.1 fetched in 195ms
+113 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types%2freact-native 1672ms
+114 http fetch GET 200 https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.isinteger/-/lodash.isinteger-4.0.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Flodash.isinteger%2F-%2Flodash.isinteger-4.0.4.tgz 582ms
+115 silly pacote range manifest for @types/react-native@* fetched in 1688ms
+116 http fetch GET 200 https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Flodash.isplainobject%2F-%2Flodash.isplainobject-4.0.6.tgz 577ms
+117 silly pacote range manifest for lodash.isinteger@^4.0.4 fetched in 1218ms
+118 silly pacote range manifest for lodash.isplainobject@^4.0.6 fetched in 1218ms
+119 http fetch GET 200 https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.isnumber/-/lodash.isnumber-3.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Flodash.isnumber%2F-%2Flodash.isnumber-3.0.3.tgz 659ms
+120 silly pacote range manifest for lodash.isnumber@^3.0.3 fetched in 1297ms
+121 http fetch GET 200 https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.includes/-/lodash.includes-4.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Flodash.includes%2F-%2Flodash.includes-4.3.0.tgz 659ms
+122 silly pacote range manifest for lodash.includes@^4.3.0 fetched in 1306ms
+123 http fetch GET 200 https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.isstring/-/lodash.isstring-4.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Flodash.isstring%2F-%2Flodash.isstring-4.0.1.tgz 680ms
+124 silly pacote range manifest for lodash.isstring@^4.0.1 fetched in 1310ms
+125 http fetch GET 200 https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/lodash.isboolean/-/lodash.isboolean-3.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Flodash.isboolean%2F-%2Flodash.isboolean-3.0.3.tgz 841ms
+126 silly pacote range manifest for lodash.isboolean@^3.0.3 fetched in 1483ms
+127 silly removeObsoleteDep removing expo@38.0.10 from the tree as its been replaced by a newer version or is no longer required
+128 silly removeObsoleteDep removing @expo/vector-icons@10.2.1 from the tree as its been replaced by a newer version or is no longer required
+129 silly removeObsoleteDep removing @unimodules/core@5.3.0 from the tree as its been replaced by a newer version or is no longer required
+130 silly removeObsoleteDep removing compare-versions@3.6.0 from the tree as its been replaced by a newer version or is no longer required
+131 silly removeObsoleteDep removing @unimodules/react-native-adapter@5.4.0 from the tree as its been replaced by a newer version or is no longer required
+132 silly removeObsoleteDep removing babel-preset-expo@8.2.3 from the tree as its been replaced by a newer version or is no longer required
+133 silly removeObsoleteDep removing @babel/plugin-proposal-decorators@7.10.5 from the tree as its been replaced by a newer version or is no longer required
+134 silly removeObsoleteDep removing @babel/helper-create-class-features-plugin@7.10.5 from the tree as its been replaced by a newer version or is no longer required
+135 silly removeObsoleteDep removing @babel/helper-plugin-utils@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+136 silly removeObsoleteDep removing @babel/plugin-syntax-decorators@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+137 silly removeObsoleteDep removing @babel/preset-env@7.11.5 from the tree as its been replaced by a newer version or is no longer required
+138 silly removeObsoleteDep removing @babel/compat-data@7.11.0 from the tree as its been replaced by a newer version or is no longer required
+139 silly removeObsoleteDep removing browserslist@4.14.2 from the tree as its been replaced by a newer version or is no longer required
+140 silly removeObsoleteDep removing caniuse-lite@1.0.30001131 from the tree as its been replaced by a newer version or is no longer required
+141 silly removeObsoleteDep removing electron-to-chromium@1.3.568 from the tree as its been replaced by a newer version or is no longer required
+142 silly removeObsoleteDep removing escalade@3.1.0 from the tree as its been replaced by a newer version or is no longer required
+143 silly removeObsoleteDep removing node-releases@1.1.61 from the tree as its been replaced by a newer version or is no longer required
+144 silly removeObsoleteDep removing @babel/helper-compilation-targets@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+145 silly removeObsoleteDep removing levenary@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+146 silly removeObsoleteDep removing leven@3.1.0 from the tree as its been replaced by a newer version or is no longer required
+147 silly removeObsoleteDep removing @babel/plugin-proposal-async-generator-functions@7.10.5 from the tree as its been replaced by a newer version or is no longer required
+148 silly removeObsoleteDep removing @babel/helper-remap-async-to-generator@7.11.4 from the tree as its been replaced by a newer version or is no longer required
+149 silly removeObsoleteDep removing @babel/helper-annotate-as-pure@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+150 silly removeObsoleteDep removing @babel/helper-wrap-function@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+151 silly removeObsoleteDep removing @babel/plugin-syntax-async-generators@7.8.4 from the tree as its been replaced by a newer version or is no longer required
+152 silly removeObsoleteDep removing @babel/plugin-proposal-class-properties@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+153 silly removeObsoleteDep removing @babel/plugin-proposal-dynamic-import@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+154 silly removeObsoleteDep removing @babel/plugin-syntax-dynamic-import@7.8.3 from the tree as its been replaced by a newer version or is no longer required
+155 silly removeObsoleteDep removing @babel/plugin-proposal-export-namespace-from@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+156 silly removeObsoleteDep removing @babel/plugin-syntax-export-namespace-from@7.8.3 from the tree as its been replaced by a newer version or is no longer required
+157 silly removeObsoleteDep removing @babel/plugin-proposal-json-strings@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+158 silly removeObsoleteDep removing @babel/plugin-syntax-json-strings@7.8.3 from the tree as its been replaced by a newer version or is no longer required
+159 silly removeObsoleteDep removing @babel/plugin-proposal-logical-assignment-operators@7.11.0 from the tree as its been replaced by a newer version or is no longer required
+160 silly removeObsoleteDep removing @babel/plugin-syntax-logical-assignment-operators@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+161 silly removeObsoleteDep removing @babel/plugin-proposal-nullish-coalescing-operator@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+162 silly removeObsoleteDep removing @babel/plugin-syntax-nullish-coalescing-operator@7.8.3 from the tree as its been replaced by a newer version or is no longer required
+163 silly removeObsoleteDep removing @babel/plugin-proposal-numeric-separator@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+164 silly removeObsoleteDep removing @babel/plugin-syntax-numeric-separator@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+165 silly removeObsoleteDep removing @babel/plugin-proposal-object-rest-spread@7.11.0 from the tree as its been replaced by a newer version or is no longer required
+166 silly removeObsoleteDep removing @babel/plugin-syntax-object-rest-spread@7.8.3 from the tree as its been replaced by a newer version or is no longer required
+167 silly removeObsoleteDep removing @babel/plugin-transform-parameters@7.10.5 from the tree as its been replaced by a newer version or is no longer required
+168 silly removeObsoleteDep removing @babel/plugin-proposal-optional-catch-binding@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+169 silly removeObsoleteDep removing @babel/plugin-syntax-optional-catch-binding@7.8.3 from the tree as its been replaced by a newer version or is no longer required
+170 silly removeObsoleteDep removing @babel/plugin-proposal-optional-chaining@7.11.0 from the tree as its been replaced by a newer version or is no longer required
+171 silly removeObsoleteDep removing @babel/helper-skip-transparent-expression-wrappers@7.11.0 from the tree as its been replaced by a newer version or is no longer required
+172 silly removeObsoleteDep removing @babel/plugin-syntax-optional-chaining@7.8.3 from the tree as its been replaced by a newer version or is no longer required
+173 silly removeObsoleteDep removing @babel/plugin-proposal-private-methods@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+174 silly removeObsoleteDep removing @babel/plugin-proposal-unicode-property-regex@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+175 silly removeObsoleteDep removing @babel/helper-create-regexp-features-plugin@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+176 silly removeObsoleteDep removing @babel/helper-regex@7.10.5 from the tree as its been replaced by a newer version or is no longer required
+177 silly removeObsoleteDep removing regexpu-core@4.7.0 from the tree as its been replaced by a newer version or is no longer required
+178 silly removeObsoleteDep removing regenerate@1.4.1 from the tree as its been replaced by a newer version or is no longer required
+179 silly removeObsoleteDep removing regenerate-unicode-properties@8.2.0 from the tree as its been replaced by a newer version or is no longer required
+180 silly removeObsoleteDep removing regjsgen@0.5.2 from the tree as its been replaced by a newer version or is no longer required
+181 silly removeObsoleteDep removing regjsparser@0.6.4 from the tree as its been replaced by a newer version or is no longer required
+182 silly removeObsoleteDep removing jsesc@0.5.0 from the tree as its been replaced by a newer version or is no longer required
+183 silly removeObsoleteDep removing unicode-match-property-ecmascript@1.0.4 from the tree as its been replaced by a newer version or is no longer required
+184 silly removeObsoleteDep removing unicode-canonical-property-names-ecmascript@1.0.4 from the tree as its been replaced by a newer version or is no longer required
+185 silly removeObsoleteDep removing unicode-property-aliases-ecmascript@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+186 silly removeObsoleteDep removing unicode-match-property-value-ecmascript@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+187 silly removeObsoleteDep removing @babel/plugin-syntax-class-properties@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+188 silly removeObsoleteDep removing @babel/plugin-syntax-top-level-await@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+189 silly removeObsoleteDep removing @babel/plugin-transform-arrow-functions@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+190 silly removeObsoleteDep removing @babel/plugin-transform-async-to-generator@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+191 silly removeObsoleteDep removing @babel/plugin-transform-block-scoped-functions@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+192 silly removeObsoleteDep removing @babel/plugin-transform-block-scoping@7.11.1 from the tree as its been replaced by a newer version or is no longer required
+193 silly removeObsoleteDep removing @babel/plugin-transform-classes@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+194 silly removeObsoleteDep removing @babel/helper-define-map@7.10.5 from the tree as its been replaced by a newer version or is no longer required
+195 silly removeObsoleteDep removing @babel/plugin-transform-computed-properties@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+196 silly removeObsoleteDep removing @babel/plugin-transform-destructuring@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+197 silly removeObsoleteDep removing @babel/plugin-transform-dotall-regex@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+198 silly removeObsoleteDep removing @babel/plugin-transform-duplicate-keys@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+199 silly removeObsoleteDep removing @babel/plugin-transform-exponentiation-operator@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+200 silly removeObsoleteDep removing @babel/helper-builder-binary-assignment-operator-visitor@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+201 silly removeObsoleteDep removing @babel/helper-explode-assignable-expression@7.11.4 from the tree as its been replaced by a newer version or is no longer required
+202 silly removeObsoleteDep removing @babel/plugin-transform-for-of@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+203 silly removeObsoleteDep removing @babel/plugin-transform-function-name@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+204 silly removeObsoleteDep removing @babel/plugin-transform-literals@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+205 silly removeObsoleteDep removing @babel/plugin-transform-member-expression-literals@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+206 silly removeObsoleteDep removing @babel/plugin-transform-modules-amd@7.10.5 from the tree as its been replaced by a newer version or is no longer required
+207 silly removeObsoleteDep removing babel-plugin-dynamic-import-node@2.3.3 from the tree as its been replaced by a newer version or is no longer required
+208 silly removeObsoleteDep removing @babel/plugin-transform-modules-commonjs@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+209 silly removeObsoleteDep removing @babel/plugin-transform-modules-systemjs@7.10.5 from the tree as its been replaced by a newer version or is no longer required
+210 silly removeObsoleteDep removing @babel/helper-hoist-variables@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+211 silly removeObsoleteDep removing @babel/plugin-transform-modules-umd@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+212 silly removeObsoleteDep removing @babel/plugin-transform-named-capturing-groups-regex@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+213 silly removeObsoleteDep removing @babel/plugin-transform-new-target@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+214 silly removeObsoleteDep removing @babel/plugin-transform-object-super@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+215 silly removeObsoleteDep removing @babel/plugin-transform-property-literals@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+216 silly removeObsoleteDep removing @babel/plugin-transform-regenerator@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+217 silly removeObsoleteDep removing regenerator-transform@0.14.5 from the tree as its been replaced by a newer version or is no longer required
+218 silly removeObsoleteDep removing @babel/runtime@7.11.2 from the tree as its been replaced by a newer version or is no longer required
+219 silly removeObsoleteDep removing regenerator-runtime@0.13.7 from the tree as its been replaced by a newer version or is no longer required
+220 silly removeObsoleteDep removing @babel/plugin-transform-reserved-words@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+221 silly removeObsoleteDep removing @babel/plugin-transform-shorthand-properties@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+222 silly removeObsoleteDep removing @babel/plugin-transform-spread@7.11.0 from the tree as its been replaced by a newer version or is no longer required
+223 silly removeObsoleteDep removing @babel/plugin-transform-sticky-regex@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+224 silly removeObsoleteDep removing @babel/plugin-transform-template-literals@7.10.5 from the tree as its been replaced by a newer version or is no longer required
+225 silly removeObsoleteDep removing @babel/plugin-transform-typeof-symbol@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+226 silly removeObsoleteDep removing @babel/plugin-transform-unicode-escapes@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+227 silly removeObsoleteDep removing @babel/plugin-transform-unicode-regex@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+228 silly removeObsoleteDep removing @babel/preset-modules@0.1.4 from the tree as its been replaced by a newer version or is no longer required
+229 silly removeObsoleteDep removing esutils@2.0.3 from the tree as its been replaced by a newer version or is no longer required
+230 silly removeObsoleteDep removing core-js-compat@3.6.5 from the tree as its been replaced by a newer version or is no longer required
+231 silly removeObsoleteDep removing semver@7.0.0 from the tree as its been replaced by a newer version or is no longer required
+232 silly removeObsoleteDep removing babel-plugin-module-resolver@3.2.0 from the tree as its been replaced by a newer version or is no longer required
+233 silly removeObsoleteDep removing find-babel-config@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+234 silly removeObsoleteDep removing json5@0.5.1 from the tree as its been replaced by a newer version or is no longer required
+235 silly removeObsoleteDep removing path-exists@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+236 silly removeObsoleteDep removing pkg-up@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+237 silly removeObsoleteDep removing find-up@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+238 silly removeObsoleteDep removing locate-path@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+239 silly removeObsoleteDep removing p-locate@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+240 silly removeObsoleteDep removing p-limit@1.3.0 from the tree as its been replaced by a newer version or is no longer required
+241 silly removeObsoleteDep removing p-try@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+242 silly removeObsoleteDep removing reselect@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+243 silly removeObsoleteDep removing babel-plugin-react-native-web@0.11.7 from the tree as its been replaced by a newer version or is no longer required
+244 silly removeObsoleteDep removing metro-react-native-babel-preset@0.58.0 from the tree as its been replaced by a newer version or is no longer required
+245 silly removeObsoleteDep removing @babel/plugin-proposal-export-default-from@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+246 silly removeObsoleteDep removing @babel/plugin-syntax-export-default-from@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+247 silly removeObsoleteDep removing @babel/plugin-syntax-flow@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+248 silly removeObsoleteDep removing @babel/plugin-transform-flow-strip-types@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+249 silly removeObsoleteDep removing @babel/plugin-transform-object-assign@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+250 silly removeObsoleteDep removing @babel/plugin-transform-react-display-name@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+251 silly removeObsoleteDep removing @babel/plugin-transform-react-jsx@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+252 silly removeObsoleteDep removing @babel/helper-builder-react-jsx@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+253 silly removeObsoleteDep removing @babel/helper-builder-react-jsx-experimental@7.11.5 from the tree as its been replaced by a newer version or is no longer required
+254 silly removeObsoleteDep removing @babel/plugin-syntax-jsx@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+255 silly removeObsoleteDep removing @babel/plugin-transform-react-jsx-source@7.10.5 from the tree as its been replaced by a newer version or is no longer required
+256 silly removeObsoleteDep removing @babel/plugin-transform-runtime@7.11.5 from the tree as its been replaced by a newer version or is no longer required
+257 silly removeObsoleteDep removing @babel/plugin-transform-typescript@7.11.0 from the tree as its been replaced by a newer version or is no longer required
+258 silly removeObsoleteDep removing @babel/plugin-syntax-typescript@7.10.4 from the tree as its been replaced by a newer version or is no longer required
+259 silly removeObsoleteDep removing react-refresh@0.4.3 from the tree as its been replaced by a newer version or is no longer required
+260 silly removeObsoleteDep removing badgin@1.1.8 from the tree as its been replaced by a newer version or is no longer required
+261 silly removeObsoleteDep removing expo-asset@8.1.7 from the tree as its been replaced by a newer version or is no longer required
+262 silly removeObsoleteDep removing blueimp-md5@2.18.0 from the tree as its been replaced by a newer version or is no longer required
+263 silly removeObsoleteDep removing path-browserify@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+264 silly removeObsoleteDep removing expo-error-recovery@1.2.2 from the tree as its been replaced by a newer version or is no longer required
+265 silly removeObsoleteDep removing expo-file-system@9.0.1 from the tree as its been replaced by a newer version or is no longer required
+266 silly removeObsoleteDep removing expo-font@8.2.2 from the tree as its been replaced by a newer version or is no longer required
+267 silly removeObsoleteDep removing fontfaceobserver@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+268 silly removeObsoleteDep removing expo-keep-awake@8.2.1 from the tree as its been replaced by a newer version or is no longer required
+269 silly removeObsoleteDep removing expo-linear-gradient@8.2.1 from the tree as its been replaced by a newer version or is no longer required
+270 silly removeObsoleteDep removing expo-linking@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+271 silly removeObsoleteDep removing expo-constants@9.1.1 from the tree as its been replaced by a newer version or is no longer required
+272 silly removeObsoleteDep removing qs@6.9.4 from the tree as its been replaced by a newer version or is no longer required
+273 silly removeObsoleteDep removing url-parse@1.4.7 from the tree as its been replaced by a newer version or is no longer required
+274 silly removeObsoleteDep removing querystringify@2.2.0 from the tree as its been replaced by a newer version or is no longer required
+275 silly removeObsoleteDep removing requires-port@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+276 silly removeObsoleteDep removing expo-location@8.2.1 from the tree as its been replaced by a newer version or is no longer required
+277 silly removeObsoleteDep removing expo-permissions@9.0.1 from the tree as its been replaced by a newer version or is no longer required
+278 silly removeObsoleteDep removing expo-splash-screen@0.5.0 from the tree as its been replaced by a newer version or is no longer required
+279 silly removeObsoleteDep removing @expo/configure-splash-screen@0.1.13 from the tree as its been replaced by a newer version or is no longer required
+280 silly removeObsoleteDep removing @react-native-community/cli-platform-android@4.13.0 from the tree as its been replaced by a newer version or is no longer required
+281 silly removeObsoleteDep removing @react-native-community/cli-tools@4.13.0 from the tree as its been replaced by a newer version or is no longer required
+282 silly removeObsoleteDep removing chalk@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+283 silly removeObsoleteDep removing ansi-styles@4.2.1 from the tree as its been replaced by a newer version or is no longer required
+284 silly removeObsoleteDep removing @types/color-name@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+285 silly removeObsoleteDep removing color-convert@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+286 silly removeObsoleteDep removing color-name@1.1.4 from the tree as its been replaced by a newer version or is no longer required
+287 silly removeObsoleteDep removing supports-color@7.2.0 from the tree as its been replaced by a newer version or is no longer required
+288 silly removeObsoleteDep removing has-flag@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+289 silly removeObsoleteDep removing mime@2.4.6 from the tree as its been replaced by a newer version or is no longer required
+290 silly removeObsoleteDep removing node-fetch@2.6.1 from the tree as its been replaced by a newer version or is no longer required
+291 silly removeObsoleteDep removing open@6.4.0 from the tree as its been replaced by a newer version or is no longer required
+292 silly removeObsoleteDep removing is-wsl@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+293 silly removeObsoleteDep removing shell-quote@1.6.1 from the tree as its been replaced by a newer version or is no longer required
+294 silly removeObsoleteDep removing jsonify@0.0.0 from the tree as its been replaced by a newer version or is no longer required
+295 silly removeObsoleteDep removing array-filter@0.0.1 from the tree as its been replaced by a newer version or is no longer required
+296 silly removeObsoleteDep removing array-reduce@0.0.0 from the tree as its been replaced by a newer version or is no longer required
+297 silly removeObsoleteDep removing array-map@0.0.0 from the tree as its been replaced by a newer version or is no longer required
+298 silly removeObsoleteDep removing chalk@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+299 silly removeObsoleteDep removing ansi-styles@4.2.1 from the tree as its been replaced by a newer version or is no longer required
+300 silly removeObsoleteDep removing color-convert@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+301 silly removeObsoleteDep removing supports-color@7.2.0 from the tree as its been replaced by a newer version or is no longer required
+302 silly removeObsoleteDep removing has-flag@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+303 silly removeObsoleteDep removing execa@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+304 silly removeObsoleteDep removing cross-spawn@6.0.5 from the tree as its been replaced by a newer version or is no longer required
+305 silly removeObsoleteDep removing nice-try@1.0.5 from the tree as its been replaced by a newer version or is no longer required
+306 silly removeObsoleteDep removing path-key@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+307 silly removeObsoleteDep removing shebang-command@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+308 silly removeObsoleteDep removing shebang-regex@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+309 silly removeObsoleteDep removing which@1.3.1 from the tree as its been replaced by a newer version or is no longer required
+310 silly removeObsoleteDep removing isexe@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+311 silly removeObsoleteDep removing get-stream@4.1.0 from the tree as its been replaced by a newer version or is no longer required
+312 silly removeObsoleteDep removing pump@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+313 silly removeObsoleteDep removing end-of-stream@1.4.4 from the tree as its been replaced by a newer version or is no longer required
+314 silly removeObsoleteDep removing once@1.4.0 from the tree as its been replaced by a newer version or is no longer required
+315 silly removeObsoleteDep removing wrappy@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+316 silly removeObsoleteDep removing npm-run-path@2.0.2 from the tree as its been replaced by a newer version or is no longer required
+317 silly removeObsoleteDep removing p-finally@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+318 silly removeObsoleteDep removing signal-exit@3.0.3 from the tree as its been replaced by a newer version or is no longer required
+319 silly removeObsoleteDep removing strip-eof@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+320 silly removeObsoleteDep removing fs-extra@8.1.0 from the tree as its been replaced by a newer version or is no longer required
+321 silly removeObsoleteDep removing graceful-fs@4.2.4 from the tree as its been replaced by a newer version or is no longer required
+322 silly removeObsoleteDep removing jsonfile@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+323 silly removeObsoleteDep removing universalify@0.1.2 from the tree as its been replaced by a newer version or is no longer required
+324 silly removeObsoleteDep removing glob@7.1.6 from the tree as its been replaced by a newer version or is no longer required
+325 silly removeObsoleteDep removing fs.realpath@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+326 silly removeObsoleteDep removing inflight@1.0.6 from the tree as its been replaced by a newer version or is no longer required
+327 silly removeObsoleteDep removing inherits@2.0.4 from the tree as its been replaced by a newer version or is no longer required
+328 silly removeObsoleteDep removing minimatch@3.0.4 from the tree as its been replaced by a newer version or is no longer required
+329 silly removeObsoleteDep removing brace-expansion@1.1.11 from the tree as its been replaced by a newer version or is no longer required
+330 silly removeObsoleteDep removing balanced-match@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+331 silly removeObsoleteDep removing concat-map@0.0.1 from the tree as its been replaced by a newer version or is no longer required
+332 silly removeObsoleteDep removing path-is-absolute@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+333 silly removeObsoleteDep removing jetifier@1.6.6 from the tree as its been replaced by a newer version or is no longer required
+334 silly removeObsoleteDep removing logkitty@0.7.1 from the tree as its been replaced by a newer version or is no longer required
+335 silly removeObsoleteDep removing ansi-fragments@0.2.1 from the tree as its been replaced by a newer version or is no longer required
+336 silly removeObsoleteDep removing colorette@1.2.1 from the tree as its been replaced by a newer version or is no longer required
+337 silly removeObsoleteDep removing slice-ansi@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+338 silly removeObsoleteDep removing astral-regex@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+339 silly removeObsoleteDep removing is-fullwidth-code-point@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+340 silly removeObsoleteDep removing strip-ansi@5.2.0 from the tree as its been replaced by a newer version or is no longer required
+341 silly removeObsoleteDep removing ansi-regex@4.1.0 from the tree as its been replaced by a newer version or is no longer required
+342 silly removeObsoleteDep removing dayjs@1.8.35 from the tree as its been replaced by a newer version or is no longer required
+343 silly removeObsoleteDep removing yargs@15.4.1 from the tree as its been replaced by a newer version or is no longer required
+344 silly removeObsoleteDep removing cliui@6.0.0 from the tree as its been replaced by a newer version or is no longer required
+345 silly removeObsoleteDep removing string-width@4.2.0 from the tree as its been replaced by a newer version or is no longer required
+346 silly removeObsoleteDep removing emoji-regex@8.0.0 from the tree as its been replaced by a newer version or is no longer required
+347 silly removeObsoleteDep removing is-fullwidth-code-point@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+348 silly removeObsoleteDep removing strip-ansi@6.0.0 from the tree as its been replaced by a newer version or is no longer required
+349 silly removeObsoleteDep removing ansi-regex@5.0.0 from the tree as its been replaced by a newer version or is no longer required
+350 silly removeObsoleteDep removing wrap-ansi@6.2.0 from the tree as its been replaced by a newer version or is no longer required
+351 silly removeObsoleteDep removing ansi-styles@4.2.1 from the tree as its been replaced by a newer version or is no longer required
+352 silly removeObsoleteDep removing color-convert@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+353 silly removeObsoleteDep removing decamelize@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+354 silly removeObsoleteDep removing find-up@4.1.0 from the tree as its been replaced by a newer version or is no longer required
+355 silly removeObsoleteDep removing locate-path@5.0.0 from the tree as its been replaced by a newer version or is no longer required
+356 silly removeObsoleteDep removing p-locate@4.1.0 from the tree as its been replaced by a newer version or is no longer required
+357 silly removeObsoleteDep removing p-limit@2.3.0 from the tree as its been replaced by a newer version or is no longer required
+358 silly removeObsoleteDep removing p-try@2.2.0 from the tree as its been replaced by a newer version or is no longer required
+359 silly removeObsoleteDep removing path-exists@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+360 silly removeObsoleteDep removing get-caller-file@2.0.5 from the tree as its been replaced by a newer version or is no longer required
+361 silly removeObsoleteDep removing require-directory@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+362 silly removeObsoleteDep removing require-main-filename@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+363 silly removeObsoleteDep removing set-blocking@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+364 silly removeObsoleteDep removing which-module@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+365 silly removeObsoleteDep removing y18n@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+366 silly removeObsoleteDep removing yargs-parser@18.1.3 from the tree as its been replaced by a newer version or is no longer required
+367 silly removeObsoleteDep removing camelcase@5.3.1 from the tree as its been replaced by a newer version or is no longer required
+368 silly removeObsoleteDep removing slash@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+369 silly removeObsoleteDep removing xmldoc@1.1.2 from the tree as its been replaced by a newer version or is no longer required
+370 silly removeObsoleteDep removing sax@1.2.4 from the tree as its been replaced by a newer version or is no longer required
+371 silly removeObsoleteDep removing @react-native-community/cli-platform-ios@4.13.0 from the tree as its been replaced by a newer version or is no longer required
+372 silly removeObsoleteDep removing chalk@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+373 silly removeObsoleteDep removing ansi-styles@4.2.1 from the tree as its been replaced by a newer version or is no longer required
+374 silly removeObsoleteDep removing color-convert@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+375 silly removeObsoleteDep removing supports-color@7.2.0 from the tree as its been replaced by a newer version or is no longer required
+376 silly removeObsoleteDep removing has-flag@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+377 silly removeObsoleteDep removing js-yaml@3.14.0 from the tree as its been replaced by a newer version or is no longer required
+378 silly removeObsoleteDep removing argparse@1.0.10 from the tree as its been replaced by a newer version or is no longer required
+379 silly removeObsoleteDep removing sprintf-js@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+380 silly removeObsoleteDep removing esprima@4.0.1 from the tree as its been replaced by a newer version or is no longer required
+381 silly removeObsoleteDep removing plist@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+382 silly removeObsoleteDep removing base64-js@1.3.1 from the tree as its been replaced by a newer version or is no longer required
+383 silly removeObsoleteDep removing xmlbuilder@9.0.7 from the tree as its been replaced by a newer version or is no longer required
+384 silly removeObsoleteDep removing xmldom@0.1.31 from the tree as its been replaced by a newer version or is no longer required
+385 silly removeObsoleteDep removing xcode@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+386 silly removeObsoleteDep removing simple-plist@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+387 silly removeObsoleteDep removing bplist-creator@0.0.8 from the tree as its been replaced by a newer version or is no longer required
+388 silly removeObsoleteDep removing stream-buffers@2.2.0 from the tree as its been replaced by a newer version or is no longer required
+389 silly removeObsoleteDep removing bplist-parser@0.2.0 from the tree as its been replaced by a newer version or is no longer required
+390 silly removeObsoleteDep removing big-integer@1.6.48 from the tree as its been replaced by a newer version or is no longer required
+391 silly removeObsoleteDep removing color-string@1.5.3 from the tree as its been replaced by a newer version or is no longer required
+392 silly removeObsoleteDep removing simple-swizzle@0.2.2 from the tree as its been replaced by a newer version or is no longer required
+393 silly removeObsoleteDep removing is-arrayish@0.3.2 from the tree as its been replaced by a newer version or is no longer required
+394 silly removeObsoleteDep removing commander@5.1.0 from the tree as its been replaced by a newer version or is no longer required
+395 silly removeObsoleteDep removing core-js@3.6.5 from the tree as its been replaced by a newer version or is no longer required
+396 silly removeObsoleteDep removing deep-equal@2.0.3 from the tree as its been replaced by a newer version or is no longer required
+397 silly removeObsoleteDep removing es-abstract@1.17.6 from the tree as its been replaced by a newer version or is no longer required
+398 silly removeObsoleteDep removing es-to-primitive@1.2.1 from the tree as its been replaced by a newer version or is no longer required
+399 silly removeObsoleteDep removing is-callable@1.2.1 from the tree as its been replaced by a newer version or is no longer required
+400 silly removeObsoleteDep removing is-date-object@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+401 silly removeObsoleteDep removing is-symbol@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+402 silly removeObsoleteDep removing has-symbols@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+403 silly removeObsoleteDep removing function-bind@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+404 silly removeObsoleteDep removing has@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+405 silly removeObsoleteDep removing is-regex@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+406 silly removeObsoleteDep removing object-inspect@1.8.0 from the tree as its been replaced by a newer version or is no longer required
+407 silly removeObsoleteDep removing object-keys@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+408 silly removeObsoleteDep removing object.assign@4.1.1 from the tree as its been replaced by a newer version or is no longer required
+409 silly removeObsoleteDep removing define-properties@1.1.3 from the tree as its been replaced by a newer version or is no longer required
+410 silly removeObsoleteDep removing es-abstract@1.18.0-next.0 from the tree as its been replaced by a newer version or is no longer required
+411 silly removeObsoleteDep removing is-negative-zero@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+412 silly removeObsoleteDep removing string.prototype.trimend@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+413 silly removeObsoleteDep removing string.prototype.trimstart@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+414 silly removeObsoleteDep removing es-get-iterator@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+415 silly removeObsoleteDep removing is-arguments@1.0.4 from the tree as its been replaced by a newer version or is no longer required
+416 silly removeObsoleteDep removing is-map@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+417 silly removeObsoleteDep removing is-set@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+418 silly removeObsoleteDep removing is-string@1.0.5 from the tree as its been replaced by a newer version or is no longer required
+419 silly removeObsoleteDep removing isarray@2.0.5 from the tree as its been replaced by a newer version or is no longer required
+420 silly removeObsoleteDep removing isarray@2.0.5 from the tree as its been replaced by a newer version or is no longer required
+421 silly removeObsoleteDep removing object-is@1.1.2 from the tree as its been replaced by a newer version or is no longer required
+422 silly removeObsoleteDep removing regexp.prototype.flags@1.3.0 from the tree as its been replaced by a newer version or is no longer required
+423 silly removeObsoleteDep removing side-channel@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+424 silly removeObsoleteDep removing es-abstract@1.18.0-next.0 from the tree as its been replaced by a newer version or is no longer required
+425 silly removeObsoleteDep removing which-boxed-primitive@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+426 silly removeObsoleteDep removing is-bigint@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+427 silly removeObsoleteDep removing is-boolean-object@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+428 silly removeObsoleteDep removing is-number-object@1.0.4 from the tree as its been replaced by a newer version or is no longer required
+429 silly removeObsoleteDep removing which-collection@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+430 silly removeObsoleteDep removing is-weakmap@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+431 silly removeObsoleteDep removing is-weakset@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+432 silly removeObsoleteDep removing which-typed-array@1.1.2 from the tree as its been replaced by a newer version or is no longer required
+433 silly removeObsoleteDep removing available-typed-arrays@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+434 silly removeObsoleteDep removing array-filter@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+435 silly removeObsoleteDep removing foreach@2.0.5 from the tree as its been replaced by a newer version or is no longer required
+436 silly removeObsoleteDep removing is-typed-array@1.1.3 from the tree as its been replaced by a newer version or is no longer required
+437 silly removeObsoleteDep removing fs-extra@9.0.1 from the tree as its been replaced by a newer version or is no longer required
+438 silly removeObsoleteDep removing at-least-node@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+439 silly removeObsoleteDep removing jsonfile@6.0.1 from the tree as its been replaced by a newer version or is no longer required
+440 silly removeObsoleteDep removing universalify@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+441 silly removeObsoleteDep removing pngjs@5.0.0 from the tree as its been replaced by a newer version or is no longer required
+442 silly removeObsoleteDep removing xcode@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+443 silly removeObsoleteDep removing uuid@7.0.3 from the tree as its been replaced by a newer version or is no longer required
+444 silly removeObsoleteDep removing xml-js@1.6.11 from the tree as its been replaced by a newer version or is no longer required
+445 silly removeObsoleteDep removing expo-sqlite@8.2.1 from the tree as its been replaced by a newer version or is no longer required
+446 silly removeObsoleteDep removing @expo/websql@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+447 silly removeObsoleteDep removing argsarray@0.0.1 from the tree as its been replaced by a newer version or is no longer required
+448 silly removeObsoleteDep removing immediate@3.3.0 from the tree as its been replaced by a newer version or is no longer required
+449 silly removeObsoleteDep removing noop-fn@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+450 silly removeObsoleteDep removing pouchdb-collections@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+451 silly removeObsoleteDep removing tiny-queue@0.2.1 from the tree as its been replaced by a newer version or is no longer required
+452 silly removeObsoleteDep removing md5-file@3.2.3 from the tree as its been replaced by a newer version or is no longer required
+453 silly removeObsoleteDep removing buffer-alloc@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+454 silly removeObsoleteDep removing buffer-alloc-unsafe@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+455 silly removeObsoleteDep removing buffer-fill@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+456 silly removeObsoleteDep removing nullthrows@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+457 silly removeObsoleteDep removing pretty-format@23.6.0 from the tree as its been replaced by a newer version or is no longer required
+458 silly removeObsoleteDep removing ansi-regex@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+459 silly removeObsoleteDep removing react-native-appearance@0.3.4 from the tree as its been replaced by a newer version or is no longer required
+460 silly removeObsoleteDep removing fbemitter@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+461 silly removeObsoleteDep removing fbjs@0.8.17 from the tree as its been replaced by a newer version or is no longer required
+462 silly removeObsoleteDep removing core-js@1.2.7 from the tree as its been replaced by a newer version or is no longer required
+463 silly removeObsoleteDep removing invariant@2.2.4 from the tree as its been replaced by a newer version or is no longer required
+464 silly removeObsoleteDep removing use-subscription@1.4.1 from the tree as its been replaced by a newer version or is no longer required
+465 silly removeObsoleteDep removing react-native-safe-area-context@3.0.7 from the tree as its been replaced by a newer version or is no longer required
+466 silly removeObsoleteDep removing serialize-error@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+467 silly removeObsoleteDep removing unimodules-app-loader@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+468 silly removeObsoleteDep removing unimodules-barcode-scanner-interface@5.2.1 from the tree as its been replaced by a newer version or is no longer required
+469 silly removeObsoleteDep removing unimodules-camera-interface@5.2.1 from the tree as its been replaced by a newer version or is no longer required
+470 silly removeObsoleteDep removing unimodules-constants-interface@5.2.1 from the tree as its been replaced by a newer version or is no longer required
+471 silly removeObsoleteDep removing unimodules-face-detector-interface@5.2.1 from the tree as its been replaced by a newer version or is no longer required
+472 silly removeObsoleteDep removing unimodules-file-system-interface@5.2.1 from the tree as its been replaced by a newer version or is no longer required
+473 silly removeObsoleteDep removing unimodules-font-interface@5.2.1 from the tree as its been replaced by a newer version or is no longer required
+474 silly removeObsoleteDep removing unimodules-image-loader-interface@5.2.1 from the tree as its been replaced by a newer version or is no longer required
+475 silly removeObsoleteDep removing unimodules-permissions-interface@5.2.1 from the tree as its been replaced by a newer version or is no longer required
+476 silly removeObsoleteDep removing unimodules-sensors-interface@5.2.1 from the tree as its been replaced by a newer version or is no longer required
+477 silly removeObsoleteDep removing unimodules-task-manager-interface@5.2.1 from the tree as its been replaced by a newer version or is no longer required
+478 silly removeObsoleteDep removing uuid@3.4.0 from the tree as its been replaced by a newer version or is no longer required
+479 silly removeObsoleteDep removing react@16.11.0 from the tree as its been replaced by a newer version or is no longer required
+480 silly removeObsoleteDep removing react-dom@16.11.0 from the tree as its been replaced by a newer version or is no longer required
+481 silly removeObsoleteDep removing scheduler@0.17.0 from the tree as its been replaced by a newer version or is no longer required
+482 silly removeObsoleteDep removing react-native-web@0.11.7 from the tree as its been replaced by a newer version or is no longer required
+483 silly removeObsoleteDep removing array-find-index@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+484 silly removeObsoleteDep removing create-react-class@15.6.3 from the tree as its been replaced by a newer version or is no longer required
+485 silly removeObsoleteDep removing fbjs@0.8.17 from the tree as its been replaced by a newer version or is no longer required
+486 silly removeObsoleteDep removing core-js@1.2.7 from the tree as its been replaced by a newer version or is no longer required
+487 silly removeObsoleteDep removing debounce@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+488 silly removeObsoleteDep removing deep-assign@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+489 silly removeObsoleteDep removing is-obj@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+490 silly removeObsoleteDep removing fbjs@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+491 silly removeObsoleteDep removing core-js@2.6.11 from the tree as its been replaced by a newer version or is no longer required
+492 silly removeObsoleteDep removing fbjs-css-vars@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+493 silly removeObsoleteDep removing isomorphic-fetch@2.2.1 from the tree as its been replaced by a newer version or is no longer required
+494 silly removeObsoleteDep removing node-fetch@1.7.3 from the tree as its been replaced by a newer version or is no longer required
+495 silly removeObsoleteDep removing encoding@0.1.13 from the tree as its been replaced by a newer version or is no longer required
+496 silly removeObsoleteDep removing iconv-lite@0.6.2 from the tree as its been replaced by a newer version or is no longer required
+497 silly removeObsoleteDep removing safer-buffer@2.1.2 from the tree as its been replaced by a newer version or is no longer required
+498 silly removeObsoleteDep removing is-stream@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+499 silly removeObsoleteDep removing whatwg-fetch@3.4.1 from the tree as its been replaced by a newer version or is no longer required
+500 silly removeObsoleteDep removing promise@7.3.1 from the tree as its been replaced by a newer version or is no longer required
+501 silly removeObsoleteDep removing asap@2.0.6 from the tree as its been replaced by a newer version or is no longer required
+502 silly removeObsoleteDep removing setimmediate@1.0.5 from the tree as its been replaced by a newer version or is no longer required
+503 silly removeObsoleteDep removing ua-parser-js@0.7.22 from the tree as its been replaced by a newer version or is no longer required
+504 silly removeObsoleteDep removing inline-style-prefixer@5.1.2 from the tree as its been replaced by a newer version or is no longer required
+505 silly removeObsoleteDep removing css-in-js-utils@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+506 silly removeObsoleteDep removing hyphenate-style-name@1.0.4 from the tree as its been replaced by a newer version or is no longer required
+507 silly removeObsoleteDep removing isobject@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+508 silly removeObsoleteDep removing normalize-css-color@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+509 silly removeObsoleteDep removing prop-types@15.7.2 from the tree as its been replaced by a newer version or is no longer required
+510 silly removeObsoleteDep removing loose-envify@1.4.0 from the tree as its been replaced by a newer version or is no longer required
+511 silly removeObsoleteDep removing object-assign@4.1.1 from the tree as its been replaced by a newer version or is no longer required
+512 silly removeObsoleteDep removing react-is@16.13.1 from the tree as its been replaced by a newer version or is no longer required
+513 silly removeObsoleteDep removing react-timer-mixin@0.13.4 from the tree as its been replaced by a newer version or is no longer required
+514 silly pacote range manifest for @react-native-community/async-storage@~1.11.0 fetched in 10ms
+515 silly resolveWithNewModule @react-native-community/async-storage@1.11.0 checking installable status
+516 silly pacote version manifest for @react-native-community/datetimepicker@2.4.0 fetched in 11ms
+517 silly resolveWithNewModule @react-native-community/datetimepicker@2.4.0 checking installable status
+518 silly pacote range manifest for emailjs-com@^2.4.1 fetched in 12ms
+519 silly resolveWithNewModule emailjs-com@2.6.3 checking installable status
+520 silly pacote range manifest for axios@^0.19.2 fetched in 13ms
+521 silly resolveWithNewModule axios@0.19.2 checking installable status
+522 silly pacote range manifest for mongodb-stitch-react-native-sdk@^4.8.0 fetched in 14ms
+523 silly resolveWithNewModule mongodb-stitch-react-native-sdk@4.8.0 checking installable status
+524 silly pacote range manifest for react-native-elements@^2.0.0 fetched in 13ms
+525 silly resolveWithNewModule react-native-elements@2.3.2 checking installable status
+526 silly pacote range manifest for react-native-linear-gradient@^2.5.6 fetched in 8ms
+527 silly resolveWithNewModule react-native-linear-gradient@2.5.6 checking installable status
+528 silly pacote range manifest for react-native-modal-datetime-picker@^8.7.1 fetched in 3ms
+529 silly resolveWithNewModule react-native-modal-datetime-picker@8.9.3 checking installable status
+530 silly pacote range manifest for react-native-picker-select@^7.0.0 fetched in 4ms
+531 silly resolveWithNewModule react-native-picker-select@7.0.0 checking installable status
+532 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/react 235ms
+533 silly pacote version manifest for react@16.11.0 fetched in 242ms
+534 silly resolveWithNewModule react@16.11.0 checking installable status
+535 http fetch GET 401 https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz 350ms
+536 silly fetchPackageMetaData error for react-native@https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz Unable to authenticate, need: Basic realm="GitHub"
+537 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-web 388ms
+538 silly pacote version manifest for react-native-web@0.11.7 fetched in 401ms
+539 silly resolveWithNewModule react-native-web@0.11.7 checking installable status
+540 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-dom 456ms
+541 silly pacote version manifest for react-dom@16.11.0 fetched in 465ms
+542 silly resolveWithNewModule react-dom@16.11.0 checking installable status
+543 http fetch GET 200 https://na.artifactory.swg-devops.com/artifactory/api/npm/fxo-cio-ies-npm-virtual/expo 830ms
+544 silly pacote version manifest for expo@38.0.10 fetched in 841ms
+545 silly resolveWithNewModule expo@38.0.10 checking installable status
+546 timing stage:rollbackFailedOptional Completed in 0ms
+547 timing stage:runTopLevelLifecycles Completed in 6035ms
+548 silly saveTree nextup_voter_manager
+548 silly saveTree ├─┬ @babel/core@7.11.6
+548 silly saveTree │ ├─┬ @babel/code-frame@7.10.4
+548 silly saveTree │ │ └─┬ @babel/highlight@7.10.4
+548 silly saveTree │ │   ├── @babel/helper-validator-identifier@7.10.4
+548 silly saveTree │ │   ├─┬ chalk@2.4.2
+548 silly saveTree │ │   │ ├─┬ ansi-styles@3.2.1
+548 silly saveTree │ │   │ │ └─┬ color-convert@1.9.3
+548 silly saveTree │ │   │ │   └── color-name@1.1.3
+548 silly saveTree │ │   │ ├── escape-string-regexp@1.0.5
+548 silly saveTree │ │   │ └─┬ supports-color@5.5.0
+548 silly saveTree │ │   │   └── has-flag@3.0.0
+548 silly saveTree │ │   └── js-tokens@4.0.0
+548 silly saveTree │ ├─┬ @babel/generator@7.11.6
+548 silly saveTree │ │ ├─┬ @babel/types@7.11.5
+548 silly saveTree │ │ │ ├── lodash@4.17.20
+548 silly saveTree │ │ │ └── to-fast-properties@2.0.0
+548 silly saveTree │ │ ├── jsesc@2.5.2
+548 silly saveTree │ │ └── source-map@0.5.7
+548 silly saveTree │ ├─┬ @babel/helper-module-transforms@7.11.0
+548 silly saveTree │ │ ├── @babel/helper-module-imports@7.10.4
+548 silly saveTree │ │ ├─┬ @babel/helper-replace-supers@7.10.4
+548 silly saveTree │ │ │ ├── @babel/helper-member-expression-to-functions@7.11.0
+548 silly saveTree │ │ │ ├── @babel/helper-optimise-call-expression@7.10.4
+548 silly saveTree │ │ │ └─┬ @babel/traverse@7.11.5
+548 silly saveTree │ │ │   ├─┬ @babel/helper-function-name@7.10.4
+548 silly saveTree │ │ │   │ ├── @babel/helper-get-function-arity@7.10.4
+548 silly saveTree │ │ │   │ └─┬ @babel/template@7.10.4
+548 silly saveTree │ │ │   │   └── @babel/parser@7.11.5
+548 silly saveTree │ │ │   ├── @babel/helper-split-export-declaration@7.11.0
+548 silly saveTree │ │ │   ├── @babel/parser@7.11.5
+548 silly saveTree │ │ │   ├─┬ debug@4.1.1
+548 silly saveTree │ │ │   │ └── ms@2.1.2
+548 silly saveTree │ │ │   └── globals@11.12.0
+548 silly saveTree │ │ ├── @babel/helper-simple-access@7.10.4
+548 silly saveTree │ │ ├── @babel/helper-split-export-declaration@7.11.0
+548 silly saveTree │ │ └── @babel/template@7.10.4
+548 silly saveTree │ ├── @babel/helpers@7.10.4
+548 silly saveTree │ ├── @babel/parser@7.11.5
+548 silly saveTree │ ├── @babel/template@7.10.4
+548 silly saveTree │ ├── @babel/traverse@7.11.5
+548 silly saveTree │ ├── @babel/types@7.11.5
+548 silly saveTree │ ├─┬ convert-source-map@1.7.0
+548 silly saveTree │ │ └── safe-buffer@5.1.2
+548 silly saveTree │ ├─┬ debug@4.1.1
+548 silly saveTree │ │ └── ms@2.1.2
+548 silly saveTree │ ├── gensync@1.0.0-beta.1
+548 silly saveTree │ ├─┬ json5@2.1.3
+548 silly saveTree │ │ └── minimist@1.2.5
+548 silly saveTree │ ├── lodash@4.17.20
+548 silly saveTree │ ├─┬ resolve@1.17.0
+548 silly saveTree │ │ └── path-parse@1.0.6
+548 silly saveTree │ ├── semver@5.7.1
+548 silly saveTree │ └── source-map@0.5.7
+548 silly saveTree ├── @react-native-community/async-storage@1.11.0
+548 silly saveTree ├── @react-native-community/datetimepicker@2.4.0
+548 silly saveTree ├── axios@0.19.2
+548 silly saveTree ├── emailjs-com@2.6.3
+548 silly saveTree ├── expo@38.0.10
+548 silly saveTree ├── mongodb-stitch-react-native-sdk@4.8.0
+548 silly saveTree ├── react-dom@16.11.0
+548 silly saveTree ├── react-native-elements@2.3.2
+548 silly saveTree ├── react-native-linear-gradient@2.5.6
+548 silly saveTree ├── react-native-modal-datetime-picker@8.9.3
+548 silly saveTree ├── react-native-picker-select@7.0.0
+548 silly saveTree ├── react-native-web@0.11.7
+548 silly saveTree └── react@16.11.0
+549 verbose stack Error: Unable to authenticate, need: Basic realm="GitHub"
+549 verbose stack     at /Users/demarcus/.nvm/versions/node/v12.14.0/lib/node_modules/npm/node_modules/npm-registry-fetch/check-response.js:104:17
+549 verbose stack     at runMicrotasks (<anonymous>)
+549 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+550 verbose statusCode 401
+551 verbose pkgid react-native@https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz
+552 verbose cwd /Users/demarcus/projects/playground/nextup/nextup_voter_manager
+553 verbose Darwin 19.6.0
+554 verbose argv "/Users/demarcus/.nvm/versions/node/v12.14.0/bin/node" "/Users/demarcus/.nvm/versions/node/v12.14.0/bin/npm" "i"
+555 verbose node v12.14.0
+556 verbose npm  v6.14.6
+557 error code E401
+558 error Unable to authenticate, need: Basic realm="GitHub"
+559 verbose exit [ 1, true ]

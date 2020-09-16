@@ -1,0 +1,416 @@
+{
+  "_id" : "tempy",
+  "_rev" : "16-9130dfd75a9b7b0bd209584951c18d61",
+  "name" : "tempy",
+  "description" : "Get a random temporary file or directory path",
+  "dist-tags" : {
+    "latest" : "0.7.0"
+  },
+  "versions" : {
+    "0.6.0" : {
+      "name" : "tempy",
+      "description" : "Get a random temporary file or directory path",
+      "version" : "0.6.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/tempy.git"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tempy/-/tempy-0.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftempy%2F-%2Ftempy-0.6.0.tgz",
+        "shasum" : "65e2c35abc06f1124a97f387b08303442bde59f3"
+      },
+      "dependencies" : {
+        "is-stream" : "^2.0.0",
+        "temp-dir" : "^2.0.0",
+        "type-fest" : "^0.16.0",
+        "unique-string" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^2.4.0",
+        "tsd" : "^0.13.1",
+        "xo" : "^0.32.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.14.5",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "tempy@0.6.0",
+      "gitHead" : "77204fe5da8a2eef9075427fd3e471f90b8d1b21",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "xo" : {
+        "rules" : {
+          "node/no-unsupported-features/node-builtins" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tempy_0.6.0_1595100257963_0.8128957483965209"
+      },
+      "_nodeVersion" : "14.5.0"
+    },
+    "0.7.0" : {
+      "name" : "tempy",
+      "description" : "Get a random temporary file or directory path",
+      "version" : "0.7.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/tempy.git"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tempy/-/tempy-0.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftempy%2F-%2Ftempy-0.7.0.tgz",
+        "shasum" : "8249c76a38bd104733a5491410aa84b508e8b503"
+      },
+      "dependencies" : {
+        "del" : "^5.1.0",
+        "is-stream" : "^2.0.0",
+        "temp-dir" : "^2.0.0",
+        "type-fest" : "^0.16.0",
+        "unique-string" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^2.4.0",
+        "path-exists" : "^4.0.0",
+        "touch" : "^3.1.0",
+        "tsd" : "^0.13.1",
+        "xo" : "^0.32.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "tempy@0.7.0",
+      "gitHead" : "e7b4c4f693c85a291859e248f2899ea8f10cd84f",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "xo" : {
+        "rules" : {
+          "node/no-unsupported-features/node-builtins" : "off"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tempy_0.7.0_1600012624726_0.7114917800975733"
+      },
+      "_nodeVersion" : "10.22.0"
+    },
+    "0.4.0" : {
+      "name" : "tempy",
+      "description" : "Get a random temporary file or directory path",
+      "version" : "0.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/tempy.git"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tempy/-/tempy-0.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftempy%2F-%2Ftempy-0.4.0.tgz",
+        "shasum" : "2240e944cbb6b843415b7ef10b6dff9cda7297d0"
+      },
+      "dependencies" : {
+        "temp-dir" : "^2.0.0",
+        "type-fest" : "^0.10.0",
+        "unique-string" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.11.0",
+        "xo" : "^0.25.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.13.7",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "tempy@0.4.0",
+      "gitHead" : "a2c71980e1e2014dbf6a8e8eb6e445e2d99cb18c",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tempy_0.4.0_1581510046968_0.8100808827914103"
+      },
+      "_nodeVersion" : "10.18.1"
+    },
+    "0.5.0" : {
+      "name" : "tempy",
+      "description" : "Get a random temporary file or directory path",
+      "version" : "0.5.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/tempy.git"
+      },
+      "engines" : {
+        "node" : ">=10"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tempy/-/tempy-0.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftempy%2F-%2Ftempy-0.5.0.tgz",
+        "shasum" : "2785c89df39fcc4d1714fc554813225e1581d70b"
+      },
+      "dependencies" : {
+        "is-stream" : "^2.0.0",
+        "temp-dir" : "^2.0.0",
+        "type-fest" : "^0.12.0",
+        "unique-string" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.11.0",
+        "xo" : "^0.25.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.14.2",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "tempy@0.5.0",
+      "gitHead" : "ae6e6a26a506759e5f19cb128d139bf018129d88",
+      "funding" : "https://github.com/sponsors/sindresorhus",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tempy_0.5.0_1583742473885_0.7478690458969341"
+      },
+      "_nodeVersion" : "10.18.1"
+    },
+    "0.2.0" : {
+      "name" : "tempy",
+      "description" : "Get a random temporary file or directory path",
+      "version" : "0.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/tempy.git"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tempy/-/tempy-0.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftempy%2F-%2Ftempy-0.2.0.tgz",
+        "shasum" : "00537af10b3f6ed0e03e2826335169027abe37b8"
+      },
+      "dependencies" : {
+        "temp-dir" : "^1.0.0",
+        "unique-string" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.4.1",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "tempy@0.2.0",
+      "gitHead" : "b62ddb4804d41a1f88c10622aacb22b5d0841374",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tempy-0.2.0.tgz_1505281637368_0.5780532085336745"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "0.2.1" : {
+      "name" : "tempy",
+      "description" : "Get a random temporary file or directory path",
+      "version" : "0.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/tempy.git"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tempy/-/tempy-0.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftempy%2F-%2Ftempy-0.2.1.tgz",
+        "shasum" : "9038e4dbd1c201b74472214179bc2c6f7776e54c"
+      },
+      "dependencies" : {
+        "temp-dir" : "^1.0.0",
+        "unique-string" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "tempy@0.2.1",
+      "gitHead" : "ec634c9e48a6feca53b70fcd0fbe80db5c5682b8",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tempy-0.2.1.tgz_1505837574977_0.8606187282130122"
+      },
+      "_nodeVersion" : "8.4.0"
+    },
+    "0.3.0" : {
+      "name" : "tempy",
+      "description" : "Get a random temporary file or directory path",
+      "version" : "0.3.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/tempy.git"
+      },
+      "engines" : {
+        "node" : ">=8"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tempy/-/tempy-0.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftempy%2F-%2Ftempy-0.3.0.tgz",
+        "shasum" : "6f6c5b295695a16130996ad5ab01a8bd726e8bf8"
+      },
+      "dependencies" : {
+        "temp-dir" : "^1.0.0",
+        "type-fest" : "^0.3.1",
+        "unique-string" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "^1.4.1",
+        "tsd" : "^0.7.2",
+        "xo" : "^0.24.0"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava && tsd"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "tempy@0.3.0",
+      "gitHead" : "8958de57554b06f1dceff8cd5f969aee57e0e056",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/tempy_0.3.0_1555416217873_0.9120659769192758"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "0.1.0" : {
+      "name" : "tempy",
+      "description" : "Get a random temporary file or directory path",
+      "version" : "0.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/sindresorhus/tempy.git"
+      },
+      "engines" : {
+        "node" : ">=4"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/tempy/-/tempy-0.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Ftempy%2F-%2Ftempy-0.1.0.tgz",
+        "shasum" : "8527413cd07100834fcc9cbb8242be95ba0e1fee"
+      },
+      "dependencies" : {
+        "pify" : "^2.3.0",
+        "temp-dir" : "^1.0.0",
+        "unique-string" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "ava" : "*",
+        "xo" : "*"
+      },
+      "license" : "MIT",
+      "files" : [ "index.js" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "xo && ava"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.11",
+      "_npmUser" : {
+        "name" : "sindresorhus",
+        "email" : "sindresorhus@gmail.com"
+      },
+      "_id" : "tempy@0.1.0",
+      "gitHead" : "22e8857a31bd21635deca2fa53eeb182b48808ac",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/tempy-0.1.0.tgz_1490698318867_0.4736266096588224"
+      },
+      "_shasum" : "8527413cd07100834fcc9cbb8242be95ba0e1fee",
+      "_nodeVersion" : "4.7.3"
+    }
+  },
+  "readme" : "# tempy [![Build Status](https://travis-ci.com/sindresorhus/tempy.svg?branch=master)](https://travis-ci.com/github/sindresorhus/tempy)\n\n> Get a random temporary file or directory path\n\n## Install\n\n```\n$ npm install tempy\n```\n\n## Usage\n\n```js\nconst tempy = require('tempy');\n\ntempy.file();\n//=> '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T/4f504b9edb5ba0e89451617bf9f971dd'\n\ntempy.file({extension: 'png'});\n//=> '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T/a9fb0decd08179eb6cf4691568aa2018.png'\n\ntempy.file({name: 'unicorn.png'});\n//=> '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T/f7f62bfd4e2a05f1589947647ed3f9ec/unicorn.png'\n\ntempy.directory();\n//=> '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T/2f3d094aec2cb1b93bb0f4cffce5ebd6'\n\ntempy.directory({prefix: 'name'});\n//=> '/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T/name_3c085674ad31223b9653c88f725d6b41'\n```\n\n## API\n\n### tempy.file(options?)\n\nGet a temporary file path you can write to.\n\n### tempy.file.task(callback, options?)\n\nThe `callback` resolves with a temporary file path you can write to. The file is automatically cleaned up after the callback is executed. Returns a promise that resolves after the callback is executed and the file is cleaned up.\n\n#### callback\n\nType: `(tempPath: string) => void`\n\nA callback that is executed with the temp file path. Can be asynchronous.\n\n#### options\n\nType: `object`\n\n*You usually won't need either the `extension` or `name` option. Specify them only when actually needed.*\n\n##### extension\n\nType: `string`\n\nFile extension.\n\n##### name\n\nType: `string`\n\nFilename. Mutually exclusive with the `extension` option.\n\n### tempy.directory(options?)\n\nGet a temporary directory path. The directory is created for you.\n\n### tempy.directory.task(callback, options?)\n\nThe `callback` resolves with a temporary directory path you can write to. The directory is automatically cleaned up after the callback is executed. Returns a promise that resolves after the callback is executed and the directory is cleaned up.\n\n##### callback\n\nType: `(tempPath: string) => void`\n\nA callback that is executed with the temp directory path. Can be asynchronous.\n\n#### options\n\nType: `Object`\n\n##### prefix\n\nType: `string`\n\nDirectory prefix.\n\nUseful for testing by making it easier to identify cache directories that are created.\n\n*You usually won't need this option. Specify it only when actually needed.*\n\n### tempy.write(fileContent, options?)\n\nWrite data to a random temp file.\n\n### tempy.write.task(fileContent, callback, options?)\n\nWrite data to a random temp file. The file is automatically cleaned up after the callback is executed. Returns a promise that resolves after the callback is executed and the file is cleaned up.\n\n##### fileContent\n\nType: `string | Buffer | TypedArray | DataView | stream.Readable`\n\nData to write to the temp file.\n\n##### callback\n\nType: `(tempPath: string) => void`\n\nA callback that is executed with the temp file path. Can be asynchronous.\n\n##### options\n\nSee [options](#options).\n\n### tempy.writeSync(fileContent, options?)\n\nSynchronously write data to a random temp file.\n\n##### fileContent\n\nType: `string | Buffer | TypedArray | DataView`\n\nData to write to the temp file.\n\n##### options\n\nSee [options](#options).\n\n### tempy.root\n\nGet the root temporary directory path. For example: `/private/var/folders/3x/jf5977fn79jbglr7rk0tq4d00000gn/T`\n",
+  "time" : {
+    "0.6.0" : "2020-07-18T19:24:18.086Z",
+    "0.7.0" : "2020-09-13T15:57:04.854Z",
+    "0.4.0" : "2020-02-12T12:20:47.135Z",
+    "0.5.0" : "2020-03-09T08:27:54.041Z",
+    "created" : "2017-03-28T10:51:59.184Z",
+    "modified" : "2020-09-13T15:57:07.087Z",
+    "0.2.0" : "2017-09-13T05:47:17.440Z",
+    "0.2.1" : "2017-09-19T16:12:55.398Z",
+    "0.3.0" : "2019-04-16T12:03:38.080Z",
+    "0.1.0" : "2017-03-28T10:51:59.184Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/sindresorhus/tempy.git"
+  },
+  "users" : {
+    "adius" : true,
+    "seangenabe" : true,
+    "geniusm4ster" : true,
+    "arcticicestudio" : true,
+    "kodekracker" : true,
+    "daskepon" : true,
+    "zuojiang" : true
+  },
+  "readmeFilename" : "readme.md",
+  "license" : "MIT"
+}

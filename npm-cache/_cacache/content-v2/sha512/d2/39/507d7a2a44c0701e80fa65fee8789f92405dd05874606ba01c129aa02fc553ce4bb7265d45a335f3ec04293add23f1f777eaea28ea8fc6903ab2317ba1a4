@@ -1,0 +1,2586 @@
+{
+  "_id" : "@expo/json-file",
+  "_rev" : "88-52064546c965a3da305d3f2d4dbe996a",
+  "name" : "@expo/json-file",
+  "description" : "A module for reading, writing, and manipulating JSON files",
+  "dist-tags" : {
+    "next" : "6.0.0",
+    "latest" : "8.2.22"
+  },
+  "versions" : {
+    "8.1.12-alpha.0" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.12-alpha.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.12-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.12-alpha.0.tgz",
+        "shasum" : "993741bf906a94c31bf69e99f1e6d0b04e881abf"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.11",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.1-alpha.0",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "tsapeta",
+        "email" : "sapeta.tomasz@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.1.12-alpha.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.12-alpha.0_1568819900494_0.12643789136376027"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "11.6.0"
+    },
+    "8.1.1" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.1.tgz",
+        "shasum" : "10fd0e0a8dba81df851d099a0f6841327cbbc06a"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.4",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.3",
+        "babel-jest" : "^23.4.0",
+        "babel-plugin-transform-flow-comments" : "^6.22.0",
+        "babel-preset-env" : "^1.6.0",
+        "babel-preset-stage-1" : "^6.24.1",
+        "concurrently" : "^3.5.0",
+        "eslint" : "^4.7.2",
+        "eslint-config-universe" : "^1.0.7",
+        "flow-bin" : "^0.55.0",
+        "flow-copy-source" : "^1.2.1",
+        "jest" : "^23.4.1",
+        "mkdirp" : "^0.5.1",
+        "prettier" : "^1.7.4",
+        "rimraf" : "^2.6.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "watch" : "concurrently 'babel src -d build -w' 'flow-copy-source -w src build'",
+        "build" : "babel src -d build && flow-copy-source src build",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_from" : "file:expo-json-file-8.1.1.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dsokal",
+        "email" : "dominiksokal@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.1.1",
+      "gitHead" : "a370bdbdf0617a93408e1240c65283886da8ab66",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.1_1552491817648_0.9968009850475223"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "8.12.0"
+    },
+    "8.2.0" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.0.tgz",
+        "shasum" : "efb82b9a4e092aadb629451e60d0893369b7689e"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.11",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.1-alpha.0",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/json-file@8.2.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.0_1570700500584_0.7543413210055545"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "8.1.2" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.2.tgz",
+        "shasum" : "e05710fc6c09f3fadcbf57bd7ebc6ab8461c0195"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.4",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.3",
+        "babel-jest" : "^23.4.0",
+        "babel-plugin-transform-flow-comments" : "^6.22.0",
+        "babel-preset-env" : "^1.6.0",
+        "babel-preset-stage-1" : "^6.24.1",
+        "concurrently" : "^3.5.0",
+        "flow-bin" : "^0.55.0",
+        "flow-copy-source" : "^1.2.1",
+        "jest" : "^23.4.1",
+        "mkdirp" : "^0.5.1",
+        "prettier" : "^1.7.4",
+        "rimraf" : "^2.6.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "concurrently 'babel src -d build -w' 'flow-copy-source -w src build'",
+        "build" : "babel src -d build && flow-copy-source src build",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "ide",
+        "email" : "ide+npm@jameside.com"
+      },
+      "_id" : "@expo/json-file@8.1.2",
+      "licenseText" : "The MIT License (MIT)\n\nCopyright (c) 2015 650 Industries\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.2_1553882076404_0.9254408845677105"
+      }
+    },
+    "8.2.1" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.1.tgz",
+        "shasum" : "481e038ec0b01bf0d48bc223acaaa25214ccb4c6"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.1",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/json-file@8.2.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.1_1571160542866_0.8867745343134752"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "8.0.0" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/json-file.git"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.0.0.tgz",
+        "shasum" : "5c3cb84469b1229e6c4aac9a4285fca59e6709fd"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.4",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.0.0",
+        "babel-jest" : "^21.0.2",
+        "babel-plugin-transform-flow-comments" : "^6.22.0",
+        "babel-preset-env" : "^1.6.0",
+        "babel-preset-stage-1" : "^6.24.1",
+        "concurrently" : "^3.5.0",
+        "eslint" : "^4.7.2",
+        "eslint-config-universe" : "^1.0.7",
+        "flow-bin" : "^0.55.0",
+        "flow-copy-source" : "^1.2.1",
+        "jest" : "^22.4.3",
+        "mkdirp" : "^0.5.1",
+        "prettier" : "^1.7.4",
+        "rimraf" : "^2.6.2"
+      },
+      "license" : "MIT",
+      "files" : [ "build" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "watch" : "concurrently 'babel src -d build -w' 'flow-copy-source -w src build'",
+        "build" : "babel src -d build && flow-copy-source src build",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/json-file@8.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.0.0_1523224126008_0.7173827096265957"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "8.0.1" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/json-file.git"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.0.1.tgz",
+        "shasum" : "6109f0c1e18c0f84aa5e052406c861cd7ae347a8"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.4",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.3",
+        "babel-jest" : "^23.4.0",
+        "babel-plugin-transform-flow-comments" : "^6.22.0",
+        "babel-preset-env" : "^1.6.0",
+        "babel-preset-stage-1" : "^6.24.1",
+        "concurrently" : "^3.5.0",
+        "eslint" : "^4.7.2",
+        "eslint-config-universe" : "^1.0.7",
+        "flow-bin" : "^0.55.0",
+        "flow-copy-source" : "^1.2.1",
+        "jest" : "^23.4.1",
+        "mkdirp" : "^0.5.1",
+        "prettier" : "^1.7.4",
+        "rimraf" : "^2.6.2"
+      },
+      "license" : "MIT",
+      "files" : [ "build" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "watch" : "concurrently 'babel src -d build -w' 'flow-copy-source -w src build'",
+        "build" : "babel src -d build && flow-copy-source src build",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/json-file@8.0.1",
+      "licenseText" : "The MIT License (MIT)\n\nCopyright (c) 2015 650 Industries\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.0.1_1535125467769_0.6333109243446751"
+      }
+    },
+    "8.1.0" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/json-file.git"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.0.tgz",
+        "shasum" : "adcbadb20b9ac4e945a354b879b5b307c19df91f"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.4",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.26.3",
+        "babel-jest" : "^23.4.0",
+        "babel-plugin-transform-flow-comments" : "^6.22.0",
+        "babel-preset-env" : "^1.6.0",
+        "babel-preset-stage-1" : "^6.24.1",
+        "concurrently" : "^3.5.0",
+        "eslint" : "^4.7.2",
+        "eslint-config-universe" : "^1.0.7",
+        "flow-bin" : "^0.55.0",
+        "flow-copy-source" : "^1.2.1",
+        "jest" : "^23.4.1",
+        "mkdirp" : "^0.5.1",
+        "prettier" : "^1.7.4",
+        "rimraf" : "^2.6.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "watch" : "concurrently 'babel src -d build -w' 'flow-copy-source -w src build'",
+        "build" : "babel src -d build && flow-copy-source src build",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/json-file@8.1.0",
+      "gitHead" : "ab9394093a3907970d34fa81665c418c11b78ae0",
+      "licenseText" : "The MIT License (MIT)\n\nCopyright (c) 2015 650 Industries\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.0_1541512785913_0.0546481550381861"
+      }
+    },
+    "8.1.12" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.12.tgz",
+        "shasum" : "f7128f0fc63f2726efd85a27e3c2e31193148d6c"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.11",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.1-alpha.0",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/json-file@8.1.12",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.12_1570116926468_0.14083019683344467"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "8.1.10" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.10.tgz",
+        "shasum" : "34d98afb86818e6d60567f8a0f3d0ab72344e14b"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.11",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.0",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/json-file@8.1.10",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.10_1565107226234_0.39015996829938593"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "8.1.11" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.11.tgz",
+        "shasum" : "3749484d4b5f3653d55f70e70af4223817ab3f25"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.11",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.0",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "wkozyra",
+        "email" : "wojciech.kozyra@swmansion.com"
+      },
+      "_id" : "@expo/json-file@8.1.11",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.11_1566215517154_0.12696973923834842"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.16.1"
+    },
+    "8.2.22" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.22",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.22.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.22.tgz",
+        "shasum" : "779e9184d8b326252e4d7c97130bd83ec9f5736e"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "9.0.0",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.17",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^9.0.1",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo",
+        "lint" : "eslint .",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.6",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.22",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.22_1596141857838_0.7052193085849168"
+      },
+      "_nodeVersion" : "14.6.0"
+    },
+    "8.2.21" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.21",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.21.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.21.tgz",
+        "shasum" : "b2e702d43262a03bea56ccfe60bdd6ee4d35bf6a"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "9.0.0",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.16",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^9.0.1",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo",
+        "lint" : "eslint .",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "dsokal",
+        "email" : "dominiksokal@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.21",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.21_1591095904433_0.6378491675510456"
+      },
+      "_nodeVersion" : "12.13.1"
+    },
+    "8.2.20" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.20",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.20.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.20.tgz",
+        "shasum" : "1eb69a606d4a0d601721221b1323df91ca55cbd2"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.16",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo",
+        "lint" : "eslint .",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.2",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/json-file@8.2.20",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.20_1590580150969_0.4391424119365639"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "7.0.0" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "7.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/json-file.git"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-7.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-7.0.0.tgz",
+        "shasum" : "828e421427d3c1d2990caa469eb9ac969495b43f"
+      },
+      "dependencies" : {
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.4",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "babel-cli" : "^6.26.0",
+        "babel-core" : "^6.0.0",
+        "babel-jest" : "^21.0.2",
+        "babel-plugin-transform-flow-comments" : "^6.22.0",
+        "babel-preset-env" : "^1.6.0",
+        "babel-preset-stage-1" : "^6.24.1",
+        "concurrently" : "^3.5.0",
+        "eslint" : "^4.7.2",
+        "eslint-config-universe" : "^1.0.7",
+        "flow-bin" : "^0.55.0",
+        "flow-copy-source" : "^1.2.1",
+        "jest" : "^21.1.0",
+        "mkdirp" : "^0.5.1",
+        "prettier" : "^1.7.4",
+        "rimraf" : "^2.6.2"
+      },
+      "license" : "MIT",
+      "files" : [ "build" ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "watch" : "concurrently 'babel src -d build -w' 'flow-copy-source -w src build'",
+        "build" : "babel src -d build && flow-copy-source src build",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/json-file@7.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_7.0.0_1522246964664_0.6048417007659015"
+      },
+      "_nodeVersion" : "9.8.0"
+    },
+    "8.1.5" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.5.tgz",
+        "shasum" : "c2737a384bade0a6f596606d66564d1be32dc589"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.4",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.2",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.130",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sjchmiela",
+        "email" : "sjchmiela@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.1.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.5_1561393783052_0.8702686622786968"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "8.2.4" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.4.tgz",
+        "shasum" : "c1384b243ce1ebe9ea4af6fc9201e7d50f65a7aa"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.4",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.4_1578508014293_0.36756600518107896"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.14.0"
+    },
+    "8.1.6" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.6.tgz",
+        "shasum" : "f5dce64e4747e0360fd212a3722da6f6b96bf20c"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.4",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.2",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.130",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "wkozyra",
+        "email" : "wojciech.kozyra@swmansion.com"
+      },
+      "_id" : "@expo/json-file@8.1.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.6_1561629336354_0.18010645864003672"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "8.2.5" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.5.tgz",
+        "shasum" : "17c42fdc136f813e0388f52a888b1ddae72cd8a0"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.5",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dsokal",
+        "email" : "dominiksokal@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.5",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.5_1579008515184_0.8656941391505737"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "8.1.3" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.3.tgz",
+        "shasum" : "75d265d57facb85f52079031a53c7c9f5fc6c50b"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.4",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.1",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.130",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "quinlanj",
+        "email" : "quinlanjung@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.1.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.3_1558655099765_0.955655832766164"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "8.2.2" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.2.tgz",
+        "shasum" : "cdf25f93d0089503f70c9bc89c6a68c3961c3c7d"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.2",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.2_1575662537704_0.9184729546701806"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "8.1.4" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.4.tgz",
+        "shasum" : "160f68a2ad08a1c1a34e9edfef6e87293ce0a6ac"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.4",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.1",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.130",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "esamelson",
+        "email" : "eric@expo.io"
+      },
+      "_id" : "@expo/json-file@8.1.4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.4_1559774838016_0.45926761582802866"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.14.1"
+    },
+    "8.2.3" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.3.tgz",
+        "shasum" : "176d8db091e70ce4ff7fea0381ea5ee919e8260b"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.2.3",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.3_1576627883221_0.9788815381967477"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "8.1.9" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.9.tgz",
+        "shasum" : "cdd91ffacddbe108847ae14a73f2a5a8276fba7b"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.11",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.5",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "wkozyra",
+        "email" : "wojciech.kozyra@swmansion.com"
+      },
+      "_id" : "@expo/json-file@8.1.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.9_1563541914430_0.49349120430120585"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "8.15.0"
+    },
+    "8.2.8" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.8.tgz",
+        "shasum" : "8d6c37281fdf837b1c413c182109debdc4c9c148"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.8",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.8_1586200061700_0.39399662718933537"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "8.2.9" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.9.tgz",
+        "shasum" : "b52b29d066d025a9ff26dd9989caa6d8df41acd1"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.8",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.9_1586911688214_0.48444646564193294"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "8.1.7" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.7.tgz",
+        "shasum" : "5f3965a6c709c663d44da609a9c1163337d215f1"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.11",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.3",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/json-file@8.1.7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.7_1562338628214_0.18951237509358765"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "8.2.6" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.6.tgz",
+        "shasum" : "09eaab0b528232798803369b29e220b0b6891e69"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.6",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.7",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.6_1583546068042_0.5027458020246929"
+      },
+      "_nodeVersion" : "13.8.0"
+    },
+    "8.1.8" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.1.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.1.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.1.8.tgz",
+        "shasum" : "a6577af9fdba6232d777f8ed8167a40088423376"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.11",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "^0.1.4",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "babel-jest" : "^24.8.0",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4",
+        "typescript" : "3.4.5"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "wkozyra",
+        "email" : "wojciech.kozyra@swmansion.com"
+      },
+      "_id" : "@expo/json-file@8.1.8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.1.8_1563522218066_0.5497687628322494"
+      },
+      "jest" : {
+        "testEnvironment" : "node"
+      },
+      "_nodeVersion" : "10.13.0"
+    },
+    "8.2.7" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.7.tgz",
+        "shasum" : "61611b0fd62c99cb4bf1e73052ea9da08c488e40"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.7",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/jest" : "^24.0.13",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "jest" : "^24.8.0",
+        "prettier" : "^1.7.4"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.7_1584752951682_0.776083301645996"
+      },
+      "_nodeVersion" : "12.13.1"
+    },
+    "6.0.0" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "6.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/json-file.git"
+      },
+      "main" : "JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-6.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-6.0.0.tgz",
+        "shasum" : "5bcb5f528be84286afa38484d58545e0b5759c73"
+      },
+      "dependencies" : {
+        "json5" : "^0.5.0",
+        "lockfile" : "^1.0.3",
+        "lodash" : "^4.6.1",
+        "mz" : "^2.6.0",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "babel-eslint" : "^6.0.0",
+        "eslint" : "^2.5.3",
+        "eslint-config-expo" : "^5.1.3",
+        "eslint-plugin-babel" : "^4.1.2",
+        "eslint-plugin-flowtype" : "^2.35.0",
+        "eslint-plugin-import" : "^2.7.0",
+        "eslint-plugin-react" : "^4.2.3",
+        "jest" : "^20.0.4",
+        "mock-fs" : "^4.4.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint .",
+        "test" : "jest"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "ide",
+        "email" : "ide+npm@jameside.com"
+      },
+      "_id" : "@expo/json-file@6.0.0",
+      "gitHead" : "be86a8833e1eea46965894c2a62203aa2ba93038",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file-6.0.0.tgz_1501022006669_0.7277544913813472"
+      },
+      "_shasum" : "5bcb5f528be84286afa38484d58545e0b5759c73",
+      "_nodeVersion" : "7.7.1"
+    },
+    "8.2.19" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.19",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.19.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.19.tgz",
+        "shasum" : "1a368a8e4b3393a44c501b89ae017793bf53d57e"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.16",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo",
+        "lint" : "eslint .",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.12.1",
+      "_npmUser" : {
+        "name" : "dsokal",
+        "email" : "dominiksokal@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.19",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.19_1590495309240_0.142227188429233"
+      },
+      "_nodeVersion" : "12.13.1"
+    },
+    "8.2.18" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.18",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.18.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.18.tgz",
+        "shasum" : "4f1139af7a14ee87fe2800f3428a8d2616d54efb"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.15",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo",
+        "lint" : "eslint .",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.18",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.18_1589571074821_0.013480534708396164"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "8.2.17" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.17",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.17.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.17.tgz",
+        "shasum" : "9bf3e8ffb6c5d95d88e37a08240a724fac7e1c4d"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.14",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo",
+        "lint" : "eslint .",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.17",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.17_1589520974403_0.5684058618595687"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "8.2.16" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.16",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.16.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.16.tgz",
+        "shasum" : "074f54c54627ec635c4e4fabe72382228fc5d2e1"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.13",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo",
+        "lint" : "eslint .",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.16",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.16_1589506709945_0.8753906925741868"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "8.2.15" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.15",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.15.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.15.tgz",
+        "shasum" : "f1f2fbcd78f71c47af0c412b16dc3a5a4321ac8a"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.13",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo",
+        "lint" : "eslint .",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.15",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.15_1589325154030_0.3057350065522091"
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "8.2.14" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.14",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.14.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.14.tgz",
+        "shasum" : "f728e79a168d5049e8ce73f0ae3b01d35776a785"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.12",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo",
+        "lint" : "eslint .",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "quinlanj",
+        "email" : "quinlanjung@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.14",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.14_1589228687693_0.7924868327453025"
+      },
+      "_nodeVersion" : "12.16.2"
+    },
+    "8.2.13" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.13",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.13.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.13.tgz",
+        "shasum" : "8c967a4cdf42fee31cc6d9cdcc647af4c83b83b6"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.11",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1",
+        "rimraf" : "^3.0.2"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rimraf build ./tsconfig.tsbuildinfo",
+        "lint" : "eslint .",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.14.2",
+      "_npmUser" : {
+        "name" : "fson",
+        "email" : "ville.immonen@iki.fi"
+      },
+      "_id" : "@expo/json-file@8.2.13",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.13_1588195557321_0.1582149831827362"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "5.3.0" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "5.3.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/json-file.git"
+      },
+      "main" : "JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-5.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-5.3.0.tgz",
+        "shasum" : "9274fd22e68cfdcae1f06aed8d2d1f953a4f7168"
+      },
+      "dependencies" : {
+        "json5" : "^0.5.0",
+        "lodash" : "^4.6.1",
+        "mz" : "^2.6.0"
+      },
+      "devDependencies" : {
+        "babel-eslint" : "^6.0.0",
+        "eslint" : "^2.5.3",
+        "eslint-config-expo" : "^1.0.7",
+        "eslint-plugin-react" : "^4.2.3",
+        "jest-cli" : "^12.1.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest --no-cache"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.2.0",
+      "_npmUser" : {
+        "name" : "wilzh40",
+        "email" : "wilzh40@gmail.com"
+      },
+      "_id" : "@expo/json-file@5.3.0",
+      "gitHead" : "2d1d9e52d13aaf8896a82164043db361607d296f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file-5.3.0.tgz_1499121624137_0.2968416837975383"
+      },
+      "_shasum" : "9274fd22e68cfdcae1f06aed8d2d1f953a4f7168",
+      "jest" : {
+        "automock" : false
+      },
+      "_nodeVersion" : "8.0.0"
+    },
+    "8.2.12" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.12.tgz",
+        "shasum" : "a5f23b70a1a515df1131aef6cf189e03de206ec6"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.10",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn run clean && yarn build",
+        "clean" : "rm -rf build ./tsconfig.tsbuildinfo",
+        "lint" : "eslint .",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.12",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.12_1587857252619_0.010128430701284108"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "8.2.11" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.11.tgz",
+        "shasum" : "611d7d915e018737e6ab1328d81558637f54a6b8"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.9",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.11",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.11_1587607676141_0.48743258779498566"
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "8.2.10" : {
+      "name" : "@expo/json-file",
+      "description" : "A module for reading, writing, and manipulating JSON files",
+      "version" : "8.2.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo-cli.git",
+        "directory" : "packages/json-file"
+      },
+      "main" : "build/JsonFile.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@expo/json-file/-/json-file-8.2.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40expo%2Fjson-file%2F-%2Fjson-file-8.2.10.tgz",
+        "shasum" : "2a9c3690afa96afb345a9114b0065bf944bd44a1"
+      },
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-beta.44",
+        "fs-extra" : "^8.0.1",
+        "json5" : "^1.0.1",
+        "lodash" : "^4.17.15",
+        "util.promisify" : "^1.0.0",
+        "write-file-atomic" : "^2.3.0"
+      },
+      "devDependencies" : {
+        "@expo/babel-preset-cli" : "0.2.8",
+        "@types/babel__code-frame" : "^7.0.1",
+        "@types/fs-extra" : "^7.0.0",
+        "@types/json5" : "^0.0.30",
+        "@types/lodash" : "^4.14.135",
+        "@types/write-file-atomic" : "^2.1.1"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "scripts" : {
+        "watch" : "tsc --watch",
+        "build" : "tsc",
+        "prepare" : "yarn build",
+        "test" : "jest"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@expo/json-file@8.2.10",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/json-file_8.2.10_1587317053938_0.20758724951197882"
+      },
+      "_nodeVersion" : "12.4.0"
+    }
+  },
+  "readme" : "# json-file [![CircleCI](https://circleci.com/gh/expo/json-file.svg?style=svg)](https://circleci.com/gh/expo/json-file)\n\nA library for reading and writing JSON files.\n",
+  "time" : {
+    "8.1.12-alpha.0" : "2019-09-18T15:18:20.690Z",
+    "8.1.1" : "2019-03-13T15:43:37.850Z",
+    "8.2.0" : "2019-10-10T09:41:40.699Z",
+    "8.1.2" : "2019-03-29T17:54:36.594Z",
+    "8.2.1" : "2019-10-15T17:29:03.015Z",
+    "8.0.0" : "2018-04-08T21:48:46.104Z",
+    "8.0.1" : "2018-08-24T15:44:27.842Z",
+    "8.1.0" : "2018-11-06T13:59:46.041Z",
+    "modified" : "2020-07-30T20:44:20.168Z",
+    "8.1.12" : "2019-10-03T15:35:26.582Z",
+    "8.1.10" : "2019-08-06T16:00:26.377Z",
+    "8.1.11" : "2019-08-19T11:51:57.275Z",
+    "8.2.22" : "2020-07-30T20:44:18.001Z",
+    "8.2.21" : "2020-06-02T11:05:04.640Z",
+    "8.2.20" : "2020-05-27T11:49:11.105Z",
+    "created" : "2017-07-03T22:40:24.219Z",
+    "7.0.0" : "2018-03-28T14:22:44.777Z",
+    "8.1.5" : "2019-06-24T16:29:43.149Z",
+    "8.2.4" : "2020-01-08T18:26:54.410Z",
+    "8.1.6" : "2019-06-27T09:55:36.614Z",
+    "8.2.5" : "2020-01-14T13:28:35.350Z",
+    "8.1.3" : "2019-05-23T23:44:59.862Z",
+    "8.2.2" : "2019-12-06T20:02:17.839Z",
+    "8.1.4" : "2019-06-05T22:47:18.140Z",
+    "8.2.3" : "2019-12-18T00:11:23.392Z",
+    "8.1.9" : "2019-07-19T13:11:54.594Z",
+    "8.2.8" : "2020-04-06T19:07:41.791Z",
+    "8.2.9" : "2020-04-15T00:48:08.435Z",
+    "8.1.7" : "2019-07-05T14:57:08.307Z",
+    "8.2.6" : "2020-03-07T01:54:28.190Z",
+    "8.1.8" : "2019-07-19T07:43:38.222Z",
+    "8.2.7" : "2020-03-21T01:09:11.792Z",
+    "6.0.0" : "2017-07-25T22:33:26.817Z",
+    "8.2.19" : "2020-05-26T12:15:09.353Z",
+    "8.2.18" : "2020-05-15T19:31:14.930Z",
+    "8.2.17" : "2020-05-15T05:36:14.580Z",
+    "8.2.16" : "2020-05-15T01:38:30.132Z",
+    "8.2.15" : "2020-05-12T23:12:34.119Z",
+    "8.2.14" : "2020-05-11T20:24:47.776Z",
+    "8.2.13" : "2020-04-29T21:25:57.411Z",
+    "5.3.0" : "2017-07-03T22:40:24.219Z",
+    "8.2.12" : "2020-04-25T23:27:32.762Z",
+    "8.2.11" : "2020-04-23T02:07:56.252Z",
+    "8.2.10" : "2020-04-19T17:24:14.055Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/expo/expo-cli.git",
+    "directory" : "packages/json-file"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "license" : "MIT"
+}

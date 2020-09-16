@@ -1,0 +1,3090 @@
+{
+  "_id" : "mongodb-stitch-react-native-core",
+  "_rev" : "40-a90167f7a9209bf62423b6e3a7cd2ece",
+  "name" : "mongodb-stitch-react-native-core",
+  "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+  "dist-tags" : {
+    "next" : "4.9.0",
+    "alpha" : "4.0.14-2",
+    "beta" : "4.0.15-beta-2.0",
+    "latest" : "4.8.0"
+  },
+  "versions" : {
+    "4.0.13" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.13",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.13.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.13.tgz",
+        "shasum" : "36c1853bb1e36245be9c46dad9483500c2970050"
+      },
+      "dependencies" : {
+        "mongodb-stitch-bson" : "^1.0.0",
+        "mongodb-stitch-core-sdk" : "^4.0.13"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json && npm run add-version-umd",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-umd" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/umd/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.13",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.13_1533241821246_0.4431857099857255"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "4.0.14" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.14",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.14.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.14.tgz",
+        "shasum" : "a90f15262757af8ac087ee6714a60ccd3bc3ec72"
+      },
+      "dependencies" : {
+        "mongodb-stitch-bson" : "^1.0.0",
+        "mongodb-stitch-core-sdk" : "^4.0.14"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json && npm run add-version-umd",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-umd" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/umd/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.14",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.14_1539572654186_0.32342654874448895"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.11" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.11",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.11.tgz",
+        "shasum" : "7c2aafe47dc4bdf03a6748fc8469e79f3db2a39e"
+      },
+      "dependencies" : {
+        "mongodb-stitch-bson" : "^1.0.0",
+        "mongodb-stitch-core-sdk" : "^4.0.11"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json && npm run add-version-umd",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-umd" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/umd/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.11",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.11_1532722460958_0.28502132423463533"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "4.0.12" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.12",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.12.tgz",
+        "shasum" : "cd00f17571c5e1846cbee09070d49304c9498176"
+      },
+      "dependencies" : {
+        "mongodb-stitch-bson" : "^1.0.0",
+        "mongodb-stitch-core-sdk" : "^4.0.12"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json && npm run add-version-umd",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-umd" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/umd/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.12",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.12_1532722850785_0.2544349746341703"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "4.1.1" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.1.1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.1.1.tgz",
+        "shasum" : "22472718aefbb7dd94b48ae5c729d48e0949fcdd"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0",
+        "mongodb-stitch-core-sdk" : "^4.1.1"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_from" : "file:mongodb-stitch-react-native-core-4.1.1.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dkaminsky",
+        "email" : "kaminsky@alumni.upenn.edu"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.1.1",
+      "gitHead" : "f6cfcb0320a931abc734ee9e8483ae08800d0135",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.1.1_1544122432466_0.07693264253441812"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.2.0" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.2.0.tgz",
+        "shasum" : "7d5f520dc383d5678d326eee047d67fe26bba7c5"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0",
+        "mongodb-stitch-core-sdk" : "^4.2.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.2.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.2.0_1548791659505_0.3376569610214306"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.1.2" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.1.2",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.1.2.tgz",
+        "shasum" : "efd4caf3bab6f0005bfd082232aac889c327e32b"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0",
+        "mongodb-stitch-core-sdk" : "^4.1.2"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.1.2",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.1.2_1545867721048_0.2933546715143691"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.3.0" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.3.0.tgz",
+        "shasum" : "54d6767b071e05e843beb7e8f53e9f93542789d3"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0",
+        "mongodb-stitch-core-sdk" : "^4.3.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.3.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.3.0_1550266349797_0.2995262612015299"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.1.0" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.1.0.tgz",
+        "shasum" : "130b25c9af359e73555fa9a5937eb259b984ae36"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0",
+        "mongodb-stitch-core-sdk" : "^4.1.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.1.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.1.0_1543351348079_0.1546054829208352"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.6.0" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.6.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.6.0.tgz",
+        "shasum" : "de47d09c18ef592815dd1a85321275ec391f5253"
+      },
+      "dependencies" : {
+        "bson" : "4.0.2",
+        "mongodb-stitch-core-sdk" : "^4.6.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.6.0",
+      "gitHead" : "e75a2ea025db58b785161bd68b6baed6802607fb",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.6.0_1571867115721_0.8389454037661224"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.0.10" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.10",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.10.tgz",
+        "shasum" : "6f03499041635b730f1f2432bcea79a77b7d1535"
+      },
+      "dependencies" : {
+        "mongodb-stitch-bson" : "^1.0.0",
+        "mongodb-stitch-core-sdk" : "^4.0.10"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json && npm run add-version-umd",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-umd" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/umd/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.10",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.10_1532721980213_0.9322827962598401"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "4.7.0" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.7.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.7.0.tgz",
+        "shasum" : "90fb77bfcec2800d33e8b355ce167d6631f864cd"
+      },
+      "dependencies" : {
+        "bson" : "4.0.2",
+        "mongodb-stitch-core-sdk" : "^4.7.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.7.0",
+      "gitHead" : "070b17bbb2c3b4713a11ca83d5d19b40da344f30",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.7.0_1573059784518_0.6545456632725541"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.1.3" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.1.3",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.1.3.tgz",
+        "shasum" : "5c3a5ef2100bfd318d9fa26014a6b89215e907a4"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0",
+        "mongodb-stitch-core-sdk" : "^4.1.3"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_from" : "file:mongodb-stitch-react-native-core-4.1.3.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dkaminsky",
+        "email" : "kaminsky@alumni.upenn.edu"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.1.3",
+      "gitHead" : "cb14eb5abc144027cec5698cc39f5141c1c08556",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.1.3_1548359698190_0.7475712226631848"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.3.1" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.3.1.tgz",
+        "shasum" : "84806c62a06e6b363b794d865b8e06b7c015fbdf"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0",
+        "mongodb-stitch-core-sdk" : "^4.3.1"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.3.1",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.3.1_1551811279019_0.9142300692257752"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.4.0" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.4.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.4.0.tgz",
+        "shasum" : "26f1e865c13146064a09c74221b959cb5458a583"
+      },
+      "dependencies" : {
+        "bson" : "4.0.2",
+        "mongodb-stitch-core-sdk" : "^4.4.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.4.0",
+      "gitHead" : "d5fea6f2c4b591ce07928c36cc483b976d2c1cdc",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.4.0_1558044114548_0.11158607769446216"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.3.2" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.3.2",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.3.2.tgz",
+        "shasum" : "867c27a83441f936855622ee9c2a7397bde84119"
+      },
+      "dependencies" : {
+        "bson" : "4.0.2",
+        "mongodb-stitch-core-sdk" : "^4.3.2"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_from" : "file:mongodb-stitch-react-native-core-4.3.2.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dkaminsky",
+        "email" : "kaminsky@alumni.upenn.edu"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.3.2",
+      "gitHead" : "caca19bc636aa2d25927bce1f0140b232a004923",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.3.2_1552422382690_0.7569126653925002"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.4.1" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.4.1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.4.1.tgz",
+        "shasum" : "50051222baf30430b439cbbb13f4450cfae25710"
+      },
+      "dependencies" : {
+        "bson" : "4.0.2",
+        "mongodb-stitch-core-sdk" : "^4.4.1"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.4.1",
+      "gitHead" : "361eedb76ac999763ee4b4663412f8e72c9f2758",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.4.1_1560291305470_0.2960137085696246"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.5.0" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.5.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.5.0.tgz",
+        "shasum" : "7c99b8e75b9fa97a443ce9cf4b80574ee07101d1"
+      },
+      "dependencies" : {
+        "bson" : "4.0.2",
+        "mongodb-stitch-core-sdk" : "^4.5.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.5.0",
+      "gitHead" : "a4a4a78022ce343ee7f918e1793d4656c09c5e3b",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.5.0_1562953016802_0.06750952440194014"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.0.14-1" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.14-1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.14-1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.14-1.tgz",
+        "shasum" : "ca440229f45a643a509a0e0962295f0dbe4cad3f"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0-rc3",
+        "mongodb-stitch-core-sdk" : "^4.0.14-1"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json && npm run add-version-umd",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-umd" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/umd/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.14-1",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.14-1_1539211273235_0.14967371721223888"
+      },
+      "readme" : "# mongodb-stitch-react-native-core\n\nThis package contains the React Native Core.\n\n**For more information on using this in a React Native app, see the [mongodb-stitch-react-native-sdk](https://www.npmjs.com/package/mongodb-stitch-react-native-sdk) package.**",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.15-0" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.15-0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.15-0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.15-0.tgz",
+        "shasum" : "581968a4ab501f7c27904c297f96bd9e0bbaf31f"
+      },
+      "dependencies" : {
+        "mongodb-stitch-bson" : "^1.0.0",
+        "mongodb-stitch-core-sdk" : "^4.0.15-0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json && npm run add-version-umd",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-umd" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/umd/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.15-0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.15-0_1539573679748_0.5047054628822798"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-0" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.14-0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.14-0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.14-0.tgz",
+        "shasum" : "4c314378d0409eb2616d1f205fbfb4214e131293"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0-rc3",
+        "mongodb-stitch-core-sdk" : "^4.0.14-0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json && npm run add-version-umd",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-umd" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/umd/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.14-0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.14-0_1539209265042_0.26169641629697726"
+      },
+      "readme" : "# mongodb-stitch-react-native-core\n\nThis package contains the React Native Core.\n\n**For more information on using this in a React Native app, see the [mongodb-stitch-react-native-sdk](https://www.npmjs.com/package/mongodb-stitch-react-native-sdk) package.**",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-5" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.14-5",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.14-5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.14-5.tgz",
+        "shasum" : "eec363e0f3d124cf9edd9b47b615d53c14b75dad"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0-rc7",
+        "mongodb-stitch-core-sdk" : "^4.0.14-5"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json && npm run add-version-umd",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-umd" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/umd/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.14-5",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.14-5_1540319389050_0.6900089547132864"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-4" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.14-4",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.14-4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.14-4.tgz",
+        "shasum" : "0b6ec3b7c8a8e5fa7f17fe59dfcd46d90a3563d1"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0-rc6",
+        "mongodb-stitch-core-sdk" : "^4.0.14-4"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json && npm run add-version-umd",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-umd" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/umd/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.14-4",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.14-4_1540317481374_0.7858762298546329"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-3" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.14-3",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.14-3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.14-3.tgz",
+        "shasum" : "7745ce989d6785fe09d999947c07ce2892115c21"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0-rc5",
+        "mongodb-stitch-core-sdk" : "^4.0.14-3"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json && npm run add-version-umd",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-umd" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/umd/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.14-3",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.14-3_1540316524980_0.11335240319752882"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-2" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.14-2",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.14-2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.14-2.tgz",
+        "shasum" : "a84012f61de2052dcf0fd2417a6fc391c44e37e5"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0-rc5",
+        "mongodb-stitch-core-sdk" : "^4.0.14-2"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json && npm run add-version-umd",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-umd" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/umd/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.14-2",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.14-2_1539379720953_0.3226864610999842"
+      },
+      "readme" : "# mongodb-stitch-react-native-core\n\nThis package contains the React Native Core.\n\n**For more information on using this in a React Native app, see the [mongodb-stitch-react-native-sdk](https://www.npmjs.com/package/mongodb-stitch-react-native-sdk) package.**",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-6" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.14-6",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.14-6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.14-6.tgz",
+        "shasum" : "8e30b6e4d98eae53a5717969fc477ad40b305378"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0-rc8",
+        "mongodb-stitch-core-sdk" : "^4.0.14-6"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json && npm run add-version-umd",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-umd" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/umd/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.14-6",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.14-6_1542056442595_0.7332757626187381"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.7.1" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.7.1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.7.1.tgz",
+        "shasum" : "1bfe9851d4fa951abe4a498ad1f4aaa953459755"
+      },
+      "dependencies" : {
+        "bson" : "4.0.2",
+        "mongodb-stitch-core-sdk" : "^4.7.1"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.7.1",
+      "gitHead" : "7a05455129f9e1cc4ac2c285e0385ccd51c9d1e4",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.7.1_1573469809954_0.3835297815473706"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.8.0" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.8.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.8.0.tgz",
+        "shasum" : "4b0f31de1049f3a2982fe2e6a6aa4a7e4203f0b9"
+      },
+      "dependencies" : {
+        "bson" : "4.0.2",
+        "mongodb-stitch-core-sdk" : "^4.8.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.8.0",
+      "gitHead" : "bd07a3d71727dd4ee9388daf80805e81d787df8b",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.8.0_1578071470763_0.5632787026563957"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.9.0" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.9.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.9.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.9.0.tgz",
+        "shasum" : "b47aa34260e7e26fd8fc53de180c06347126b5c1"
+      },
+      "dependencies" : {
+        "bson" : "4.0.2",
+        "mongodb-stitch-core-sdk" : "^4.9.0",
+        "rn-eventsource" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "tim.sedgwick@mongodb.com",
+        "name" : "tim.sedgwick"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.9.0",
+      "gitHead" : "d09b65d43124791e12aaee6b96761697633d7ddc",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.9.0_1580484678071_0.3568261513904305"
+      },
+      "readme" : "# mongodb-stitch-react-native-core\n\nThis package contains the React Native Core.\n\n**For more information on using this in a React Native app, see the [mongodb-stitch-react-native-sdk](https://www.npmjs.com/package/mongodb-stitch-react-native-sdk) package.**",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.0.15-beta-1.0" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.15-beta-1.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.15-beta-1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.15-beta-1.0.tgz",
+        "shasum" : "4f3d47448b430d8f18e673151a4838b73880d8c6"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0",
+        "mongodb-stitch-core-sdk" : "^4.0.15-beta-1.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.56.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.56.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.15-beta-1.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.15-beta-1.0_1542735710871_0.2998630606071806"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.0.15-beta-2.0" : {
+      "name" : "mongodb-stitch-react-native-core",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native Core",
+      "version" : "4.0.15-beta-2.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-core/-/mongodb-stitch-react-native-core-4.0.15-beta-2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-core%2F-%2Fmongodb-stitch-react-native-core-4.0.15-beta-2.0.tgz",
+        "shasum" : "6bba85a08a4b065d058724076040b2d29da4510f"
+      },
+      "dependencies" : {
+        "bson" : "4.0.0",
+        "mongodb-stitch-core-sdk" : "^4.0.15-beta-2.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "react-native" : "^0.57.0",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "peerDependencies" : {
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json && npm run add-version-cjs",
+        "build-module" : "tsc -p tsconfig.esm.json && npm run add-version-esm",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\"",
+        "add-version-esm" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/esm/core/internal/common/Version.js",
+        "add-version-cjs" : "sed -i -e \"s/@VERSION@/$npm_package_version/g\" dist/cjs/core/internal/common/Version.js"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-core@4.0.15-beta-2.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-core_4.0.15-beta-2.0_1543260902940_0.8973725011184943"
+      },
+      "readme" : "# mongodb-stitch-react-native-core\n\nThis package contains the React Native Core.\n\n**For more information on using this in a React Native app, see the [mongodb-stitch-react-native-sdk](https://www.npmjs.com/package/mongodb-stitch-react-native-sdk) package.**",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "11.1.0"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "email" : "npm622@yahoo.com",
+    "name" : "npm622"
+  }, {
+    "email" : "martin.burdette@mongodb.com",
+    "name" : "martyb"
+  }, {
+    "email" : "tim.sedgwick@mongodb.com",
+    "name" : "tim.sedgwick"
+  }, {
+    "email" : "mpobrien005@gmail.com",
+    "name" : "mpobrien"
+  }, {
+    "email" : "jsflax@gmail.com",
+    "name" : "jsflax"
+  }, {
+    "email" : "eric@erdaniels.com",
+    "name" : "edaniels"
+  }, {
+    "email" : "adam.chelminski@mongodb.com",
+    "name" : "adamchel_mongodb"
+  }, {
+    "email" : "caplingerc@gmail.com",
+    "name" : "unicodesnowman"
+  } ],
+  "author" : {
+    "name" : "MongoDB Inc."
+  },
+  "time" : {
+    "4.0.13" : "2018-08-02T20:30:21.367Z",
+    "4.0.14" : "2018-10-15T03:04:14.327Z",
+    "4.0.11" : "2018-07-27T20:14:21.018Z",
+    "4.0.12" : "2018-07-27T20:20:58.627Z",
+    "4.1.1" : "2018-12-06T18:53:52.615Z",
+    "4.2.0" : "2019-01-29T19:54:19.672Z",
+    "4.1.2" : "2018-12-26T23:42:01.223Z",
+    "4.3.0" : "2019-02-15T21:32:29.955Z",
+    "4.1.0" : "2018-11-27T20:42:28.265Z",
+    "4.6.0" : "2019-10-23T21:45:16.076Z",
+    "4.0.10" : "2018-07-27T20:06:20.332Z",
+    "4.7.0" : "2019-11-06T17:03:04.693Z",
+    "4.1.3" : "2019-01-24T19:54:58.307Z",
+    "4.3.1" : "2019-03-05T18:41:19.273Z",
+    "4.4.0" : "2019-05-16T22:01:54.678Z",
+    "4.3.2" : "2019-03-12T20:26:22.863Z",
+    "4.4.1" : "2019-06-11T22:15:05.583Z",
+    "4.5.0" : "2019-07-12T17:36:56.923Z",
+    "modified" : "2020-04-16T19:33:42.978Z",
+    "4.0.14-1" : "2018-10-10T22:41:13.432Z",
+    "4.0.15-0" : "2018-10-15T03:21:19.902Z",
+    "4.0.14-0" : "2018-10-10T22:07:45.194Z",
+    "4.0.14-5" : "2018-10-23T18:29:49.272Z",
+    "4.0.14-4" : "2018-10-23T17:58:01.547Z",
+    "4.0.14-3" : "2018-10-23T17:42:05.170Z",
+    "4.0.14-2" : "2018-10-12T21:28:41.162Z",
+    "created" : "2018-07-27T20:06:20.212Z",
+    "4.0.14-6" : "2018-11-12T21:00:42.811Z",
+    "4.7.1" : "2019-11-11T10:56:50.173Z",
+    "4.8.0" : "2020-01-03T17:11:10.866Z",
+    "4.0.9" : "2018-07-26T14:14:34.483Z",
+    "4.9.0" : "2020-01-31T15:31:18.243Z",
+    "4.0.15-beta-1.0" : "2018-11-20T17:41:51.060Z",
+    "4.0.15-beta-2.0" : "2018-11-26T19:35:03.129Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+  "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+  "contributors" : [ {
+    "name" : "Adam Chelminski",
+    "email" : "adam.chelminski@mongodb.com"
+  }, {
+    "name" : "Eric Daniels",
+    "email" : "eric.daniels@mongodb.com"
+  }, {
+    "name" : "Jason Flax",
+    "email" : "jason.flax@mongodb.com"
+  }, {
+    "name" : "Doug Kaminsky",
+    "email" : "douglas.kaminsky@mongodb.com"
+  }, {
+    "name" : "Tyler Kaye",
+    "email" : "tyler.kaye@mongodb.com"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+  },
+  "license" : "Apache-2.0"
+}

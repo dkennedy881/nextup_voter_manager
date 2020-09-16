@@ -1,0 +1,3887 @@
+{
+  "_id" : "@react-native-community/async-storage",
+  "_rev" : "51-e94947945d955f9b2dc00f30a8eb3db0",
+  "name" : "@react-native-community/async-storage",
+  "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+  "dist-tags" : {
+    "next" : "2.0.0-rc.3",
+    "alpha" : "1.11.0-alpha.0",
+    "latest" : "1.12.0"
+  },
+  "versions" : {
+    "1.10.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.10.0",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ {
+        "name" : "Evan Bacon",
+        "email" : "bacon@expo.io",
+        "url" : "https://github.com/evanbacon"
+      } ],
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.10.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.10.0.tgz",
+        "shasum" : "fd6a9737f3c227ef4e28858b8201ad793a022296"
+      },
+      "dependencies" : {
+        "deep-assign" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.2",
+        "@babel/runtime" : "^7.6.2",
+        "@react-native-community/cli" : "^3.1.0",
+        "@react-native-community/cli-platform-android" : "^3.1.0",
+        "@react-native-community/cli-platform-ios" : "^3.1.0",
+        "@react-native-community/eslint-config" : "^0.0.5",
+        "babel-jest" : "^24.9.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "expo" : "36.0.2",
+        "flow-bin" : "0.105.2",
+        "jest" : "^24.9.0",
+        "metro" : "0.56.4",
+        "metro-react-native-babel-preset" : "^0.56.0",
+        "react" : "16.9.0",
+        "react-dom" : "16.9.0",
+        "react-native" : "0.61.5",
+        "react-native-macos" : "0.60.0-microsoft.50",
+        "react-native-web" : "~0.12.0",
+        "react-native-windows" : "0.61.0",
+        "react-test-renderer" : "16.9.0"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8",
+        "react-native" : ">=0.59"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios --scheme AsyncStorageExample",
+        "start:web" : "expo start:web",
+        "start:macos" : "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos",
+        "start:windows" : "react-native start --use-react-native-windows",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "build:e2e:macos" : "scripts/run_macos_e2e.sh 'build'",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "test:e2e:macos" : "scripts/run_macos_e2e.sh 'test'"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.10.0",
+      "types" : "./types/index.d.ts",
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.10.0_1588578567367_0.4685875589787851"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.10.1" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.10.1",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "hello@krizzu.dev"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ {
+        "name" : "Evan Bacon",
+        "email" : "bacon@expo.io",
+        "url" : "https://github.com/evanbacon"
+      } ],
+      "main" : "lib/commonjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.10.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.10.1.tgz",
+        "shasum" : "23902625cf146a25b2929d72558caa437c72c4a8"
+      },
+      "dependencies" : {
+        "deep-assign" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.2",
+        "@babel/runtime" : "^7.6.2",
+        "@react-native-community/bob" : "^0.14.0",
+        "@react-native-community/cli" : "^3.1.0",
+        "@react-native-community/cli-platform-android" : "^3.1.0",
+        "@react-native-community/cli-platform-ios" : "^3.1.0",
+        "@react-native-community/eslint-config" : "^0.0.5",
+        "babel-jest" : "^24.9.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "expo" : "36.0.2",
+        "flow-bin" : "0.105.2",
+        "jest" : "^24.9.0",
+        "metro" : "0.56.4",
+        "metro-react-native-babel-preset" : "^0.56.0",
+        "react" : "16.9.0",
+        "react-dom" : "16.9.0",
+        "react-native" : "0.61.5",
+        "react-native-macos" : "0.60.0-microsoft.50",
+        "react-native-web" : "~0.12.0",
+        "react-native-windows" : "0.61.0",
+        "react-test-renderer" : "16.9.0"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8",
+        "react-native" : ">=0.59"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepare" : "bob build",
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios --scheme AsyncStorageExample",
+        "start:web" : "expo start:web",
+        "start:macos" : "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos",
+        "start:windows" : "react-native start --use-react-native-windows",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "build:e2e:macos" : "scripts/run_macos_e2e.sh 'build'",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'src/**/*.js' 'example/**/*.js' 'jest/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "test:e2e:macos" : "scripts/run_macos_e2e.sh 'test'"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.10.1",
+      "react-native" : "src/index.js",
+      "types" : "./types/index.d.ts",
+      "@react-native-community/bob" : {
+        "source" : "src",
+        "output" : "lib",
+        "targets" : [ [ "commonjs", {
+          "copyFlow" : true
+        } ], "module" ]
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "lib/module/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.10.1_1589391327315_0.36122424854123536"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.11.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.11.0",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "hello@krizzu.dev"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ {
+        "name" : "Evan Bacon",
+        "email" : "bacon@expo.io",
+        "url" : "https://github.com/evanbacon"
+      } ],
+      "main" : "lib/commonjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.11.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.11.0.tgz",
+        "shasum" : "bf81b8813080846f150c67f531987c429b442166"
+      },
+      "dependencies" : {
+        "deep-assign" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.2",
+        "@babel/runtime" : "^7.6.2",
+        "@react-native-community/bob" : "^0.14.0",
+        "@react-native-community/cli" : "^3.1.0",
+        "@react-native-community/cli-platform-android" : "^3.1.0",
+        "@react-native-community/cli-platform-ios" : "^3.1.0",
+        "@react-native-community/eslint-config" : "^0.0.5",
+        "babel-jest" : "^24.9.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "expo" : "36.0.2",
+        "flow-bin" : "0.105.2",
+        "jest" : "^24.9.0",
+        "metro" : "0.56.4",
+        "metro-react-native-babel-preset" : "^0.56.0",
+        "react" : "16.9.0",
+        "react-dom" : "16.9.0",
+        "react-native" : "0.61.5",
+        "react-native-macos" : "0.60.0-microsoft.50",
+        "react-native-web" : "~0.12.0",
+        "react-native-windows" : "0.61.0",
+        "react-test-renderer" : "16.9.0"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8",
+        "react-native" : ">=0.59"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepare" : "bob build",
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios --scheme AsyncStorageExample",
+        "start:web" : "expo start:web",
+        "start:macos" : "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos",
+        "start:windows" : "react-native start --use-react-native-windows",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "build:e2e:macos" : "scripts/run_macos_e2e.sh 'build'",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'src/**/*.js' 'example/**/*.js' 'jest/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "test:e2e:macos" : "scripts/run_macos_e2e.sh 'test'"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.11.0",
+      "react-native" : "src/index.js",
+      "types" : "./types/index.d.ts",
+      "@react-native-community/bob" : {
+        "source" : "src",
+        "output" : "lib",
+        "targets" : [ [ "commonjs", {
+          "copyFlow" : true
+        } ], "module" ]
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "lib/module/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.11.0_1590391328338_0.04549191426177335"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.11.0-alpha.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.11.0-alpha.0",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "hello@krizzu.dev"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ {
+        "name" : "Evan Bacon",
+        "email" : "bacon@expo.io",
+        "url" : "https://github.com/evanbacon"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/commonjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.11.0-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.11.0-alpha.0.tgz",
+        "shasum" : "f57262b61adb0f800bc7c47e44051001867efa52"
+      },
+      "dependencies" : {
+        "deep-assign" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.2",
+        "@babel/runtime" : "^7.6.2",
+        "@react-native-community/bob" : "^0.14.0",
+        "@react-native-community/cli" : "^3.1.0",
+        "@react-native-community/cli-platform-android" : "^3.1.0",
+        "@react-native-community/cli-platform-ios" : "^3.1.0",
+        "@react-native-community/eslint-config" : "^0.0.5",
+        "babel-jest" : "^24.9.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "expo" : "36.0.2",
+        "flow-bin" : "0.105.2",
+        "jest" : "^24.9.0",
+        "metro" : "0.56.4",
+        "metro-react-native-babel-preset" : "^0.56.0",
+        "react" : "16.9.0",
+        "react-dom" : "16.9.0",
+        "react-native" : "0.61.5",
+        "react-native-macos" : "0.60.0-microsoft.50",
+        "react-native-web" : "~0.12.0",
+        "react-native-windows" : "0.61.0",
+        "react-test-renderer" : "16.9.0"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8",
+        "react-native" : ">=0.59"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepare" : "bob build",
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios --scheme AsyncStorageExample",
+        "start:web" : "expo start:web",
+        "start:macos" : "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos",
+        "start:windows" : "react-native start --use-react-native-windows",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "build:e2e:macos" : "scripts/run_macos_e2e.sh 'build'",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'src/**/*.js' 'example/**/*.js' 'jest/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "test:e2e:macos" : "scripts/run_macos_e2e.sh 'test'"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.11.0-alpha.0",
+      "react-native" : "src/index.js",
+      "gitHead" : "319cc0d796c7415a65e3ca9a87b58fca187bc918",
+      "types" : "./types/index.d.ts",
+      "@react-native-community/bob" : {
+        "source" : "src",
+        "output" : "lib",
+        "targets" : [ [ "commonjs", {
+          "copyFlow" : true
+        } ], "module" ]
+      },
+      "module" : "lib/module/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.11.0-alpha.0_1590184359237_0.34363041450366505"
+      },
+      "readme" : "# React Native Async Storage\n\nAn asynchronous, unencrypted, persistent, key-value storage system for React Native.\n\n\n## Supported platforms\n\n- iOS\n- Android\n- [Web](https://github.com/react-native-community/async-storage/releases/tag/v1.9.0)\n- [MacOS](https://github.com/react-native-community/async-storage/releases/tag/v1.8.1)\n- [Windows](https://github.com/react-native-community/async-storage/releases/tag/v1.10.0)\n\n\n## Getting Started\n\n\n### Install\n\n```\n$ yarn add @react-native-community/async-storage\n```\n\n### Link\n\n- **React Native 0.60+**\n\n[CLI autolink feature](https://github.com/react-native-community/cli/blob/master/docs/autolinking.md) links the module while building the app. \n\nUse CocoaPods to add the native `RNAsyncStorage` to your project:\n\n```bash\n$ npx pod-install\n```\n\n- **React Native <= 0.59**\n\n\n```bash\n$ react-native link @react-native-community/async-storage\n```\n\n*Note:* For `macOS` and `Windows` the [manual linking](docs/Linking.md) is currently the only linking option.\n\n\nSee docs for [manual linking guide.](docs/Linking.md)\n\n### **Upgrading to React Native *0.60+*** \n \nReact Native 0.60+ comes with `autolinking` feature, which automatically links Native Modules in your project.\nIn order to get it to work, make sure you `unlink` `Async Storage` first (if you had linked it before):\n\n```bash\n$ react-native unlink @react-native-community/async-storage\n```\n\n\n## Usage\n\nAsyncStorage can only store `string` data, so in order to store object data you need to serialize it first. \nFor data that can be serialized to JSON you can use `JSON.stringify()` when saving the data and `JSON.parse()` when loading the data.\n\n\n### Importing\n\n```js\nimport AsyncStorage from '@react-native-community/async-storage';\n```\n\n### Storing data\n\n`setItem()` is used both to add new data item (when no data for given key exists), and to modify exiting item (when previous data for given key exists).\n\n#### Storing string value\n```jsx\nconst storeData = async (value) => {\n  try {\n    await AsyncStorage.setItem('@storage_Key', value)\n  } catch (e) {\n    // saving error\n  }\n}\n```\n\n#### Storing object value\n```jsx\nconst storeData = async (value) => {\n  try {\n    const jsonValue = JSON.stringify(value)\n    await AsyncStorage.setItem('@storage_Key', jsonValue)\n  } catch (e) {\n    // saving error\n  }\n}\n```\n\n### Reading data\n\n`getItem` returns a promise that either resolves to stored value when data is found for given key, or returns `null` otherwise.  \n\n#### Reading string value\n```jsx\n\ngetData = async () => {\n  try {\n    const value = await AsyncStorage.getItem('@storage_Key')\n    if(value !== null) {\n      // value previously stored\n    }\n  } catch(e) {\n    // error reading value\n  }\n}\n\n```\n#### Reading object value \n\n```jsx\n\ngetData = async () => {\n  try {\n    const jsonValue = await AsyncStorage.getItem('@storage_Key')\n    return jsonValue != null ? JSON.parse(jsonValue) : null;\n  } catch(e) {\n    // error reading value\n  }\n}\n\n```\n\n## Advanced usage\nSee docs for [API and more examples](docs/API.md) or [advanced usages](docs/advanced).\n\n## Writing tests\n\nUsing [Jest](https://jestjs.io/) for testing? Make sure to check out [docs on how to integrate it with this module.](./docs/Jest-integration.md)\n\n## Contribution\n\nSee the [CONTRIBUTING](CONTRIBUTING.md) file for how to help out.\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "1.2.1" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.2.1.tgz",
+        "shasum" : "b4ba4f378e910518f3075e285c02f95143a5793c"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-eslint" : "9.0.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "10.0.7",
+        "eslint" : "5.1.0",
+        "eslint-config-fb-strict" : "22.1.0",
+        "eslint-config-fbjs" : "2.0.1",
+        "eslint-plugin-eslint-comments" : "3.0.1",
+        "eslint-plugin-flowtype" : "2.43.0",
+        "eslint-plugin-jest" : "21.8.0",
+        "eslint-plugin-prettier" : "2.6.0",
+        "eslint-plugin-react" : "7.8.2",
+        "eslint-plugin-react-hooks" : "1.0.1",
+        "eslint-plugin-react-native" : "3.5.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "prettier" : "1.16.4",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.2.1",
+      "gitHead" : "d68889dbccd2c34e8928ae8a2d24af740c30707b",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.2.1_1552549471091_0.8669070618332195"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native"
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "1.3.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.3.0.tgz",
+        "shasum" : "8254db63d6e2c51574008cce1535447055387b6a"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "10.0.7",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.3.0",
+      "gitHead" : "4b33137357fd14ad0b21d4b2403548537d9177a2",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.3.0_1554886052954_0.8324151896324554"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "1.2.2" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.2.2",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.2.2.tgz",
+        "shasum" : "1f9851a6dd2b0af08ed3ab69b7f7353c4e85ea1d"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "10.0.7",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.2.2",
+      "gitHead" : "22d4e5eda999bb960c6a5f206f3dfabc5776cd3f",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.2.2_1553619727814_0.7283463779641852"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native"
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "1.3.1" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.3.1.tgz",
+        "shasum" : "66b02438289ea1f525eca65ea2535b7d6ece5eb7"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "10.0.7",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : ">=0.57"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.3.1",
+      "gitHead" : "42fec9682d9b85abaefe7837b6d040313b34559b",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.3.1_1555058490903_0.6187354671808791"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "1.4.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.4.0.tgz",
+        "shasum" : "11864c8ff61b7f8c7062cb8f5c3a721f6a648ede"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : ">=0.57"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.4.0",
+      "gitHead" : "5869a362b230444d9aeb717dcae81ab0c423bd7d",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.4.0_1557498898647_0.41429045487501037"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "1.2.3" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.2.3",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.2.3.tgz",
+        "shasum" : "0751d328d0e86f30f3bbaba14525e21ed6904574"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "10.0.7",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.2.3",
+      "gitHead" : "99fcb40a29c7abf1461dc1b1288f127cf0340f95",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.2.3_1554477014339_0.9767067070220081"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native"
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "1.3.2" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.3.2",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.3.2.tgz",
+        "shasum" : "19249b7701cf9a2e46149e65571a1ae55f0f53d8"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "10.0.7",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : ">=0.57"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.3.2",
+      "gitHead" : "43f3d34db407c5c86306bb42d06be4956f42df30",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.3.2_1555237759646_0.1543696746565799"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "1.4.1" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.4.1",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.4.1.tgz",
+        "shasum" : "c774c74b94e48193d910d7c9b3f80dd9777975df"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : ">=0.57"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.4.1",
+      "gitHead" : "60b8d574bf7e858facea23ff43cd3211e0ceeda3",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.4.1_1558591495489_0.8829535929133676"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "1.5.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.5.0.tgz",
+        "shasum" : "647ffcd832272068b0be57332e08d73036ed391f"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : ">=0.57"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.5.0",
+      "types" : "./types/index.d.ts",
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.5.0_1560529126495_0.40899503134982496"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.2.4" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.2.4",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.2.4.tgz",
+        "shasum" : "34fb252ca296de95d9f8ea0ec106a9c349efdd5c"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "10.0.7",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.2.4",
+      "gitHead" : "d9a83d837d205767089f234ce21c7d1394b5e8fc",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.2.4_1554547621972_0.7479891849204332"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native"
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "1.3.3" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.3.3",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.3.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.3.3.tgz",
+        "shasum" : "fbcd09c68be0f91362c1bc5696802d8e281cf67d"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "10.0.7",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : ">=0.57"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.3.3",
+      "gitHead" : "c57cbeb25034c4291cc148084ad3933266daf641",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.3.3_1555339574543_0.45910264005761725"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "1.4.2" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.4.2",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.4.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.4.2.tgz",
+        "shasum" : "b29d2fa1b294fec8526f69b852a3deda248c8d81"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : ">=0.57"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.4.2",
+      "gitHead" : "f43bc3101c5ad02d296b3d5fc7a37811d0cb8bec",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.4.2_1558965036761_0.7936978442437341"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "1.5.1" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.5.1",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.5.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.5.1.tgz",
+        "shasum" : "c496b4969eea5b91da1a5919a611046360b0c51f"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : ">=0.57"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.5.1",
+      "types" : "./types/index.d.ts",
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.5.1_1562696387776_0.4710834457245543"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.3.4" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.3.4",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.3.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.3.4.tgz",
+        "shasum" : "5a664484d485bcbab79648e1a0ce775b90843f29"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "10.0.7",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : ">=0.57"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.3.4",
+      "gitHead" : "9dffa5c3092c49aa79c08a994ed34f124d85d227",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.3.4_1556724619032_0.20040262011299115"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      },
+      "_nodeVersion" : "8.16.0"
+    },
+    "1.6.1" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.6.1",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.6.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.6.1.tgz",
+        "shasum" : "19be07fc1d65c77bdeb20f46108ba12076aad1c5"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : ">=0.57"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.6.1",
+      "types" : "./types/index.d.ts",
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.6.1_1564037954876_0.3274903870839272"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.7.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.7.0",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.7.0.tgz",
+        "shasum" : "75e8795cfadef5005228fd1f8a0b0178d50924a2"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.4.5",
+        "@babel/runtime" : "7.4.5",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "babel-jest" : "24.8.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.92.0",
+        "jest" : "24.8.0",
+        "metro-react-native-babel-preset" : "0.54.1",
+        "react" : "16.6.3",
+        "react-native" : "0.59.10",
+        "react-test-renderer" : "16.8.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8",
+        "react-native" : ">=0.59"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios --scheme AsyncStorageExample",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.7.0",
+      "types" : "./types/index.d.ts",
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.7.0_1575963050632_0.19956685653601647"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.6.2" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.6.2",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.6.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.6.2.tgz",
+        "shasum" : "a19ca7149c4dfe8216f2330e6b1ebfe2d075ef92"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : ">=0.57"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.6.2",
+      "types" : "./types/index.d.ts",
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.6.2_1569389386448_0.7980845208708485"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.7.1" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.7.1",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.7.1.tgz",
+        "shasum" : "ef2104d865de61ad91bba66613e57e689ff4e6a1"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.4.5",
+        "@babel/runtime" : "7.4.5",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "babel-jest" : "24.8.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.92.0",
+        "jest" : "24.8.0",
+        "metro-react-native-babel-preset" : "0.54.1",
+        "react" : "16.6.3",
+        "react-native" : "0.59.10",
+        "react-test-renderer" : "16.8.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8",
+        "react-native" : ">=0.59"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios --scheme AsyncStorageExample",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.7.1",
+      "types" : "./types/index.d.ts",
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.7.1_1576355685289_0.7363956460568872"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.8.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.8.0",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.8.0.tgz",
+        "shasum" : "5f23ad486daa284398c71f2cc94d15fb7be40bb8"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.4.5",
+        "@babel/runtime" : "7.4.5",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "babel-jest" : "24.8.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.92.0",
+        "jest" : "24.8.0",
+        "metro-react-native-babel-preset" : "0.54.1",
+        "react" : "16.6.3",
+        "react-native" : "0.59.10",
+        "react-test-renderer" : "16.8.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8",
+        "react-native" : ">=0.59"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios --scheme AsyncStorageExample",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.8.0",
+      "types" : "./types/index.d.ts",
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.8.0_1581928705012_0.7204261313406233"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.6.3" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.6.3",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.6.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.6.3.tgz",
+        "shasum" : "1a713e8c5cacd543ab8539080a5ce57ad917da88"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.4.5",
+        "@babel/runtime" : "7.4.5",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "babel-jest" : "24.8.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.92.0",
+        "jest" : "24.8.0",
+        "metro-react-native-babel-preset" : "0.54.1",
+        "react" : "16.6.3",
+        "react-native" : "0.59.10",
+        "react-test-renderer" : "16.8.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8",
+        "react-native" : ">=0.59"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios --scheme AsyncStorageExample",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.6.3",
+      "types" : "./types/index.d.ts",
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.6.3_1573714654386_0.27778472876215976"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.8.1" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.8.1",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.8.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.8.1.tgz",
+        "shasum" : "c93e69dcf948667b207e409b8039b7edf199159b"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.4.5",
+        "@babel/runtime" : "7.4.5",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "babel-jest" : "24.8.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.92.0",
+        "jest" : "24.8.0",
+        "metro-react-native-babel-preset" : "0.54.1",
+        "react" : "16.6.3",
+        "react-native" : "0.59.10",
+        "react-native-macos" : "0.60.0-microsoft.50",
+        "react-test-renderer" : "16.8.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8",
+        "react-native" : ">=0.59"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios --scheme AsyncStorageExample",
+        "start:macos" : "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "build:e2e:macos" : "scripts/run_macos_e2e.sh 'build'",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "test:e2e:macos" : "scripts/run_macos_e2e.sh 'test'"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.8.1",
+      "types" : "./types/index.d.ts",
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.8.1_1582875419062_0.5872342439840805"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.9.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.9.0",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ {
+        "name" : "Evan Bacon",
+        "email" : "bacon@expo.io",
+        "url" : "https://github.com/evanbacon"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "./lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.9.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.9.0.tgz",
+        "shasum" : "af26a8879bd2987970fbbe81a9623851d29a56f1"
+      },
+      "dependencies" : {
+        "deep-assign" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.4.5",
+        "@babel/runtime" : "7.4.5",
+        "@react-native-community/eslint-config" : "0.0.2",
+        "babel-jest" : "24.8.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "expo" : "36.0.2",
+        "eslint" : "5.1.0",
+        "flow-bin" : "0.92.0",
+        "jest" : "24.8.0",
+        "metro-react-native-babel-preset" : "0.54.1",
+        "react" : "16.6.3",
+        "react-dom" : "16.6.3",
+        "react-native" : "0.59.10",
+        "react-native-web" : "~0.12.0",
+        "react-native-macos" : "0.60.0-microsoft.50",
+        "react-test-renderer" : "16.8.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8",
+        "react-native" : ">=0.59"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios --scheme AsyncStorageExample",
+        "start:web" : "expo start:web",
+        "start:macos" : "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "build:e2e:macos" : "scripts/run_macos_e2e.sh 'build'",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "test:e2e:macos" : "scripts/run_macos_e2e.sh 'test'"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.9.0",
+      "gitHead" : "af2664e5334175a180d71e22fe10e184904d63ff",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.9.0_1585775732166_0.33783394809982803"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "2.0.0-rc.1" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Main, public-facing components of Async Storage. Contains a factory to create an `AsyncStorage` instance  and `IStorageBackend`, that needs to be implemented by any Backend Storage in order to be compatible.",
+      "version" : "2.0.0-rc.1",
+      "author" : {
+        "name" : "ReactNative Community"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-2.0.0-rc.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-2.0.0-rc.1.tgz",
+        "shasum" : "9509b6d04fd1f5cd77c2993c8b0b640f17386696"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src --root-mode upward --out-dir build/ --extensions .ts --ignore build/**/* --ignore types/* --source-maps inline",
+        "clean" : "rm build -rf",
+        "start" : "yarn build --watch",
+        "prepublish" : "yarn clean && yarn build",
+        "test:types" : "tsc",
+        "test:lint" : "eslint ./**/*.ts"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@2.0.0-rc.1",
+      "gitHead" : "a8e83d1be5dfcf24d0d6547badb24f53cf2756f5",
+      "types" : "types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_2.0.0-rc.1_1575964392828_0.5723224125941255"
+      },
+      "readme" : "# Async Storage Core\n\nMain, public-facing components of Async Storage. Contains a factory to create an `AsyncStorage` instance \nand `IStorageBackend`, that needs to be implemented by any Backend Storage in order to be compatible.   \n\n## Install\n\n```bash\n$ yarn install @react-native-community/async-storage@next\n```\n\n## API\n\n\n### `AsyncStorageFactory`\n\nA factory module for `AsyncStorage` instance with selected storage backend attached. \n\n\n```typescript\n// storage.js\n\nimport ASFactory from '@react-native-community/async-storage'\n\n// use any available Storage Backend\nconst storageBackend = new StorageBackend();\n\nconst mobileStorage = ASFactory.create(storageBackend, options);\n\nexport default mobileStorage;\n```\n\n\n**Factory options**\n\n`AsyncStorageFactory.create` accepts an options object, that enables additional features.\n\n\n- *logger*\n\n```typescript\ntype logger = ((action: LoggerAction) => void) | boolean;\n``` \n\nUsed to log `AsyncStorage` method calls and used arguments.\nYou can provide your own implementation or use provided default logger (enabled by default in DEV mode).\n\n\n- *errorHandler*\n\n```typescript\ntype errorHandler = ((error: Error | string) => void) | boolean;\n````\n\nUsed to report any errors thrown.\nYou can provide your own implementation or use provided default error handler (enabled by default in DEV mode).\n\n\n**Providing a storage model**\n\nIf you know the structure of the stored data upfront, you can use the full potential of the type system, by providing a type argument to  `AsyncStorageFactory.create<T>` method.\n\n\n```typescript\nimport ASFactory from '@react-native-community/async-storage'\n\ntype StorageModel = {\n  user: {\n    name: string;\n    age: number;\n  };\n  preferences: {\n    darkModeEnabled: boolean;\n  };\n  subscribedChannels: Array<string>;\n  onboardingCompleted: boolean;\n};\n\n// use any available Storage Backend\nconst storageBackend = new StorageBackend();\n\n\nconst storage = ASFactory.create<StorageModel>(storageBackend);\n\n```\n\n\n### `IStorageBackend`\n\nIn order to let `AsyncStorage` use a storage backend, it has to implement this interface. \nContains methods to get, set and remove data, return used keys or drop the whole storage.\n\n\n```typescript\n\nimport {\n  IStorageBackend,\n} from '@react-native-community/async-storage';\n\ntype Model = {\n  count: number\n  user: {\n    name: string,\n    rating: number\n  }\n}\n\nclass MyStorageSolution implements IStorageBackend<Model> {\n  // implement necessary methods\n}\n\n```\n\n\n  \n## License\n\nMIT\n\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.16.3"
+    },
+    "2.0.0-rc.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Main, public-facing components of Async Storage. The core module contains a factory to create an `AsyncStorage` instance  and `IStorageBackend`, that needs to be implemented by any Backend Storage in order to be compatible.",
+      "version" : "2.0.0-rc.0",
+      "author" : {
+        "name" : "ReactNative Community"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-2.0.0-rc.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-2.0.0-rc.0.tgz",
+        "shasum" : "a44364a6f989a5d8ce8aaafb8798a9b6b66ed286"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src --root-mode upward --out-dir build/ --extensions .ts --ignore build/**/* --ignore types/* --source-maps inline",
+        "clean" : "rm build -rf",
+        "start" : "yarn build --watch",
+        "prepublish" : "yarn clean && yarn build",
+        "test:types" : "tsc",
+        "test:lint" : "eslint ./**/*.ts"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@2.0.0-rc.0",
+      "gitHead" : "a5bf325a390f4eaadeb1a0fbfb31d629decd83df",
+      "types" : "types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_2.0.0-rc.0_1575899091735_0.7933158480507259"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "1.10.2" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.10.2",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "hello@krizzu.dev"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ {
+        "name" : "Evan Bacon",
+        "email" : "bacon@expo.io",
+        "url" : "https://github.com/evanbacon"
+      } ],
+      "main" : "lib/commonjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.10.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.10.2.tgz",
+        "shasum" : "0991092fc067665f61189dd185ae310d0f038cb3"
+      },
+      "dependencies" : {
+        "deep-assign" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.2",
+        "@babel/runtime" : "^7.6.2",
+        "@react-native-community/bob" : "^0.14.0",
+        "@react-native-community/cli" : "^3.1.0",
+        "@react-native-community/cli-platform-android" : "^3.1.0",
+        "@react-native-community/cli-platform-ios" : "^3.1.0",
+        "@react-native-community/eslint-config" : "^0.0.5",
+        "babel-jest" : "^24.9.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "expo" : "36.0.2",
+        "flow-bin" : "0.105.2",
+        "jest" : "^24.9.0",
+        "metro" : "0.56.4",
+        "metro-react-native-babel-preset" : "^0.56.0",
+        "react" : "16.9.0",
+        "react-dom" : "16.9.0",
+        "react-native" : "0.61.5",
+        "react-native-macos" : "0.60.0-microsoft.50",
+        "react-native-web" : "~0.12.0",
+        "react-native-windows" : "0.61.0",
+        "react-test-renderer" : "16.9.0"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8",
+        "react-native" : ">=0.59"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepare" : "bob build",
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios --scheme AsyncStorageExample",
+        "start:web" : "expo start:web",
+        "start:macos" : "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos",
+        "start:windows" : "react-native start --use-react-native-windows",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "build:e2e:macos" : "scripts/run_macos_e2e.sh 'build'",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'src/**/*.js' 'example/**/*.js' 'jest/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "test:e2e:macos" : "scripts/run_macos_e2e.sh 'test'"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.10.2",
+      "react-native" : "src/index.js",
+      "types" : "./types/index.d.ts",
+      "@react-native-community/bob" : {
+        "source" : "src",
+        "output" : "lib",
+        "targets" : [ [ "commonjs", {
+          "copyFlow" : true
+        } ], "module" ]
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "lib/module/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.10.2_1589823891799_0.1871498600205581"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.12.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.12.0",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "hello@krizzu.dev"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ {
+        "name" : "Evan Bacon",
+        "email" : "bacon@expo.io",
+        "url" : "https://github.com/evanbacon"
+      } ],
+      "main" : "lib/commonjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.12.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.12.0.tgz",
+        "shasum" : "d2fc65bc08aa1c3e9514bbe9fe7095eab8e8aca3"
+      },
+      "dependencies" : {
+        "deep-assign" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.2",
+        "@babel/runtime" : "^7.6.2",
+        "@react-native-community/bob" : "^0.14.0",
+        "@react-native-community/cli" : "^3.1.0",
+        "@react-native-community/cli-platform-android" : "^3.1.0",
+        "@react-native-community/cli-platform-ios" : "^3.1.0",
+        "@react-native-community/eslint-config" : "^0.0.5",
+        "babel-jest" : "^24.9.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "expo" : "36.0.2",
+        "flow-bin" : "0.105.2",
+        "jest" : "^24.9.0",
+        "metro" : "0.56.4",
+        "metro-react-native-babel-preset" : "^0.56.0",
+        "react" : "16.9.0",
+        "react-dom" : "16.9.0",
+        "react-native" : "0.61.5",
+        "react-native-macos" : "0.60.0-microsoft.50",
+        "react-native-web" : "~0.12.0",
+        "react-native-windows" : "0.61.0",
+        "react-test-renderer" : "16.9.0"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8",
+        "react-native" : ">=0.59"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepare" : "bob build",
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios --scheme AsyncStorageExample",
+        "start:web" : "expo start:web",
+        "start:macos" : "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos",
+        "start:windows" : "react-native start --use-react-native-windows",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "build:e2e:macos" : "scripts/run_macos_e2e.sh 'build'",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint src/**/*.js example/**/*.js jest/*.js",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "test:e2e:macos" : "scripts/run_macos_e2e.sh 'test'"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.12.0",
+      "react-native" : "src/index.js",
+      "types" : "./types/index.d.ts",
+      "@react-native-community/bob" : {
+        "source" : "src",
+        "output" : "lib",
+        "targets" : [ [ "commonjs", {
+          "copyFlow" : true
+        } ], "module" ]
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "lib/module/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.12.0_1597732769755_0.04093042621226517"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.0.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "main" : "lib/AsyncStorage.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.0.0.tgz",
+        "shasum" : "7d278d47a4d211dbbac760460c40dd779f5ecb7e"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-eslint" : "9.0.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "^3.1.3",
+        "eslint" : "5.1.0",
+        "eslint-config-fb-strict" : "22.1.0",
+        "eslint-config-fbjs" : "2.0.1",
+        "eslint-plugin-eslint-comments" : "^3.0.1",
+        "eslint-plugin-flowtype" : "2.43.0",
+        "eslint-plugin-jest" : "21.8.0",
+        "eslint-plugin-prettier" : "2.6.0",
+        "eslint-plugin-react" : "7.8.2",
+        "eslint-plugin-react-hooks" : "^1.0.1",
+        "eslint-plugin-react-native" : "3.5.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "prettier" : "^1.16.4",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      }, {
+        "name" : "mike866",
+        "email" : "michal.chudziak@gmail.com"
+      }, {
+        "name" : "ferrannp",
+        "email" : "fnp.developer@gmail.com"
+      }, {
+        "name" : "mattoakes",
+        "email" : "hello@mattoakes.net"
+      }, {
+        "name" : "cpojer",
+        "email" : "christoph.pojer@gmail.com"
+      }, {
+        "name" : "grabbou",
+        "email" : "grabbou@gmail.com"
+      }, {
+        "name" : "react-native-community-bot",
+        "email" : "malbranche.thibault+bot@gmail.com"
+      }, {
+        "name" : "empyrical",
+        "email" : "empyrical@outlook.com"
+      }, {
+        "name" : "titozzz",
+        "email" : "malbranche.thibault@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.0.0",
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "deprecated" : "package import fixed in 1.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.0.0_1549902955402_0.8926491089778246"
+      },
+      "jest" : {
+        "preset" : "react-native"
+      }
+    },
+    "1.10.3" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.10.3",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "hello@krizzu.dev"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ {
+        "name" : "Evan Bacon",
+        "email" : "bacon@expo.io",
+        "url" : "https://github.com/evanbacon"
+      } ],
+      "main" : "lib/commonjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.10.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.10.3.tgz",
+        "shasum" : "6974404a903a317f462bd0ac3fafa7c0291679df"
+      },
+      "dependencies" : {
+        "deep-assign" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.2",
+        "@babel/runtime" : "^7.6.2",
+        "@react-native-community/bob" : "^0.14.0",
+        "@react-native-community/cli" : "^3.1.0",
+        "@react-native-community/cli-platform-android" : "^3.1.0",
+        "@react-native-community/cli-platform-ios" : "^3.1.0",
+        "@react-native-community/eslint-config" : "^0.0.5",
+        "babel-jest" : "^24.9.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "12.6.1",
+        "eslint" : "5.1.0",
+        "expo" : "36.0.2",
+        "flow-bin" : "0.105.2",
+        "jest" : "^24.9.0",
+        "metro" : "0.56.4",
+        "metro-react-native-babel-preset" : "^0.56.0",
+        "react" : "16.9.0",
+        "react-dom" : "16.9.0",
+        "react-native" : "0.61.5",
+        "react-native-macos" : "0.60.0-microsoft.50",
+        "react-native-web" : "~0.12.0",
+        "react-native-windows" : "0.61.0",
+        "react-test-renderer" : "16.9.0"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8",
+        "react-native" : ">=0.59"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "prepare" : "bob build",
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios --scheme AsyncStorageExample",
+        "start:web" : "expo start:web",
+        "start:macos" : "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos",
+        "start:windows" : "react-native start --use-react-native-windows",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "build:e2e:macos" : "scripts/run_macos_e2e.sh 'build'",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'src/**/*.js' 'example/**/*.js' 'jest/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "test:e2e:macos" : "scripts/run_macos_e2e.sh 'test'"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.10.3",
+      "react-native" : "src/index.js",
+      "types" : "./types/index.d.ts",
+      "@react-native-community/bob" : {
+        "source" : "src",
+        "output" : "lib",
+        "targets" : [ [ "commonjs", {
+          "copyFlow" : true
+        } ], "module" ]
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "module" : "lib/module/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.10.3_1589827487495_0.40663070376912036"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native",
+        "setupFiles" : [ "./example/jest.setup.js" ]
+      }
+    },
+    "1.0.1" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "main" : "lib/AsyncStorage.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.0.1.tgz",
+        "shasum" : "0eb61254ef6125a047a8340656a3b57987630718"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.0.0",
+        "babel-core" : "^7.0.0-bridge.0",
+        "babel-eslint" : "9.0.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "^3.1.3",
+        "eslint" : "5.1.0",
+        "eslint-config-fb-strict" : "22.1.0",
+        "eslint-config-fbjs" : "2.0.1",
+        "eslint-plugin-eslint-comments" : "^3.0.1",
+        "eslint-plugin-flowtype" : "2.43.0",
+        "eslint-plugin-jest" : "21.8.0",
+        "eslint-plugin-prettier" : "2.6.0",
+        "eslint-plugin-react" : "7.8.2",
+        "eslint-plugin-react-hooks" : "^1.0.1",
+        "eslint-plugin-react-native" : "3.5.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "prettier" : "^1.16.4",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "christoph.pojer@gmail.com",
+        "name" : "cpojer"
+      }, {
+        "email" : "empyrical@outlook.com",
+        "name" : "empyrical"
+      }, {
+        "email" : "fnp.developer@gmail.com",
+        "name" : "ferrannp"
+      }, {
+        "email" : "grabbou@gmail.com",
+        "name" : "grabbou"
+      }, {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      }, {
+        "email" : "hello@mattoakes.net",
+        "name" : "mattoakes"
+      }, {
+        "email" : "crespo8800@gmail.com",
+        "name" : "mike.nedosekin"
+      }, {
+        "email" : "michal.chudziak@gmail.com",
+        "name" : "mike866"
+      }, {
+        "email" : "rafaellincolnpereira@gmail.com",
+        "name" : "rafaellpa"
+      }, {
+        "email" : "malbranche.thibault+bot@gmail.com",
+        "name" : "react-native-community-bot"
+      }, {
+        "email" : "malbranche.thibault@gmail.com",
+        "name" : "titozzz"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.0.1",
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "deprecated" : "package import fixed in 1.0.2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.0.1_1549990331526_0.4996629746392285"
+      },
+      "jest" : {
+        "preset" : "react-native"
+      }
+    },
+    "1.1.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.1.0.tgz",
+        "shasum" : "591c60ead761f31578d099965e883a87448e9128"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-eslint" : "9.0.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "10.0.7",
+        "eslint" : "5.1.0",
+        "eslint-config-fb-strict" : "22.1.0",
+        "eslint-config-fbjs" : "2.0.1",
+        "eslint-plugin-eslint-comments" : "3.0.1",
+        "eslint-plugin-flowtype" : "2.43.0",
+        "eslint-plugin-jest" : "21.8.0",
+        "eslint-plugin-prettier" : "2.6.0",
+        "eslint-plugin-react" : "7.8.2",
+        "eslint-plugin-react-hooks" : "1.0.1",
+        "eslint-plugin-react-native" : "3.5.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "prettier" : "1.16.4",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.1.0",
+      "gitHead" : "b3da569ef61adf04978a38abdabdbb2be68fecfc",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.1.0_1551453185691_0.8380394058724974"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native"
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "2.0.0-rc.3" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Main, public-facing components of Async Storage. Contains a factory to create an `AsyncStorage` instance  and `IStorageBackend`, that needs to be implemented by any Backend Storage in order to be compatible.",
+      "version" : "2.0.0-rc.3",
+      "author" : {
+        "name" : "ReactNative Community"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-2.0.0-rc.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-2.0.0-rc.3.tgz",
+        "shasum" : "e2ad162ef5eff1a32005753a7c054d463307b38f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src --root-mode upward --out-dir build/ --extensions .ts --ignore build/**/* --ignore types/* --source-maps inline",
+        "clean" : "rm build -rf",
+        "start" : "yarn build --watch",
+        "prepublish" : "yarn clean && yarn build",
+        "test:types" : "tsc",
+        "test:lint" : "eslint ./**/*.ts"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@2.0.0-rc.3",
+      "types" : "types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_2.0.0-rc.3_1585815393991_0.5119132596124465"
+      },
+      "readme" : "# Async Storage Core\n\nMain, public-facing components of Async Storage. Contains a factory to create an `AsyncStorage` instance \nand `IStorageBackend`, that needs to be implemented by any Backend Storage in order to be compatible.   \n\n## Install\n\n```bash\n$ yarn install @react-native-community/async-storage@next\n```\n\n## API\n\n\n### `AsyncStorageFactory`\n\nA factory module for `AsyncStorage` instance with selected storage backend attached. \n\n\n```typescript\n// storage.js\n\nimport ASFactory from '@react-native-community/async-storage'\n\n// use any available Storage Backend\nconst storageBackend = new StorageBackend();\n\nconst mobileStorage = ASFactory.create(storageBackend, options);\n\nexport default mobileStorage;\n```\n\n\n**Factory options**\n\n`AsyncStorageFactory.create` accepts an options object, that enables additional features.\n\n\n- *logger*\n\n```typescript\ntype logger = ((action: LoggerAction) => void) | boolean;\n``` \n\nUsed to log `AsyncStorage` method calls and used arguments.\nYou can provide your own implementation or use provided default logger (enabled by default in DEV mode).\n\n\n- *errorHandler*\n\n```typescript\ntype errorHandler = ((error: Error | string) => void) | boolean;\n````\n\nUsed to report any errors thrown.\nYou can provide your own implementation or use provided default error handler (enabled by default in DEV mode).\n\n\n**Providing a storage model**\n\nIf you know the structure of the stored data upfront, you can use the full potential of the type system, by providing a type argument to  `AsyncStorageFactory.create<T>` method.\n\n\n```typescript\nimport ASFactory from '@react-native-community/async-storage'\n\ntype StorageModel = {\n  user: {\n    name: string;\n    age: number;\n  };\n  preferences: {\n    darkModeEnabled: boolean;\n  };\n  subscribedChannels: Array<string>;\n  onboardingCompleted: boolean;\n};\n\n// use any available Storage Backend\nconst storageBackend = new StorageBackend();\n\n\nconst storage = ASFactory.create<StorageModel>(storageBackend);\n\n```\n\n\n### `IStorageBackend`\n\nIn order to let `AsyncStorage` use a storage backend, it has to implement this interface. \nContains methods to get, set and remove data, return used keys or drop the whole storage.\n\n\n```typescript\n\nimport {\n  IStorageBackend,\n} from '@react-native-community/async-storage';\n\ntype Model = {\n  count: number\n  user: {\n    name: string,\n    rating: number\n  }\n}\n\nclass MyStorageSolution implements IStorageBackend<Model> {\n  // implement necessary methods\n}\n\n```\n\n\n  \n## License\n\nMIT\n\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.16.3"
+    },
+    "1.0.2" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "main" : "lib/AsyncStorage.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.0.2.tgz",
+        "shasum" : "c911460fa38668dad1b09f829d79c2eed80a2967"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-eslint" : "9.0.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "10.0.7",
+        "eslint" : "5.1.0",
+        "eslint-config-fb-strict" : "22.1.0",
+        "eslint-config-fbjs" : "2.0.1",
+        "eslint-plugin-eslint-comments" : "3.0.1",
+        "eslint-plugin-flowtype" : "2.43.0",
+        "eslint-plugin-jest" : "21.8.0",
+        "eslint-plugin-prettier" : "2.6.0",
+        "eslint-plugin-react" : "7.8.2",
+        "eslint-plugin-react-hooks" : "1.0.1",
+        "eslint-plugin-react-native" : "3.5.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "prettier" : "1.16.4",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android"
+      },
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.0.2",
+      "licenseText" : "MIT License\n\nCopyright (c) 2015-present, Facebook, Inc.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.0.2_1551253373286_0.19549711630481248"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native"
+      }
+    },
+    "1.2.0" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Asynchronous, persistent, key-value storage system for React Native.",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Krzysztof Borowy",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-native-community/react-native-async-storage.git"
+      },
+      "contributors" : [ ],
+      "bugs" : {
+        "url" : "https://github.com/react-native-community/react-native-async-storage/issues"
+      },
+      "main" : "lib/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-1.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-1.2.0.tgz",
+        "shasum" : "33ebb208709c5ed99387007c94b0ae931a05c276"
+      },
+      "devDependencies" : {
+        "@babel/core" : "7.0.0",
+        "@semantic-release/git" : "7.0.8",
+        "babel-core" : "7.0.0-bridge.0",
+        "babel-eslint" : "9.0.0",
+        "babel-jest" : "24.1.0",
+        "babel-plugin-module-resolver" : "3.1.3",
+        "detox" : "10.0.7",
+        "eslint" : "5.1.0",
+        "eslint-config-fb-strict" : "22.1.0",
+        "eslint-config-fbjs" : "2.0.1",
+        "eslint-plugin-eslint-comments" : "3.0.1",
+        "eslint-plugin-flowtype" : "2.43.0",
+        "eslint-plugin-jest" : "21.8.0",
+        "eslint-plugin-prettier" : "2.6.0",
+        "eslint-plugin-react" : "7.8.2",
+        "eslint-plugin-react-hooks" : "1.0.1",
+        "eslint-plugin-react-native" : "3.5.0",
+        "flow-bin" : "0.86.0",
+        "jest" : "24.1.0",
+        "metro-react-native-babel-preset" : "0.51.1",
+        "prettier" : "1.16.4",
+        "react" : "16.6.3",
+        "react-native" : "0.58.4",
+        "react-test-renderer" : "16.6.3",
+        "semantic-release" : "15.13.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0",
+        "react-native" : "^0.57.0"
+      },
+      "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "start" : "node node_modules/react-native/local-cli/cli.js start",
+        "start:android" : "react-native run-android --root example/",
+        "start:ios" : "react-native run-ios --project-path example/ios",
+        "build:e2e:ios" : "detox build -c ios",
+        "build:e2e:android" : "detox build -c android",
+        "test" : "yarn test:lint && yarn test:flow",
+        "test:flow" : "flow check",
+        "test:lint" : "eslint 'lib/**/*.js' 'example/**/*.js'",
+        "test:e2e:ios" : "detox test -c ios",
+        "test:e2e:android" : "detox test -c android",
+        "ci:publish" : "yarn semantic-release"
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@1.2.0",
+      "gitHead" : "566bbb219bf71dc83274b7fb191c0f56a0c9a815",
+      "types" : "./types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_1.2.0_1552061969999_0.015806828430510622"
+      },
+      "detox" : {
+        "test-runner" : "jest",
+        "runner-config" : "example/e2e/config.json",
+        "configurations" : {
+          "ios" : {
+            "binaryPath" : "example/ios/build/Build/Products/Release-iphonesimulator/AsyncStorageExample.app",
+            "build" : ".circleci/scripts/run_ios_e2e.sh \"iPhone X\"",
+            "type" : "ios.simulator",
+            "name" : "iPhone X"
+          },
+          "android" : {
+            "binaryPath" : "example/android/app/build/outputs/apk/release/app-release.apk",
+            "build" : ".circleci/scripts/run_android_e2e.sh",
+            "type" : "android.emulator",
+            "name" : "Emu_E2E"
+          }
+        }
+      },
+      "jest" : {
+        "preset" : "react-native"
+      },
+      "_nodeVersion" : "8.15.1"
+    },
+    "2.0.0-rc.2" : {
+      "name" : "@react-native-community/async-storage",
+      "description" : "Main, public-facing components of Async Storage. Contains a factory to create an `AsyncStorage` instance  and `IStorageBackend`, that needs to be implemented by any Backend Storage in order to be compatible.",
+      "version" : "2.0.0-rc.2",
+      "author" : {
+        "name" : "ReactNative Community"
+      },
+      "main" : "build/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@react-native-community/async-storage/-/async-storage-2.0.0-rc.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40react-native-community%2Fasync-storage%2F-%2Fasync-storage-2.0.0-rc.2.tgz",
+        "shasum" : "fed29f0990aab7e6b9ddca827f751682fffd0686"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "krizzu.dev@gmail.com",
+        "name" : "krizzu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "babel src --root-mode upward --out-dir build/ --extensions .ts --ignore build/**/* --ignore types/* --source-maps inline",
+        "clean" : "rm build -rf",
+        "start" : "yarn build --watch",
+        "prepublish" : "yarn clean && yarn build",
+        "test:types" : "tsc",
+        "test:lint" : "eslint ./**/*.ts"
+      },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "krizzu",
+        "email" : "krizzu.dev@gmail.com"
+      },
+      "_id" : "@react-native-community/async-storage@2.0.0-rc.2",
+      "gitHead" : "91681d5d86c87a1548a7239ec064974df28d3262",
+      "types" : "types/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/async-storage_2.0.0-rc.2_1580807624317_0.5480816156620905"
+      },
+      "readme" : "# Async Storage Core\n\nMain, public-facing components of Async Storage. Contains a factory to create an `AsyncStorage` instance \nand `IStorageBackend`, that needs to be implemented by any Backend Storage in order to be compatible.   \n\n## Install\n\n```bash\n$ yarn install @react-native-community/async-storage@next\n```\n\n## API\n\n\n### `AsyncStorageFactory`\n\nA factory module for `AsyncStorage` instance with selected storage backend attached. \n\n\n```typescript\n// storage.js\n\nimport ASFactory from '@react-native-community/async-storage'\n\n// use any available Storage Backend\nconst storageBackend = new StorageBackend();\n\nconst mobileStorage = ASFactory.create(storageBackend, options);\n\nexport default mobileStorage;\n```\n\n\n**Factory options**\n\n`AsyncStorageFactory.create` accepts an options object, that enables additional features.\n\n\n- *logger*\n\n```typescript\ntype logger = ((action: LoggerAction) => void) | boolean;\n``` \n\nUsed to log `AsyncStorage` method calls and used arguments.\nYou can provide your own implementation or use provided default logger (enabled by default in DEV mode).\n\n\n- *errorHandler*\n\n```typescript\ntype errorHandler = ((error: Error | string) => void) | boolean;\n````\n\nUsed to report any errors thrown.\nYou can provide your own implementation or use provided default error handler (enabled by default in DEV mode).\n\n\n**Providing a storage model**\n\nIf you know the structure of the stored data upfront, you can use the full potential of the type system, by providing a type argument to  `AsyncStorageFactory.create<T>` method.\n\n\n```typescript\nimport ASFactory from '@react-native-community/async-storage'\n\ntype StorageModel = {\n  user: {\n    name: string;\n    age: number;\n  };\n  preferences: {\n    darkModeEnabled: boolean;\n  };\n  subscribedChannels: Array<string>;\n  onboardingCompleted: boolean;\n};\n\n// use any available Storage Backend\nconst storageBackend = new StorageBackend();\n\n\nconst storage = ASFactory.create<StorageModel>(storageBackend);\n\n```\n\n\n### `IStorageBackend`\n\nIn order to let `AsyncStorage` use a storage backend, it has to implement this interface. \nContains methods to get, set and remove data, return used keys or drop the whole storage.\n\n\n```typescript\n\nimport {\n  IStorageBackend,\n} from '@react-native-community/async-storage';\n\ntype Model = {\n  count: number\n  user: {\n    name: string,\n    rating: number\n  }\n}\n\nclass MyStorageSolution implements IStorageBackend<Model> {\n  // implement necessary methods\n}\n\n```\n\n\n  \n## License\n\nMIT\n\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.16.3"
+    }
+  },
+  "readme" : "# React Native Async Storage\n\nAn asynchronous, unencrypted, persistent, key-value storage system for React Native.\n\n\n## Supported platforms\n\n- iOS\n- Android\n- [Web](https://github.com/react-native-community/async-storage/releases/tag/v1.9.0)\n- [MacOS](https://github.com/react-native-community/async-storage/releases/tag/v1.8.1)\n- [Windows](https://github.com/react-native-community/async-storage/releases/tag/v1.10.0)\n\n\n## Getting Started\n\nHead over to [documentation](https://react-native-community.github.io/async-storage/) to learn more.\n\n\n## Contribution\nPull requests are welcome. Please open an issue first to discuss what you would like to change.\n\nSee the [CONTRIBUTING](CONTRIBUTING.md) file for more information.\n\n## License\n\nMIT.\n",
+  "maintainers" : [ {
+    "email" : "brentvatne@gmail.com",
+    "name" : "brentvatne"
+  }, {
+    "email" : "baconbrix@gmail.com",
+    "name" : "evanbacon"
+  }, {
+    "email" : "krizzu.dev@gmail.com",
+    "name" : "krizzu"
+  } ],
+  "author" : {
+    "name" : "Krzysztof Borowy",
+    "email" : "hello@krizzu.dev"
+  },
+  "time" : {
+    "1.10.0" : "2020-05-04T07:49:27.509Z",
+    "1.10.1" : "2020-05-13T17:35:27.406Z",
+    "1.11.0" : "2020-05-25T07:22:08.533Z",
+    "1.11.0-alpha.0" : "2020-05-22T21:52:39.362Z",
+    "modified" : "2020-08-18T06:39:32.854Z",
+    "created" : "2019-02-11T16:35:55.229Z",
+    "1.2.1" : "2019-03-14T07:44:31.233Z",
+    "1.3.0" : "2019-04-10T08:47:33.129Z",
+    "1.2.2" : "2019-03-26T17:02:07.942Z",
+    "1.3.1" : "2019-04-12T08:41:31.226Z",
+    "1.4.0" : "2019-05-10T14:34:58.775Z",
+    "1.2.3" : "2019-04-05T15:10:14.496Z",
+    "1.3.2" : "2019-04-14T10:29:19.822Z",
+    "1.4.1" : "2019-05-23T06:04:55.648Z",
+    "1.5.0" : "2019-06-14T16:18:46.824Z",
+    "1.2.4" : "2019-04-06T10:47:02.331Z",
+    "1.3.3" : "2019-04-15T14:46:14.755Z",
+    "1.4.2" : "2019-05-27T13:50:36.931Z",
+    "1.5.1" : "2019-07-09T18:19:47.939Z",
+    "1.6.0" : "2019-07-24T05:47:17.151Z",
+    "1.3.4" : "2019-05-01T15:30:19.206Z",
+    "1.6.1" : "2019-07-25T06:59:15.080Z",
+    "1.7.0" : "2019-12-10T07:30:50.743Z",
+    "1.6.2" : "2019-09-25T05:29:46.662Z",
+    "1.7.1" : "2019-12-14T20:34:45.506Z",
+    "1.8.0" : "2020-02-17T08:38:25.108Z",
+    "1.6.3" : "2019-11-14T06:57:34.560Z",
+    "1.8.1" : "2020-02-28T07:36:59.205Z",
+    "1.9.0" : "2020-04-01T21:15:32.300Z",
+    "2.0.0-rc.1" : "2019-12-10T07:53:12.961Z",
+    "2.0.0-rc.0" : "2019-12-09T13:44:51.861Z",
+    "1.10.2" : "2020-05-18T17:44:51.970Z",
+    "1.12.0" : "2020-08-18T06:39:29.878Z",
+    "1.0.0" : "2019-02-11T16:35:55.570Z",
+    "1.10.3" : "2020-05-18T18:44:47.738Z",
+    "1.0.1" : "2019-02-12T16:52:11.760Z",
+    "1.1.0" : "2019-03-01T15:13:05.810Z",
+    "2.0.0-rc.3" : "2020-04-02T08:16:34.085Z",
+    "1.0.2" : "2019-02-27T07:42:53.435Z",
+    "1.2.0" : "2019-03-08T16:19:30.125Z",
+    "2.0.0-rc.2" : "2020-02-04T09:13:44.445Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/react-native-community/react-native-async-storage.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/react-native-community/react-native-async-storage#readme",
+  "keywords" : [ "react-native", "react native", "async storage", "asyncstorage", "storage" ],
+  "contributors" : [ {
+    "name" : "Evan Bacon",
+    "email" : "bacon@expo.io",
+    "url" : "https://github.com/evanbacon"
+  } ],
+  "license" : "MIT"
+}

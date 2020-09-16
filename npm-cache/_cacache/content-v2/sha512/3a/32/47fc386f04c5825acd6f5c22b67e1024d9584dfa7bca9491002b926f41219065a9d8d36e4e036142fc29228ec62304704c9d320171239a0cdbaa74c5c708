@@ -1,0 +1,790 @@
+{
+  "_id" : "pixelmatch",
+  "_rev" : "291-7c69b8667912a715176571ed98fff7b7",
+  "name" : "pixelmatch",
+  "description" : "The smallest and fastest pixel-level image comparison library.",
+  "dist-tags" : {
+    "latest" : "5.2.1"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "2.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-2.0.0.tgz",
+        "shasum" : "721ed886806b7ba7520f54724b7e5c6c7a9c86be"
+      },
+      "dependencies" : {
+        "pngjs2" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.6.0",
+        "eslint-config-mourner" : "^1.0.1",
+        "tap" : "^2.1.1"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "tap test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.6",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@2.0.0",
+      "gitHead" : "b977a6d0b5a3ceaf5f433dce07ca6c033c8f6241",
+      "_shasum" : "721ed886806b7ba7520f54724b7e5c6c7a9c86be",
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "0.12.7"
+    },
+    "2.0.1" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "2.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-2.0.1.tgz",
+        "shasum" : "022b127a8e09279a7218fc2a31303ac256459e8a"
+      },
+      "dependencies" : {
+        "pngjs2" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.6.0",
+        "eslint-config-mourner" : "^1.0.1",
+        "tap" : "^2.1.1"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "tap test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.6",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@2.0.1",
+      "gitHead" : "64611d5497edf1379418f9c1ccd35b096310b5e2",
+      "_shasum" : "022b127a8e09279a7218fc2a31303ac256459e8a",
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "0.10.40"
+    },
+    "4.0.2" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "4.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-4.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-4.0.2.tgz",
+        "shasum" : "8f47dcec5011b477b67db03c243bc1f3085e8854"
+      },
+      "dependencies" : {
+        "pngjs" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^3.2.2",
+        "eslint-config-mourner" : "^2.0.1",
+        "tap" : "^6.3.0"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "tap test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.15.8",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@4.0.2",
+      "gitHead" : "f655632e01f70eaff4e89709f620cede786da808",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/pixelmatch-4.0.2.tgz_1470671343818_0.5421545191202313"
+      },
+      "_shasum" : "8f47dcec5011b477b67db03c243bc1f3085e8854",
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "6.3.0"
+    },
+    "4.0.0" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "4.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-4.0.0.tgz",
+        "shasum" : "c974d646f461ed22f3fda6790b4907b2754e8078"
+      },
+      "dependencies" : {
+        "pngjs2" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.6.0",
+        "eslint-config-mourner" : "^1.0.1",
+        "tap" : "^2.1.1"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "tap test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.4",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@4.0.0",
+      "gitHead" : "a7f1f5ad86365433b5b268622facbdb33d300914",
+      "_shasum" : "c974d646f461ed22f3fda6790b4907b2754e8078",
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "0.12.7"
+    },
+    "4.0.1" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "4.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-4.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-4.0.1.tgz",
+        "shasum" : "d5906e6e4e87205ac67090255ae259846a851a76"
+      },
+      "dependencies" : {
+        "pngjs" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.6.0",
+        "eslint-config-mourner" : "^1.0.1",
+        "tap" : "^2.1.1"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "tap test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.11",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@4.0.1",
+      "gitHead" : "fbf03b23b45adc7f0ec5e79fb62021ed70641581",
+      "_shasum" : "d5906e6e4e87205ac67090255ae259846a851a76",
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "5.1.0"
+    },
+    "2.0.2" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "2.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-2.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-2.0.2.tgz",
+        "shasum" : "5e4cc0c0b7ea059ce22f36ae7f33af05970e8ada"
+      },
+      "dependencies" : {
+        "pngjs2" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.6.0",
+        "eslint-config-mourner" : "^1.0.1",
+        "tap" : "^2.1.1"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "tap test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.6",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@2.0.2",
+      "gitHead" : "d30eb6284efb4fa9a406d500f95f54e61e743410",
+      "_shasum" : "5e4cc0c0b7ea059ce22f36ae7f33af05970e8ada",
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "0.10.40"
+    },
+    "3.0.0" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "3.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-3.0.0.tgz",
+        "shasum" : "56bfc3e509a78445831e94ef28fcbe804bf0f4f0"
+      },
+      "dependencies" : {
+        "pngjs2" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.6.0",
+        "eslint-config-mourner" : "^1.0.1",
+        "tap" : "^2.1.1"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "tap test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.6",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@3.0.0",
+      "gitHead" : "083738d6b283faaa80517f376c116192dff14326",
+      "_shasum" : "56bfc3e509a78445831e94ef28fcbe804bf0f4f0",
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "0.10.40"
+    },
+    "5.0.0" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "5.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-5.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-5.0.0.tgz",
+        "shasum" : "2954f18dabc22fd7e4402d2e8adb8f339bb653c4"
+      },
+      "dependencies" : {
+        "pngjs" : "^3.4.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.16.0",
+        "eslint-config-mourner" : "^3.0.0",
+        "tape" : "^4.10.2"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "node test/test.js"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@5.0.0",
+      "gitHead" : "a53eadd322cc06daaf3940705732a94458ee1570",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pixelmatch_5.0.0_1559893148934_0.6551688015599413"
+      },
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "5.0.1" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "5.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-5.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-5.0.1.tgz",
+        "shasum" : "40a0933e3166bc1b3eec5a7a339627fb969c3ea4"
+      },
+      "dependencies" : {
+        "pngjs" : "^3.4.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.16.0",
+        "eslint-config-mourner" : "^3.0.0",
+        "tape" : "^4.10.2"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "node test/test.js"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@5.0.1",
+      "gitHead" : "53e8d51be1c63c7499d6f21cf2ae60538becba30",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pixelmatch_5.0.1_1559923935735_0.9710397786067901"
+      },
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "5.1.0" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "5.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-5.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-5.1.0.tgz",
+        "shasum" : "b640f0e5a03a09f235a4b818ef3b9b98d9d0b911"
+      },
+      "dependencies" : {
+        "pngjs" : "^3.4.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^6.4.0",
+        "eslint-config-mourner" : "^3.0.0",
+        "tape" : "^4.11.0"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "node test/test.js"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@5.1.0",
+      "gitHead" : "696db7e04cc7f0cbb4931b6c8d3466af9fd269f9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pixelmatch_5.1.0_1569224745473_0.8278211855767439"
+      },
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "5.0.2" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "5.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-5.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-5.0.2.tgz",
+        "shasum" : "b1349c3b544e20107a4dd7e532b01291946258cd"
+      },
+      "dependencies" : {
+        "pngjs" : "^3.4.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.16.0",
+        "eslint-config-mourner" : "^3.0.0",
+        "tape" : "^4.10.2"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "node test/test.js"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@5.0.2",
+      "gitHead" : "e46afcd4eb04e27675d21a28b22909d3210bf867",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pixelmatch_5.0.2_1560165423920_0.735930567385535"
+      },
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "5.2.0" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "5.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-5.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-5.2.0.tgz",
+        "shasum" : "6433386c6a830b0d9ee3962f9ad59695500677cd"
+      },
+      "dependencies" : {
+        "pngjs" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^6.8.0",
+        "eslint-config-mourner" : "^3.0.0",
+        "tape" : "^4.13.2"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "node test/test.js"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@5.2.0",
+      "gitHead" : "38b395747e583e6932a13f80d17d4cb7a606c742",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pixelmatch_5.2.0_1587119055888_0.8696256571111058"
+      },
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "10.20.1"
+    },
+    "5.2.1" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "5.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-5.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-5.2.1.tgz",
+        "shasum" : "9e4e4f4aa59648208a31310306a5bed5522b0d65"
+      },
+      "dependencies" : {
+        "pngjs" : "^4.0.1"
+      },
+      "devDependencies" : {
+        "eslint" : "^6.8.0",
+        "eslint-config-mourner" : "^3.0.0",
+        "tape" : "^4.13.2"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "node test/test.js"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@5.2.1",
+      "gitHead" : "22638c05c3d8632b47329a2e8e8361f8620e6434",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/pixelmatch_5.2.1_1593602836786_0.8755894958106905"
+      },
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "10.21.0"
+    },
+    "1.0.0" : {
+      "name" : "pixelmatch",
+      "description" : "A simpe, tiny and fast JavaScript image comparison tool and library.",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-1.0.0.tgz",
+        "shasum" : "9299a49ffe806554a6db4e0dd957fc3fff0da190"
+      },
+      "dependencies" : {
+        "pngjs2" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.6.0",
+        "eslint-config-mourner" : "^1.0.1",
+        "tap" : "^2.1.1"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "tap test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.6",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@1.0.0",
+      "gitHead" : "7c683df7f3780a6f02ca8cadba0ea7186c5ef40c",
+      "_shasum" : "9299a49ffe806554a6db4e0dd957fc3fff0da190",
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "0.12.7"
+    },
+    "1.1.0" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "1.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-1.1.0.tgz",
+        "shasum" : "f01cc8657d735ade2adc2c8e32257d99e76a0c18"
+      },
+      "dependencies" : {
+        "pngjs2" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.6.0",
+        "eslint-config-mourner" : "^1.0.1",
+        "tap" : "^2.1.1"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "tap test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.6",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@1.1.0",
+      "gitHead" : "f57c1f20eacca2bdadca0a6ed4292348e99cffb1",
+      "_shasum" : "f01cc8657d735ade2adc2c8e32257d99e76a0c18",
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "0.12.7"
+    },
+    "1.1.1" : {
+      "name" : "pixelmatch",
+      "description" : "The smallest and fastest pixel-level image comparison library.",
+      "version" : "1.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mapbox/pixelmatch.git"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/pixelmatch/-/pixelmatch-1.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fpixelmatch%2F-%2Fpixelmatch-1.1.1.tgz",
+        "shasum" : "f8cb336584fd8643ccd5e2ffaa88d94a8babfd0d"
+      },
+      "dependencies" : {
+        "pngjs2" : "^2.0.0"
+      },
+      "devDependencies" : {
+        "eslint" : "^1.6.0",
+        "eslint-config-mourner" : "^1.0.1",
+        "tap" : "^2.1.1"
+      },
+      "license" : "ISC",
+      "bin" : {
+        "pixelmatch" : "bin/pixelmatch"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "pretest" : "eslint index.js bin/pixelmatch test/test.js",
+        "test" : "tap test/test.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.6",
+      "_npmUser" : {
+        "name" : "mourner",
+        "email" : "agafonkin@gmail.com"
+      },
+      "_id" : "pixelmatch@1.1.1",
+      "gitHead" : "e00734024b25b3f62363bdc60b726a24b3b70886",
+      "_shasum" : "f8cb336584fd8643ccd5e2ffaa88d94a8babfd0d",
+      "eslintConfig" : {
+        "extends" : "mourner"
+      },
+      "_nodeVersion" : "0.12.7"
+    }
+  },
+  "readme" : "# pixelmatch\n\n[![Build Status](https://travis-ci.org/mapbox/pixelmatch.svg?branch=master)](https://travis-ci.org/mapbox/pixelmatch)\n[![](https://img.shields.io/badge/simply-awesome-brightgreen.svg)](https://github.com/mourner/projects)\n\nThe smallest, simplest and fastest JavaScript pixel-level image comparison library,\noriginally created to compare screenshots in tests.\n\nFeatures accurate **anti-aliased pixels detection**\nand **perceptual color difference metrics**.\n\nInspired by [Resemble.js](https://github.com/Huddle/Resemble.js)\nand [Blink-diff](https://github.com/yahoo/blink-diff).\nUnlike these libraries, pixelmatch is around **150 lines of code**,\nhas **no dependencies**, and works on **raw typed arrays** of image data,\nso it's **blazing fast** and can be used in **any environment** (Node or browsers).\n\n```js\nconst numDiffPixels = pixelmatch(img1, img2, diff, 800, 600, {threshold: 0.1});\n```\n\nImplements ideas from the following papers:\n\n- [Measuring perceived color difference using YIQ NTSC transmission color space in mobile applications](http://www.progmat.uaem.mx:8080/artVol2Num2/Articulo3Vol2Num2.pdf) (2010, Yuriy Kotsarenko, Fernando Ramos)\n- [Anti-aliased pixel and intensity slope detector](https://www.researchgate.net/publication/234126755_Anti-aliased_Pixel_and_Intensity_Slope_Detector) (2009, Vytautas Vyšniauskas)\n\n## [Demo](https://observablehq.com/@mourner/pixelmatch-demo)\n\n## Example output\n\n| expected | actual | diff |\n| --- | --- | --- |\n| ![](test/fixtures/4a.png) | ![](test/fixtures/4b.png) | ![1diff](test/fixtures/4diff.png) |\n| ![](test/fixtures/3a.png) | ![](test/fixtures/3b.png) | ![1diff](test/fixtures/3diff.png) |\n| ![](test/fixtures/6a.png) | ![](test/fixtures/6b.png) | ![1diff](test/fixtures/6diff.png) |\n\n## API\n\n### pixelmatch(img1, img2, output, width, height[, options])\n\n- `img1`, `img2` — Image data of the images to compare (`Buffer`, `Uint8Array` or `Uint8ClampedArray`). **Note:** image dimensions must be equal.\n- `output` — Image data to write the diff to, or `null` if don't need a diff image.\n- `width`, `height` — Width and height of the images. Note that _all three images_ need to have the same dimensions.\n\n`options` is an object literal with the following properties:\n\n- `threshold` — Matching threshold, ranges from `0` to `1`. Smaller values make the comparison more sensitive. `0.1` by default.\n- `includeAA` — If `true`, disables detecting and ignoring anti-aliased pixels. `false` by default.\n- `alpha` — Blending factor of unchanged pixels in the diff output. Ranges from `0` for pure white to `1` for original brightness. `0.1` by default.\n- `aaColor` — The color of anti-aliased pixels in the diff output in `[R, G, B]` format. `[255, 255, 0]` by default.\n- `diffColor` — The color of differing pixels in the diff output in `[R, G, B]` format. `[255, 0, 0]` by default.\n- `diffColorAlt` — An alternative color to use for dark on light differences to differentiate between \"added\" and \"removed\" parts. If not provided, all differing pixels use the color specified by `diffColor`. `null` by default.\n- `diffMask` — Draw the diff over a transparent background (a mask), rather than over the original image. Will not draw anti-aliased pixels (if detected).\n\nCompares two images, writes the output diff and returns the number of mismatched pixels.\n\n## Command line\n\nPixelmatch comes with a binary that works with PNG images:\n\n```bash\npixelmatch image1.png image2.png output.png 0.1\n```\n\n## Example usage\n\n### Node.js\n\n```js\nconst fs = require('fs');\nconst PNG = require('pngjs').PNG;\nconst pixelmatch = require('pixelmatch');\n\nconst img1 = PNG.sync.read(fs.readFileSync('img1.png'));\nconst img2 = PNG.sync.read(fs.readFileSync('img2.png'));\nconst {width, height} = img1;\nconst diff = new PNG({width, height});\n\npixelmatch(img1.data, img2.data, diff.data, width, height, {threshold: 0.1});\n\nfs.writeFileSync('diff.png', PNG.sync.write(diff));\n```\n\n### Browsers\n\n```js\nconst img1 = img1Context.getImageData(0, 0, width, height);\nconst img2 = img2Context.getImageData(0, 0, width, height);\nconst diff = diffContext.createImageData(width, height);\n\npixelmatch(img1.data, img2.data, diff.data, width, height, {threshold: 0.1});\n\ndiffContext.putImageData(diff, 0, 0);\n```\n\n## Install\n\nInstall with NPM:\n\n```bash\nnpm install pixelmatch\n```\n\nUse in the browser from a CDN:\n\n```html\n<script src=\"https://bundle.run/pixelmatch\"></script>\n```\n\n## [Changelog](https://github.com/mapbox/pixelmatch/releases)\n",
+  "time" : {
+    "2.0.0" : "2015-10-17T20:30:19.332Z",
+    "2.0.1" : "2015-10-17T21:13:26.259Z",
+    "created" : "2015-10-14T10:05:59.683Z",
+    "4.0.2" : "2016-08-08T15:49:06.100Z",
+    "4.0.0" : "2015-10-23T18:36:09.172Z",
+    "4.0.1" : "2015-12-02T15:14:17.103Z",
+    "2.0.2" : "2015-10-18T10:57:08.422Z",
+    "3.0.0" : "2015-10-20T13:15:07.200Z",
+    "modified" : "2020-07-01T11:27:20.052Z",
+    "5.0.0" : "2019-06-07T07:39:09.114Z",
+    "5.0.1" : "2019-06-07T16:12:15.831Z",
+    "5.1.0" : "2019-09-23T07:45:45.615Z",
+    "5.0.2" : "2019-06-10T11:17:04.045Z",
+    "5.2.0" : "2020-04-17T10:24:16.064Z",
+    "5.2.1" : "2020-07-01T11:27:16.892Z",
+    "1.0.0" : "2015-10-14T10:05:59.683Z",
+    "1.1.0" : "2015-10-16T16:45:55.592Z",
+    "1.1.1" : "2015-10-17T19:00:00.144Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/mapbox/pixelmatch.git"
+  },
+  "users" : {
+    "acollins-ts" : true,
+    "awen1983" : true,
+    "psbolden" : true,
+    "usingthesystem" : true,
+    "j3lte" : true,
+    "in-the-box" : true,
+    "mojaray2k" : true,
+    "zwwggg" : true
+  },
+  "readmeFilename" : "README.md",
+  "license" : "ISC"
+}

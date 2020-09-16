@@ -1,0 +1,1568 @@
+{
+  "_id" : "react-native-ratings",
+  "_rev" : "26-a0faeef06d514ef633cb57e18399f772",
+  "name" : "react-native-ratings",
+  "description" : "The standard Ratings component for React Native",
+  "dist-tags" : {
+    "latest" : "7.3.0"
+  },
+  "versions" : {
+    "4.0.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-4.0.0.tgz",
+        "shasum" : "3822808cae4a02f6b68c67a009b2a0be130766a3"
+      },
+      "dependencies" : {
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "lodash.times" : "^4.3.2",
+        "react" : "react@16.0.0-alpha.12",
+        "react-native" : "^0.47.0"
+      },
+      "peerDependencies" : {
+        "react" : "react@16.0.0-alpha.12"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@4.0.0",
+      "gitHead" : "c84a6341b45466492e6c2421cb5b5cc74acd375b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings-4.0.0.tgz_1505756363267_0.5391163907479495"
+      },
+      "_shasum" : "3822808cae4a02f6b68c67a009b2a0be130766a3",
+      "_nodeVersion" : "8.0.0"
+    },
+    "4.1.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-4.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-4.1.0.tgz",
+        "shasum" : "578737c5f83cd1989234b0508bfde3a32a15b25a"
+      },
+      "dependencies" : {
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "lodash.times" : "^4.3.2",
+        "react" : "react@16.0.0-alpha.12",
+        "react-native" : "^0.47.0"
+      },
+      "peerDependencies" : {
+        "react" : "react@16.0.0-alpha.12"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@4.1.0",
+      "gitHead" : "a999df5bb8663b3802dad84fa01cd0799a4c1d77",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings-4.1.0.tgz_1505756894656_0.7356738736853004"
+      },
+      "_shasum" : "578737c5f83cd1989234b0508bfde3a32a15b25a",
+      "_nodeVersion" : "8.0.0"
+    },
+    "3.0.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-3.0.0.tgz",
+        "shasum" : "e5891bed82bf0d716b791b6cc5c3c8f9bed9a2f6"
+      },
+      "dependencies" : {
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "lodash.times" : "^4.3.2",
+        "react" : "react@16.0.0-alpha.12",
+        "react-native" : "^0.47.0"
+      },
+      "peerDependencies" : {
+        "react" : "react@16.0.0-alpha.12"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@3.0.0",
+      "gitHead" : "30e3aaad113a33aa4e3d530ef74f3161190cccfc",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings-3.0.0.tgz_1501667439670_0.5428542655427009"
+      },
+      "_shasum" : "e5891bed82bf0d716b791b6cc5c3c8f9bed9a2f6",
+      "_nodeVersion" : "8.0.0"
+    },
+    "3.0.1" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "3.0.1",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-3.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-3.0.1.tgz",
+        "shasum" : "43f94ed1885a9fd9bec05af79341bb6e8489125d"
+      },
+      "dependencies" : {
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "lodash.times" : "^4.3.2",
+        "react" : "react@16.0.0-alpha.12",
+        "react-native" : "^0.47.0"
+      },
+      "peerDependencies" : {
+        "react" : "react@16.0.0-alpha.12"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@3.0.1",
+      "gitHead" : "cf4f3e2317241ff73f6373c111407da31d84610c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings-3.0.1.tgz_1501667595586_0.3233791049569845"
+      },
+      "_shasum" : "43f94ed1885a9fd9bec05af79341bb6e8489125d",
+      "_nodeVersion" : "8.0.0"
+    },
+    "3.1.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "3.1.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-3.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-3.1.0.tgz",
+        "shasum" : "7901739a5b624a754ac20341deb69452febb8226"
+      },
+      "dependencies" : {
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "lodash.times" : "^4.3.2",
+        "react" : "react@16.0.0-alpha.12",
+        "react-native" : "^0.47.0"
+      },
+      "peerDependencies" : {
+        "react" : "react@16.0.0-alpha.12"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@3.1.0",
+      "gitHead" : "e1c1715e7ff618fef73c7b79ce7d7b72631a29db",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings-3.1.0.tgz_1501668296813_0.27686636382713914"
+      },
+      "_shasum" : "7901739a5b624a754ac20341deb69452febb8226",
+      "_nodeVersion" : "8.0.0"
+    },
+    "3.2.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "3.2.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-3.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-3.2.0.tgz",
+        "shasum" : "ce01ded0c80d666d4154738f6048d538ae7ce1b0"
+      },
+      "dependencies" : {
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "lodash.times" : "^4.3.2",
+        "react" : "react@16.0.0-alpha.12",
+        "react-native" : "^0.47.0"
+      },
+      "peerDependencies" : {
+        "react" : "react@16.0.0-alpha.12"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@3.2.0",
+      "gitHead" : "1b5f651aa0b3f653e6a80c48441b89a074497aae",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings-3.2.0.tgz_1501668618620_0.5430288473144174"
+      },
+      "_shasum" : "ce01ded0c80d666d4154738f6048d538ae7ce1b0",
+      "_nodeVersion" : "8.0.0"
+    },
+    "3.3.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "3.3.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-3.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-3.3.0.tgz",
+        "shasum" : "d87cd480abef1e27245b77e804af2dc2210a9712"
+      },
+      "dependencies" : {
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "lodash.times" : "^4.3.2",
+        "react" : "react@16.0.0-alpha.12",
+        "react-native" : "^0.47.0"
+      },
+      "peerDependencies" : {
+        "react" : "react@16.0.0-alpha.12"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@3.3.0",
+      "gitHead" : "87d4f31672ae841075866f62e261f5d4ed23bc7e",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings-3.3.0.tgz_1501668762486_0.6493526517879218"
+      },
+      "_shasum" : "d87cd480abef1e27245b77e804af2dc2210a9712",
+      "_nodeVersion" : "8.0.0"
+    },
+    "7.1.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "7.1.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-7.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-7.1.0.tgz",
+        "shasum" : "a0eb41afd0cc93907a506ab962c0eeec92f47bbd"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.6.1",
+        "eslint-plugin-react" : "^7.11.1",
+        "react" : "^16.0.0",
+        "react-native" : "^0.57.1"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/",
+        "clean-install" : "rm -rf node_modules && yarn"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@7.1.0",
+      "gitHead" : "7a57cabebaf414c0cc6987bafa04940c66e6a062",
+      "types" : "./src/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings_7.1.0_1588957198141_0.9963471258838228"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "7.2.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "7.2.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-7.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-7.2.0.tgz",
+        "shasum" : "8523e98868470855ec1d2feb112e466e17a1fd9f"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.6.1",
+        "eslint-plugin-react" : "^7.11.1",
+        "react" : "^16.0.0",
+        "react-native" : "^0.57.1"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/",
+        "clean-install" : "rm -rf node_modules && yarn"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@7.2.0",
+      "gitHead" : "f611dad64a534bd866fae3219579ccdac9fa58b1",
+      "types" : "./src/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings_7.2.0_1588960020983_0.3019873668957602"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "7.3.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "7.3.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-7.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-7.3.0.tgz",
+        "shasum" : "32e11e4ed944ba8adbbc995d601df3f131619b6f"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.15",
+        "prop-types" : "^15.7.2"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.6.1",
+        "eslint-plugin-react" : "^7.11.1",
+        "react" : "16.9.0",
+        "react-dom" : "16.9.0",
+        "react-native" : "^0.61.4"
+      },
+      "peerDependencies" : {
+        "react" : "*",
+        "react-native" : "*"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/",
+        "clean-install" : "rm -rf node_modules && yarn"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "manthan.thakkar@gmail.com"
+      },
+      "_id" : "react-native-ratings@7.3.0",
+      "gitHead" : "309e8fb702837383ce47950ad517c574618f193f",
+      "types" : "./src/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings_7.3.0_1598207353476_0.7329509427364467"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "7.0.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "7.0.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-7.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-7.0.0.tgz",
+        "shasum" : "59e7ecc8ea79fbdb45837240929929a2c8c38408"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.6.1",
+        "eslint-plugin-react" : "^7.11.1",
+        "react" : "^16.0.0",
+        "react-native" : "^0.57.1"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/",
+        "clean-install" : "rm -rf node_modules && yarn"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@7.0.0",
+      "gitHead" : "08556c78480e60d78f4797b8c1cf09b36208d1de",
+      "types" : "./src/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings_7.0.0_1588916109820_0.409669978243693"
+      },
+      "_nodeVersion" : "12.14.1"
+    },
+    "1.0.3" : {
+      "name" : "react-native-ratings",
+      "description" : "A extendable Rating's components for React Native with gestures and an intuitive API",
+      "version" : "1.0.3",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/rating.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-1.0.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-1.0.3.tgz",
+        "shasum" : "f694bd8a5079f27fbc1f82e9f61c53be72c88556"
+      },
+      "devDependencies" : {
+        "lodash" : "^4.17.4",
+        "react" : "16.0.0-alpha.6",
+        "react-native" : "https://github.com/expo/react-native/archive/sdk-16.0.0.tar.gz"
+      },
+      "peerDependencies" : {
+        "lodash" : "^4.17.4",
+        "react" : "16.0.0-alpha.6"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@1.0.3",
+      "gitHead" : "c3757965e8befcf1549ec0d4a9b3d198441cedab",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/react-native-ratings-1.0.3.tgz_1493791444793_0.32206412055529654"
+      },
+      "_shasum" : "f694bd8a5079f27fbc1f82e9f61c53be72c88556",
+      "_nodeVersion" : "7.1.0"
+    },
+    "6.3.1" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "6.3.1",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-6.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-6.3.1.tgz",
+        "shasum" : "4e4bd87f376423dc62c933f570fc1932c78adaa4"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.6.1",
+        "eslint-plugin-react" : "^7.11.1",
+        "react" : "^16.0.0",
+        "react-native" : "^0.57.1"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/",
+        "clean-install" : "rm -rf node_modules && yarn"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@6.3.1",
+      "gitHead" : "edd6cb4e2982c5a28bf4675f03d2522cdf5769ee",
+      "types" : "./src/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings_6.3.1_1552357390740_0.7798559097641033"
+      },
+      "_nodeVersion" : "10.14.1"
+    },
+    "6.4.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "6.4.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-6.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-6.4.0.tgz",
+        "shasum" : "1923e445dbb4092eb880937ac4f7498b06815c3c"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.6.1",
+        "eslint-plugin-react" : "^7.11.1",
+        "react" : "^16.0.0",
+        "react-native" : "^0.57.1"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/",
+        "clean-install" : "rm -rf node_modules && yarn"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@6.4.0",
+      "gitHead" : "9e7b011e3c4c6b50da1610a9ed58d02c60310fdf",
+      "types" : "./src/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings_6.4.0_1566778147635_0.4733158847896246"
+      },
+      "_nodeVersion" : "10.14.1"
+    },
+    "6.5.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "6.5.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-6.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-6.5.0.tgz",
+        "shasum" : "a1606ccba3c5b54eec8e6cfa4765a45cf0e4ab8d"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.6.1",
+        "eslint-plugin-react" : "^7.11.1",
+        "react" : "^16.0.0",
+        "react-native" : "^0.57.1"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/",
+        "clean-install" : "rm -rf node_modules && yarn"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@6.5.0",
+      "gitHead" : "4494ae2c8d5b68b26bb6f0b53488b634896b8db6",
+      "types" : "./src/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings_6.5.0_1567962421835_0.5409023339458192"
+      },
+      "_nodeVersion" : "10.14.1"
+    },
+    "6.2.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "6.2.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-6.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-6.2.0.tgz",
+        "shasum" : "ba523f4c4fd809066060734416341f3ada580911"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.6.1",
+        "eslint-plugin-react" : "^7.11.1",
+        "react" : "^16.0.0",
+        "react-native" : "^0.57.1"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/",
+        "clean-install" : "rm -rf node_modules && yarn"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@6.2.0",
+      "gitHead" : "1455af2e8bdba40cef5bd0db3fa3962704b26b11",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings_6.2.0_1544983310499_0.0287259192424012"
+      },
+      "_nodeVersion" : "10.14.1"
+    },
+    "6.3.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "6.3.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-6.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-6.3.0.tgz",
+        "shasum" : "becda9379616776a81d9d90bfc95ea40b76286fb"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.6.1",
+        "eslint-plugin-react" : "^7.11.1",
+        "react" : "^16.0.0",
+        "react-native" : "^0.57.1"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/",
+        "clean-install" : "rm -rf node_modules && yarn"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@6.3.0",
+      "gitHead" : "4e1689dbe20d7e8ec5b2b2ec2755f513af26b465",
+      "types" : "./src/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings_6.3.0_1546727507808_0.7273602448813761"
+      },
+      "_nodeVersion" : "10.14.1"
+    },
+    "6.0.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-6.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-6.0.0.tgz",
+        "shasum" : "8083c4955c14aef0751abb7f5ba6c48ae8b2189b"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.6.1",
+        "eslint-plugin-react" : "^7.11.1",
+        "react" : "^16.0.0",
+        "react-native" : "^0.57.1"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/",
+        "clean-install" : "rm -rf node_modules && yarn"
+      },
+      "_npmVersion" : "6.3.0",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@6.0.0",
+      "gitHead" : "866fdaf0f2258063e27805e2fe7d4b12830adc38",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings_6.0.0_1538347638764_0.7819385201939211"
+      },
+      "_nodeVersion" : "8.11.2"
+    },
+    "6.1.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "6.1.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-6.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-6.1.0.tgz",
+        "shasum" : "ab3d67ea66d054b8e994b8db0dd8bc5bcefc86cb"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "eslint" : "^5.6.1",
+        "eslint-plugin-react" : "^7.11.1",
+        "react" : "^16.0.0",
+        "react-native" : "^0.57.1"
+      },
+      "peerDependencies" : {
+        "react" : "^16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/",
+        "clean-install" : "rm -rf node_modules && yarn"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@6.1.0",
+      "gitHead" : "d7f9c17465c717e9cdeaa2a566b2ca8cd680df1b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings_6.1.0_1544773974955_0.17016960589701613"
+      },
+      "_nodeVersion" : "10.14.1"
+    },
+    "5.0.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-5.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-5.0.0.tgz",
+        "shasum" : "e744da1bb33e1a326c8cdee3420736ecc95a1099"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "react" : "16.0.0",
+        "react-native" : "^0.51.0"
+      },
+      "peerDependencies" : {
+        "react" : "16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@5.0.0",
+      "gitHead" : "2d8d6580006952b2a1bec1e3e201ab37ce9d429b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings-5.0.0.tgz_1516426220316_0.4366082341875881"
+      },
+      "_shasum" : "e744da1bb33e1a326c8cdee3420736ecc95a1099",
+      "_nodeVersion" : "8.0.0"
+    },
+    "5.1.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "5.1.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-5.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-5.1.0.tgz",
+        "shasum" : "d304a3ce981deccc1767eaf1c8a3efdd1795cfa1"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "react" : "16.0.0",
+        "react-native" : "^0.51.0"
+      },
+      "peerDependencies" : {
+        "react" : "16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@5.1.0",
+      "gitHead" : "b058ae402b4c9f4a63ea16ccbeceddbfe59cea25",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings-5.1.0.tgz_1516428686389_0.5629091360606253"
+      },
+      "_shasum" : "d304a3ce981deccc1767eaf1c8a3efdd1795cfa1",
+      "_nodeVersion" : "8.0.0"
+    },
+    "5.2.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "5.2.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-5.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-5.2.0.tgz",
+        "shasum" : "14c66cc3f86478eb620db7d881cb42b3416541f0"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "react" : "16.0.0",
+        "react-native" : "^0.51.0"
+      },
+      "peerDependencies" : {
+        "react" : "16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@5.2.0",
+      "gitHead" : "139f23625df13eee15b0b83bb514b112bf508831",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings-5.2.0.tgz_1516429045157_0.754376943456009"
+      },
+      "_shasum" : "14c66cc3f86478eb620db7d881cb42b3416541f0",
+      "_nodeVersion" : "8.0.0"
+    },
+    "5.3.0" : {
+      "name" : "react-native-ratings",
+      "description" : "The standard Ratings component for React Native",
+      "version" : "5.3.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-5.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-5.3.0.tgz",
+        "shasum" : "f496ac6ebe934e29d7e2cfe8359b6a812ec95599"
+      },
+      "dependencies" : {
+        "lodash" : "^4.17.4",
+        "prop-types" : "^15.5.10"
+      },
+      "devDependencies" : {
+        "react" : "16.0.0",
+        "react-native" : "^0.51.0"
+      },
+      "peerDependencies" : {
+        "react" : "16.0.0"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.7",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@5.3.0",
+      "gitHead" : "eb726cb261a6082857a26cb2caa53a28df3ffd5c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-ratings-5.3.0.tgz_1516429610364_0.4209958645515144"
+      },
+      "_shasum" : "f496ac6ebe934e29d7e2cfe8359b6a812ec95599",
+      "_nodeVersion" : "8.0.0"
+    },
+    "1.0.0" : {
+      "name" : "react-native-ratings",
+      "description" : "A extendable Rating's components for React Native with gestures and an intuitive API",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/rating.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-1.0.0.tgz",
+        "shasum" : "ab686a435a3d9c3aca9f05e9c9da08984084f779"
+      },
+      "devDependencies" : {
+        "lodash" : "^4.17.4",
+        "react" : "16.0.0-alpha.6",
+        "react-native" : "https://github.com/expo/react-native/archive/sdk-16.0.0.tar.gz"
+      },
+      "peerDependencies" : {
+        "lodash" : "^4.17.4"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@1.0.0",
+      "gitHead" : "f7520b1973fcbce272f77b23e22c2a220ae7cb81",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/react-native-ratings-1.0.0.tgz_1493787924293_0.13542329985648394"
+      },
+      "_shasum" : "ab686a435a3d9c3aca9f05e9c9da08984084f779",
+      "_nodeVersion" : "7.1.0"
+    },
+    "1.0.1" : {
+      "name" : "react-native-ratings",
+      "description" : "A extendable Rating's components for React Native with gestures and an intuitive API",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/rating.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-1.0.1.tgz",
+        "shasum" : "7443ee60a3006c8ec7158fd16813b2fcd71e51a1"
+      },
+      "devDependencies" : {
+        "lodash" : "^4.17.4",
+        "react" : "16.0.0-alpha.6",
+        "react-native" : "https://github.com/expo/react-native/archive/sdk-16.0.0.tar.gz"
+      },
+      "peerDependencies" : {
+        "lodash" : "^4.17.4",
+        "react" : "16.0.0-alpha.6"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@1.0.1",
+      "gitHead" : "7af2adfef9871bc95da712bc74b9bbbf84e6e63a",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/react-native-ratings-1.0.1.tgz_1493788078920_0.04671814129687846"
+      },
+      "_shasum" : "7443ee60a3006c8ec7158fd16813b2fcd71e51a1",
+      "_nodeVersion" : "7.1.0"
+    },
+    "1.0.2" : {
+      "name" : "react-native-ratings",
+      "description" : "A extendable Rating's components for React Native with gestures and an intuitive API",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Monte Thakkar"
+      },
+      "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/Monte9/react-native-ratings/issues"
+      },
+      "main" : "./src/rating.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-ratings/-/react-native-ratings-1.0.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-ratings%2F-%2Freact-native-ratings-1.0.2.tgz",
+        "shasum" : "4d6eb6faf92e2d62e9729f7f2df8ce227e207a6e"
+      },
+      "devDependencies" : {
+        "lodash" : "^4.17.4",
+        "react" : "16.0.0-alpha.6",
+        "react-native" : "https://github.com/expo/react-native/archive/sdk-16.0.0.tar.gz"
+      },
+      "peerDependencies" : {
+        "lodash" : "^4.17.4",
+        "react" : "16.0.0-alpha.6"
+      },
+      "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "lint" : "eslint src/"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "monte9",
+        "email" : "mthakkar@mail.sfsu.edu"
+      },
+      "_id" : "react-native-ratings@1.0.2",
+      "gitHead" : "063a414ce07331a590d2943d68853cb62eb90df8",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/react-native-ratings-1.0.2.tgz_1493788277567_0.6424069462809712"
+      },
+      "_shasum" : "4d6eb6faf92e2d62e9729f7f2df8ce227e207a6e",
+      "_nodeVersion" : "7.1.0"
+    }
+  },
+  "readme" : "<p align=\"center\">\n  <a href=\"https://github.com/Monte9/react-native-ratings\">\n    <img alt=\"react-native-ratings\" src=\"./resources/logo.png\" width=\"450\">\n  </a>\n</p>\n\n<p align=\"center\">\n  Ratings component for React Native with tap and swipe enabled.\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.npmjs.com/package/react-native-ratings\"><img src=\"https://img.shields.io/npm/v/react-native-ratings.svg?style=flat-square\"></a>\n  <a href=\"https://www.npmjs.com/package/react-native-ratings\"><img src=\"https://img.shields.io/npm/dm/react-native-ratings.svg?style=flat-square\"></a>\n</p>\n\n## Demo - [try it now](https://expo.io/@monte9/react-native-ratings)\n\n![Demo gif](./resources/airbnb_ratings.gif)\n\n### Tap Rating\n\n<div style=\"flex-direction: row\">\n  <img src=\"./resources/tap_rating_1.png\" width=\"300\">\n  <img src=\"./resources/tap_rating_2.png\" width=\"300\">\n</div>\n\n### Swipe Rating\n\n<div style=\"flex-direction: row\">\n  <img src=\"./resources/swipe_rating_1.png\" width=\"300\">\n  <img src=\"./resources/swipe_rating_2.png\" width=\"300\">\n</div>\n\n## Installation\n\nInstall the package using yarn or npm:\n\n```yarn add react-native-ratings```\n\n  OR\n  \n```npm install --save react-native-ratings```\n\n## Usage\n\n``` js\nimport { Rating, AirbnbRating } from 'react-native-ratings';\n\nconst WATER_IMAGE = require('./water.png')\n\nratingCompleted(rating) {\n  console.log(\"Rating is: \" + rating)\n}\n\n<AirbnbRating />\n\n<AirbnbRating\n  count={11}\n  reviews={[\"Terrible\", \"Bad\", \"Meh\", \"OK\", \"Good\", \"Hmm...\", \"Very Good\", \"Wow\", \"Amazing\", \"Unbelievable\", \"Jesus\"]}\n  defaultRating={11}\n  size={20}\n/>\n\n<Rating\n  showRating\n  onFinishRating={this.ratingCompleted}\n  style={{ paddingVertical: 10 }}\n/>\n\n<Rating\n  type='heart'\n  ratingCount={3}\n  imageSize={60}\n  showRating\n  onFinishRating={this.ratingCompleted}\n/>\n\n<Rating\n  type='custom'\n  ratingImage={WATER_IMAGE}\n  ratingColor='#3498db'\n  ratingBackgroundColor='#c8c7c8'\n  ratingCount={10}\n  imageSize={30}\n  onFinishRating={this.ratingCompleted}\n  style={{ paddingVertical: 10 }}\n/>\n```\n\nAlso refer to the [`example`](https://github.com/Monte9/react-native-ratings/tree/master/react_native_ratings_example) app for more detailed usage example.\n\n## API\n\n### AirbnbRating\n\n| prop | default | type | description |\n| ---- | ---- | ----| ---- |\n| defaultRating | 3 | number | Initial value for the rating |\n| reviews | ['Terrible', 'Bad', 'Okay', 'Good', 'Great'] | string[] | Labels to show when each value is tapped e.g. If the first star is tapped, then value in index 0 will be used as the label |\n| count | 5 | number | Total number of ratings to display |\n| selectedColor | #f1c40f | string (color) | Pass in a custom fill-color for the rating icon |\n| reviewColor | #f1c40f | string (color) | Pass in a custom text color for the review text |\n| reviewSize | 25 | number | Pass in a custom font size for the review text |\n| showRating | `true` | boolean | Determines if to show the reviews above the rating |\n| isDisabled | false | boolean | Whether the rating can be modiefied by the user |\n| onFinishRating | none | function(value: number) | Callback method when the user finishes rating. Gives you the final rating value as a whole number |\n| starContainerStyle | none | object or stylesheet | Custom styles applied to the star container |\n\n### RatingProps\n\n| prop | default | type | description |\n| ---- | ---- | ----| ---- |\n| type | `star` | string | Choose one of the built-in types: `star`, `rocket`, `bell`, `heart` or use type `custom` to render a custom image (optional) |\n| ratingImage | `star` | string | Pass in a custom image source; use this along with `type='custom'` prop above (optional) |\n| ratingColor | #f1c40f | string (color) | Pass in a custom fill-color for the rating icon; use this along with `type='custom'` prop above (optional) |\n| ratingBackgroundColor | `white` | string (color) | Pass in a custom background-fill-color for the rating icon; use this along with `type='custom'` prop above (optional) |\n| ratingCount | 5 | number | The number of rating images to display (optional) |\n| ratingTextColor | none | string | Color used for the text labels |\n| imageSize | 50 | number | The size of each rating image (optional) |\n| showRating | none | boolean | Displays the Built-in Rating UI to show the rating value in real-time (optional) |\n| readonly | false | boolean | Whether the rating can be modiefied by the user |\n| startingValue | `ratingCount/2` | number | The initial rating to render |\n| fractions | 2 | number | The number of decimal places for the rating value; must be between 0 and 20 |\n| minValue | 0 | number | The minimum value the user can select |\n| style | none | style | Exposes style prop to add additonal styling to the container view (optional) |\n| onStartRating | none | function | Callback method when the user starts rating |\n| onFinishRating | none | function(rating: number) | Callback method when the user finishes rating. Gives you the final rating value as a whole number (required) |\n\n\n## Try it out\n\nYou can try it out with Expo [here](https://expo.io/@monte9/react-native-ratings). Or you can also run the [`example`](https://github.com/Monte9/react-native-ratings/tree/master/react_native_ratings_example) app locally.\n\n\n## Motivation\n\nOne of my friends showed me [this](https://github.com/kartik-v/bootstrap-star-rating/) [Star Rating feature in Bootstrap](http://plugins.krajee.com/star-rating-demo-theme-default) and it looks really interesting. So I challenged myself to re-implement it in React Native.\n\nFollowed by that, for `v3`, I recreated the Airbnb ratings component and added it to this repo, in case others find this useful. It works out of the box and is quite functional.\n\nAlso this is my first [`npm module`](https://www.npmjs.com/package/react-native-ratings) :confetti_ball:\n\n## Feedback\n\nThis repo is being actively manitained. Feel free to open a new Issue with a `Feature Request` or submit a PR with an `Enhancement`.\n",
+  "maintainers" : [ {
+    "name" : "monte9",
+    "email" : "mthakkar@mail.sfsu.edu"
+  } ],
+  "author" : {
+    "name" : "Monte Thakkar"
+  },
+  "time" : {
+    "4.0.0" : "2017-09-18T17:39:23.660Z",
+    "4.1.0" : "2017-09-18T17:48:15.342Z",
+    "3.0.0" : "2017-08-02T09:50:39.934Z",
+    "modified" : "2020-08-23T18:29:15.906Z",
+    "3.0.1" : "2017-08-02T09:53:15.870Z",
+    "3.1.0" : "2017-08-02T10:04:57.584Z",
+    "3.2.0" : "2017-08-02T10:10:18.941Z",
+    "3.3.0" : "2017-08-02T10:12:42.935Z",
+    "7.1.0" : "2020-05-08T16:59:58.269Z",
+    "7.2.0" : "2020-05-08T17:47:01.196Z",
+    "7.3.0" : "2020-08-23T18:29:13.676Z",
+    "created" : "2017-05-03T05:05:24.580Z",
+    "7.0.0" : "2020-05-08T05:35:09.980Z",
+    "1.0.3" : "2017-05-03T06:04:05.105Z",
+    "6.3.1" : "2019-03-12T02:23:11.184Z",
+    "6.4.0" : "2019-08-26T00:09:10.329Z",
+    "6.5.0" : "2019-09-08T17:07:02.034Z",
+    "6.2.0" : "2018-12-16T18:01:50.969Z",
+    "6.3.0" : "2019-01-05T22:31:48.151Z",
+    "6.0.0" : "2018-09-30T22:47:19.140Z",
+    "6.1.0" : "2018-12-14T07:52:55.474Z",
+    "5.0.0" : "2018-01-20T05:30:20.553Z",
+    "5.1.0" : "2018-01-20T06:11:27.132Z",
+    "5.2.0" : "2018-01-20T06:17:25.812Z",
+    "5.3.0" : "2018-01-20T06:26:50.682Z",
+    "1.0.0" : "2017-05-03T05:05:24.580Z",
+    "1.0.1" : "2017-05-03T05:07:59.209Z",
+    "1.0.2" : "2017-05-03T05:11:20.292Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+ssh://git@github.com/Monte9/react-native-ratings.git"
+  },
+  "users" : {
+    "monte9" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/Monte9/react-native-ratings#readme",
+  "keywords" : [ "react-native", "reactjs", "reactnative", "gestures", "ios", "stars", "android", "ratings", "ui-components" ],
+  "bugs" : {
+    "url" : "https://github.com/Monte9/react-native-ratings/issues"
+  },
+  "license" : "MIT"
+}

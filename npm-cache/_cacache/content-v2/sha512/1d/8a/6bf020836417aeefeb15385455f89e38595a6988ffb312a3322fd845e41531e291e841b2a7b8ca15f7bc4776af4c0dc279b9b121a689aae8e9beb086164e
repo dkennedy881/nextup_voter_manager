@@ -1,0 +1,3147 @@
+{
+  "_id" : "xcode",
+  "_rev" : "122-89263a3ad74eead6070787c50218604a",
+  "name" : "xcode",
+  "description" : "parser for xcodeproj/project.pbxproj files",
+  "dist-tags" : {
+    "nightly" : "3.0.2-nightly.2020.9.16.e81ecabc",
+    "latest" : "3.0.1"
+  },
+  "versions" : {
+    "0.6.0" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.6.0",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.6.0.tgz",
+        "shasum" : "f687b1077a9a46e0d9b2c427189f8a55eb9e0e22"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_npmVersion" : "1.1.61",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.6.0"
+    },
+    "0.6.1" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.6.1",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.6.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.6.1.tgz",
+        "shasum" : "e4ae9b31355126494a4ba811bb16e45d91b851f3"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.2.32",
+      "_npmUser" : {
+        "name" : "filmaj",
+        "email" : "maj.fil@gmail.com"
+      },
+      "_id" : "xcode@0.6.1"
+    },
+    "0.4.0" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.4.0",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.4.0.tgz",
+        "shasum" : "839cc3ad198bb055816561aa0d778bacafeca473"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_id" : "xcode@0.4.0"
+    },
+    "0.4.1" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.4.1",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.4.1.tgz",
+        "shasum" : "5d31c64b541c28a847754525bab2abc226ecdc9e"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_id" : "xcode@0.4.1"
+    },
+    "0.6.4" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.6.4",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.6.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.6.4.tgz",
+        "shasum" : "dc4da4f74ce601d147a01ef6a8fa4acd980c48c5"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "shepheb",
+        "email" : "braden.shepherdson@gmail.com"
+      },
+      "_id" : "xcode@0.6.4"
+    },
+    "0.8.2" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.8.2",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.8.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.8.2.tgz",
+        "shasum" : "86631086a6934a23ae4066d2272bb55dde87ca77"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.0"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.0",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.8.2",
+      "gitHead" : "2f1362730854702d0f71b058a09abbb39614bae9",
+      "_shasum" : "86631086a6934a23ae4066d2272bb55dde87ca77",
+      "_nodeVersion" : "0.12.4"
+    },
+    "3.0.2-nightly.2020.9.11.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.11.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.11.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.11.e81ecabc.tgz",
+        "shasum" : "4bde7d7c212c24a994ad2ae52a5f38ce0e5bdd30"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.11.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.11.e81ecabc_1599784398658_0.14039334731761177"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.9.0"
+    },
+    "0.6.5" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.6.5",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.6.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.6.5.tgz",
+        "shasum" : "f9a781513b58e70b0081f8fcc2bc896644257ce7"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "shepheb",
+        "email" : "braden.shepherdson@gmail.com"
+      },
+      "_id" : "xcode@0.6.5"
+    },
+    "0.8.3" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.8.3",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.8.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.8.3.tgz",
+        "shasum" : "0ebfbd95c6c26b0d154ac2d5ac0f1daac4296f80"
+      },
+      "dependencies" : {
+        "node-uuid" : "1.3.3",
+        "pegjs" : "0.6.2",
+        "simple-plist" : "0.0.4"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.0"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.8.3",
+      "gitHead" : "6d8870262b71a0734a9b0be30a783184b1935f4c",
+      "_shasum" : "0ebfbd95c6c26b0d154ac2d5ac0f1daac4296f80",
+      "_nodeVersion" : "5.1.0"
+    },
+    "0.6.2" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.6.2",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.6.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.6.2.tgz",
+        "shasum" : "060d1ad0e81c29dd8fabfcd21808bd11f4f4e4b2"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "shepheb",
+        "email" : "braden.shepherdson@gmail.com"
+      },
+      "_id" : "xcode@0.6.2"
+    },
+    "0.8.0" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.8.0",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.8.0.tgz",
+        "shasum" : "fe61edf9cb14f2bb07ca6cafdc864a4b4c1beed9"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.0"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.8.0",
+      "gitHead" : "1b738a4babb665102bff8fad4c627ddfcbfb90b4",
+      "_shasum" : "fe61edf9cb14f2bb07ca6cafdc864a4b4c1beed9",
+      "_nodeVersion" : "0.12.4"
+    },
+    "0.6.3" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.6.3",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.6.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.6.3.tgz",
+        "shasum" : "c856b1c079efbfbce938be8fa32a17c15f51b3c6"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.11",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.6.3"
+    },
+    "0.8.1" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.8.1",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.8.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.8.1.tgz",
+        "shasum" : "f9594c39413946ff8be023eaa05101632af62f2a"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.0"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.0",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.8.1",
+      "gitHead" : "96d16c94b40595976d0e521d0f8d0351c8f3306e",
+      "_shasum" : "f9594c39413946ff8be023eaa05101632af62f2a",
+      "_nodeVersion" : "0.12.4"
+    },
+    "3.0.2-nightly.2020.9.8.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.8.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.8.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.8.e81ecabc.tgz",
+        "shasum" : "e23fa9d3fb4bd1ae5617e7d8db52fee8035d3e7b"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.8.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.8.e81ecabc_1599525175250_0.3351099108620963"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.9.0"
+    },
+    "0.2.0" : {
+      "name" : "xcode",
+      "description" : "tools for working with xcode projects",
+      "version" : "0.2.0",
+      "repository" : {
+        "url" : ""
+      },
+      "engines" : {
+        "node" : "~0.6.7"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.2.0.tgz",
+        "shasum" : "a239353649e990dab2ea996f2c74614c1bc28798"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.0-beta-10",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.2.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.7"
+    },
+    "0.2.1" : {
+      "name" : "xcode",
+      "description" : "tools for working with xcode projects",
+      "version" : "0.2.1",
+      "repository" : {
+        "url" : ""
+      },
+      "engines" : {
+        "node" : "~0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.2.1.tgz",
+        "shasum" : "c9825eedcc29c7ec579c702e226b809f6f450061"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.0-beta-10",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.2.1",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.7"
+    },
+    "3.0.2-nightly.2020.9.14.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.14.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.14.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.14.e81ecabc.tgz",
+        "shasum" : "c2f1bab78ecc668c6ee99b865902dade460324d7"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.14.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.14.e81ecabc_1600043641705_0.5315133728415202"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.9.0"
+    },
+    "0.0.0" : {
+      "name" : "xcode",
+      "description" : "tools for working with xcode projects",
+      "version" : "0.0.0",
+      "repository" : {
+        "url" : ""
+      },
+      "engines" : {
+        "node" : "~0.6.7"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.0.0.tgz",
+        "shasum" : "d7a6819b457133b1611f53cb8dd24cd50bc92627"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.0-beta-10",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.0.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.7"
+    },
+    "3.0.2-nightly.2020.9.5.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.5.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.5.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.5.e81ecabc.tgz",
+        "shasum" : "da9042a0deff6d287f9bbeaf2ff4debd649611f5"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.5.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.5.e81ecabc_1599267383224_0.8350056651966578"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.8.0"
+    },
+    "3.0.2-nightly.2020.9.2.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.2.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.2.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.2.e81ecabc.tgz",
+        "shasum" : "7e1508ef663674610a82cec657f247bcf35d7d0d"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.2.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.2.e81ecabc_1599006674265_0.36162796565641253"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.8.0"
+    },
+    "3.0.2-nightly.2020.9.1.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.1.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.1.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.1.e81ecabc.tgz",
+        "shasum" : "7649f8741a6dd76ee311a720127622fd5f757151"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.1.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.1.e81ecabc_1598920380829_0.9593540263891893"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.8.0"
+    },
+    "2.1.0" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "2.1.0",
+      "repository" : {
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-2.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-2.1.0.tgz",
+        "shasum" : "bab64a7e954bb50ca8d19da7e09531c65a43ecfe"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.0.0",
+        "uuid" : "^3.3.2"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : "file:xcode-2.1.0.tgz",
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "brodybits",
+        "email" : "chris@brody.consulting"
+      },
+      "_id" : "xcode@2.1.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_2.1.0_1577216632723_0.8557097944486185"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "12.14.0"
+    },
+    "3.0.2-nightly.2020.9.7.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.7.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.7.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.7.e81ecabc.tgz",
+        "shasum" : "072ebcd62e7ab31db0e92d17c8d9727b8b5eada9"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.7.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.7.e81ecabc_1599438819658_0.10777108113150002"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.8.0"
+    },
+    "3.0.2-nightly.2020.8.27.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.8.27.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.8.27.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.8.27.e81ecabc.tgz",
+        "shasum" : "598683060af416cbc3b099fc7f59b0195febc09d"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.8.27.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.8.27.e81ecabc_1598488254663_0.9259468072227475"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.8.0"
+    },
+    "3.0.2-nightly.2020.9.10.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.10.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.10.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.10.e81ecabc.tgz",
+        "shasum" : "5a54b54ed59a0d24a04626c93e5af27a0773e543"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.10.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.10.e81ecabc_1599697943072_0.24139444525782894"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.9.0"
+    },
+    "3.0.2-nightly.2020.9.15.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.15.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.15.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.15.e81ecabc.tgz",
+        "shasum" : "439895c15c5b9578f46a3cfa68f88c69399ed2ac"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.15.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.15.e81ecabc_1600130043476_0.7030209770056199"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.9.0"
+    },
+    "3.0.2-nightly.2020.9.6.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.6.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.6.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.6.e81ecabc.tgz",
+        "shasum" : "357f3dffe8b057ca1bb029a6acb17e90f7bb9142"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.6.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.6.e81ecabc_1599352451806_0.7011638660502624"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.8.0"
+    },
+    "0.9.3" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.9.3",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.9.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.9.3.tgz",
+        "shasum" : "910a89c16aee6cc0b42ca805a6d0b4cf87211cf3"
+      },
+      "dependencies" : {
+        "pegjs" : "^0.10.0",
+        "simple-plist" : "^0.2.1",
+        "uuid" : "3.0.1"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.9.3",
+      "gitHead" : "1cd220819906b62fc06c8833f905897600a53127",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/xcode-0.9.3.tgz_1491573003748_0.7576456561218947"
+      },
+      "_shasum" : "910a89c16aee6cc0b42ca805a6d0b4cf87211cf3",
+      "_nodeVersion" : "6.9.5"
+    },
+    "3.0.2-nightly.2020.8.26.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.8.26.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.8.26.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.8.26.e81ecabc.tgz",
+        "shasum" : "944577912537b7064c77d5f367ab536a4abcbbf7"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.8.26.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.8.26.e81ecabc_1598413307027_0.1172919412433513"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.8.0"
+    },
+    "0.7.9" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.7.9",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.7.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.7.9.tgz",
+        "shasum" : "9a21748370b94c37784d30943e044fc2561572e3"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.0"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.7.9",
+      "gitHead" : "7c617e4b73584637922d7bd8a49be9124b7ae6fd",
+      "_shasum" : "9a21748370b94c37784d30943e044fc2561572e3",
+      "_nodeVersion" : "0.12.4"
+    },
+    "1.1.0" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "1.1.0",
+      "repository" : {
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-1.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-1.1.0.tgz",
+        "shasum" : "9fcb63f417a9af377bfb743a5c22afce4e1da964"
+      },
+      "dependencies" : {
+        "simple-plist" : "^0.2.1",
+        "uuid" : "^3.3.2"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : "file:xcode-1.1.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "brodybits",
+        "email" : "chris.brody@gmail.com"
+      },
+      "_id" : "xcode@1.1.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_1.1.0_1545391752060_0.003079376898314834"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.14.1"
+    },
+    "0.3.3" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.3.3",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : "~0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.3.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.3.3.tgz",
+        "shasum" : "ea8f3b97ad3cb3fa76f7efa4cb1b2f62f819c6e5"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_npmVersion" : "1.1.0-beta-10",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.3.3",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.7"
+    },
+    "0.5.1" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.5.1",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.5.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.5.1.tgz",
+        "shasum" : "c67f2615a3c83f003b193d179ff0da3e536fb43c"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_npmVersion" : "1.1.61",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.5.1"
+    },
+    "0.3.4" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.3.4",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : "~0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.3.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.3.4.tgz",
+        "shasum" : "7b0652ec8cb0c66be125b91f7356ec3497cc5efc"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_npmVersion" : "1.1.0-beta-10",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.3.4",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.7"
+    },
+    "0.5.2" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.5.2",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.5.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.5.2.tgz",
+        "shasum" : "35a3eca04f90e6ceaa584ac0b348b8bbea48967d"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_npmVersion" : "1.1.61",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.5.2"
+    },
+    "0.7.0" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.7.0",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.7.0.tgz",
+        "shasum" : "ea92911338f3aa0151efdd001c069c035c76d3d7"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.7.0",
+      "gitHead" : "a8f8e25780700716cefdc0e43da4d755f80f51b2",
+      "_shasum" : "ea92911338f3aa0151efdd001c069c035c76d3d7",
+      "_nodeVersion" : "0.10.35"
+    },
+    "0.3.1" : {
+      "name" : "xcode",
+      "description" : "tools for working with xcode projects",
+      "version" : "0.3.1",
+      "repository" : {
+        "url" : ""
+      },
+      "engines" : {
+        "node" : "~0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.3.1.tgz",
+        "shasum" : "a6d3e25de8f99593c7aea3ae69d3c172dc67ca27"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.0-beta-10",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.3.1",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.7"
+    },
+    "0.3.2" : {
+      "name" : "xcode",
+      "description" : "tools for working with xcode projects",
+      "version" : "0.3.2",
+      "repository" : {
+        "url" : ""
+      },
+      "engines" : {
+        "node" : "~0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.3.2.tgz",
+        "shasum" : "83f17bfefdcd272383ddaf8afa62904581351779"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.0-beta-10",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.3.2",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.7"
+    },
+    "0.5.0" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.5.0",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.5.0.tgz",
+        "shasum" : "8d0b877a3d60cb4aa7416a7e5623f35a8d5bf225"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_npmVersion" : "1.1.61",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.5.0"
+    },
+    "0.5.5" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.5.5",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.5.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.5.5.tgz",
+        "shasum" : "236ff215f92494c965d009faf94c62c761e2cbca"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_npmVersion" : "1.1.61",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.5.5"
+    },
+    "0.9.1" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.9.1",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.9.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.9.1.tgz",
+        "shasum" : "5b4e71b71b03573ff0cdb48439103e8107da0f95"
+      },
+      "dependencies" : {
+        "node-uuid" : "1.4.7",
+        "pegjs" : "0.9.0",
+        "simple-plist" : "0.1.4"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.1"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.1",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.9.1",
+      "gitHead" : "b735df930f42aeb327b4cd670826b58ea952a89c",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/xcode-0.9.1.tgz_1483481450582_0.1535862828604877"
+      },
+      "_shasum" : "5b4e71b71b03573ff0cdb48439103e8107da0f95",
+      "_nodeVersion" : "6.4.0"
+    },
+    "0.9.2" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.9.2",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.9.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.9.2.tgz",
+        "shasum" : "b8969a2d7bf8b5feafbad162bd97de39f16e2907"
+      },
+      "dependencies" : {
+        "pegjs" : "0.9.0",
+        "simple-plist" : "0.1.4",
+        "uuid" : "3.0.1"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.1"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.9.2",
+      "gitHead" : "9592ed1de49fd8ea458d769aed06197400fa51da",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/xcode-0.9.2.tgz_1491001667522_0.34018213930539787"
+      },
+      "_shasum" : "b8969a2d7bf8b5feafbad162bd97de39f16e2907",
+      "_nodeVersion" : "6.9.5"
+    },
+    "0.3.5" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.3.5",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.3.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.3.5.tgz",
+        "shasum" : "940d308a8b333ec9a8fb51a7cdc8c5fcf9da036a"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_npmVersion" : "1.1.0-beta-10",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.3.5",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.7"
+    },
+    "0.5.3" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.5.3",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.5.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.5.3.tgz",
+        "shasum" : "165b5ae803b3bf01e4dfa016e33f0229217b0c77"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_npmVersion" : "1.1.61",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.5.3"
+    },
+    "0.5.4" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.5.4",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.5.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.5.4.tgz",
+        "shasum" : "4c85b3d42ce5164ba909b9912e865f9012a07986"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_npmVersion" : "1.1.61",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.5.4"
+    },
+    "0.7.2" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.7.2",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.7.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.7.2.tgz",
+        "shasum" : "7b6b6efd9c8405228453757a0ac8516f4b8157c9"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.0"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.0",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.7.2",
+      "gitHead" : "15ec06794225c70dc1fc4c42967faf37e0910f63",
+      "_shasum" : "7b6b6efd9c8405228453757a0ac8516f4b8157c9",
+      "_nodeVersion" : "0.12.4"
+    },
+    "0.9.0" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.9.0",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.9.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.9.0.tgz",
+        "shasum" : "be129d91515b4915c83fbc4f79d05b0607d5ab56"
+      },
+      "dependencies" : {
+        "node-uuid" : "1.4.7",
+        "pegjs" : "0.9.0",
+        "simple-plist" : "0.1.4"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.1"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.1",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.9.0",
+      "gitHead" : "59506f1cf9c74c180a1f830d5b9189a3cbba612e",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/xcode-0.9.0.tgz_1481439667510_0.26495420769788325"
+      },
+      "_shasum" : "be129d91515b4915c83fbc4f79d05b0607d5ab56",
+      "_nodeVersion" : "6.4.0"
+    },
+    "3.0.2-nightly.2020.9.3.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.3.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.3.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.3.e81ecabc.tgz",
+        "shasum" : "a46912bdf509bb51f57caae0c37d14085c6da439"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.3.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.3.e81ecabc_1599093149294_0.5202486364387631"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.8.0"
+    },
+    "0.3.0" : {
+      "name" : "xcode",
+      "description" : "tools for working with xcode projects",
+      "version" : "0.3.0",
+      "repository" : {
+        "url" : ""
+      },
+      "engines" : {
+        "node" : "~0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.3.0.tgz",
+        "shasum" : "4b74419fb50308245eee7a8156314720274b62ac"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.0-beta-10",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.3.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.7"
+    },
+    "0.1.0" : {
+      "name" : "xcode",
+      "description" : "tools for working with xcode projects",
+      "version" : "0.1.0",
+      "repository" : {
+        "url" : ""
+      },
+      "engines" : {
+        "node" : "~0.6.7"
+      },
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.1.0.tgz",
+        "shasum" : "5722c496c76a1a224a52a6cf4fbf920154bf33e7"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.0-beta-10",
+      "_npmUser" : {
+        "name" : "alunny",
+        "email" : "alunny@gmail.com"
+      },
+      "_id" : "xcode@0.1.0",
+      "_engineSupported" : true,
+      "_defaultsLoaded" : true,
+      "_nodeVersion" : "v0.6.7"
+    },
+    "3.0.2-nightly.2020.8.28.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.8.28.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.8.28.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.8.28.e81ecabc.tgz",
+        "shasum" : "e2c8d670c2df035b0d2ea2350daa7ce597a8551c"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.8.28.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.8.28.e81ecabc_1598574785001_0.5359189323091706"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.8.0"
+    },
+    "3.0.0" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.0.tgz",
+        "shasum" : "4770b69a27b04c4f6e530e54ebcfcc1b1f50c782"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_from" : "file:cordova-dist/tools/xcode-3.0.0.tgz",
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "erisu",
+        "email" : "erisu.dev@outlook.jp"
+      },
+      "_id" : "xcode@3.0.0",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.0_1586742587068_0.5835957475892561"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "12.16.1"
+    },
+    "3.0.2-nightly.2020.9.16.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.16.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.16.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.16.e81ecabc.tgz",
+        "shasum" : "4e441035447bfcad48e02886ebae4280bf46f12d"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.16.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.16.e81ecabc_1600216416219_0.1742334697109691"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.9.0"
+    },
+    "3.0.1" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.1.tgz",
+        "shasum" : "3efb62aac641ab2c702458f9a0302696146aa53c"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_from" : "file:cordova-dist/tools/xcode-3.0.1.tgz",
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "erisu",
+        "email" : "erisu.dev@outlook.jp"
+      },
+      "_id" : "xcode@3.0.1",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.1_1589847407214_0.6049724794078284"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "14.2.0"
+    },
+    "3.0.2-nightly.2020.8.31.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.8.31.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.8.31.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.8.31.e81ecabc.tgz",
+        "shasum" : "29c3eb9d8af00b46d6b053426b3d33062571d116"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.8.31.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.8.31.e81ecabc_1598833187098_0.4086004558564085"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.8.0"
+    },
+    "2.0.0" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "2.0.0",
+      "repository" : {
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=6.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-2.0.0.tgz",
+        "shasum" : "134f1f94c26fbfe8a9aaa9724bfb2772419da1a2"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.0.0",
+        "uuid" : "^3.3.2"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : "file:cordova-dist/tools/xcode-2.0.0.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "erisu",
+        "email" : "erisu.dev@outlook.jp"
+      },
+      "_id" : "xcode@2.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_2.0.0_1547708320678_0.2926601054943998"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "8.15.0"
+    },
+    "3.0.2-nightly.2020.9.4.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.4.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.4.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.4.e81ecabc.tgz",
+        "shasum" : "dbcc1c50dc03ac8929e07e54a2d0d2b893c6144a"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.4.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.4.e81ecabc_1599179562159_0.1269351487042183"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.8.0"
+    },
+    "3.0.2-nightly.2020.8.30.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.8.30.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.8.30.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.8.30.e81ecabc.tgz",
+        "shasum" : "99668b8a243ab6f4c1b11021ce811556297220b9"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.8.30.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.8.30.e81ecabc_1598746478514_0.2597690296353079"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.8.0"
+    },
+    "3.0.2-nightly.2020.9.13.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.13.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.13.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.13.e81ecabc.tgz",
+        "shasum" : "dc19885dc0845a224b671692efb946be0a771872"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.13.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.13.e81ecabc_1599957276613_0.787316939359179"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.9.0"
+    },
+    "0.8.7" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.8.7",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.8.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.8.7.tgz",
+        "shasum" : "aab86d999d4019f76c573c62dc392fbd1aaa3408"
+      },
+      "dependencies" : {
+        "node-uuid" : "1.4.7",
+        "pegjs" : "0.6.2",
+        "simple-plist" : "0.0.4"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.0"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.8.7",
+      "gitHead" : "941ed7ceb200759e34b28f98c83e4d07494bc5f5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/xcode-0.8.7.tgz_1463581469714_0.6752443755976856"
+      },
+      "_shasum" : "aab86d999d4019f76c573c62dc392fbd1aaa3408",
+      "_nodeVersion" : "4.2.6"
+    },
+    "3.0.2-nightly.2020.8.29.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.8.29.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.8.29.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.8.29.e81ecabc.tgz",
+        "shasum" : "a9dec7f7cb4bb39cfa7d1e0d68421074a7a31967"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.8.29.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.8.29.e81ecabc_1598660341029_0.40455128866648304"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.8.0"
+    },
+    "0.6.6" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.6.6",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.6.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.6.6.tgz",
+        "shasum" : "7e4ed350495de3eb489fc572187475685e5215c4"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "node_modules/.bin/nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.3.8",
+      "_npmUser" : {
+        "name" : "shepheb",
+        "email" : "braden.shepherdson@gmail.com"
+      },
+      "_id" : "xcode@0.6.6"
+    },
+    "0.8.4" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.8.4",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.8.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.8.4.tgz",
+        "shasum" : "e82c64675fcae3cb02e9ceb801d786dd90123604"
+      },
+      "dependencies" : {
+        "node-uuid" : "1.3.3",
+        "pegjs" : "0.6.2",
+        "simple-plist" : "0.0.4"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.0"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.8.4",
+      "gitHead" : "eb0e23e44c451d0e7ea92d881eb8c82f4aa86481",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/xcode-0.8.4.tgz_1457572486508_0.5393483068328351"
+      },
+      "_shasum" : "e82c64675fcae3cb02e9ceb801d786dd90123604",
+      "_nodeVersion" : "4.2.6"
+    },
+    "0.6.7" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.6.7",
+      "repository" : {
+        "url" : "https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.6.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.6.7.tgz",
+        "shasum" : "df11a8615e43dfa397cbf593b0fd14ebeadf4e7a"
+      },
+      "dependencies" : {
+        "pegjs" : "0.6.2",
+        "node-uuid" : "1.3.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.6.4"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.9",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.6.7",
+      "_shasum" : "df11a8615e43dfa397cbf593b0fd14ebeadf4e7a"
+    },
+    "0.8.5" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.8.5",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.8.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.8.5.tgz",
+        "shasum" : "0b9caa1ef14a60504f3993f7122581909a28d34e"
+      },
+      "dependencies" : {
+        "node-uuid" : "1.3.3",
+        "pegjs" : "0.6.2",
+        "simple-plist" : "0.0.4"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.0"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.8.5",
+      "gitHead" : "2e9a353d008afb0487c5498f4386eec722a76eef",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/xcode-0.8.5.tgz_1462559690514_0.4250722003635019"
+      },
+      "_shasum" : "0b9caa1ef14a60504f3993f7122581909a28d34e",
+      "_nodeVersion" : "4.2.6"
+    },
+    "3.0.2-nightly.2020.9.9.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.9.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.9.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.9.e81ecabc.tgz",
+        "shasum" : "7ccf3d9f3f75cfe644bcee8dc7ff7dd780a42f77"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.9.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.9.e81ecabc_1599611592768_0.9993091246621599"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.9.0"
+    },
+    "1.0.0" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "1.0.0",
+      "repository" : {
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-1.0.0.tgz",
+        "shasum" : "e1f5b1443245ded38c180796df1a10fdeda084ec"
+      },
+      "dependencies" : {
+        "pegjs" : "^0.10.0",
+        "simple-plist" : "^0.2.1",
+        "uuid" : "3.0.1"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : "cordova-dist/tools/xcode-1.0.0.tgz",
+      "_npmVersion" : "4.6.1",
+      "_npmUser" : {
+        "name" : "stevegill",
+        "email" : "stevengill97@gmail.com"
+      },
+      "_id" : "xcode@1.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode-1.0.0.tgz_1507594600102_0.008546729339286685"
+      },
+      "_shasum" : "e1f5b1443245ded38c180796df1a10fdeda084ec",
+      "_resolved" : "file:cordova-dist/tools/xcode-1.0.0.tgz",
+      "_nodeVersion" : "6.6.0"
+    },
+    "0.8.8" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.8.8",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.8.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.8.8.tgz",
+        "shasum" : "1330877c4200f2094009e3bf144e6932596fcca0"
+      },
+      "dependencies" : {
+        "node-uuid" : "1.4.7",
+        "pegjs" : "0.9.0",
+        "simple-plist" : "0.1.4"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.1"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.8.8",
+      "gitHead" : "35824cb8bd180decdc15b1ade895090abf941583",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/xcode-0.8.8.tgz_1464802009993_0.8885985244996846"
+      },
+      "_shasum" : "1330877c4200f2094009e3bf144e6932596fcca0",
+      "_nodeVersion" : "4.2.6"
+    },
+    "3.0.2-nightly.2020.9.12.e81ecabc" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "3.0.2-nightly.2020.9.12.e81ecabc",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=10.0.0"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-3.0.2-nightly.2020.9.12.e81ecabc.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-3.0.2-nightly.2020.9.12.e81ecabc.tgz",
+        "shasum" : "67edd5597806b55b214415f68ad3259e827f93f9"
+      },
+      "dependencies" : {
+        "simple-plist" : "^1.1.0",
+        "uuid" : "^7.0.3"
+      },
+      "devDependencies" : {
+        "nodeunit" : "^0.11.3",
+        "nyc" : "^15.0.0",
+        "pegjs" : "^0.10.0"
+      },
+      "license" : "Apache-2.0",
+      "directories" : {
+      },
+      "scripts" : {
+        "pegjs" : "pegjs lib/parser/pbxproj.pegjs",
+        "test" : "npm run cover",
+        "test:unit" : "nodeunit test/parser test",
+        "cover" : "nyc npm run test:unit"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "cordovaowner",
+        "email" : "apachecordovabot@gmail.com"
+      },
+      "_id" : "xcode@3.0.2-nightly.2020.9.12.e81ecabc",
+      "gitHead" : "e81ecabc18b0e43a1ae5457f16ebcbb8b0b62460",
+      "_hasShrinkwrap" : false,
+      "nyc" : {
+        "all" : true,
+        "exclude" : [ "coverage/", "test/" ],
+        "reporter" : [ "lcov", "text" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/xcode_3.0.2-nightly.2020.9.12.e81ecabc_1599870770380_0.6205982822255882"
+      },
+      "readme" : "<!--\n#\n# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n# http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing,\n# software distributed under the License is distributed on an\n# \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n#  KIND, either express or implied.  See the License for the\n# specific language governing permissions and limitations\n# under the License.\n#\n-->\n\n# cordova-node-xcode\n\n[![NPM](https://nodei.co/npm/xcode.png?compact=true)](https://nodei.co/npm/xcode/)\n\n[![Node CI](https://github.com/apache/cordova-node-xcode/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/apache/cordova-node-xcode/actions?query=branch%3Amaster)\n\nParser utility for xcodeproj project files\n\nAllows you to edit xcodeproject files and write them back out.\n\nbased on donated code from [alunny / node-xcode](https://github.com/alunny/node-xcode)\n\n## Example\n\n```js\n// API is a bit wonky right now\nvar xcode = require('xcode'),\n    fs = require('fs'),\n    projectPath = 'myproject.xcodeproj/project.pbxproj',\n    myProj = xcode.project(projectPath);\n\n// parsing is async, in a different process\nmyProj.parse(function (err) {\n    myProj.addHeaderFile('foo.h');\n    myProj.addSourceFile('foo.m');\n    myProj.addFramework('FooKit.framework');\n   \n    fs.writeFileSync(projectPath, myProj.writeSync());\n    console.log('new project written');\n});\n```\n\n## Working on the parser\n\nIf there's a problem parsing, you will want to edit the grammar under\n`lib/parser/pbxproj.pegjs`. You can test it online with the PEGjs online thingy\nat https://pegjs.org/online - I have had some mixed results though.\n\nTests under the `test/parser` directory will compile the parser from the\ngrammar. Other tests will use the prebuilt parser (`lib/parser/pbxproj.js`).\n\nTo rebuild the parser js file after editing the grammar, run:\n\n    npm run pegjs\n\n(and be sure to restore the Apache license notice in\n`lib/parser/pbxproj.js` before committing)\n\n## License\n\nApache V2\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "14.9.0"
+    },
+    "0.8.9" : {
+      "name" : "xcode",
+      "description" : "parser for xcodeproj/project.pbxproj files",
+      "version" : "0.8.9",
+      "repository" : {
+        "url" : "git+https://github.com/alunny/node-xcode.git"
+      },
+      "engines" : {
+        "node" : ">=0.6.7"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/xcode/-/xcode-0.8.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fxcode%2F-%2Fxcode-0.8.9.tgz",
+        "shasum" : "ec6765f70e9dccccc9f6e9a5b9b4e7e814b4cf35"
+      },
+      "dependencies" : {
+        "node-uuid" : "1.4.7",
+        "pegjs" : "0.9.0",
+        "simple-plist" : "0.1.4"
+      },
+      "devDependencies" : {
+        "nodeunit" : "0.9.1"
+      },
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "nodeunit test/parser test"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.14.12",
+      "_npmUser" : {
+        "name" : "anis",
+        "email" : "anis.kadri@gmail.com"
+      },
+      "_id" : "xcode@0.8.9",
+      "gitHead" : "9f3726f6d766875500eebd85d9712925e3faa8b3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/xcode-0.8.9.tgz_1469137632459_0.21505266707390547"
+      },
+      "_shasum" : "ec6765f70e9dccccc9f6e9a5b9b4e7e814b4cf35",
+      "_nodeVersion" : "4.2.6"
+    }
+  },
+  "readme" : "",
+  "time" : {
+    "0.6.0" : "2012-10-31T22:12:03.802Z",
+    "0.6.1" : "2013-07-03T16:03:38.147Z",
+    "0.4.0" : "2012-08-06T22:57:21.198Z",
+    "0.4.1" : "2012-08-08T22:42:05.318Z",
+    "0.6.4" : "2014-01-10T19:36:36.934Z",
+    "0.8.2" : "2015-10-05T23:10:59.801Z",
+    "3.0.2-nightly.2020.9.11.e81ecabc" : "2020-09-11T00:33:18.771Z",
+    "0.6.5" : "2014-01-16T18:31:26.605Z",
+    "0.8.3" : "2016-01-11T23:02:14.787Z",
+    "0.6.2" : "2013-11-01T19:28:41.877Z",
+    "0.8.0" : "2015-07-13T20:42:58.665Z",
+    "0.6.3" : "2013-11-24T01:56:49.039Z",
+    "0.8.1" : "2015-10-05T22:17:04.835Z",
+    "3.0.2-nightly.2020.9.8.e81ecabc" : "2020-09-08T00:32:55.404Z",
+    "0.2.0" : "2012-02-02T22:27:46.871Z",
+    "0.2.1" : "2012-02-06T21:17:51.098Z",
+    "3.0.2-nightly.2020.9.14.e81ecabc" : "2020-09-14T00:34:01.990Z",
+    "0.0.0" : "2012-01-27T00:40:49.688Z",
+    "modified" : "2020-09-16T00:33:38.602Z",
+    "3.0.2-nightly.2020.9.5.e81ecabc" : "2020-09-05T00:56:23.330Z",
+    "3.0.2-nightly.2020.9.2.e81ecabc" : "2020-09-02T00:31:14.488Z",
+    "3.0.2-nightly.2020.9.1.e81ecabc" : "2020-09-01T00:33:00.979Z",
+    "2.1.0" : "2019-12-24T19:43:52.904Z",
+    "3.0.2-nightly.2020.9.7.e81ecabc" : "2020-09-07T00:33:39.758Z",
+    "created" : "2012-01-27T00:40:47.895Z",
+    "3.0.2-nightly.2020.8.27.e81ecabc" : "2020-08-27T00:30:54.815Z",
+    "3.0.2-nightly.2020.9.10.e81ecabc" : "2020-09-10T00:32:23.219Z",
+    "3.0.2-nightly.2020.9.15.e81ecabc" : "2020-09-15T00:34:03.738Z",
+    "3.0.2-nightly.2020.9.6.e81ecabc" : "2020-09-06T00:34:11.963Z",
+    "0.9.3" : "2017-04-07T13:50:05.763Z",
+    "3.0.2-nightly.2020.8.26.e81ecabc" : "2020-08-26T03:41:47.356Z",
+    "0.7.9" : "2015-07-09T18:50:39.494Z",
+    "1.1.0" : "2018-12-21T11:29:12.500Z",
+    "0.3.3" : "2012-06-19T07:42:23.012Z",
+    "0.5.1" : "2012-10-15T04:40:49.533Z",
+    "0.3.4" : "2012-06-19T21:53:26.867Z",
+    "0.5.2" : "2012-10-18T20:58:39.788Z",
+    "0.7.0" : "2015-05-29T15:12:42.520Z",
+    "0.3.1" : "2012-05-24T17:58:49.999Z",
+    "0.3.2" : "2012-05-27T06:16:12.801Z",
+    "0.5.0" : "2012-10-15T03:00:56.908Z",
+    "0.5.5" : "2012-10-18T23:04:58.908Z",
+    "0.9.1" : "2017-01-03T22:10:52.623Z",
+    "0.9.2" : "2017-03-31T23:07:47.813Z",
+    "0.3.5" : "2012-06-26T18:38:42.294Z",
+    "0.5.3" : "2012-10-18T22:47:24.312Z",
+    "0.5.4" : "2012-10-18T22:57:45.654Z",
+    "0.7.2" : "2015-06-26T17:00:41.997Z",
+    "0.9.0" : "2016-12-11T07:01:07.743Z",
+    "3.0.2-nightly.2020.9.3.e81ecabc" : "2020-09-03T00:32:29.402Z",
+    "0.3.0" : "2012-05-24T04:56:59.037Z",
+    "0.1.0" : "2012-02-01T23:03:27.066Z",
+    "3.0.2-nightly.2020.8.28.e81ecabc" : "2020-08-28T00:33:05.184Z",
+    "3.0.0" : "2020-04-13T01:49:47.210Z",
+    "3.0.2-nightly.2020.9.16.e81ecabc" : "2020-09-16T00:33:36.345Z",
+    "3.0.1" : "2020-05-19T00:16:47.473Z",
+    "3.0.2-nightly.2020.8.31.e81ecabc" : "2020-08-31T00:19:47.233Z",
+    "2.0.0" : "2019-01-17T06:58:40.768Z",
+    "3.0.2-nightly.2020.9.4.e81ecabc" : "2020-09-04T00:32:42.310Z",
+    "3.0.2-nightly.2020.8.30.e81ecabc" : "2020-08-30T00:14:38.704Z",
+    "3.0.2-nightly.2020.9.13.e81ecabc" : "2020-09-13T00:34:36.791Z",
+    "0.8.7" : "2016-05-18T14:24:32.220Z",
+    "3.0.2-nightly.2020.8.29.e81ecabc" : "2020-08-29T00:19:01.152Z",
+    "0.6.6" : "2014-01-16T22:38:00.222Z",
+    "0.8.4" : "2016-03-10T01:14:46.936Z",
+    "0.6.7" : "2014-07-10T20:12:30.521Z",
+    "0.8.5" : "2016-05-06T18:34:50.994Z",
+    "3.0.2-nightly.2020.9.9.e81ecabc" : "2020-09-09T00:33:12.871Z",
+    "1.0.0" : "2017-10-10T00:16:40.203Z",
+    "0.8.8" : "2016-06-01T17:26:51.257Z",
+    "3.0.2-nightly.2020.9.12.e81ecabc" : "2020-09-12T00:32:50.526Z",
+    "0.8.9" : "2016-07-21T21:47:15.442Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/apache/cordova-node-xcode.git"
+  },
+  "users" : {
+    "martinmose" : true,
+    "pfremm" : true,
+    "heineiuo" : true,
+    "nekr" : true,
+    "chinawolf_wyp" : true,
+    "warraven" : true
+  },
+  "readmeFilename" : "",
+  "license" : "Apache-2.0"
+}

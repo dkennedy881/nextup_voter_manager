@@ -1,0 +1,1079 @@
+{
+  "_id" : "@types/react-native-vector-icons",
+  "_rev" : "369-981a8b19fa920616770750a0148f4aa8",
+  "name" : "@types/react-native-vector-icons",
+  "description" : "TypeScript definitions for react-native-vector-icons",
+  "dist-tags" : {
+    "ts3.1" : "6.4.5",
+    "ts4.0" : "6.4.5",
+    "ts3.0" : "6.4.5",
+    "ts3.9" : "6.4.5",
+    "ts2.9" : "6.4.5",
+    "ts3.8" : "6.4.5",
+    "ts2.8" : "6.4.5",
+    "ts3.7" : "6.4.5",
+    "ts2.7" : "4.6.1",
+    "ts3.6" : "6.4.5",
+    "ts2.6" : "4.6.1",
+    "ts3.5" : "6.4.5",
+    "ts2.5" : "4.4.2",
+    "ts3.4" : "6.4.5",
+    "ts2.4" : "4.4.2",
+    "ts3.3" : "6.4.5",
+    "ts2.3" : "4.4.2",
+    "ts3.2" : "6.4.5",
+    "ts4.1" : "6.4.5",
+    "latest" : "6.4.5"
+  },
+  "versions" : {
+    "4.2.0" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.2.0.tgz",
+        "shasum" : "69b80f9101e38c3eb27729ec101169fb43e17d73"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.2.0",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "92c4cdb0853e52f61039573c7d2ce68806e29be13760f3b2f84c7bd764cd7496",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons-4.2.0.tgz_1498571784913_0.7745826349128038"
+      }
+    },
+    "4.2.1" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.2.1.tgz",
+        "shasum" : "27be868937b95596da08ba9f842c4f76fcf4061d"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.2.1",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "49d9a9f46dad283499c07c8d32abfbd6d37ce76a31204ebed49f644a93f076b5",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons-4.2.1.tgz_1500558874409_0.6111842985264957"
+      }
+    },
+    "4.3.0" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.3.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.3.0.tgz",
+        "shasum" : "8aa77479a9981ed6a91dafb5898176a4728d7230"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.3.0",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "9eca85b959ef20a345ca5db01f516c3a6c677e5c149cabc19276371908edc93b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons-4.3.0.tgz_1502740173661_0.6481579390820116"
+      }
+    },
+    "4.4.2" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.4.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.4.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.4.2.tgz",
+        "shasum" : "dd6b6a4d9dee7c85e3246f6c67905dbc1faee3d5"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.4.2",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "137b19711279bd9a09a903272b7beac693984e40466068dbc97b51c1c2c9e2de",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons-4.4.2.tgz_1508948597171_0.8556519739795476"
+      }
+    },
+    "4.6.0" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.6.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.6.0.tgz",
+        "shasum" : "121bfcedffca18ffdf25f7db8ab9a8d88c932666"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.6.0",
+      "typeScriptVersion" : "2.6",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "6963089ee0110769b991f7f904ffd02dfad6271dcd8c132ba17fcfad6c421725",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons_4.6.0_1522778864981_0.9567739805244402"
+      }
+    },
+    "6.4.4" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "6.4.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-native-vector-icons"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      }, {
+        "name" : "Robert Ying",
+        "url" : "https://github.com/robertying",
+        "githubUsername" : "robertying"
+      }, {
+        "name" : "Jesse Katsumata",
+        "url" : "https://github.com/Naturalclar",
+        "githubUsername" : "Naturalclar"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-6.4.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-6.4.4.tgz",
+        "shasum" : "f81dcc371b74a9c408ce12f95b8f494d7543146b"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@6.4.4",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "5a0518b450220bf6eb3d05cd4b5d58647d07866b15350b4fa0bcdfe321573c21",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons_6.4.4_1569872386592_0.5603032511609001"
+      }
+    },
+    "4.4.3" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.4.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.4.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.4.3.tgz",
+        "shasum" : "37f6d5dd06418a144c7c082dbca9ce37c14f033f"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.4.3",
+      "typeScriptVersion" : "2.6",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "0d66aa10bb0a37d1cd65b3cccf518a993aaeec89609cb6f5a26a3f415faf721b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons_4.4.3_1518469470191_0.5420189711604091"
+      }
+    },
+    "4.6.1" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.6.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.6.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.6.1.tgz",
+        "shasum" : "a9b2ee1a4b297b87a9917337aeee404c36fda8c2"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.6.1",
+      "typeScriptVersion" : "2.6",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "2903d0a8a6f5f6e877989775e61c690629eacd6a2f6897eb3a6f27e411cd193d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons_4.6.1_1524781137661_0.9313468387445987"
+      }
+    },
+    "6.4.5" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "6.4.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-native-vector-icons"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      }, {
+        "name" : "Robert Ying",
+        "url" : "https://github.com/robertying",
+        "githubUsername" : "robertying"
+      }, {
+        "name" : "Jesse Katsumata",
+        "url" : "https://github.com/Naturalclar",
+        "githubUsername" : "Naturalclar"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-6.4.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-6.4.5.tgz",
+        "shasum" : "74cbfc564bd8435e43ad6728572a0e5b49c335d1"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@6.4.5",
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "279b98a9f5d1f6383eb3b1ef2b44ebb2da3338ac51aa6ee2a2ddbcf14a352a6c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons_6.4.5_1576825884880_0.8446866582457673"
+      }
+    },
+    "4.3.1" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.3.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.3.1.tgz",
+        "shasum" : "2c28d48f5174ef6897e5565e7a100997a1c6ae37"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "peerDependencies" : {
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.3.1",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "f53d57a4c814923c9819235583d4ced0d6a02fe7716c6470d477c197ddf5b21f",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons-4.3.1.tgz_1502820719304_0.7376560841221362"
+      }
+    },
+    "4.4.0" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.4.0.tgz",
+        "shasum" : "a20343261325da0fad3b263fe09ec6cd8a716aa1"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.4.0",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "e39a0783751d11c6ddeff469e258aac6517287bf9d7fc775a6089dd08f009b26",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons-4.4.0.tgz_1506449949652_0.923311592079699"
+      }
+    },
+    "6.4.2" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "6.4.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-native-vector-icons"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      }, {
+        "name" : "Robert Ying",
+        "url" : "https://github.com/robertying",
+        "githubUsername" : "robertying"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-6.4.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-6.4.2.tgz",
+        "shasum" : "e50eb062ebac4a293b1efe0343b5748f8ff82b51"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@6.4.2",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "659f4b3668206793702f1f079b731c77823d6bb7c34c6f42d2d6c9316da797e7",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons_6.4.2_1568209245519_0.541247787514711"
+      }
+    },
+    "4.3.2" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.3.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.3.2.tgz",
+        "shasum" : "96803af71937eb05970067ec6793f156141bc00e"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.3.2",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "326391dcf07b51225fcaa6734f99c0a1e3edebdc3691a9845ab751afa3a481fe",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons-4.3.2.tgz_1504709735709_0.23611808917485178"
+      }
+    },
+    "4.4.1" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.4.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://www.github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.4.1.tgz",
+        "shasum" : "0ea49139e6ea361af488bbcea39a17f17db7eea8"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.4.1",
+      "typeScriptVersion" : "2.3",
+      "typesPublisherContentHash" : "2261f1148190e28ef6f03c91028ef23576a673062d138f7719778b2ea5c112e3",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons-4.4.1.tgz_1508053693143_0.7573517446871847"
+      }
+    },
+    "6.4.3" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "6.4.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-native-vector-icons"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      }, {
+        "name" : "Robert Ying",
+        "url" : "https://github.com/robertying",
+        "githubUsername" : "robertying"
+      }, {
+        "name" : "Jesse Katsumata",
+        "url" : "https://github.com/Naturalclar",
+        "githubUsername" : "Naturalclar"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-6.4.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-6.4.3.tgz",
+        "shasum" : "c18a87dd2c1cb8e7978a094efa9cdf538ba7c0ba"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@6.4.3",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "c1a23a7da99e85446782ba450b632e4172cc83d847ff1049d2b59fbe8058f298",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons_6.4.3_1569627692732_0.9131574728648062"
+      }
+    },
+    "4.6.4" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.6.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.6.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.6.4.tgz",
+        "shasum" : "83c2d88f0c2615a44b9059eb75c11f92702c1ee2"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.6.4",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "34d834ee8f67708ab50b3881792b3c95276082f9297bdff3e1ff2694072b6953",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons_4.6.4_1538171245059_0.10213724240463229"
+      }
+    },
+    "6.4.0" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "6.4.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-native-vector-icons"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      }, {
+        "name" : "Robert Ying",
+        "url" : "https://github.com/robertying",
+        "githubUsername" : "robertying"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-6.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-6.4.0.tgz",
+        "shasum" : "3ff6b29c8e831f11364c12801ae7966dab8dcbe0"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@6.4.0",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "437eb36b225b8216a38456d401f6eec0981c899596bd84879b0e7d7ebe7455c3",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons_6.4.0_1554148668889_0.3918838047462436"
+      }
+    },
+    "6.4.1" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "6.4.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/react-native-vector-icons"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      }, {
+        "name" : "Robert Ying",
+        "url" : "https://github.com/robertying",
+        "githubUsername" : "robertying"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-6.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-6.4.1.tgz",
+        "shasum" : "d0862f3eb97bbe5720ab604f2f10ee07dacb31ef"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@6.4.1",
+      "types" : "index",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "252065a6d035f6a95de668bf09d90263d685a0335d9c13efbe322e8ce5fd5e1c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons_6.4.1_1559240071791_0.6980981875114167"
+      }
+    },
+    "4.6.2" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.6.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.6.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.6.2.tgz",
+        "shasum" : "b1f6fab20761658dce0ae30df54275b8ad00d081"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.6.2",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "3975dc36fadccd11082c5db75234466a67f6cb60de7e00521447c7dfdc29a24b",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons_4.6.2_1533593934359_0.1388158953151244"
+      }
+    },
+    "4.6.3" : {
+      "name" : "@types/react-native-vector-icons",
+      "description" : "TypeScript definitions for react-native-vector-icons",
+      "version" : "4.6.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Kyle Roach",
+        "url" : "https://github.com/iRoachie",
+        "githubUsername" : "iRoachie"
+      }, {
+        "name" : "Tim Wang",
+        "url" : "https://github.com/timwangdev",
+        "githubUsername" : "timwangdev"
+      } ],
+      "main" : "",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/@types/react-native-vector-icons/-/react-native-vector-icons-4.6.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-native-vector-icons%2F-%2Freact-native-vector-icons-4.6.3.tgz",
+        "shasum" : "eb0e487c1bfbd8c9c68a297eb03d494420bb5e6b"
+      },
+      "dependencies" : {
+        "@types/react" : "*",
+        "@types/react-native" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/react-native-vector-icons@4.6.3",
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "1c9baee2ec558d2a4445484bc1e9e227428cd197b110ab2eeae6bceb8ca6d193",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-vector-icons_4.6.3_1534461754772_0.00974600435931694"
+      }
+    }
+  },
+  "readme" : "# Installation\r\n> `npm install --save @types/react-native-vector-icons`\r\n\r\n# Summary\r\nThis package contains type definitions for react-native-vector-icons (https://github.com/oblador/react-native-vector-icons).\r\n\r\n# Details\r\nFiles were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-native-vector-icons.\r\n\r\n### Additional Details\r\n * Last updated: Fri, 20 Dec 2019 07:06:53 GMT\r\n * Dependencies: [@types/react](https://npmjs.com/package/@types/react), [@types/react-native](https://npmjs.com/package/@types/react-native)\r\n * Global values: none\r\n\r\n# Credits\r\nThese definitions were written by Kyle Roach (https://github.com/iRoachie), Tim Wang (https://github.com/timwangdev), Robert Ying (https://github.com/robertying), and Jesse Katsumata (https://github.com/Naturalclar).\r\n",
+  "maintainers" : [ {
+    "name" : "types",
+    "email" : "ts-npm-types@microsoft.com"
+  } ],
+  "time" : {
+    "created" : "2017-06-27T13:56:25.004Z",
+    "4.2.0" : "2017-06-27T13:56:25.004Z",
+    "4.2.1" : "2017-07-20T13:54:35.392Z",
+    "4.3.0" : "2017-08-14T19:49:33.735Z",
+    "4.4.2" : "2017-10-25T16:23:17.277Z",
+    "4.6.0" : "2018-04-03T18:07:45.094Z",
+    "6.4.4" : "2019-09-30T19:39:46.669Z",
+    "4.4.3" : "2018-02-12T21:04:30.255Z",
+    "4.6.1" : "2018-04-26T22:18:57.746Z",
+    "6.4.5" : "2019-12-20T07:11:25.024Z",
+    "4.3.1" : "2017-08-15T18:11:59.371Z",
+    "4.4.0" : "2017-09-26T18:19:09.751Z",
+    "6.4.2" : "2019-09-11T13:40:45.655Z",
+    "4.3.2" : "2017-09-06T14:55:35.792Z",
+    "4.4.1" : "2017-10-15T07:48:13.265Z",
+    "6.4.3" : "2019-09-27T23:41:32.854Z",
+    "4.6.4" : "2018-09-28T21:47:25.267Z",
+    "6.4.0" : "2019-04-01T19:57:49.043Z",
+    "6.4.1" : "2019-05-30T18:14:31.923Z",
+    "4.6.2" : "2018-08-06T22:18:54.473Z",
+    "4.6.3" : "2018-08-16T23:22:34.863Z",
+    "modified" : "2020-08-25T22:45:22.952Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory" : "types/react-native-vector-icons"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "contributors" : [ {
+    "name" : "Kyle Roach",
+    "url" : "https://github.com/iRoachie",
+    "githubUsername" : "iRoachie"
+  }, {
+    "name" : "Tim Wang",
+    "url" : "https://github.com/timwangdev",
+    "githubUsername" : "timwangdev"
+  }, {
+    "name" : "Robert Ying",
+    "url" : "https://github.com/robertying",
+    "githubUsername" : "robertying"
+  }, {
+    "name" : "Jesse Katsumata",
+    "url" : "https://github.com/Naturalclar",
+    "githubUsername" : "Naturalclar"
+  } ],
+  "license" : "MIT"
+}

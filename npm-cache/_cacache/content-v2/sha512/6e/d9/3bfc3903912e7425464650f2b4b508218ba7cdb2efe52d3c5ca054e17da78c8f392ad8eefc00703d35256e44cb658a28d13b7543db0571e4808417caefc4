@@ -1,0 +1,2692 @@
+{
+  "_id" : "babel-preset-expo",
+  "_rev" : "88-0742517497e2506213184c8502f62487",
+  "name" : "babel-preset-expo",
+  "description" : "The Babel preset for Expo projects",
+  "dist-tags" : {
+    "next" : "8.3.0",
+    "latest" : "8.2.3"
+  },
+  "versions" : {
+    "7.0.0-rc.1" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "7.0.0-rc.1",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/babel-preset-expo"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-7.0.0-rc.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-7.0.0-rc.1.tgz",
+        "shasum" : "00a833d246f0f531a62ba4a07ca040a891fe66f8"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-proposal-decorators" : "^7.1.0",
+        "@babel/plugin-transform-modules-commonjs" : "^7.4.4",
+        "@babel/preset-env" : "^7.3.1",
+        "babel-plugin-module-resolver" : "^3.1.1",
+        "babel-plugin-react-native-web" : "^0.11.2",
+        "metro-react-native-babel-preset" : "^0.54.1"
+      },
+      "devDependencies" : {
+        "jest" : "^24.7.1"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "bbarthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "charliecruzan@gmail.com",
+        "name" : "charliecruzan"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmUser" : {
+        "name" : "tsapeta",
+        "email" : "sapeta.tomasz@gmail.com"
+      },
+      "_id" : "babel-preset-expo@7.0.0-rc.1",
+      "gitHead" : "cc60d47e491a5480ba67e07f419aa7b063967326",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_7.0.0-rc.1_1568734749158_0.7245531432683512"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# babel-preset-expo\n\nIf you have problems with the code in this repository, please file issues & bug reports\nat https://github.com/expo/expo. Thanks!\n\n## Options\n\n### [`lazyImports`](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy)\n\nChanges Babel's compiled `import` statements to be lazily evaluated when their imported bindings are used for the first time.\n\n*Note:* this option has an effect only when the `disableImportExportTransform` option is set to `false`. On Android and iOS, `disableImportExportTransform` defaults to `false`, and on web it defaults to `true` to allow for tree shaking.\n\nThis can improve the initial load time of your app because evaluating dependencies up front is sometimes entirely un-necessary, particularly when the dependencies have no side effects.\n\nThe value of `lazyImports` has a few possible effects:\n\n- `null` - [metro-react-native-babel-preset](https://github.com/facebook/metro/tree/master/packages/metro-react-native-babel-preset) will handle it. (Learn more about it here: https://github.com/facebook/metro/commit/23e3503dde5f914f3e642ef214f508d0a699851d)\n\n- `false` - No lazy initialization of any imported module.\n\n- `true` - Lazy-init all imported modules except local imports (e.g., `./foo`), certain Expo packages that have side effects, and the two cases mentioned [here](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy).\n\n- `Array<string>` - [babel-plugin-transform-modules-commonjs](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy) will handle it.\n\n- `(string) => boolean` - [babel-plugin-transform-modules-commonjs](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy) will handle it.\n\n  If you choose to do this, you can also access the list of Expo packages that have side effects by using `const lazyImportsBlacklist = require('babel-preset-expo/lazy-imports-blacklist');` which returns a `Set`.\n\n**default:** `null`\n\n```js\n[\n    'babel-preset-expo',\n    {\n        lazyImports: true\n    }\n],\n```\n\n### `web.disableImportExportTransform`\n\nEnabling this option will allow your project to run with older JavaScript syntax (i.e. `module.exports`). This option will break tree shaking and increase your bundle size, but will eliminate the following error when `module.exports` is used:\n\n> `TypeError: Cannot assign to read only property 'exports' of object '#<Object>'`\n\n**default:** `false`\n\n```js\n[\n    'babel-preset-expo',\n    {\n        web: { disableImportExportTransform: true }\n    }\n],\n```\n",
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      }
+    },
+    "7.0.0-rc.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "7.0.0-rc.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/babel-preset-expo"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-7.0.0-rc.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-7.0.0-rc.0.tgz",
+        "shasum" : "41dec15395b16e6cb73abccc62f5a6f4aac26b11"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-proposal-decorators" : "^7.1.0",
+        "@babel/plugin-transform-modules-commonjs" : "^7.4.4",
+        "@babel/preset-env" : "^7.3.1",
+        "babel-plugin-module-resolver" : "^3.1.1",
+        "babel-plugin-react-native-web" : "^0.11.2",
+        "metro-react-native-babel-preset" : "^0.54.1"
+      },
+      "devDependencies" : {
+        "jest" : "^24.7.1"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "bbarthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "charliecruzan@gmail.com",
+        "name" : "charliecruzan"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmUser" : {
+        "name" : "tsapeta",
+        "email" : "sapeta.tomasz@gmail.com"
+      },
+      "_id" : "babel-preset-expo@7.0.0-rc.0",
+      "gitHead" : "5d4fcf318390f59cecd1ae5d191afb15488a4447",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_7.0.0-rc.0_1568446450253_0.7667289651315194"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# babel-preset-expo\n\nIf you have problems with the code in this repository, please file issues & bug reports\nat https://github.com/expo/expo. Thanks!\n\n## Options\n\n### [`lazyImports`](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy)\n\nChanges Babel's compiled `import` statements to be lazily evaluated when their imported bindings are used for the first time.\n\n*Note:* this option has an effect only when the `disableImportExportTransform` option is set to `false`. On Android and iOS, `disableImportExportTransform` defaults to `false`, and on web it defaults to `true` to allow for tree shaking.\n\nThis can improve the initial load time of your app because evaluating dependencies up front is sometimes entirely un-necessary, particularly when the dependencies have no side effects.\n\nThe value of `lazyImports` has a few possible effects:\n\n- `null` - [metro-react-native-babel-preset](https://github.com/facebook/metro/tree/master/packages/metro-react-native-babel-preset) will handle it. (Learn more about it here: https://github.com/facebook/metro/commit/23e3503dde5f914f3e642ef214f508d0a699851d)\n\n- `false` - No lazy initialization of any imported module.\n\n- `true` - Lazy-init all imported modules except local imports (e.g., `./foo`), certain Expo packages that have side effects, and the two cases mentioned [here](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy).\n\n- `Array<string>` - [babel-plugin-transform-modules-commonjs](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy) will handle it.\n\n- `(string) => boolean` - [babel-plugin-transform-modules-commonjs](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy) will handle it.\n\n  If you choose to do this, you can also access the list of Expo packages that have side effects by using `const lazyImportsBlacklist = require('babel-preset-expo/lazy-imports-blacklist');` which returns a `Set`.\n\n**default:** `null`\n\n```js\n[\n    'babel-preset-expo',\n    {\n        lazyImports: true\n    }\n],\n```\n\n### `web.disableImportExportTransform`\n\nEnabling this option will allow your project to run with older JavaScript syntax (i.e. `module.exports`). This option will break tree shaking and increase your bundle size, but will eliminate the following error when `module.exports` is used:\n\n> `TypeError: Cannot assign to read only property 'exports' of object '#<Object>'`\n\n**default:** `false`\n\n```js\n[\n    'babel-preset-expo',\n    {\n        web: { disableImportExportTransform: true }\n    }\n],\n```\n",
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      }
+    },
+    "4.0.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/babel-preset-expo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/babel-preset-expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-4.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-4.0.0.tgz",
+        "shasum" : "5a87e427d4e3d6384e30a3d5f25d99a990980cb3"
+      },
+      "dependencies" : {
+        "babel-plugin-module-resolver" : "^2.7.1",
+        "babel-plugin-transform-decorators-legacy" : "^1.3.4",
+        "babel-plugin-transform-exponentiation-operator" : "^6.24.1",
+        "babel-plugin-transform-export-extensions" : "^6.22.0",
+        "babel-preset-react-native" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.26.0",
+        "jest" : "^21.2.1"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "dave@expo.io",
+        "name" : "davepack"
+      }, {
+        "email" : "abimanyuraja@gmail.com",
+        "name" : "abi"
+      }, {
+        "email" : "jesse@sixfivezero.net",
+        "name" : "jesseruder"
+      }, {
+        "email" : "ben@exp.host",
+        "name" : "terribleben"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "adam.n.perry@gmail.com",
+        "name" : "dikaiosune"
+      }, {
+        "email" : "s.nikhilesh@gmail.com",
+        "name" : "nikki93"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "adam@sk3vy.com",
+        "name" : "skevy"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "exponent.team@gmail.com",
+        "name" : "expoadmin"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ide",
+        "email" : "ide+npm@jameside.com"
+      },
+      "_id" : "babel-preset-expo@4.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo-4.0.0.tgz_1507058387734_0.5669411073904485"
+      },
+      "jest" : {
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "8.6.0"
+    },
+    "3.0.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/babel-preset-expo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/babel-preset-expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-3.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-3.0.0.tgz",
+        "shasum" : "b15abf298ae3187bb61180d41d8d4e60553d0972"
+      },
+      "dependencies" : {
+        "babel-plugin-module-resolver" : "^2.7.1",
+        "babel-plugin-transform-decorators-legacy" : "^1.3.4",
+        "babel-plugin-transform-exponentiation-operator" : "^6.24.1",
+        "babel-plugin-transform-export-extensions" : "^6.22.0",
+        "babel-preset-react-native" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.25.0",
+        "jest" : "^20.0.4"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "wilzh40@gmail.com",
+        "name" : "wilzh40"
+      }, {
+        "email" : "jesse@sixfivezero.net",
+        "name" : "jesseruder"
+      }, {
+        "email" : "ben@exp.host",
+        "name" : "terribleben"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "adam.n.perry@gmail.com",
+        "name" : "dikaiosune"
+      }, {
+        "email" : "s.nikhilesh@gmail.com",
+        "name" : "nikki93"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "adam@sk3vy.com",
+        "name" : "skevy"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "exponent.team@gmail.com",
+        "name" : "expoadmin"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.6.1",
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "babel-preset-expo@3.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo-3.0.0.tgz_1503074297317_0.8623529691249132"
+      },
+      "_shasum" : "b15abf298ae3187bb61180d41d8d4e60553d0972",
+      "jest" : {
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "8.2.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "8.2.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/babel-preset-expo"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-8.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-8.2.0.tgz",
+        "shasum" : "b056acedcd6dde3f353e898e3559fbab9faa8952"
+      },
+      "dependencies" : {
+        "@babel/plugin-proposal-decorators" : "^7.6.0",
+        "@babel/preset-env" : "^7.6.3",
+        "babel-plugin-module-resolver" : "^3.2.0",
+        "babel-plugin-react-native-web" : "^0.11.7",
+        "metro-react-native-babel-preset" : "^0.56.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.4",
+        "jest" : "^24.8.0"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "expo-web", "react-native", "react-native-web", "metro", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "bbarthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "charliecruzan@gmail.com",
+        "name" : "charliecruzan"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "exponent.team@gmail.com",
+        "name" : "exponent"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "hrutjes@gmail.com",
+        "name" : "ijzerenhein"
+      }, {
+        "email" : "jonathan@expo.io",
+        "name" : "jkhales"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "tc@expo.io",
+        "name" : "tcdavis"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      }, {
+        "email" : "wschurman@gmail.com",
+        "name" : "wschurman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmUser" : {
+        "name" : "brentvatne",
+        "email" : "brentvatne@gmail.com"
+      },
+      "_id" : "babel-preset-expo@8.2.0",
+      "gitHead" : "d0ab2ab84b3aa64c69575167b0e59b8ab44c85eb",
+      "deprecated" : "8.2.0 is missing some files and has been fixed in 8.2.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_8.2.0_1590004131907_0.5787686079411065"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      }
+    },
+    "8.1.1" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "8.1.1",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/babel-preset-expo"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-8.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-8.1.1.tgz",
+        "shasum" : "7b6bd561ee598197c7f49572c85f3f45df94d57e"
+      },
+      "dependencies" : {
+        "@babel/plugin-proposal-decorators" : "^7.6.0",
+        "@babel/preset-env" : "^7.6.3",
+        "babel-plugin-module-resolver" : "^3.2.0",
+        "babel-plugin-react-native-web" : "^0.11.7",
+        "metro-react-native-babel-preset" : "^0.56.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.4",
+        "jest" : "^25.2.0"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "expo-web", "react-native", "react-native-web", "metro", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "bbarthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "charliecruzan@gmail.com",
+        "name" : "charliecruzan"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "exponent.team@gmail.com",
+        "name" : "exponent"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "hrutjes@gmail.com",
+        "name" : "ijzerenhein"
+      }, {
+        "email" : "jonathan@expo.io",
+        "name" : "jkhales"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "tc@expo.io",
+        "name" : "tcdavis"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      }, {
+        "email" : "wschurman@gmail.com",
+        "name" : "wschurman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "ide",
+        "email" : "ide+npm@jameside.com"
+      },
+      "_id" : "babel-preset-expo@8.1.1",
+      "gitHead" : "3ad68bbd9847ebc8a55272c263b17d998a92f64f",
+      "deprecated" : "8.1.1 mistakenly contains the contents of 8.2.1; use that version instead",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_8.1.1_1590005246968_0.26804675791374755"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "8.2.1" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "8.2.1",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/babel-preset-expo"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-8.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-8.2.1.tgz",
+        "shasum" : "a5e20d67dc059b23aee57f093a5c05c7592e5e5a"
+      },
+      "dependencies" : {
+        "@babel/plugin-proposal-decorators" : "^7.6.0",
+        "@babel/preset-env" : "^7.6.3",
+        "babel-plugin-module-resolver" : "^3.2.0",
+        "babel-plugin-react-native-web" : "^0.11.7",
+        "metro-react-native-babel-preset" : "^0.56.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.4",
+        "jest" : "^25.2.0"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "expo-web", "react-native", "react-native-web", "metro", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "bbarthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "charliecruzan@gmail.com",
+        "name" : "charliecruzan"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "exponent.team@gmail.com",
+        "name" : "exponent"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "hrutjes@gmail.com",
+        "name" : "ijzerenhein"
+      }, {
+        "email" : "jonathan@expo.io",
+        "name" : "jkhales"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "tc@expo.io",
+        "name" : "tcdavis"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      }, {
+        "email" : "wschurman@gmail.com",
+        "name" : "wschurman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "ide",
+        "email" : "ide+npm@jameside.com"
+      },
+      "_id" : "babel-preset-expo@8.2.1",
+      "gitHead" : "3ad68bbd9847ebc8a55272c263b17d998a92f64f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_8.2.1_1590008335805_0.921839186721886"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "14.2.0"
+    },
+    "8.3.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "8.3.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/babel-preset-expo"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-8.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-8.3.0.tgz",
+        "shasum" : "d77065f6e079a64de6e6830e58770fdb9b3240fa"
+      },
+      "dependencies" : {
+        "@babel/plugin-proposal-decorators" : "^7.6.0",
+        "@babel/preset-env" : "^7.6.3",
+        "babel-plugin-module-resolver" : "^3.2.0",
+        "babel-plugin-react-native-web" : "~0.13.6",
+        "metro-react-native-babel-preset" : "~0.59.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.4",
+        "jest" : "^25.2.0"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "expo-web", "react-native", "react-native-web", "metro", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "bbarthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "me@bycedric.com",
+        "name" : "bycedric"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "charliecruzan@gmail.com",
+        "name" : "charliecruzan"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "exponent.team@gmail.com",
+        "name" : "exponent"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "hrutjes@gmail.com",
+        "name" : "ijzerenhein"
+      }, {
+        "email" : "jonathan@expo.io",
+        "name" : "jkhales"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "tc@expo.io",
+        "name" : "tcdavis"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      }, {
+        "email" : "wschurman@gmail.com",
+        "name" : "wschurman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmVersion" : "6.13.4",
+      "_npmUser" : {
+        "name" : "bbarthec",
+        "email" : "bartlomiejbukowski.b@gmail.com"
+      },
+      "_id" : "babel-preset-expo@8.3.0",
+      "gitHead" : "2196cebae55bda181ccceadec809942f51ee9e39",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_8.3.0_1597761349183_0.01740618879880218"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "readme" : "# babel-preset-expo\n\nThis preset extends the default React Native preset (`metro-react-native-babel-preset`) and adds support for decorators, tree-shaking web packages, and loading font icons with optional native dependencies if they're installed.\n\nYou can use this preset in any React Native project as a drop-in replacement for `metro-react-native-babel-preset`. If your project isn't using native font loading or web support then this preset will only add support for decorators with `@babel/plugin-proposal-decorators` - this is mostly used for supporting legacy community libraries.\n\nIf you start your **web** project with `@expo/webpack-config` or `expo start:web` and your project doesn't contain a `babel.config.js` or a `.babelrc` then it will default to using `babel-preset-expo` for loading.\n\nIf you have problems with the code in this repository, please file issues & bug reports\nat https://github.com/expo/expo. Thanks!\n\n## Expo Bundler Spec Compliance\n\nA bundler must follow these requirements if they are to be considered spec compliant for use with a **universal React** (Expo) project.\n\n### Babel Loader\n\nThe babel loading mechanism must include the following properties on its `caller`.\n\n#### platform\n\nA `platform` property denoting the target platform. If the `platform` is not defined, it will default to using `web` when the `bundler` is `webpack` -- this is temporary and will throw an error in the future.\n\n| Value     | Description             |\n| --------- | ----------------------- |\n| `ios`     | Runs on iOS devices     |\n| `android` | Runs on Android devices |\n| `web`     | Runs in web browsers    |\n\n#### bundler\n\nA `bundler` property denoting the name of the bundler that is being used to create the JavaScript bundle.\nIf the `bundler` is not defined, it will default to checking if a `babel-loader` is used, if so then `webpack` will be used, otherwise it will default to `metro`.\n\n| Value     | Description                      |\n| --------- | -------------------------------- |\n| `metro`   | Bundling with [Metro][metro]     |\n| `webpack` | Bundling with [Webpack][webpack] |\n\n[metro]: https://facebook.github.io/metro/\n[webpack]: https://webpack.js.org/\n\n## Options\n\n### [`lazyImports`](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy)\n\nChanges Babel's compiled `import` statements to be lazily evaluated when their imported bindings are used for the first time.\n\n_Note:_ this option has an effect only when the `disableImportExportTransform` option is set to `false`. On Android and iOS, `disableImportExportTransform` defaults to `false`, and on web it defaults to `true` to allow for tree shaking.\n\nThis can improve the initial load time of your app because evaluating dependencies up front is sometimes entirely un-necessary, particularly when the dependencies have no side effects.\n\nThe value of `lazyImports` has a few possible effects:\n\n- `null` - [metro-react-native-babel-preset](https://github.com/facebook/metro/tree/master/packages/metro-react-native-babel-preset) will handle it. (Learn more about it here: https://github.com/facebook/metro/commit/23e3503dde5f914f3e642ef214f508d0a699851d)\n\n- `false` - No lazy initialization of any imported module.\n\n- `true` - Lazy-init all imported modules except local imports (e.g., `./foo`), certain Expo packages that have side effects, and the two cases mentioned [here](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy).\n\n- `Array<string>` - [babel-plugin-transform-modules-commonjs](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy) will handle it.\n\n- `(string) => boolean` - [babel-plugin-transform-modules-commonjs](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy) will handle it.\n\n  If you choose to do this, you can also access the list of Expo packages that have side effects by using `const lazyImportsBlacklist = require('babel-preset-expo/lazy-imports-blacklist');` which returns a `Set`.\n\n**default:** `null`\n\n```js\n[\n    'babel-preset-expo',\n    {\n        lazyImports: true\n    }\n],\n```\n\n### `web.disableImportExportTransform`\n\nEnabling this option will allow your project to run with older JavaScript syntax (i.e. `module.exports`). This option will break tree shaking and increase your bundle size, but will eliminate the following error when `module.exports` is used:\n\n> `TypeError: Cannot assign to read only property 'exports' of object '#<Object>'`\n\n**default:** `false`\n\n```js\n[\n    'babel-preset-expo',\n    {\n        web: { disableImportExportTransform: true }\n    }\n],\n```\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "12.16.1"
+    },
+    "8.0.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "8.0.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/babel-preset-expo"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-8.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-8.0.0.tgz",
+        "shasum" : "08c042363189f2d871381f0d0dbf9644e9f67aea"
+      },
+      "dependencies" : {
+        "@babel/plugin-proposal-decorators" : "^7.6.0",
+        "@babel/preset-env" : "^7.6.3",
+        "babel-plugin-module-resolver" : "^3.2.0",
+        "babel-plugin-react-native-web" : "^0.11.7",
+        "metro-react-native-babel-preset" : "^0.56.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.4",
+        "jest" : "^24.8.0"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "expo-web", "react-native", "react-native-web", "metro", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "bbarthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "charliecruzan@gmail.com",
+        "name" : "charliecruzan"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "exponent.team@gmail.com",
+        "name" : "exponent"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "szymon.kapala@swmansion.com",
+        "name" : "szymon20000"
+      }, {
+        "email" : "tc@expo.io",
+        "name" : "tcdavis"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      }, {
+        "email" : "wojciech.lewicki@swmansion.com",
+        "name" : "wolewicki"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmUser" : {
+        "name" : "tsapeta",
+        "email" : "sapeta.tomasz@gmail.com"
+      },
+      "_id" : "babel-preset-expo@8.0.0",
+      "gitHead" : "bd8343719d83600fe938913173eefb0bb6a8bf60",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_8.0.0_1575286391473_0.10822338047354263"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      }
+    },
+    "8.1.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "8.1.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/babel-preset-expo"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-8.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-8.1.0.tgz",
+        "shasum" : "7dfdebe6dad80edd1901e0f733ca6a6cce2ad605"
+      },
+      "dependencies" : {
+        "@babel/plugin-proposal-decorators" : "^7.6.0",
+        "@babel/preset-env" : "^7.6.3",
+        "babel-plugin-module-resolver" : "^3.2.0",
+        "babel-plugin-react-native-web" : "^0.11.7",
+        "metro-react-native-babel-preset" : "^0.56.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.4",
+        "jest" : "^24.8.0"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "expo-web", "react-native", "react-native-web", "metro", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "bbarthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "charliecruzan@gmail.com",
+        "name" : "charliecruzan"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "exponent.team@gmail.com",
+        "name" : "exponent"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "tc@expo.io",
+        "name" : "tcdavis"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      }, {
+        "email" : "wschurman@gmail.com",
+        "name" : "wschurman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmUser" : {
+        "name" : "bbarthec",
+        "email" : "bartlomiejbukowski.b@gmail.com"
+      },
+      "_id" : "babel-preset-expo@8.1.0",
+      "gitHead" : "3ad68bbd9847ebc8a55272c263b17d998a92f64f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_8.1.0_1583243877037_0.6512675756637671"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# babel-preset-expo\n\nThis preset extends the default React Native preset (`metro-react-native-babel-preset`) and adds support for decorators, tree-shaking web packages, and loading font icons with optional native dependencies if they're installed.\n\nYou can use this preset in any React Native project as a drop-in replacement for `metro-react-native-babel-preset`. If your project isn't using native font loading or web support then this preset will only add support for decorators with `@babel/plugin-proposal-decorators` - this is mostly used for supporting legacy community libraries.\n\nIf you start your **web** project with `@expo/webpack-config` or `expo start:web` and your project doesn't contain a `babel.config.js` or a `.babelrc` then it will default to using `babel-preset-expo` for loading.\n\nIf you have problems with the code in this repository, please file issues & bug reports\nat https://github.com/expo/expo. Thanks!\n\n## Options\n\n### [`lazyImports`](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy)\n\nChanges Babel's compiled `import` statements to be lazily evaluated when their imported bindings are used for the first time.\n\n_Note:_ this option has an effect only when the `disableImportExportTransform` option is set to `false`. On Android and iOS, `disableImportExportTransform` defaults to `false`, and on web it defaults to `true` to allow for tree shaking.\n\nThis can improve the initial load time of your app because evaluating dependencies up front is sometimes entirely un-necessary, particularly when the dependencies have no side effects.\n\nThe value of `lazyImports` has a few possible effects:\n\n- `null` - [metro-react-native-babel-preset](https://github.com/facebook/metro/tree/master/packages/metro-react-native-babel-preset) will handle it. (Learn more about it here: https://github.com/facebook/metro/commit/23e3503dde5f914f3e642ef214f508d0a699851d)\n\n- `false` - No lazy initialization of any imported module.\n\n- `true` - Lazy-init all imported modules except local imports (e.g., `./foo`), certain Expo packages that have side effects, and the two cases mentioned [here](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy).\n\n- `Array<string>` - [babel-plugin-transform-modules-commonjs](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy) will handle it.\n\n- `(string) => boolean` - [babel-plugin-transform-modules-commonjs](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy) will handle it.\n\n  If you choose to do this, you can also access the list of Expo packages that have side effects by using `const lazyImportsBlacklist = require('babel-preset-expo/lazy-imports-blacklist');` which returns a `Set`.\n\n**default:** `null`\n\n```js\n[\n    'babel-preset-expo',\n    {\n        lazyImports: true\n    }\n],\n```\n\n### `web.disableImportExportTransform`\n\nEnabling this option will allow your project to run with older JavaScript syntax (i.e. `module.exports`). This option will break tree shaking and increase your bundle size, but will eliminate the following error when `module.exports` is used:\n\n> `TypeError: Cannot assign to read only property 'exports' of object '#<Object>'`\n\n**default:** `false`\n\n```js\n[\n    'babel-preset-expo',\n    {\n        web: { disableImportExportTransform: true }\n    }\n],\n```\n",
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      }
+    },
+    "2.0.0" : {
+      "name" : "babel-preset-expo",
+      "version" : "2.0.0",
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-2.0.0.tgz",
+        "shasum" : "8a34d34fe5b621c8a152bc9fc06567ff270d314b"
+      },
+      "dependencies" : {
+        "babel-plugin-module-resolver" : "2.5.0",
+        "babel-plugin-transform-decorators-legacy" : "1.3.4",
+        "babel-preset-react-native-stage-0" : "1.0.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "dikaiosune",
+        "email" : "adam.n.perry@gmail.com"
+      }, {
+        "name" : "expoadmin",
+        "email" : "exponent.team@gmail.com"
+      }, {
+        "name" : "skevy",
+        "email" : "adam@sk3vy.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.5.0",
+      "_npmUser" : {
+        "name" : "skevy",
+        "email" : "adam@sk3vy.com"
+      },
+      "_id" : "babel-preset-expo@2.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/babel-preset-expo-2.0.0.tgz_1495060823978_0.7264920708257705"
+      },
+      "_shasum" : "8a34d34fe5b621c8a152bc9fc06567ff270d314b",
+      "_nodeVersion" : "7.7.4"
+    },
+    "7.1.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "7.1.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/babel-preset-expo"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-7.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-7.1.0.tgz",
+        "shasum" : "d53ee28fa88c207ba12575f5c3f7753bcb01994e"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-proposal-decorators" : "^7.1.0",
+        "@babel/plugin-transform-modules-commonjs" : "^7.4.4",
+        "@babel/preset-env" : "^7.3.1",
+        "babel-plugin-module-resolver" : "^3.1.1",
+        "babel-plugin-react-native-web" : "^0.11.2",
+        "metro-react-native-babel-preset" : "^0.54.1"
+      },
+      "devDependencies" : {
+        "jest" : "^24.7.1"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "expo-web", "react-native", "react-native-web", "metro", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "bbarthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "charliecruzan@gmail.com",
+        "name" : "charliecruzan"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "exponent.team@gmail.com",
+        "name" : "exponent"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "szymon.kapala@swmansion.com",
+        "name" : "szymon20000"
+      }, {
+        "email" : "tc@expo.io",
+        "name" : "tcdavis"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "evanbacon",
+        "email" : "baconbrix@gmail.com"
+      },
+      "_id" : "babel-preset-expo@7.1.0",
+      "gitHead" : "4e13b3cb88d9205f14bee7764038ab2dd9ef1fbd",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_7.1.0_1571013947910_0.30795894446263605"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "5.0.0-rc.1" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "5.0.0-rc.1",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-5.0.0-rc.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-5.0.0-rc.1.tgz",
+        "shasum" : "374af2af74174d06a843fc3f194380c9bdb59871"
+      },
+      "dependencies" : {
+        "@babel/plugin-proposal-decorators" : "^7.1.0",
+        "babel-plugin-module-resolver" : "^3.1.1",
+        "metro-react-native-babel-preset" : "^0.49.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.0",
+        "jest" : "^23.6.0"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "jakub.ste@gmail.com",
+        "name" : "jakubste"
+      }, {
+        "email" : "jesseruder@gmail.com",
+        "name" : "jesseruder"
+      }, {
+        "email" : "s.nikhilesh@gmail.com",
+        "name" : "nikki93"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "ben@exp.host",
+        "name" : "terribleben"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "tsapeta",
+        "email" : "sapeta.tomasz@gmail.com"
+      },
+      "_id" : "babel-preset-expo@5.0.0-rc.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_5.0.0-rc.1_1540991600931_0.9010128790459446"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "readme" : "# babel-preset-expo\n\nIf you have problems with the code in this repository, please file issues & bug reports\nat https://github.com/expo/expo. Thanks!\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "7.0.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "7.0.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/babel-preset-expo"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-7.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-7.0.0.tgz",
+        "shasum" : "1d288e0efb17dcea84b0d30ce5f5ab99f781ae4a"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-proposal-decorators" : "^7.1.0",
+        "@babel/plugin-transform-modules-commonjs" : "^7.4.4",
+        "@babel/preset-env" : "^7.3.1",
+        "babel-plugin-module-resolver" : "^3.1.1",
+        "babel-plugin-react-native-web" : "^0.11.2",
+        "metro-react-native-babel-preset" : "^0.54.1"
+      },
+      "devDependencies" : {
+        "jest" : "^24.7.1"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "bbarthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "charliecruzan@gmail.com",
+        "name" : "charliecruzan"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "szymon.kapala@swmansion.com",
+        "name" : "szymon20000"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmUser" : {
+        "name" : "tsapeta",
+        "email" : "sapeta.tomasz@gmail.com"
+      },
+      "_id" : "babel-preset-expo@7.0.0",
+      "gitHead" : "4e13b3cb88d9205f14bee7764038ab2dd9ef1fbd",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_7.0.0_1568898186054_0.9977298218606405"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      }
+    },
+    "5.0.0-rc.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "5.0.0-rc.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-5.0.0-rc.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-5.0.0-rc.0.tgz",
+        "shasum" : "bd42a459890a5f00fae472104041689210477109"
+      },
+      "dependencies" : {
+        "@babel/plugin-proposal-decorators" : "^7.1.0",
+        "babel-plugin-module-resolver" : "^3.1.1"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.0",
+        "jest" : "^23.6.0"
+      },
+      "peerDependencies" : {
+        "metro-react-native-babel-preset" : "*"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "jakub.ste@gmail.com",
+        "name" : "jakubste"
+      }, {
+        "email" : "jesseruder@gmail.com",
+        "name" : "jesseruder"
+      }, {
+        "email" : "s.nikhilesh@gmail.com",
+        "name" : "nikki93"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "ben@exp.host",
+        "name" : "terribleben"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "sjchmiela",
+        "email" : "sjchmiela@gmail.com"
+      },
+      "_id" : "babel-preset-expo@5.0.0-rc.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_5.0.0-rc.0_1540842459335_0.763106237533012"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "readme" : "# babel-preset-expo\n\nIf you have problems with the code in this repository, please file issues & bug reports\nat https://github.com/expo/expo. Thanks!\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "8.2.2" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "8.2.2",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/babel-preset-expo"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-8.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-8.2.2.tgz",
+        "shasum" : "1eef1c539d2f6b9ca92ab974fcd75373cde38de7"
+      },
+      "dependencies" : {
+        "@babel/plugin-proposal-decorators" : "^7.6.0",
+        "@babel/preset-env" : "^7.6.3",
+        "babel-plugin-module-resolver" : "^3.2.0",
+        "babel-plugin-react-native-web" : "^0.11.7",
+        "metro-react-native-babel-preset" : "^0.58.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.4",
+        "jest" : "^25.2.0"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "expo-web", "react-native", "react-native-web", "metro", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "bbarthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "charliecruzan@gmail.com",
+        "name" : "charliecruzan"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "exponent.team@gmail.com",
+        "name" : "exponent"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "hrutjes@gmail.com",
+        "name" : "ijzerenhein"
+      }, {
+        "email" : "jonathan@expo.io",
+        "name" : "jkhales"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "tc@expo.io",
+        "name" : "tcdavis"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      }, {
+        "email" : "wschurman@gmail.com",
+        "name" : "wschurman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "tsapeta",
+        "email" : "sapeta.tomasz@gmail.com"
+      },
+      "_id" : "babel-preset-expo@8.2.2",
+      "gitHead" : "dfc7fdb9aee4ef6fa10a9693e3d0935a2d500ae2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_8.2.2_1590594698416_0.112151360104213"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "readme" : "# babel-preset-expo\n\nThis preset extends the default React Native preset (`metro-react-native-babel-preset`) and adds support for decorators, tree-shaking web packages, and loading font icons with optional native dependencies if they're installed.\n\nYou can use this preset in any React Native project as a drop-in replacement for `metro-react-native-babel-preset`. If your project isn't using native font loading or web support then this preset will only add support for decorators with `@babel/plugin-proposal-decorators` - this is mostly used for supporting legacy community libraries.\n\nIf you start your **web** project with `@expo/webpack-config` or `expo start:web` and your project doesn't contain a `babel.config.js` or a `.babelrc` then it will default to using `babel-preset-expo` for loading.\n\nIf you have problems with the code in this repository, please file issues & bug reports\nat https://github.com/expo/expo. Thanks!\n\n## Expo Bundler Spec Compliance\n\nA bundler must follow these requirements if they are to be considered spec compliant for use with a **universal React** (Expo) project.\n\n### Babel Loader\n\nThe babel loading mechanism must include the following properties on its `caller`.\n\n#### platform\n\nA `platform` property denoting the target platform. If the `platform` is not defined, it will default to using `web` when the `bundler` is `webpack` -- this is temporary and will throw an error in the future.\n\n| Value     | Description             |\n| --------- | ----------------------- |\n| `ios`     | Runs on iOS devices     |\n| `android` | Runs on Android devices |\n| `web`     | Runs in web browsers    |\n\n#### bundler\n\nA `bundler` property denoting the name of the bundler that is being used to create the JavaScript bundle.\nIf the `bundler` is not defined, it will default to checking if a `babel-loader` is used, if so then `webpack` will be used, otherwise it will default to `metro`.\n\n| Value     | Description                      |\n| --------- | -------------------------------- |\n| `metro`   | Bundling with [Metro][metro]     |\n| `webpack` | Bundling with [Webpack][webpack] |\n\n[metro]: https://facebook.github.io/metro/\n[webpack]: https://webpack.js.org/\n\n## Options\n\n### [`lazyImports`](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy)\n\nChanges Babel's compiled `import` statements to be lazily evaluated when their imported bindings are used for the first time.\n\n_Note:_ this option has an effect only when the `disableImportExportTransform` option is set to `false`. On Android and iOS, `disableImportExportTransform` defaults to `false`, and on web it defaults to `true` to allow for tree shaking.\n\nThis can improve the initial load time of your app because evaluating dependencies up front is sometimes entirely un-necessary, particularly when the dependencies have no side effects.\n\nThe value of `lazyImports` has a few possible effects:\n\n- `null` - [metro-react-native-babel-preset](https://github.com/facebook/metro/tree/master/packages/metro-react-native-babel-preset) will handle it. (Learn more about it here: https://github.com/facebook/metro/commit/23e3503dde5f914f3e642ef214f508d0a699851d)\n\n- `false` - No lazy initialization of any imported module.\n\n- `true` - Lazy-init all imported modules except local imports (e.g., `./foo`), certain Expo packages that have side effects, and the two cases mentioned [here](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy).\n\n- `Array<string>` - [babel-plugin-transform-modules-commonjs](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy) will handle it.\n\n- `(string) => boolean` - [babel-plugin-transform-modules-commonjs](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy) will handle it.\n\n  If you choose to do this, you can also access the list of Expo packages that have side effects by using `const lazyImportsBlacklist = require('babel-preset-expo/lazy-imports-blacklist');` which returns a `Set`.\n\n**default:** `null`\n\n```js\n[\n    'babel-preset-expo',\n    {\n        lazyImports: true\n    }\n],\n```\n\n### `web.disableImportExportTransform`\n\nEnabling this option will allow your project to run with older JavaScript syntax (i.e. `module.exports`). This option will break tree shaking and increase your bundle size, but will eliminate the following error when `module.exports` is used:\n\n> `TypeError: Cannot assign to read only property 'exports' of object '#<Object>'`\n\n**default:** `false`\n\n```js\n[\n    'babel-preset-expo',\n    {\n        web: { disableImportExportTransform: true }\n    }\n],\n```\n",
+      "readmeFilename" : "README.md",
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "14.3.0"
+    },
+    "8.2.3" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "8.2.3",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git",
+        "directory" : "packages/babel-preset-expo"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-8.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-8.2.3.tgz",
+        "shasum" : "0e2726f578287e1b0278674abc0933eba9a493e6"
+      },
+      "dependencies" : {
+        "@babel/plugin-proposal-decorators" : "^7.6.0",
+        "@babel/preset-env" : "^7.6.3",
+        "babel-plugin-module-resolver" : "^3.2.0",
+        "babel-plugin-react-native-web" : "^0.11.7",
+        "metro-react-native-babel-preset" : "^0.58.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.6.4",
+        "jest" : "^25.2.0"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "expo-web", "react-native", "react-native-web", "metro", "webpack" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "bbarthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "charliecruzan@gmail.com",
+        "name" : "charliecruzan"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "exponent.team@gmail.com",
+        "name" : "exponent"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "hrutjes@gmail.com",
+        "name" : "ijzerenhein"
+      }, {
+        "email" : "jonathan@expo.io",
+        "name" : "jkhales"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "tc@expo.io",
+        "name" : "tcdavis"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      }, {
+        "email" : "wschurman@gmail.com",
+        "name" : "wschurman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmVersion" : "6.14.4",
+      "_npmUser" : {
+        "name" : "tsapeta",
+        "email" : "sapeta.tomasz@gmail.com"
+      },
+      "_id" : "babel-preset-expo@8.2.3",
+      "gitHead" : "1bc594b4a2f5154c335bdb35f984710a766d9199",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_8.2.3_1590748814544_0.37557255884461416"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "14.3.0"
+    },
+    "3.0.0-alpha.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "3.0.0-alpha.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/babel-preset-expo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/babel-preset-expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-3.0.0-alpha.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-3.0.0-alpha.0.tgz",
+        "shasum" : "e19640ebf0c9e2c15f0380d85d05d3b76ea74afa"
+      },
+      "dependencies" : {
+        "babel-plugin-module-resolver" : "^2.7.1",
+        "babel-plugin-transform-decorators-legacy" : "^1.3.4",
+        "babel-plugin-transform-exponentiation-operator" : "^6.24.1",
+        "babel-plugin-transform-export-extensions" : "^6.22.0",
+        "babel-preset-react-native" : "^2.1.0"
+      },
+      "devDependencies" : {
+        "babel-core" : "^6.25.0",
+        "jest" : "^20.0.4"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "wilzh40@gmail.com",
+        "name" : "wilzh40"
+      }, {
+        "email" : "jesse@sixfivezero.net",
+        "name" : "jesseruder"
+      }, {
+        "email" : "ben@exp.host",
+        "name" : "terribleben"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "adam.n.perry@gmail.com",
+        "name" : "dikaiosune"
+      }, {
+        "email" : "s.nikhilesh@gmail.com",
+        "name" : "nikki93"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "adam@sk3vy.com",
+        "name" : "skevy"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "exponent.team@gmail.com",
+        "name" : "expoadmin"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "jest"
+      },
+      "_npmVersion" : "5.3.0",
+      "_npmUser" : {
+        "name" : "ide",
+        "email" : "ide+npm@jameside.com"
+      },
+      "_id" : "babel-preset-expo@3.0.0-alpha.0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo-3.0.0-alpha.0.tgz_1501793924327_0.8796622585505247"
+      },
+      "jest" : {
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "8.2.1"
+    },
+    "6.0.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "6.0.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-6.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-6.0.0.tgz",
+        "shasum" : "acc4eb8343a2f703d5808916c051a6caefde8778"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-proposal-decorators" : "^7.1.0",
+        "@babel/plugin-transform-modules-commonjs" : "^7.4.4",
+        "@babel/preset-env" : "^7.3.1",
+        "babel-plugin-module-resolver" : "^3.1.1",
+        "babel-plugin-react-native-web" : "^0.11.2",
+        "metro-react-native-babel-preset" : "^0.51.1"
+      },
+      "devDependencies" : {
+        "jest" : "^24.7.1"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "czernekmichal@gmail.com",
+        "name" : "mczernek"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "ide",
+        "email" : "ide+npm@jameside.com"
+      },
+      "_id" : "babel-preset-expo@6.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_6.0.0_1563935555808_0.27434352119248917"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "10.16.0"
+    },
+    "2.0.0-rc.0" : {
+      "name" : "babel-preset-expo",
+      "version" : "2.0.0-rc.0",
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-2.0.0-rc.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-2.0.0-rc.0.tgz",
+        "shasum" : "6d5e7ed39de336aa1875bc4c68b39dc714a7c2a8"
+      },
+      "dependencies" : {
+        "babel-plugin-module-resolver" : "2.5.0",
+        "babel-plugin-transform-decorators-legacy" : "1.3.4",
+        "babel-preset-react-native-stage-0" : "1.0.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "dikaiosune",
+        "email" : "adam.n.perry@gmail.com"
+      }, {
+        "name" : "expoadmin",
+        "email" : "exponent.team@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "expoadmin",
+        "email" : "exponent.team@gmail.com"
+      },
+      "_id" : "babel-preset-expo@2.0.0-rc.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/babel-preset-expo-2.0.0-rc.0.tgz_1494461441246_0.22831015544943511"
+      },
+      "_shasum" : "6d5e7ed39de336aa1875bc4c68b39dc714a7c2a8",
+      "_nodeVersion" : "7.7.1"
+    },
+    "5.0.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "5.0.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-5.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-5.0.0.tgz",
+        "shasum" : "d1569579c7326391d589b031ed688061f959e378"
+      },
+      "dependencies" : {
+        "@babel/plugin-proposal-decorators" : "^7.1.0",
+        "babel-plugin-module-resolver" : "^3.1.1",
+        "metro-react-native-babel-preset" : "^0.49.0"
+      },
+      "devDependencies" : {
+        "@babel/core" : "^7.1.0",
+        "jest" : "^23.6.0"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "jakub.ste@gmail.com",
+        "name" : "jakubste"
+      }, {
+        "email" : "jesseruder@gmail.com",
+        "name" : "jesseruder"
+      }, {
+        "email" : "s.nikhilesh@gmail.com",
+        "name" : "nikki93"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "ben@exp.host",
+        "name" : "terribleben"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "tsapeta",
+        "email" : "sapeta.tomasz@gmail.com"
+      },
+      "_id" : "babel-preset-expo@5.0.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_5.0.0_1541011731977_0.022585499357909766"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "5.1.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "5.1.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-5.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-5.1.0.tgz",
+        "shasum" : "8d64a86f8245439de7e2b37f75e098edff1d76fc"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-proposal-decorators" : "^7.1.0",
+        "@babel/preset-env" : "^7.3.1",
+        "babel-plugin-module-resolver" : "^3.1.1",
+        "babel-plugin-react-native-web" : "^0.9.6",
+        "metro-react-native-babel-preset" : "^0.49.0"
+      },
+      "devDependencies" : {
+        "jest" : "^23.6.0"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "barthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "janicduplessis@gmail.com",
+        "name" : "janicduplessis"
+      }, {
+        "email" : "jesseruder@gmail.com",
+        "name" : "jesseruder"
+      }, {
+        "email" : "s.nikhilesh@gmail.com",
+        "name" : "nikki93"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "ben@exp.host",
+        "name" : "terribleben"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "evanbacon",
+        "email" : "baconbrix@gmail.com"
+      },
+      "_id" : "babel-preset-expo@5.1.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_5.1.0_1552702039989_0.20905207873744813"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "5.1.1" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "5.1.1",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-5.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-5.1.1.tgz",
+        "shasum" : "2fb9e14013ee872b1716d857e3c583981a47e3b9"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-proposal-decorators" : "^7.1.0",
+        "@babel/preset-env" : "^7.3.1",
+        "babel-plugin-module-resolver" : "^3.1.1",
+        "babel-plugin-react-native-web" : "^0.9.6",
+        "metro-react-native-babel-preset" : "^0.49.0"
+      },
+      "devDependencies" : {
+        "jest" : "^23.6.0"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bartlomiejbukowski.b@gmail.com",
+        "name" : "barthec"
+      }, {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "dominiksokal@gmail.com",
+        "name" : "dsokal"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "janicduplessis@gmail.com",
+        "name" : "janicduplessis"
+      }, {
+        "email" : "jesseruder@gmail.com",
+        "name" : "jesseruder"
+      }, {
+        "email" : "s.nikhilesh@gmail.com",
+        "name" : "nikki93"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      }, {
+        "email" : "sjchmiela@gmail.com",
+        "name" : "sjchmiela"
+      }, {
+        "email" : "ben@exp.host",
+        "name" : "terribleben"
+      }, {
+        "email" : "sapeta.tomasz@gmail.com",
+        "name" : "tsapeta"
+      }, {
+        "email" : "wojciech.kozyra@swmansion.com",
+        "name" : "wkozyra"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "evanbacon",
+        "email" : "baconbrix@gmail.com"
+      },
+      "_id" : "babel-preset-expo@5.1.1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_5.1.1_1552709304529_0.3309007460624207"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "10.12.0"
+    },
+    "5.2.0" : {
+      "name" : "babel-preset-expo",
+      "description" : "The Babel preset for Expo projects",
+      "version" : "5.2.0",
+      "author" : {
+        "name" : "Expo",
+        "email" : "support@expo.io"
+      },
+      "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/expo/expo.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/expo/expo/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-5.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-5.2.0.tgz",
+        "shasum" : "37f466e65c29ab518d91d04c299d84cef07590d2"
+      },
+      "dependencies" : {
+        "@babel/core" : "^7.1.0",
+        "@babel/plugin-proposal-decorators" : "^7.1.0",
+        "@babel/plugin-transform-modules-commonjs" : "^7.4.4",
+        "@babel/preset-env" : "^7.3.1",
+        "babel-plugin-module-resolver" : "^3.1.1",
+        "babel-plugin-react-native-web" : "^0.11.2",
+        "metro-react-native-babel-preset" : "^0.51.1"
+      },
+      "devDependencies" : {
+        "jest" : "^24.7.1"
+      },
+      "keywords" : [ "babel", "babel-preset", "expo", "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "brentvatne@gmail.com",
+        "name" : "brentvatne"
+      }, {
+        "email" : "ccheever@gmail.com",
+        "name" : "ccheever"
+      }, {
+        "email" : "eric@expo.io",
+        "name" : "esamelson"
+      }, {
+        "email" : "baconbrix@gmail.com",
+        "name" : "evanbacon"
+      }, {
+        "email" : "support@expo.io",
+        "name" : "expoadmin"
+      }, {
+        "email" : "ville.immonen@iki.fi",
+        "name" : "fson"
+      }, {
+        "email" : "ide+npm@jameside.com",
+        "name" : "ide"
+      }, {
+        "email" : "quinlanjung@gmail.com",
+        "name" : "quinlanj"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "jest" : "jest",
+        "lint" : "eslint .",
+        "test" : "jest --watch"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "evanbacon",
+        "email" : "baconbrix@gmail.com"
+      },
+      "_id" : "babel-preset-expo@5.2.0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel-preset-expo_5.2.0_1560285281835_0.33270021442143216"
+      },
+      "eslintConfig" : {
+        "extends" : "universe/node"
+      },
+      "jest" : {
+        "testEnvironment" : "node",
+        "testPathIgnorePatterns" : [ "<rootDir>/node_modules/", "<rootDir>/__tests__/samples/" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "1.0.0" : {
+      "name" : "babel-preset-expo",
+      "version" : "1.0.0",
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-1.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-1.0.0.tgz",
+        "shasum" : "67771daddcdfcb4b7882a08425f1b9fa6b783056"
+      },
+      "dependencies" : {
+        "babel-plugin-module-resolver" : "^2.3.0",
+        "babel-plugin-transform-decorators-legacy" : "^1.3.4",
+        "babel-preset-react-native-stage-0" : "^1.0.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "expo",
+        "email" : "exponent.team@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.0.2",
+      "_npmUser" : {
+        "name" : "expo",
+        "email" : "exponent.team@gmail.com"
+      },
+      "_id" : "babel-preset-expo@1.0.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/babel-preset-expo-1.0.0.tgz_1488584391528_0.6636067177169025"
+      },
+      "_shasum" : "67771daddcdfcb4b7882a08425f1b9fa6b783056",
+      "_nodeVersion" : "7.1.0"
+    },
+    "1.0.1" : {
+      "name" : "babel-preset-expo",
+      "version" : "1.0.1",
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/babel-preset-expo/-/babel-preset-expo-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fbabel-preset-expo%2F-%2Fbabel-preset-expo-1.0.1.tgz",
+        "shasum" : "94d82bb33abf35bddb1a6878eb901bbf4c54a48c"
+      },
+      "dependencies" : {
+        "babel-plugin-module-resolver" : "2.5.0",
+        "babel-plugin-transform-decorators-legacy" : "1.3.4",
+        "babel-preset-react-native-stage-0" : "1.0.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "expoadmin",
+        "email" : "exponent.team@gmail.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "4.1.2",
+      "_npmUser" : {
+        "name" : "expoadmin",
+        "email" : "exponent.team@gmail.com"
+      },
+      "_id" : "babel-preset-expo@1.0.1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-18-east.internal.npmjs.com",
+        "tmp" : "tmp/babel-preset-expo-1.0.1.tgz_1490806839345_0.8200421649962664"
+      },
+      "_shasum" : "94d82bb33abf35bddb1a6878eb901bbf4c54a48c",
+      "_nodeVersion" : "7.7.1"
+    }
+  },
+  "readme" : "# babel-preset-expo\n\nThis preset extends the default React Native preset (`metro-react-native-babel-preset`) and adds support for decorators, tree-shaking web packages, and loading font icons with optional native dependencies if they're installed.\n\nYou can use this preset in any React Native project as a drop-in replacement for `metro-react-native-babel-preset`. If your project isn't using native font loading or web support then this preset will only add support for decorators with `@babel/plugin-proposal-decorators` - this is mostly used for supporting legacy community libraries.\n\nIf you start your **web** project with `@expo/webpack-config` or `expo start:web` and your project doesn't contain a `babel.config.js` or a `.babelrc` then it will default to using `babel-preset-expo` for loading.\n\nIf you have problems with the code in this repository, please file issues & bug reports\nat https://github.com/expo/expo. Thanks!\n\n## Expo Bundler Spec Compliance\n\nA bundler must follow these requirements if they are to be considered spec compliant for use with a **universal React** (Expo) project.\n\n### Babel Loader\n\nThe babel loading mechanism must include the following properties on its `caller`.\n\n#### platform\n\nA `platform` property denoting the target platform. If the `platform` is not defined, it will default to using `web` when the `bundler` is `webpack` -- this is temporary and will throw an error in the future.\n\n| Value     | Description             |\n| --------- | ----------------------- |\n| `ios`     | Runs on iOS devices     |\n| `android` | Runs on Android devices |\n| `web`     | Runs in web browsers    |\n\n#### bundler\n\nA `bundler` property denoting the name of the bundler that is being used to create the JavaScript bundle.\nIf the `bundler` is not defined, it will default to checking if a `babel-loader` is used, if so then `webpack` will be used, otherwise it will default to `metro`.\n\n| Value     | Description                      |\n| --------- | -------------------------------- |\n| `metro`   | Bundling with [Metro][metro]     |\n| `webpack` | Bundling with [Webpack][webpack] |\n\n[metro]: https://facebook.github.io/metro/\n[webpack]: https://webpack.js.org/\n\n## Options\n\n### [`lazyImports`](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy)\n\nChanges Babel's compiled `import` statements to be lazily evaluated when their imported bindings are used for the first time.\n\n_Note:_ this option has an effect only when the `disableImportExportTransform` option is set to `false`. On Android and iOS, `disableImportExportTransform` defaults to `false`, and on web it defaults to `true` to allow for tree shaking.\n\nThis can improve the initial load time of your app because evaluating dependencies up front is sometimes entirely un-necessary, particularly when the dependencies have no side effects.\n\nThe value of `lazyImports` has a few possible effects:\n\n- `null` - [metro-react-native-babel-preset](https://github.com/facebook/metro/tree/master/packages/metro-react-native-babel-preset) will handle it. (Learn more about it here: https://github.com/facebook/metro/commit/23e3503dde5f914f3e642ef214f508d0a699851d)\n\n- `false` - No lazy initialization of any imported module.\n\n- `true` - Lazy-init all imported modules except local imports (e.g., `./foo`), certain Expo packages that have side effects, and the two cases mentioned [here](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy).\n\n- `Array<string>` - [babel-plugin-transform-modules-commonjs](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy) will handle it.\n\n- `(string) => boolean` - [babel-plugin-transform-modules-commonjs](https://babeljs.io/docs/en/babel-plugin-transform-modules-commonjs#lazy) will handle it.\n\n  If you choose to do this, you can also access the list of Expo packages that have side effects by using `const lazyImportsBlacklist = require('babel-preset-expo/lazy-imports-blacklist');` which returns a `Set`.\n\n**default:** `null`\n\n```js\n[\n    'babel-preset-expo',\n    {\n        lazyImports: true\n    }\n],\n```\n\n### `web.disableImportExportTransform`\n\nEnabling this option will allow your project to run with older JavaScript syntax (i.e. `module.exports`). This option will break tree shaking and increase your bundle size, but will eliminate the following error when `module.exports` is used:\n\n> `TypeError: Cannot assign to read only property 'exports' of object '#<Object>'`\n\n**default:** `false`\n\n```js\n[\n    'babel-preset-expo',\n    {\n        web: { disableImportExportTransform: true }\n    }\n],\n```\n",
+  "maintainers" : [ {
+    "email" : "bartlomiejbukowski.b@gmail.com",
+    "name" : "bbarthec"
+  }, {
+    "email" : "brentvatne@gmail.com",
+    "name" : "brentvatne"
+  }, {
+    "email" : "me@bycedric.com",
+    "name" : "bycedric"
+  }, {
+    "email" : "ccheever@gmail.com",
+    "name" : "ccheever"
+  }, {
+    "email" : "charliecruzan@gmail.com",
+    "name" : "charliecruzan"
+  }, {
+    "email" : "dominiksokal@gmail.com",
+    "name" : "dsokal"
+  }, {
+    "email" : "eric@expo.io",
+    "name" : "esamelson"
+  }, {
+    "email" : "baconbrix@gmail.com",
+    "name" : "evanbacon"
+  }, {
+    "email" : "support@expo.io",
+    "name" : "expoadmin"
+  }, {
+    "email" : "exponent.team@gmail.com",
+    "name" : "exponent"
+  }, {
+    "email" : "ville.immonen@iki.fi",
+    "name" : "fson"
+  }, {
+    "email" : "ide+npm@jameside.com",
+    "name" : "ide"
+  }, {
+    "email" : "hrutjes@gmail.com",
+    "name" : "ijzerenhein"
+  }, {
+    "email" : "jonathan@expo.io",
+    "name" : "jkhales"
+  }, {
+    "email" : "czernekmichal@gmail.com",
+    "name" : "mczernek"
+  }, {
+    "email" : "quinlanjung@gmail.com",
+    "name" : "quinlanj"
+  }, {
+    "email" : "sjchmiela@gmail.com",
+    "name" : "sjchmiela"
+  }, {
+    "email" : "tc@expo.io",
+    "name" : "tcdavis"
+  }, {
+    "email" : "sapeta.tomasz@gmail.com",
+    "name" : "tsapeta"
+  }, {
+    "email" : "wojciech.kozyra@swmansion.com",
+    "name" : "wkozyra"
+  }, {
+    "email" : "wschurman@gmail.com",
+    "name" : "wschurman"
+  } ],
+  "author" : {
+    "name" : "Expo",
+    "email" : "support@expo.io"
+  },
+  "time" : {
+    "7.0.0-rc.1" : "2019-09-17T15:39:09.304Z",
+    "7.0.0-rc.0" : "2019-09-14T07:34:10.445Z",
+    "4.0.0" : "2017-10-03T19:19:47.795Z",
+    "3.0.0" : "2017-08-18T16:38:17.483Z",
+    "8.2.0" : "2020-05-20T19:48:52.023Z",
+    "8.1.1" : "2020-05-20T20:07:27.087Z",
+    "8.2.1" : "2020-05-20T20:58:55.943Z",
+    "8.3.0" : "2020-08-18T14:35:49.288Z",
+    "8.0.0" : "2019-12-02T11:33:11.604Z",
+    "8.1.0" : "2020-03-03T13:57:57.151Z",
+    "modified" : "2020-08-18T14:35:51.605Z",
+    "2.0.0" : "2017-05-17T22:40:26.289Z",
+    "7.1.0" : "2019-10-14T00:45:48.049Z",
+    "created" : "2017-03-03T23:39:53.341Z",
+    "5.0.0-rc.1" : "2018-10-31T13:13:21.105Z",
+    "7.0.0" : "2019-09-19T13:03:06.196Z",
+    "5.0.0-rc.0" : "2018-10-29T19:47:39.447Z",
+    "8.2.2" : "2020-05-27T15:51:38.611Z",
+    "8.2.3" : "2020-05-29T10:40:14.718Z",
+    "2.0.1-alpha.1" : "2017-06-23T19:37:36.558Z",
+    "3.0.0-alpha.0" : "2017-08-03T20:58:44.441Z",
+    "6.0.0" : "2019-07-24T02:32:35.996Z",
+    "2.0.0-rc.0" : "2017-05-11T00:10:43.035Z",
+    "5.0.0" : "2018-10-31T18:48:52.186Z",
+    "5.1.0" : "2019-03-16T02:07:20.126Z",
+    "5.1.1" : "2019-03-16T04:08:24.795Z",
+    "5.2.0" : "2019-06-11T20:34:41.947Z",
+    "1.0.0" : "2017-03-03T23:39:53.341Z",
+    "1.0.1" : "2017-03-29T17:00:41.154Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/expo/expo.git",
+    "directory" : "packages/babel-preset-expo"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/expo/expo/tree/master/packages/babel-preset-expo#readme",
+  "keywords" : [ "babel", "babel-preset", "expo", "expo-web", "react-native", "react-native-web", "metro", "webpack" ],
+  "bugs" : {
+    "url" : "https://github.com/expo/expo/issues"
+  },
+  "license" : "MIT"
+}

@@ -1,0 +1,2407 @@
+{
+  "_id" : "emailjs-com",
+  "_rev" : "41-ef36628c416d602346d138f5f5bd5ed4",
+  "name" : "emailjs-com",
+  "description" : "Send emails using predefined templates and your private email account",
+  "dist-tags" : {
+    "latest" : "2.6.3"
+  },
+  "versions" : {
+    "1.4.7" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.4.7",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.4.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.4.7.tgz",
+        "shasum" : "2d670c1b5503ae613d67aa87e83f396c4c2c1966"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.4.7",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.4.7.tgz_1465296762089_0.10287187341600657"
+      },
+      "_shasum" : "2d670c1b5503ae613d67aa87e83f396c4c2c1966",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.5.6" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.6",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.6.tgz",
+        "shasum" : "d03cfa888d4cbb6bc079d13c387ee55b84c24a65"
+      },
+      "dependencies" : {
+        "request" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.6.tgz_1465374845378_0.9847104731015861"
+      },
+      "_shasum" : "d03cfa888d4cbb6bc079d13c387ee55b84c24a65",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.4.8" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.4.8",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.4.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.4.8.tgz",
+        "shasum" : "57e4a66f89cb3409d51727297d20503a52c42cd5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.4.8",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.4.8.tgz_1465298983511_0.7971538691781461"
+      },
+      "_shasum" : "57e4a66f89cb3409d51727297d20503a52c42cd5",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.5.7" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.7",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.7.tgz",
+        "shasum" : "cb78a3e390caac1356cb1d4841e61ad9097ce8f5"
+      },
+      "dependencies" : {
+        "request" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.7",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.7.tgz_1465375644184_0.9421140637714416"
+      },
+      "_shasum" : "cb78a3e390caac1356cb1d4841e61ad9097ce8f5",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.4.9" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.4.9",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.4.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.4.9.tgz",
+        "shasum" : "ebd47ce7abdaa4ed8913a0fad2d2e2ef99ae76d8"
+      },
+      "dependencies" : {
+        "promise" : "*",
+        "xmlhttprequest" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.4.9",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.4.9.tgz_1465299472164_0.3625845038332045"
+      },
+      "_shasum" : "ebd47ce7abdaa4ed8913a0fad2d2e2ef99ae76d8",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.5.8" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.8",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.8.tgz",
+        "shasum" : "0f9ff45ed8b6af1b07192fcdbbc5099afd37f723"
+      },
+      "dependencies" : {
+        "request" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.8",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.8.tgz_1465376985463_0.3556283691432327"
+      },
+      "_shasum" : "0f9ff45ed8b6af1b07192fcdbbc5099afd37f723",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.5.9" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.9",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.9.tgz",
+        "shasum" : "6945ddf7429c1a3459d8e5e10d55d265b5a2e693"
+      },
+      "dependencies" : {
+        "request" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.9",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.9.tgz_1465377057388_0.8619494226295501"
+      },
+      "_shasum" : "6945ddf7429c1a3459d8e5e10d55d265b5a2e693",
+      "_nodeVersion" : "4.2.1"
+    },
+    "2.0.0" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "dist/email.min.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.0.0.tgz",
+        "shasum" : "dc1ead230b9810b841e60d877638da02fae5c364"
+      },
+      "dependencies" : {
+        "promise-polyfill" : "7.1.0",
+        "whatwg-fetch" : "2.0.3"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.5",
+        "@types/jest" : "22.1.4",
+        "@types/node" : "9.4.6",
+        "browserify" : "15.2.0",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "3.0.0",
+        "gulp" : "github:gulpjs/gulp#4.0",
+        "gulp-concat" : "2.6.1",
+        "gulp-load-plugins" : "1.5.0",
+        "gulp-replace" : "0.6.1",
+        "gulp-sourcemaps" : "2.6.4",
+        "gulp-tslint" : "8.1.3",
+        "gulp-typescript" : "4.0.1",
+        "gulp-uglify" : "3.0.0",
+        "gulp-util" : "3.0.8",
+        "jest" : "22.4.2",
+        "ts-jest" : "22.4.1",
+        "ts-node" : "5.0.1",
+        "tsify" : "3.0.4",
+        "tslint" : "5.9.1",
+        "tslint-eslint-rules" : "5.1.0",
+        "typescript" : "2.7.2",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --config ./jest.conf.json",
+        "lint" : "gulp --gulpfile gulpfile.ts --cwd ./ test.lint"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.0.0",
+      "private" : false,
+      "gitHead" : "a7031ab12f51334a754365e8727aa001f8363a31",
+      "types" : "dist/email.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.0.0_1520450050261_0.1952157668942438"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "2.0.1" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.0.1",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "dist/email.min.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.0.1.tgz",
+        "shasum" : "9280b3cacce92a1bef62ca615d123744a55acc6b"
+      },
+      "dependencies" : {
+        "promise-polyfill" : "7.1.0"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.5",
+        "@types/jest" : "22.1.4",
+        "@types/node" : "9.4.6",
+        "browserify" : "15.2.0",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "3.0.0",
+        "gulp" : "github:gulpjs/gulp#4.0",
+        "gulp-concat" : "2.6.1",
+        "gulp-load-plugins" : "1.5.0",
+        "gulp-replace" : "0.6.1",
+        "gulp-sourcemaps" : "2.6.4",
+        "gulp-tslint" : "8.1.3",
+        "gulp-typescript" : "4.0.1",
+        "gulp-uglify" : "3.0.0",
+        "gulp-util" : "3.0.8",
+        "jest" : "22.4.2",
+        "ts-jest" : "22.4.1",
+        "ts-node" : "5.0.1",
+        "tsify" : "3.0.4",
+        "tslint" : "5.9.1",
+        "tslint-eslint-rules" : "5.1.0",
+        "typescript" : "2.7.2",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --config ./jest.conf.json",
+        "lint" : "gulp --gulpfile gulpfile.ts --cwd ./ test.lint"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.0.1",
+      "private" : false,
+      "gitHead" : "6ac44b6fdc1eb8d958695681e23b51badaa709b1",
+      "types" : "dist/email.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.0.1_1520495661661_0.3177285995222463"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "2.1.0" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "dist/email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.1.0.tgz",
+        "shasum" : "bc51be47927052bf02e6aa86b5e42aaae22ccc62"
+      },
+      "dependencies" : {
+        "promise-polyfill" : "7.1.0"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.5",
+        "@types/jest" : "22.1.4",
+        "@types/node" : "9.4.6",
+        "browserify" : "15.2.0",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "3.0.0",
+        "gulp" : "github:gulpjs/gulp#4.0",
+        "gulp-concat" : "2.6.1",
+        "gulp-load-plugins" : "1.5.0",
+        "gulp-rename" : "1.2.2",
+        "gulp-replace" : "0.6.1",
+        "gulp-sourcemaps" : "2.6.4",
+        "gulp-tslint" : "8.1.3",
+        "gulp-typescript" : "4.0.1",
+        "gulp-uglify" : "3.0.0",
+        "gulp-util" : "3.0.8",
+        "jest" : "22.4.2",
+        "ts-jest" : "22.4.1",
+        "ts-node" : "5.0.1",
+        "tsify" : "3.0.4",
+        "tslint" : "5.9.1",
+        "tslint-eslint-rules" : "5.1.0",
+        "typescript" : "2.7.2",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --config ./jest.conf.json",
+        "lint" : "gulp --gulpfile gulpfile.ts --cwd ./ test.lint"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.1.0",
+      "private" : false,
+      "gitHead" : "2022eaf7a517932710c7f8759573e462c94ca0c4",
+      "types" : "dist/email.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.1.0_1520633430178_0.23127301576825054"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "1.5.14" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.14",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.14.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.14.tgz",
+        "shasum" : "bd46aa883151088a40146cc2fdb8ab1bf9579b4c"
+      },
+      "dependencies" : {
+        "request" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.14",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.14.tgz_1465467533117_0.7832004569936544"
+      },
+      "_shasum" : "bd46aa883151088a40146cc2fdb8ab1bf9579b4c",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.5.11" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.11",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.11.tgz",
+        "shasum" : "79e8f20fd16528d4a51b0d4226a06d5d051e3c90"
+      },
+      "dependencies" : {
+        "request" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.11",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.11.tgz_1465391568474_0.8609559189062566"
+      },
+      "_shasum" : "79e8f20fd16528d4a51b0d4226a06d5d051e3c90",
+      "_nodeVersion" : "4.2.1"
+    },
+    "2.6.2" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.6.2",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "source/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.6.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.6.2.tgz",
+        "shasum" : "1688413af4cc3aa8b18364f42154d85f9d578f1c"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.6",
+        "@types/jest" : "26.0.5",
+        "@types/node" : "14.0.23",
+        "browserify" : "16.5.1",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "5.1.0",
+        "fancy-log" : "1.3.3",
+        "gulp" : "4.0.2",
+        "gulp-load-plugins" : "2.0.3",
+        "gulp-rename" : "2.0.0",
+        "gulp-replace" : "1.0.0",
+        "gulp-sourcemaps" : "2.6.5",
+        "gulp-typescript" : "6.0.0-alpha.1",
+        "gulp-uglify" : "3.0.2",
+        "jest" : "26.1.0",
+        "promise-polyfill" : "8.1.3",
+        "ts-jest" : "26.1.3",
+        "ts-node" : "8.10.2",
+        "tsify" : "4.0.2",
+        "tslint" : "6.1.2",
+        "tslint-eslint-rules" : "5.4.0",
+        "typescript" : "3.9.7",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "keywords" : [ "js email", "es6 email", "ts email", "javascript email", "typescript email", "emailjs", "email templates", "send email", "send email from js", "emailjs-com" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --forceExit --coverage --verbose --config ./jest.conf.json",
+        "tslint" : "tslint -c ./tslint.json -p ./tsconfig.json -t stylish"
+      },
+      "_npmVersion" : "6.13.6",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "sergey@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.6.2",
+      "private" : false,
+      "gitHead" : "b6e5f15f98573b9bcdd0c659fdda750ed703765e",
+      "types" : "source/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.6.2_1595263578262_0.6109529649420025"
+      },
+      "_nodeVersion" : "13.8.0"
+    },
+    "1.5.12" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.12",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.12.tgz",
+        "shasum" : "caadedbd816a94c12bc04f20fbc11b11d840e6cc"
+      },
+      "dependencies" : {
+        "request" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.12",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.12.tgz_1465461596116_0.6003948997240514"
+      },
+      "_shasum" : "caadedbd816a94c12bc04f20fbc11b11d840e6cc",
+      "_nodeVersion" : "4.2.1"
+    },
+    "2.6.3" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.6.3",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "source/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.6.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.6.3.tgz",
+        "shasum" : "881269588aac453a6f44a84b814922d52b8ec202"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.6",
+        "@types/jest" : "26.0.5",
+        "@types/node" : "14.0.23",
+        "browserify" : "16.5.1",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "5.1.0",
+        "fancy-log" : "1.3.3",
+        "gulp" : "4.0.2",
+        "gulp-load-plugins" : "2.0.3",
+        "gulp-rename" : "2.0.0",
+        "gulp-replace" : "1.0.0",
+        "gulp-sourcemaps" : "2.6.5",
+        "gulp-typescript" : "6.0.0-alpha.1",
+        "gulp-uglify" : "3.0.2",
+        "jest" : "26.1.0",
+        "promise-polyfill" : "8.1.3",
+        "ts-jest" : "26.1.3",
+        "ts-node" : "8.10.2",
+        "tsify" : "4.0.2",
+        "tslint" : "6.1.2",
+        "tslint-eslint-rules" : "5.4.0",
+        "typescript" : "3.9.7",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "keywords" : [ "js email", "es6 email", "ts email", "javascript email", "typescript email", "emailjs", "email templates", "send email", "send email from js", "emailjs-com" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --forceExit --coverage --verbose --config ./jest.conf.json",
+        "tslint" : "tslint -c ./tslint.json -p ./tsconfig.json -t stylish"
+      },
+      "_npmVersion" : "6.13.6",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "sergey@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.6.3",
+      "private" : false,
+      "gitHead" : "5440e1a6f6c22c7f58bc8ffb6f19b6559ec5a5ce",
+      "types" : "source/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.6.3_1595264811564_0.5128336517892322"
+      },
+      "_nodeVersion" : "13.8.0"
+    },
+    "2.2.4" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.2.4",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "source/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.2.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.2.4.tgz",
+        "shasum" : "0c5b1c3aeb9c4f3d3eedb64fd7d95ab108944a50"
+      },
+      "dependencies" : {
+        "promise-polyfill" : "7.1.0"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.5",
+        "@types/jest" : "23.1.0",
+        "@types/node" : "10.3.3",
+        "browserify" : "16.2.2",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "3.0.0",
+        "fancy-log" : "1.3.2",
+        "gulp" : "github:gulpjs/gulp#4.0",
+        "gulp-load-plugins" : "1.5.0",
+        "gulp-rename" : "1.3.0",
+        "gulp-replace" : "1.0.0",
+        "gulp-sourcemaps" : "2.6.4",
+        "gulp-tslint" : "8.1.3",
+        "gulp-typescript" : "4.0.1",
+        "gulp-uglify" : "3.0.0",
+        "jest" : "23.1.0",
+        "ts-jest" : "22.4.6",
+        "ts-node" : "6.1.1",
+        "tsify" : "4.0.0",
+        "tslint" : "5.10.0",
+        "tslint-eslint-rules" : "5.3.1",
+        "typescript" : "2.9.2",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --config ./jest.conf.json",
+        "lint" : "gulp --gulpfile gulpfile.ts --cwd ./ test.lint"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.2.4",
+      "private" : false,
+      "gitHead" : "262f6265f645fa3ca28f6e16bc9eb7045ed05e16",
+      "types" : "source/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.2.4_1529159092016_0.7061416849151363"
+      },
+      "_nodeVersion" : "9.11.2"
+    },
+    "1.5.10" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.10",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.10.tgz",
+        "shasum" : "78e347a0a2df10c2a537aa4e5d5a08ea189da7a2"
+      },
+      "dependencies" : {
+        "request" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.10",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.10.tgz_1465391302981_0.33795824903063476"
+      },
+      "_shasum" : "78e347a0a2df10c2a537aa4e5d5a08ea189da7a2",
+      "_nodeVersion" : "4.2.1"
+    },
+    "2.6.1" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.6.1",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "source/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.6.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.6.1.tgz",
+        "shasum" : "03c3b879a562df4dd5933f2ae1550037cef7475b"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.6",
+        "@types/jest" : "26.0.5",
+        "@types/node" : "14.0.23",
+        "browserify" : "16.5.1",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "5.1.0",
+        "fancy-log" : "1.3.3",
+        "gulp" : "4.0.2",
+        "gulp-load-plugins" : "2.0.3",
+        "gulp-rename" : "2.0.0",
+        "gulp-replace" : "1.0.0",
+        "gulp-sourcemaps" : "2.6.5",
+        "gulp-typescript" : "6.0.0-alpha.1",
+        "gulp-uglify" : "3.0.2",
+        "jest" : "26.1.0",
+        "promise-polyfill" : "8.1.3",
+        "ts-jest" : "26.1.3",
+        "ts-node" : "8.10.2",
+        "tsify" : "4.0.2",
+        "tslint" : "6.1.2",
+        "tslint-eslint-rules" : "5.4.0",
+        "typescript" : "3.9.7",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "keywords" : [ "js email", "es6 email", "ts email", "javascript email", "typescript email", "emailjs", "email templates", "send email", "send email from js", "emailjs-com" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --forceExit --coverage --verbose --config ./jest.conf.json",
+        "tslint" : "tslint -c ./tslint.json -p ./tsconfig.json -t stylish"
+      },
+      "_npmVersion" : "6.13.6",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "sergey@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.6.1",
+      "private" : false,
+      "gitHead" : "28947050c25748c63c2b12161a63dd214ee04c71",
+      "types" : "source/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.6.1_1595263341083_0.07733465728463518"
+      },
+      "_nodeVersion" : "13.8.0"
+    },
+    "2.2.2" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.2.2",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "source/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.2.2.tgz",
+        "shasum" : "e3584cd813d7b34f95624dcfd1fe2d6357379b11"
+      },
+      "dependencies" : {
+        "promise-polyfill" : "7.1.0"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.5",
+        "@types/jest" : "23.1.0",
+        "@types/node" : "10.3.3",
+        "browserify" : "16.2.2",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "3.0.0",
+        "fancy-log" : "1.3.2",
+        "gulp" : "github:gulpjs/gulp#4.0",
+        "gulp-load-plugins" : "1.5.0",
+        "gulp-rename" : "1.3.0",
+        "gulp-replace" : "1.0.0",
+        "gulp-sourcemaps" : "2.6.4",
+        "gulp-tslint" : "8.1.3",
+        "gulp-typescript" : "4.0.1",
+        "gulp-uglify" : "3.0.0",
+        "jest" : "23.1.0",
+        "ts-jest" : "22.4.6",
+        "ts-node" : "6.1.1",
+        "tsify" : "4.0.0",
+        "tslint" : "5.10.0",
+        "tslint-eslint-rules" : "5.3.1",
+        "typescript" : "2.9.2",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --config ./jest.conf.json",
+        "lint" : "gulp --gulpfile gulpfile.ts --cwd ./ test.lint"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.2.2",
+      "private" : false,
+      "gitHead" : "c196ba8aaa8e5fff8f253a1121036bd0ea99d18b",
+      "types" : "source/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.2.2_1529156673655_0.6886684596902535"
+      },
+      "_nodeVersion" : "9.11.2"
+    },
+    "2.3.1" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.3.1",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "source/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.3.1.tgz",
+        "shasum" : "a263e205804b465ecae30744af637acadfec97f9"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.5",
+        "@types/jest" : "23.3.9",
+        "@types/node" : "10.12.10",
+        "browserify" : "16.2.3",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "3.0.0",
+        "fancy-log" : "1.3.2",
+        "gulp" : "4.0.0",
+        "gulp-load-plugins" : "1.5.0",
+        "gulp-rename" : "1.4.0",
+        "gulp-replace" : "1.0.0",
+        "gulp-sourcemaps" : "2.6.4",
+        "gulp-tslint" : "8.1.3",
+        "gulp-typescript" : "5.0.0-alpha.3",
+        "gulp-uglify" : "3.0.1",
+        "jest" : "23.6.0",
+        "promise-polyfill" : "8.1.0",
+        "ts-jest" : "23.10.5",
+        "ts-node" : "7.0.1",
+        "tsify" : "4.0.0",
+        "tslint" : "5.11.0",
+        "tslint-eslint-rules" : "5.4.0",
+        "typescript" : "3.1.6",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "keywords" : [ "js email", "es6 email", "ts email", "javascript email", "typescript email", "emailjs", "email templates", "send email", "send email from js", "emailjs-com" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --config ./jest.conf.json",
+        "lint" : "gulp --gulpfile gulpfile.ts --cwd ./ test.lint"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.3.1",
+      "private" : false,
+      "gitHead" : "ec74d2fb3461c50197e2141fe58c81a307f85f86",
+      "types" : "source/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.3.1_1543181223815_0.773228854239842"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "2.4.0" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.4.0",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "source/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.4.0.tgz",
+        "shasum" : "16111a0912026523319fdde45435cb54a1f63130"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.6",
+        "@types/jest" : "24.0.11",
+        "@types/node" : "11.12.1",
+        "browserify" : "16.2.3",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "4.0.0",
+        "fancy-log" : "1.3.3",
+        "gulp" : "4.0.0",
+        "gulp-load-plugins" : "1.5.0",
+        "gulp-rename" : "1.4.0",
+        "gulp-replace" : "1.0.0",
+        "gulp-sourcemaps" : "2.6.5",
+        "gulp-typescript" : "5.0.1",
+        "gulp-uglify" : "3.0.2",
+        "jest" : "23.6.0",
+        "promise-polyfill" : "8.1.0",
+        "ts-jest" : "23.10.5",
+        "ts-node" : "8.0.3",
+        "tsify" : "4.0.1",
+        "tslint" : "5.14.0",
+        "tslint-eslint-rules" : "5.4.0",
+        "typescript" : "3.4.1",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "keywords" : [ "js email", "es6 email", "ts email", "javascript email", "typescript email", "emailjs", "email templates", "send email", "send email from js", "emailjs-com" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --forceExit --coverage --verbose --config ./jest.conf.json",
+        "tslint" : "tslint -c ./tslint.json -p ./tsconfig.json -t stylish"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "sergey@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.4.0",
+      "private" : false,
+      "gitHead" : "98c2a7102f1449e1a8f721014106032267848adb",
+      "types" : "source/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.4.0_1568654300946_0.09372863393935527"
+      },
+      "_nodeVersion" : "11.13.0"
+    },
+    "2.2.3" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.2.3",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "source/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.2.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.2.3.tgz",
+        "shasum" : "0a3748ab686d096fe99eedc1529eca883f7aae58"
+      },
+      "dependencies" : {
+        "promise-polyfill" : "7.1.0"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.5",
+        "@types/jest" : "23.1.0",
+        "@types/node" : "10.3.3",
+        "browserify" : "16.2.2",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "3.0.0",
+        "fancy-log" : "1.3.2",
+        "gulp" : "github:gulpjs/gulp#4.0",
+        "gulp-load-plugins" : "1.5.0",
+        "gulp-rename" : "1.3.0",
+        "gulp-replace" : "1.0.0",
+        "gulp-sourcemaps" : "2.6.4",
+        "gulp-tslint" : "8.1.3",
+        "gulp-typescript" : "4.0.1",
+        "gulp-uglify" : "3.0.0",
+        "jest" : "23.1.0",
+        "ts-jest" : "22.4.6",
+        "ts-node" : "6.1.1",
+        "tsify" : "4.0.0",
+        "tslint" : "5.10.0",
+        "tslint-eslint-rules" : "5.3.1",
+        "typescript" : "2.9.2",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --config ./jest.conf.json",
+        "lint" : "gulp --gulpfile gulpfile.ts --cwd ./ test.lint"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.2.3",
+      "private" : false,
+      "gitHead" : "fbfc338ec92efdcd9e4612d9ebee6ce8d28196ce",
+      "types" : "source/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.2.3_1529157200202_0.09122428846992148"
+      },
+      "_nodeVersion" : "9.11.2"
+    },
+    "2.3.2" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.3.2",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "source/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.3.2.tgz",
+        "shasum" : "5da57ff3c6a99b47193f5a1aeaebcb04d0188011"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.5",
+        "@types/jest" : "23.3.9",
+        "@types/node" : "10.12.10",
+        "browserify" : "16.2.3",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "3.0.0",
+        "fancy-log" : "1.3.2",
+        "gulp" : "4.0.0",
+        "gulp-load-plugins" : "1.5.0",
+        "gulp-rename" : "1.4.0",
+        "gulp-replace" : "1.0.0",
+        "gulp-sourcemaps" : "2.6.4",
+        "gulp-tslint" : "8.1.3",
+        "gulp-typescript" : "5.0.0-alpha.3",
+        "gulp-uglify" : "3.0.1",
+        "jest" : "23.6.0",
+        "promise-polyfill" : "8.1.0",
+        "ts-jest" : "23.10.5",
+        "ts-node" : "7.0.1",
+        "tsify" : "4.0.0",
+        "tslint" : "5.11.0",
+        "tslint-eslint-rules" : "5.4.0",
+        "typescript" : "3.1.6",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "keywords" : [ "js email", "es6 email", "ts email", "javascript email", "typescript email", "emailjs", "email templates", "send email", "send email from js", "emailjs-com" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --config ./jest.conf.json",
+        "lint" : "gulp --gulpfile gulpfile.ts --cwd ./ test.lint"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.3.2",
+      "private" : false,
+      "gitHead" : "45c54ca0034b9886f2ccb1afe5de4c8529338475",
+      "types" : "source/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.3.2_1543181442165_0.9232004025468075"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "2.4.1" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.4.1",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "source/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.4.1.tgz",
+        "shasum" : "a785b2c13a232714a0376938ecc13a1bfaad6e62"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.6",
+        "@types/jest" : "24.0.22",
+        "@types/node" : "12.12.7",
+        "browserify" : "16.5.0",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "5.1.0",
+        "fancy-log" : "1.3.3",
+        "gulp" : "4.0.2",
+        "gulp-load-plugins" : "2.0.1",
+        "gulp-rename" : "1.4.0",
+        "gulp-replace" : "1.0.0",
+        "gulp-sourcemaps" : "2.6.5",
+        "gulp-typescript" : "5.0.1",
+        "gulp-uglify" : "3.0.2",
+        "jest" : "24.9.0",
+        "promise-polyfill" : "8.1.3",
+        "ts-jest" : "24.1.0",
+        "ts-node" : "8.4.1",
+        "tsify" : "4.0.1",
+        "tslint" : "5.20.1",
+        "tslint-eslint-rules" : "5.4.0",
+        "typescript" : "3.7.2",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "keywords" : [ "js email", "es6 email", "ts email", "javascript email", "typescript email", "emailjs", "email templates", "send email", "send email from js", "emailjs-com" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --forceExit --coverage --verbose --config ./jest.conf.json",
+        "tslint" : "tslint -c ./tslint.json -p ./tsconfig.json -t stylish"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "sergey@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.4.1",
+      "private" : false,
+      "gitHead" : "e283631e0e941fcd76d5d23d268ab3bd2b16890e",
+      "types" : "source/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.4.1_1573462372200_0.6427624630793469"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "2.1.1" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.1.1",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "dist/email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.1.1.tgz",
+        "shasum" : "624d7e5fde226ca32fee83bd2453ca108efe51ba"
+      },
+      "dependencies" : {
+        "promise-polyfill" : "7.1.0"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.5",
+        "@types/jest" : "22.1.4",
+        "@types/node" : "9.4.6",
+        "browserify" : "15.2.0",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "3.0.0",
+        "gulp" : "github:gulpjs/gulp#4.0",
+        "gulp-concat" : "2.6.1",
+        "gulp-load-plugins" : "1.5.0",
+        "gulp-rename" : "1.2.2",
+        "gulp-replace" : "0.6.1",
+        "gulp-sourcemaps" : "2.6.4",
+        "gulp-tslint" : "8.1.3",
+        "gulp-typescript" : "4.0.1",
+        "gulp-uglify" : "3.0.0",
+        "gulp-util" : "3.0.8",
+        "jest" : "22.4.2",
+        "ts-jest" : "22.4.1",
+        "ts-node" : "5.0.1",
+        "tsify" : "3.0.4",
+        "tslint" : "5.9.1",
+        "tslint-eslint-rules" : "5.1.0",
+        "typescript" : "2.7.2",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --config ./jest.conf.json",
+        "lint" : "gulp --gulpfile gulpfile.ts --cwd ./ test.lint"
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.1.1",
+      "private" : false,
+      "gitHead" : "16caa44b8a2d762da6a9b0fffbb4c8f37c90c9cc",
+      "types" : "dist/email.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.1.1_1523395261674_0.6289450508967882"
+      },
+      "_nodeVersion" : "9.3.0"
+    },
+    "2.2.0" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "source/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.2.0.tgz",
+        "shasum" : "a7fe11cd3d32088c821986a7bf49dd5224f2f55a"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.5",
+        "@types/jest" : "23.1.0",
+        "@types/node" : "10.3.3",
+        "browserify" : "16.2.2",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "3.0.0",
+        "gulp" : "github:gulpjs/gulp#4.0",
+        "gulp-load-plugins" : "1.5.0",
+        "gulp-rename" : "1.3.0",
+        "gulp-replace" : "1.0.0",
+        "gulp-sourcemaps" : "2.6.4",
+        "gulp-tslint" : "8.1.3",
+        "gulp-typescript" : "4.0.1",
+        "gulp-uglify" : "3.0.0",
+        "gulp-util" : "3.0.8",
+        "jest" : "23.1.0",
+        "promise-polyfill" : "8.0.0",
+        "ts-jest" : "22.4.6",
+        "ts-node" : "6.1.1",
+        "tsify" : "4.0.0",
+        "tslint" : "5.10.0",
+        "tslint-eslint-rules" : "5.3.1",
+        "typescript" : "2.9.2",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --config ./jest.conf.json",
+        "lint" : "gulp --gulpfile gulpfile.ts --cwd ./ test.lint"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.2.0",
+      "private" : false,
+      "gitHead" : "bb24350bdfbd9f9afb59d3f37053206d6f6ca8af",
+      "types" : "source/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.2.0_1529153819726_0.18789079179948764"
+      },
+      "_nodeVersion" : "9.11.2"
+    },
+    "2.2.1" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "2.2.1",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "https://www.emailjs.com"
+      },
+      "homepage" : "https://www.emailjs.com",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Sergey Khomushin",
+        "email" : "xr0master@gmail.com",
+        "url" : "https://www.emailjs.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+      },
+      "main" : "source/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-2.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-2.2.1.tgz",
+        "shasum" : "f612a1474d7438b4b2981d59e68f8996a2af81e7"
+      },
+      "dependencies" : {
+        "promise-polyfill" : "8.0.0"
+      },
+      "devDependencies" : {
+        "@types/gulp" : "4.0.5",
+        "@types/jest" : "23.1.0",
+        "@types/node" : "10.3.3",
+        "browserify" : "16.2.2",
+        "browserify-istanbul" : "3.0.1",
+        "del" : "3.0.0",
+        "gulp" : "github:gulpjs/gulp#4.0",
+        "gulp-load-plugins" : "1.5.0",
+        "gulp-rename" : "1.3.0",
+        "gulp-replace" : "1.0.0",
+        "gulp-sourcemaps" : "2.6.4",
+        "gulp-tslint" : "8.1.3",
+        "gulp-typescript" : "4.0.1",
+        "gulp-uglify" : "3.0.0",
+        "gulp-util" : "3.0.8",
+        "jest" : "23.1.0",
+        "ts-jest" : "22.4.6",
+        "ts-node" : "6.1.1",
+        "tsify" : "4.0.0",
+        "tslint" : "5.10.0",
+        "tslint-eslint-rules" : "5.3.1",
+        "typescript" : "2.9.2",
+        "typescript-register" : "1.1.0",
+        "vinyl-buffer" : "1.0.1",
+        "vinyl-source-stream" : "2.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "gulp --gulpfile gulpfile.ts --cwd ./ build",
+        "release" : "gulp --gulpfile gulpfile.ts --cwd ./ build --release",
+        "test" : "node ./node_modules/jest/bin/jest --notify --config ./jest.conf.json",
+        "lint" : "gulp --gulpfile gulpfile.ts --cwd ./ test.lint"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@2.2.1",
+      "private" : false,
+      "gitHead" : "22501b54fe534c23bf4a04f922ee03ee157aa360",
+      "types" : "source/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/emailjs-com_2.2.1_1529155249407_0.756251436639376"
+      },
+      "_nodeVersion" : "9.11.2"
+    },
+    "1.4.0" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.4.0.tgz",
+        "shasum" : "415ba669e0e137d21fe19d24c086e303d15ccbae"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.4.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.4.0.tgz_1465291860599_0.626119218301028"
+      },
+      "_shasum" : "415ba669e0e137d21fe19d24c086e303d15ccbae",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.4.1" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.4.1",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.4.1.tgz",
+        "shasum" : "359c102cecb3a1e266e3a474fd4d089c40f2c176"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.4.1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.4.1.tgz_1465292358713_0.9246835145168006"
+      },
+      "_shasum" : "359c102cecb3a1e266e3a474fd4d089c40f2c176",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.5.0" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.0.tgz",
+        "shasum" : "f95fe536fdb9118da4ff4fad5c5cab173675a8cf"
+      },
+      "dependencies" : {
+        "xmlhttprequest" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.0",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.0.tgz_1465299950381_0.8805721479002386"
+      },
+      "_shasum" : "f95fe536fdb9118da4ff4fad5c5cab173675a8cf",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.4.2" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.4.2",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.4.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.4.2.tgz",
+        "shasum" : "14696fc06b3d2e274ce586931d71b048b304ab2a"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.4.2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.4.2.tgz_1465294594657_0.27450067456811666"
+      },
+      "_shasum" : "14696fc06b3d2e274ce586931d71b048b304ab2a",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.5.1" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.1",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.1.tgz",
+        "shasum" : "d4f34b5855f63b6d82d7566a2663cce274b4fecc"
+      },
+      "dependencies" : {
+        "xmlhttprequest" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.1",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.1.tgz_1465300906115_0.06570125324651599"
+      },
+      "_shasum" : "d4f34b5855f63b6d82d7566a2663cce274b4fecc",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.4.3" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.4.3",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.4.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.4.3.tgz",
+        "shasum" : "769069a823eea64379029e3a257cf6759ef6042b"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.4.3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.4.3.tgz_1465294855344_0.03065466834232211"
+      },
+      "_shasum" : "769069a823eea64379029e3a257cf6759ef6042b",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.5.2" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.2",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.2.tgz",
+        "shasum" : "54162d69b6bc9a7aa3bbb7aa0094ee777a0100b1"
+      },
+      "dependencies" : {
+        "xmlhttprequest" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.2",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.2.tgz_1465301388265_0.8037515599280596"
+      },
+      "_shasum" : "54162d69b6bc9a7aa3bbb7aa0094ee777a0100b1",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.4.4" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.4.4",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.4.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.4.4.tgz",
+        "shasum" : "023e2cdb88cea0aacf92441f23a4d31806ddbd37"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.4.4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.4.4.tgz_1465295405591_0.019506188575178385"
+      },
+      "_shasum" : "023e2cdb88cea0aacf92441f23a4d31806ddbd37",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.5.3" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.3",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.3.tgz",
+        "shasum" : "c0645cf34440d5761db882b3ce2fe8c61b70583a"
+      },
+      "dependencies" : {
+        "xmlhttprequest" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.3",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.3.tgz_1465302349988_0.7453675179276615"
+      },
+      "_shasum" : "c0645cf34440d5761db882b3ce2fe8c61b70583a",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.4.5" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.4.5",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.4.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.4.5.tgz",
+        "shasum" : "700db5ec57436426c43ac719bbf481d95dbfe170"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.4.5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.4.5.tgz_1465296114414_0.49777284311130643"
+      },
+      "_shasum" : "700db5ec57436426c43ac719bbf481d95dbfe170",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.5.4" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.4",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.4.tgz",
+        "shasum" : "c67439fbbe12059bacd6faa5d2c736ab3b2b0fcc"
+      },
+      "dependencies" : {
+        "xmlhttprequest" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.4",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.4.tgz_1465302437990_0.4132611386012286"
+      },
+      "_shasum" : "c67439fbbe12059bacd6faa5d2c736ab3b2b0fcc",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.4.6" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.4.6",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.4.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.4.6.tgz",
+        "shasum" : "4a049305434d1df5e6233b8180c6f668a3b2198f"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.4.6",
+      "_npmOperationalInternal" : {
+        "host" : "packages-16-east.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.4.6.tgz_1465296551781_0.5648822896182537"
+      },
+      "_shasum" : "4a049305434d1df5e6233b8180c6f668a3b2198f",
+      "_nodeVersion" : "4.2.1"
+    },
+    "1.5.5" : {
+      "name" : "emailjs-com",
+      "description" : "Send emails using predefined templates and your private email account",
+      "version" : "1.5.5",
+      "author" : {
+        "name" : "Amir Hirschhorm",
+        "email" : "amir@emailjs.com",
+        "url" : "http://emailjs.com"
+      },
+      "main" : "email.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/emailjs-com/-/emailjs-com-1.5.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Femailjs-com%2F-%2Femailjs-com-1.5.5.tgz",
+        "shasum" : "09f7e6e023243139ce65e197dbb09674e8f4ff5f"
+      },
+      "dependencies" : {
+        "request" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.5.3",
+      "_npmUser" : {
+        "name" : "emailjs",
+        "email" : "admin@emailjs.com"
+      },
+      "_id" : "emailjs-com@1.5.5",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/emailjs-com-1.5.5.tgz_1465373510961_0.023019464686512947"
+      },
+      "_shasum" : "09f7e6e023243139ce65e197dbb09674e8f4ff5f",
+      "_nodeVersion" : "4.2.1"
+    }
+  },
+  "readme" : "# EmailJS-COM\nSDK for [EmailJS.com](https://www.emailjs.com) users.\n\\\nUse you EmailJS account for sending emails.\n\n## Intro\nEmailJS helps sending emails using client side technologies only. No server is required – just connect EmailJS to one of the supported email services, create an email template, and use our Javascript library to trigger an email.\n\n## Quick Start\n\nInstall EmailJS SDK using [npm](https://www.npmjs.com/):\n\n``` bash\n$ npm install emailjs-com --save\n```\n\nUsing [bower](https://bower.io/):\n``` bash\n$ bower install emailjs-com --save\n```\n\nOr manually: \n\n``` html\n<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js'></script>\n<script type='text/javascript'>\n   (function(){\n      emailjs.init('<YOUR USER ID>');\n   })();\n</script>\n```\n\n## Documentation\n\nDocumentation is available at [https://www.emailjs.com/docs](https://www.emailjs.com/docs)\n\n## Examples\n\n__send email__\n\n``` js\nvar templateParams = {\n    name: 'James',\n    notes: 'Check this out!'\n};\n\nemailjs.send('<YOUR SERVICE ID>','<YOUR TEMPLATE ID>', templateParams)\n\t.then(function(response) {\n\t   console.log('SUCCESS!', response.status, response.text);\n\t}, function(err) {\n\t   console.log('FAILED...', err);\n\t});\n```\n\n__send form__\n\n``` js\nemailjs.sendForm('<YOUR SERVICE ID>','<YOUR TEMPLATE ID>', '#myForm')\n\t.then(function(response) {\n\t   console.log('SUCCESS!', response.status, response.text);\n\t}, function(err) {\n\t   console.log('FAILED...', err);\n\t});\n```\n\n__Angular X / VueJS / ReactJS__\n``` js\nimport emailjs from 'emailjs-com';\n\nconst templateParams = {\n    name: 'James',\n    notes: 'Check this out!'\n};\n\nemailjs.send('<YOUR SERVICE ID>','<YOUR TEMPLATE ID>', templateParams, '<YOUR USER ID>')\n\t.then((response) => {\n\t   console.log('SUCCESS!', response.status, response.text);\n\t}, (err) => {\n\t   console.log('FAILED...', err);\n\t});\n```\n\n## License\n\n[MIT](./LICENSE)\n",
+  "maintainers" : [ {
+    "name" : "emailjs",
+    "email" : "admin@emailjs.com"
+  } ],
+  "author" : {
+    "name" : "Amir Hirschhorm",
+    "email" : "amir@emailjs.com",
+    "url" : "https://www.emailjs.com"
+  },
+  "time" : {
+    "1.4.7" : "2016-06-07T10:52:43.989Z",
+    "1.5.6" : "2016-06-08T08:34:07.690Z",
+    "1.4.8" : "2016-06-07T11:29:45.394Z",
+    "1.5.7" : "2016-06-08T08:47:26.047Z",
+    "1.4.9" : "2016-06-07T11:37:54.437Z",
+    "1.5.8" : "2016-06-08T09:09:47.804Z",
+    "1.5.9" : "2016-06-08T09:10:59.434Z",
+    "modified" : "2020-07-20T17:06:54.289Z",
+    "2.0.0" : "2018-03-07T19:14:10.381Z",
+    "2.0.1" : "2018-03-08T07:54:21.803Z",
+    "2.1.0" : "2018-03-09T22:10:30.266Z",
+    "created" : "2016-06-07T09:31:02.581Z",
+    "1.5.14" : "2016-06-09T10:18:55.476Z",
+    "1.5.11" : "2016-06-08T13:12:50.607Z",
+    "2.6.2" : "2020-07-20T16:46:18.377Z",
+    "1.5.12" : "2016-06-09T08:39:58.686Z",
+    "2.6.3" : "2020-07-20T17:06:51.670Z",
+    "2.2.4" : "2018-06-16T14:24:52.070Z",
+    "1.5.10" : "2016-06-08T13:08:25.006Z",
+    "2.6.1" : "2020-07-20T16:42:21.242Z",
+    "2.2.2" : "2018-06-16T13:44:33.711Z",
+    "2.3.1" : "2018-11-25T21:27:03.972Z",
+    "2.4.0" : "2019-09-16T17:18:21.118Z",
+    "2.2.3" : "2018-06-16T13:53:20.259Z",
+    "2.3.2" : "2018-11-25T21:30:42.298Z",
+    "2.4.1" : "2019-11-11T08:52:52.364Z",
+    "2.1.1" : "2018-04-10T21:21:01.755Z",
+    "2.2.0" : "2018-06-16T12:56:59.821Z",
+    "2.2.1" : "2018-06-16T13:20:49.497Z",
+    "1.4.0" : "2016-06-07T09:31:02.581Z",
+    "1.4.1" : "2016-06-07T09:39:21.201Z",
+    "1.5.0" : "2016-06-07T11:45:52.223Z",
+    "1.4.2" : "2016-06-07T10:16:36.510Z",
+    "1.5.1" : "2016-06-07T12:01:48.019Z",
+    "1.4.3" : "2016-06-07T10:20:57.526Z",
+    "1.5.2" : "2016-06-07T12:09:50.247Z",
+    "1.4.4" : "2016-06-07T10:30:07.438Z",
+    "1.5.3" : "2016-06-07T12:25:52.071Z",
+    "1.4.5" : "2016-06-07T10:41:57.872Z",
+    "1.5.4" : "2016-06-07T12:27:19.859Z",
+    "1.4.6" : "2016-06-07T10:49:13.705Z",
+    "1.5.5" : "2016-06-08T08:11:53.093Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/emailjs-com/emailjs-sdk.git"
+  },
+  "users" : {
+    "juanf03" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://www.emailjs.com",
+  "keywords" : [ "js email", "es6 email", "ts email", "javascript email", "typescript email", "emailjs", "email templates", "send email", "send email from js", "emailjs-com" ],
+  "contributors" : [ {
+    "name" : "Sergey Khomushin",
+    "email" : "xr0master@gmail.com",
+    "url" : "https://www.emailjs.com"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/emailjs-com/emailjs-sdk/issues"
+  },
+  "license" : "MIT"
+}

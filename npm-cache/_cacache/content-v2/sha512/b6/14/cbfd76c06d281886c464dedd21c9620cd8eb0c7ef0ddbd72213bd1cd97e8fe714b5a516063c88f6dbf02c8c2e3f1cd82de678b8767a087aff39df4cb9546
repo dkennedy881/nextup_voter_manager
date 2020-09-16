@@ -1,0 +1,2736 @@
+{
+  "_id" : "mongodb-stitch-react-native-sdk",
+  "_rev" : "36-860925231129299bd364d8f32ab84749",
+  "name" : "mongodb-stitch-react-native-sdk",
+  "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+  "dist-tags" : {
+    "next" : "4.9.0",
+    "alpha" : "4.0.14-2",
+    "beta" : "4.0.15-beta-2.0",
+    "latest" : "4.8.0"
+  },
+  "versions" : {
+    "4.0.13" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.0.13",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.0.13.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.0.13.tgz",
+        "shasum" : "0b75decdb046d840e39833741f4a4ec245a385aa"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.0.13",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.0.13"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.0.13",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.0.13_1533241951575_0.714154128600913"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "4.0.14" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.0.14",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.0.14.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.0.14.tgz",
+        "shasum" : "230f4556e81855c151a25b494b894500c68b13dc"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.0.14",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.0.14"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.0.14",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.0.14_1539572752612_0.9479060308144531"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.11" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.0.11",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.0.11.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.0.11.tgz",
+        "shasum" : "8722a44590605dc2523e4c910a62211b88483d9c"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.0.11",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.0.11"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.0.11",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.0.11_1532722609287_0.8376340957426385"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "4.0.12" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.0.12",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.0.12.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.0.12.tgz",
+        "shasum" : "f54d0d93e8c3b48620b052cb62e1896021374e16"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.0.12",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.0.12"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "files" : [ "dist" ],
+      "maintainers" : [ {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.0.12",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.0.12_1532723042586_0.3193284851112057"
+      },
+      "_nodeVersion" : "9.11.1"
+    },
+    "4.1.1" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.1.1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.1.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.1.1.tgz",
+        "shasum" : "eced6daa9ffccccbe161c0a51e6b4b8d39df564b"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.1.1",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.1.1"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_from" : "file:mongodb-stitch-react-native-sdk-4.1.1.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dkaminsky",
+        "email" : "kaminsky@alumni.upenn.edu"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.1.1",
+      "gitHead" : "f6cfcb0320a931abc734ee9e8483ae08800d0135",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.1.1_1544122467338_0.9701621915965302"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.2.0" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.2.0.tgz",
+        "shasum" : "ba3f43baa33861d8097d09b1d64102ff19fe8af0"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.2.0",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.2.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.2.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.2.0_1548791874286_0.5904155486138634"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.1.2" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.1.2",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.1.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.1.2.tgz",
+        "shasum" : "9045b61ab27285295482512be2a1eb59a56dc91f"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.1.2",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.1.2"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.1.2",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.1.2_1545867860314_0.24442315142205184"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.3.0" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.3.0.tgz",
+        "shasum" : "1958c6bcc6c5900d639320c30c15120d4e45a6e6"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.3.0",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.3.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.3.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.3.0_1550266548661_0.4983368681313114"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.1.0" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.1.0.tgz",
+        "shasum" : "ce322ccd6874ae0deec57fbece5e548b8a847ed1"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.1.0",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.1.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.1.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.1.0_1543351510243_0.9554756403650053"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.6.0" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.6.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.6.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.6.0.tgz",
+        "shasum" : "3039ea07ffec97cb8bf0cdf666bda161d42e85e9"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.6.0",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.6.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.6.0",
+      "gitHead" : "e75a2ea025db58b785161bd68b6baed6802607fb",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.6.0_1571867140360_0.9274311802815547"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.7.0" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.7.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.7.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.7.0.tgz",
+        "shasum" : "9e4089d9b0ca7d60ea0f9c82894b622d5dbce5b9"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.7.0",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.7.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.7.0",
+      "gitHead" : "070b17bbb2c3b4713a11ca83d5d19b40da344f30",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.7.0_1573059834657_0.09092239678286229"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.1.3" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.1.3",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.1.3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.1.3.tgz",
+        "shasum" : "9b3d96fb6997333ddfdfa6c97fc1baa17724c423"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.1.3",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.1.3"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_from" : "file:mongodb-stitch-react-native-sdk-4.1.3.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dkaminsky",
+        "email" : "kaminsky@alumni.upenn.edu"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.1.3",
+      "gitHead" : "cb14eb5abc144027cec5698cc39f5141c1c08556",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.1.3_1548359735500_0.7064313758102012"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.3.1" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.3.1.tgz",
+        "shasum" : "03511b5f430af769537708e080e1dd9063942055"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.3.1",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.3.1"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.3.1",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.3.1_1551811441299_0.9810292605312065"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.4.0" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.4.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.4.0.tgz",
+        "shasum" : "032f2246544c20ec78a5269568a0f970753d7b21"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.4.0",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.4.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.4.0",
+      "gitHead" : "d5fea6f2c4b591ce07928c36cc483b976d2c1cdc",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.4.0_1558044151785_0.360632404833241"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.3.2" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.3.2",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.3.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.3.2.tgz",
+        "shasum" : "fc94e7c655cf196caadd0d07a137ebfda35ca8ab"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.3.2",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.3.2"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_from" : "file:mongodb-stitch-react-native-sdk-4.3.2.tgz",
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "dkaminsky",
+        "email" : "kaminsky@alumni.upenn.edu"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.3.2",
+      "gitHead" : "caca19bc636aa2d25927bce1f0140b232a004923",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.3.2_1552422415300_0.5181932437781704"
+      },
+      "_resolved" : "",
+      "_integrity" : "",
+      "_nodeVersion" : "10.11.0"
+    },
+    "4.4.1" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.4.1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.4.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.4.1.tgz",
+        "shasum" : "f27a7b9622800501ee9279115bb782581e7485c7"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.4.1",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.4.1"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.4.1",
+      "gitHead" : "361eedb76ac999763ee4b4663412f8e72c9f2758",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.4.1_1560291333183_0.7458938340676808"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.5.0" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.5.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.5.0.tgz",
+        "shasum" : "4175d6ff65e17ce598f90ab63d938c87f00b37af"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.5.0",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.5.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.15.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.5.0",
+      "gitHead" : "a4a4a78022ce343ee7f918e1793d4656c09c5e3b",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.5.0_1562953049593_0.8250131172870561"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "4.0.14-1" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.0.14-1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.0.14-1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.0.14-1.tgz",
+        "shasum" : "13d246dbf28de35f11b0b305f88aa329d91caca5"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.0.14-1",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.0.14-1"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.0.14-1",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.0.14-1_1539211387777_0.4802174375205246"
+      },
+      "readme" : "[![Join the chat at https://gitter.im/mongodb/stitch](https://badges.gitter.im/mongodb/stitch.svg)](https://gitter.im/mongodb/stitch?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n# MongoDB Stitch React Native SDK \n\nThe official [MongoDB Stitch](https://stitch.mongodb.com/) React Native SDK for JavaScript/TypeScript.\n\n### Index\n- [Documentation](#documentation)\n- [Discussion](#discussion)\n- [Installation](#installation)\n- [Example Usage](#example-usage)\n\n## Documentation\n* [API/Typedoc Documentation](https://s3.amazonaws.com/stitch-sdks/js-react-native/docs/4.0.13/index.html)\n* [MongoDB Stitch Documentation](https://docs.mongodb.com/stitch/)\n\n## Discussion\n* [MongoDB Stitch Users - Google Group](https://groups.google.com/d/forum/mongodb-stitch-users)\n* [MongoDB Stitch Announcements - Google Group](https://groups.google.com/d/forum/mongodb-stitch-announce)\n\n## Installation\n\n### NPM\n\nRun the following in the root directory of your NPM project.\n\n```bash\nnpm install mongodb-stitch-react-native-sdk\n```\n\nThis will start you off with the core SDK functionality as well as the remote MongoDB service.\n\nFor customized dependencies use the following:\n\n```bash\nnpm install mongodb-stitch-react-native-core\nnpm install mongodb-stitch-react-native-services-aws\nnpm install mongodb-stitch-react-native-services-http\nnpm install mongodb-stitch-react-native-services-mongodb-remote\nnpm install mongodb-stitch-react-native-services-twilio\n```\n\n## Example Usage\n\n### Creating a new app with the SDK (React Native)\n\n#### Set up an application on Stitch\n1. Go to [https://stitch.mongodb.com/](https://stitch.mongodb.com/) and log in to MongoDB Atlas.\n2. Create a new app in your project with your desired name.\n3. Go to your app in Stitch via Atlas by clicking Stitch Apps in the left side pane and clicking your app.\n4. Copy your app's client app id by going to Clients on the left side pane and clicking copy on the App ID section.\n5. Go to Providers from Users in the left side pane and edit and enable \"Allow users to log in anonymously\".\n\n#### Set up a React Native project\n1. Ensure that you have `npm` installed. See [npmjs.com](https://www.npmjs.com).\n2. If you don't already have [Create React Native App](https://github.com/react-community/create-react-native-app) installed, run `npm install -g create-react-native-app`\n3. Initialize a new React Native project with `create-react-native-app YourProjectName`.\n4. Go to the new project with `cd YourProjectName`.\n5. Add the MongoDB Stitch React Native SDK by running `npm install mongodb-stitch-react-native-sdk`.\n\n6. In `App.js`, replace the existing code with the following, replacing `<your-client-app-id>` with the id you retrieved when setting up the application in MongoDB Stitch:\n\n```jsx\nconst React = require('react');\nconst { Button, StyleSheet, Text, View } = require('react-native');\nconst { Stitch, AnonymousCredential } = require('mongodb-stitch-react-native-sdk');\n \n\nexport default class App extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state={\n      currentUserId: undefined,\n      client: undefined\n    };\n    this._loadClient = this._loadClient.bind(this);\n    this._onPressLogin = this._onPressLogin.bind(this);\n    this._onPressLogout = this._onPressLogout.bind(this);\n  }\n\n  componentDidMount() {\n    this._loadClient();\n  }\n\n  render() {\n    let loginStatus = \"Currently logged out.\"\n\n    if(this.state.currentUserId) {\n      loginStatus = `Currently logged in as ${this.state.currentUserId}!`\n    }\n\n    loginButton = <Button\n                    onPress={this._onPressLogin}\n                    title=\"Login\"/>\n\n    logoutButton = <Button\n                    onPress={this._onPressLogout}\n                    title=\"Logout\"/>\n\n    return (\n      <View style={styles.container}>\n        <Text> {loginStatus} </Text>\n        {this.state.currentUserId !== undefined ? logoutButton : loginButton}\n      </View>\n    );\n  }\n\n  _loadClient() {\n    Stitch.initializeDefaultAppClient('<your-client-app-id>').then(client => {\n      this.setState({ client });\n\n      if(client.auth.isLoggedIn) {\n        this.setState({ currentUserId: client.auth.user.id })\n      }\n    });\n  }\n\n  _onPressLogin() {\n    this.state.client.auth.loginWithCredential(new AnonymousCredential()).then(user => {\n        console.log(`Successfully logged in as user ${user.id}`);\n        this.setState({ currentUserId: user.id })\n    }).catch(err => {\n        console.log(`Failed to log in anonymously: ${err}`);\n        this.setState({ currentUserId: undefined })\n    });\n  }\n\n  _onPressLogout() {\n    this.state.client.auth.logout().then(user => {\n        console.log(`Successfully logged out`);\n        this.setState({ currentUserId: undefined })\n    }).catch(err => {\n        console.log(`Failed to log out: ${err}`);\n        this.setState({ currentUserId: undefined })\n    });\n  }\n}\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    backgroundColor: '#fff',\n    alignItems: 'center',\n    justifyContent: 'center',\n  },\n});\n\n```\n\n7. Run the app by running `npm start` and following the instructions in the terminal. You may need to run `npm install` before `npm start` works correctly.\n\n### Using the SDK\n\n#### Initialize the SDK\n1. When your app has started, run the following code to initialize the Stitch SDK, replacing `<your-client-app-id>` with your Stitch application's client app ID:\n\n```javascript\nconst { Stitch, AnonymousCredential } = require('mongodb-stitch-react-native-sdk');\n\nStitch.initializeDefaultAppClient('<your-client-app-id>').then(client => {\n    // use the client\n});\n```\n\nPlease take note that unlike the other Stitch SDKs, this client initialization \nmethod is asynchronous. This is due to the fact that the client stores \npersisted authentication information using React Native's \n[AsyncStorage](https://facebook.github.io/react-native/docs/asyncstorage.html)\nsystem.\n\n2. To get an already-initialized client to use for logging in and communicating \n   with Stitch, use `Stitch.defaultAppClient`\n\n```javascript\nconst stitchClient = Stitch.defaultAppClient;\n```\n\n#### Logging In\n1. We enabled anonymous log in, so let's log in with it; add the following anywhere in your code:\n\n```javascript\nconst client = Stitch.defaultAppClient;\n\nconsole.log(\"logging in anonymously\");\nclient.auth.loginWithCredential(new AnonymousCredential()).then(user => {\n  console.log(`logged in anonymously as user ${user.id}`)\n});\n```\n\n2. When running this code, you should see the following in your standard out:\n\n```\nlogging in anonymously                                                    \t\nlogged in anonymously as user 58c5d6ebb9ede022a3d75050\n```\n\n#### Executing a function\n1. Once logged in, executing a function happens via the `StitchAppClient`'s `callFunction()` method\n\n```javascript\nclient.callFunction(\"echoArg\", [\"Hello world!\"]).then(echoedResult => {\n  console.log(`Echoed result: ${echoedResult}`);\n})\n```\n\n2. If you've configured your Stitch application to have a function named \"echoArg\" that returns its argument, you should see a message like:\n\n```\nEchoed result: Hello world!\n```\n\t\n#### Getting a StitchAppClient without Stitch.getDefaultAppClient\n\nIn the case that you don't want a single default initialized `StitchAppClient`, \nyou can use the following with as many client app IDs as you'd like to \ninitialize clients for multiple app IDs:\n\n```javascript\nStitch.initializeAppClient(\"<your-client-app-id>\").then(client => {\n    // use the client\n});\n```\nYou can use the client here or anywhere else in your app by using the following:\n\n```javascript\nconst client = Stitch.getAppClient(\"<your-client-app-id>\");\n```\n\n#### Closing the StitchAppClient\n\nThe client maintains some background processes in the event loop that must be \nshutdown when the client is no longer needed. Simply call `close` on the client \nwhen you are done with the client:\n\n```javascript\nclient.close();\n```\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.15-0" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.0.15-0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.0.15-0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.0.15-0.tgz",
+        "shasum" : "f6b2aedc93937b690b65505a067d6e37452ffa9e"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.0.15-0",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.0.15-0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.0.15-0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.0.15-0_1539573768441_0.7394220662704305"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-5" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.0.14-5",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.0.14-5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.0.14-5.tgz",
+        "shasum" : "1465ff0f90976381b8b61ab117b780850e7df05f"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.0.14-5",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.0.14-5"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.0.14-5",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.0.14-5_1540319480636_0.608264278448768"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-4" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.0.14-4",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.0.14-4.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.0.14-4.tgz",
+        "shasum" : "c99dad07a2ae9aad54dad11d57a125888c09bff4"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.0.14-4",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.0.14-4"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.0.14-4",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.0.14-4_1540317589847_0.3142114029676235"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-3" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.0.14-3",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.0.14-3.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.0.14-3.tgz",
+        "shasum" : "9ec5a29ec3dd4f38fd75900c3ffd28f7d777088a"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.0.14-3",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.0.14-3"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.0.14-3",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.0.14-3_1540316619995_0.08525118916167451"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-2" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.0.14-2",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.0.14-2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.0.14-2.tgz",
+        "shasum" : "81343dab0c900a0bf4d6fa225aadc4036fa794b4"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.0.14-2",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.0.14-2"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.0.14-2",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.0.14-2_1539379799936_0.9449455577670083"
+      },
+      "readme" : "[![Join the chat at https://gitter.im/mongodb/stitch](https://badges.gitter.im/mongodb/stitch.svg)](https://gitter.im/mongodb/stitch?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n# MongoDB Stitch React Native SDK \n\nThe official [MongoDB Stitch](https://stitch.mongodb.com/) React Native SDK for JavaScript/TypeScript.\n\n### Index\n- [Documentation](#documentation)\n- [Discussion](#discussion)\n- [Installation](#installation)\n- [Example Usage](#example-usage)\n\n## Documentation\n* [API/Typedoc Documentation](https://s3.amazonaws.com/stitch-sdks/js-react-native/docs/4.0.13/index.html)\n* [MongoDB Stitch Documentation](https://docs.mongodb.com/stitch/)\n\n## Discussion\n* [MongoDB Stitch Users - Google Group](https://groups.google.com/d/forum/mongodb-stitch-users)\n* [MongoDB Stitch Announcements - Google Group](https://groups.google.com/d/forum/mongodb-stitch-announce)\n\n## Installation\n\n### NPM\n\nRun the following in the root directory of your NPM project.\n\n```bash\nnpm install mongodb-stitch-react-native-sdk\n```\n\nThis will start you off with the core SDK functionality as well as the remote MongoDB service.\n\nFor customized dependencies use the following:\n\n```bash\nnpm install mongodb-stitch-react-native-core\nnpm install mongodb-stitch-react-native-services-aws\nnpm install mongodb-stitch-react-native-services-http\nnpm install mongodb-stitch-react-native-services-mongodb-remote\nnpm install mongodb-stitch-react-native-services-twilio\n```\n\n## Example Usage\n\n### Creating a new app with the SDK (React Native)\n\n#### Set up an application on Stitch\n1. Go to [https://stitch.mongodb.com/](https://stitch.mongodb.com/) and log in to MongoDB Atlas.\n2. Create a new app in your project with your desired name.\n3. Go to your app in Stitch via Atlas by clicking Stitch Apps in the left side pane and clicking your app.\n4. Copy your app's client app id by going to Clients on the left side pane and clicking copy on the App ID section.\n5. Go to Providers from Users in the left side pane and edit and enable \"Allow users to log in anonymously\".\n\n#### Set up a React Native project\n1. Ensure that you have `npm` installed. See [npmjs.com](https://www.npmjs.com).\n2. If you don't already have [Create React Native App](https://github.com/react-community/create-react-native-app) installed, run `npm install -g create-react-native-app`\n3. Initialize a new React Native project with `create-react-native-app YourProjectName`.\n4. Go to the new project with `cd YourProjectName`.\n5. Add the MongoDB Stitch React Native SDK by running `npm install mongodb-stitch-react-native-sdk`.\n\n6. In `App.js`, replace the existing code with the following, replacing `<your-client-app-id>` with the id you retrieved when setting up the application in MongoDB Stitch:\n\n```jsx\nconst React = require('react');\nconst { Button, StyleSheet, Text, View } = require('react-native');\nconst { Stitch, AnonymousCredential } = require('mongodb-stitch-react-native-sdk');\n \n\nexport default class App extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state={\n      currentUserId: undefined,\n      client: undefined\n    };\n    this._loadClient = this._loadClient.bind(this);\n    this._onPressLogin = this._onPressLogin.bind(this);\n    this._onPressLogout = this._onPressLogout.bind(this);\n  }\n\n  componentDidMount() {\n    this._loadClient();\n  }\n\n  render() {\n    let loginStatus = \"Currently logged out.\"\n\n    if(this.state.currentUserId) {\n      loginStatus = `Currently logged in as ${this.state.currentUserId}!`\n    }\n\n    loginButton = <Button\n                    onPress={this._onPressLogin}\n                    title=\"Login\"/>\n\n    logoutButton = <Button\n                    onPress={this._onPressLogout}\n                    title=\"Logout\"/>\n\n    return (\n      <View style={styles.container}>\n        <Text> {loginStatus} </Text>\n        {this.state.currentUserId !== undefined ? logoutButton : loginButton}\n      </View>\n    );\n  }\n\n  _loadClient() {\n    Stitch.initializeDefaultAppClient('<your-client-app-id>').then(client => {\n      this.setState({ client });\n\n      if(client.auth.isLoggedIn) {\n        this.setState({ currentUserId: client.auth.user.id })\n      }\n    });\n  }\n\n  _onPressLogin() {\n    this.state.client.auth.loginWithCredential(new AnonymousCredential()).then(user => {\n        console.log(`Successfully logged in as user ${user.id}`);\n        this.setState({ currentUserId: user.id })\n    }).catch(err => {\n        console.log(`Failed to log in anonymously: ${err}`);\n        this.setState({ currentUserId: undefined })\n    });\n  }\n\n  _onPressLogout() {\n    this.state.client.auth.logout().then(user => {\n        console.log(`Successfully logged out`);\n        this.setState({ currentUserId: undefined })\n    }).catch(err => {\n        console.log(`Failed to log out: ${err}`);\n        this.setState({ currentUserId: undefined })\n    });\n  }\n}\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    backgroundColor: '#fff',\n    alignItems: 'center',\n    justifyContent: 'center',\n  },\n});\n\n```\n\n7. Run the app by running `npm start` and following the instructions in the terminal. You may need to run `npm install` before `npm start` works correctly.\n\n### Using the SDK\n\n#### Initialize the SDK\n1. When your app has started, run the following code to initialize the Stitch SDK, replacing `<your-client-app-id>` with your Stitch application's client app ID:\n\n```javascript\nconst { Stitch, AnonymousCredential } = require('mongodb-stitch-react-native-sdk');\n\nStitch.initializeDefaultAppClient('<your-client-app-id>').then(client => {\n    // use the client\n});\n```\n\nPlease take note that unlike the other Stitch SDKs, this client initialization \nmethod is asynchronous. This is due to the fact that the client stores \npersisted authentication information using React Native's \n[AsyncStorage](https://facebook.github.io/react-native/docs/asyncstorage.html)\nsystem.\n\n2. To get an already-initialized client to use for logging in and communicating \n   with Stitch, use `Stitch.defaultAppClient`\n\n```javascript\nconst stitchClient = Stitch.defaultAppClient;\n```\n\n#### Logging In\n1. We enabled anonymous log in, so let's log in with it; add the following anywhere in your code:\n\n```javascript\nconst client = Stitch.defaultAppClient;\n\nconsole.log(\"logging in anonymously\");\nclient.auth.loginWithCredential(new AnonymousCredential()).then(user => {\n  console.log(`logged in anonymously as user ${user.id}`)\n});\n```\n\n2. When running this code, you should see the following in your standard out:\n\n```\nlogging in anonymously                                                    \t\nlogged in anonymously as user 58c5d6ebb9ede022a3d75050\n```\n\n#### Executing a function\n1. Once logged in, executing a function happens via the `StitchAppClient`'s `callFunction()` method\n\n```javascript\nclient.callFunction(\"echoArg\", [\"Hello world!\"]).then(echoedResult => {\n  console.log(`Echoed result: ${echoedResult}`);\n})\n```\n\n2. If you've configured your Stitch application to have a function named \"echoArg\" that returns its argument, you should see a message like:\n\n```\nEchoed result: Hello world!\n```\n\t\n#### Getting a StitchAppClient without Stitch.getDefaultAppClient\n\nIn the case that you don't want a single default initialized `StitchAppClient`, \nyou can use the following with as many client app IDs as you'd like to \ninitialize clients for multiple app IDs:\n\n```javascript\nStitch.initializeAppClient(\"<your-client-app-id>\").then(client => {\n    // use the client\n});\n```\nYou can use the client here or anywhere else in your app by using the following:\n\n```javascript\nconst client = Stitch.getAppClient(\"<your-client-app-id>\");\n```\n\n#### Closing the StitchAppClient\n\nThe client maintains some background processes in the event loop that must be \nshutdown when the client is no longer needed. Simply call `close` on the client \nwhen you are done with the client:\n\n```javascript\nclient.close();\n```\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.0.14-6" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.0.14-6",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/umd/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.0.14-6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.0.14-6.tgz",
+        "shasum" : "b62927bed727222115a1c268d386d97f0490c5ef"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.0.14-6",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.0.14-6"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.umd.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.1.0",
+      "_npmUser" : {
+        "name" : "edaniels",
+        "email" : "eric@erdaniels.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.0.14-6",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.0.14-6_1542056529005_0.13594265408014294"
+      },
+      "_nodeVersion" : "10.4.1"
+    },
+    "4.7.1" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.7.1",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.7.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.7.1.tgz",
+        "shasum" : "cc1f66fee335aa49fbfce63d7a92d316a6e19898"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.7.1",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.7.1"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.7.1",
+      "gitHead" : "7a05455129f9e1cc4ac2c285e0385ccd51c9d1e4",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.7.1_1573469858090_0.7787511666144991"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.8.0" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.8.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.8.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.8.0.tgz",
+        "shasum" : "a04204363817cec988b8116d70dca822bc4fe65b"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.8.0",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.8.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.8.0",
+      "gitHead" : "bd07a3d71727dd4ee9388daf80805e81d787df8b",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.8.0_1578071512642_0.42006669564747723"
+      },
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.9.0" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.9.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      }, {
+        "name" : "Doug Kaminsky",
+        "email" : "douglas.kaminsky@mongodb.com"
+      }, {
+        "name" : "Tyler Kaye",
+        "email" : "tyler.kaye@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.9.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.9.0.tgz",
+        "shasum" : "99d9e09817bff2e40ebfc971e66f54d1e25d6bd8"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.9.0",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.9.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "tim.sedgwick@mongodb.com",
+        "name" : "tim.sedgwick"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-fix" : "tslint --fix 'src/**/*.ts' '__tests__/**/*.ts'",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "lerna/3.13.2/node@v10.16.3+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.9.0",
+      "gitHead" : "d09b65d43124791e12aaee6b96761697633d7ddc",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.9.0_1580484708223_0.12278637479328447"
+      },
+      "readme" : "[![Join the chat at https://gitter.im/mongodb/stitch](https://badges.gitter.im/mongodb/stitch.svg)](https://gitter.im/mongodb/stitch?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n# MongoDB Stitch React Native SDK \n\nThe official [MongoDB Stitch](https://www.mongodb.com/cloud/stitch) React Native SDK for JavaScript/TypeScript.\n\n## Index\n- [Documentation](#documentation)\n- [Discussion](#discussion)\n- [Installation](#installation)\n- [Getting Started](#getting-started)\n\n## Documentation\n* [MongoDB Stitch Documentation](https://docs.mongodb.com/stitch/)\n* [API Reference Manual](https://docs.mongodb.com/stitch-sdks/js-react-native/4/index.html)\n\n## Discussion\n* [MongoDB Stitch Users - Google Group](https://groups.google.com/d/forum/mongodb-stitch-users)\n* [MongoDB Stitch Announcements - Google Group](https://groups.google.com/d/forum/mongodb-stitch-announce)\n\n## Installation\n\n### NPM\n\nRun the following in the root directory of your NPM project.\n\n```bash\nnpm install mongodb-stitch-react-native-sdk\n```\n\nThis will start you off with the [core SDK functionality](classes/stitch.html) as well as the [remote MongoDB service](modules/remotemongoclient.html).\n\nSee [Customized Dependencies (Advanced)](#customized-dependencies) below for customizing dependencies.\n\n## Getting Started\n\n### Creating a new app with the SDK (React Native)\n\n#### Set up an application on Stitch\n\nFirst, you need to create the server-side Stitch app, and (for the purpose of this quick start) enable anonymous authentication:\n\n1. Go to [https://stitch.mongodb.com/](https://stitch.mongodb.com/) and log in to MongoDB Atlas.\n2. Create a new app in your project with your desired name.\n3. Go to your app in Stitch via Atlas by clicking Stitch Apps in the left side pane and clicking your app.\n4. Copy your app's client app id by going to Clients on the left side pane and clicking copy on the App ID section.\n5. Go to Providers from Users in the left side pane and edit and enable \"Allow users to log in anonymously\".\n\nFor detailed instructions, see [Create a Stitch App](https://docs.mongodb.com/stitch/procedures/create-stitch-app/).\n\n#### Set up a React Native project\n\nNext, you create the source for your client app.\n\n1. Ensure that you have `npm` installed. See [npmjs.com](https://www.npmjs.com).\n2. Follow the instructions in React Native's [Getting Started](https://facebook.github.io/react-native/docs/getting-started) guide to create a basic React Native project.\n3. Once in the directory for your new project, add the MongoDB Stitch React Native SDK by running `npm install mongodb-stitch-react-native-sdk`.\n4. Run `npm install` again to ensure that the SDK's dependencies are properly fetched.\n5. In `App.js`, replace the existing code with the following, replacing `<your-client-app-id>` with the id you retrieved when setting up the application in MongoDB Stitch:\n\n```jsx\nimport React from 'react'\nimport { Button, StyleSheet, Text, View } from 'react-native';\nimport { Stitch, AnonymousCredential } from 'mongodb-stitch-react-native-sdk';\n\nexport default class App extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state={\n      currentUserId: undefined,\n      client: undefined\n    };\n    this._loadClient = this._loadClient.bind(this);\n    this._onPressLogin = this._onPressLogin.bind(this);\n    this._onPressLogout = this._onPressLogout.bind(this);\n  }\n\n  componentDidMount() {\n    this._loadClient();\n  }\n\n  render() {\n    let loginStatus = \"Currently logged out.\"\n\n    if(this.state.currentUserId) {\n      loginStatus = `Currently logged in as ${this.state.currentUserId}!`\n    }\n\n    loginButton = <Button\n                    onPress={this._onPressLogin}\n                    title=\"Login\"/>\n\n    logoutButton = <Button\n                    onPress={this._onPressLogout}\n                    title=\"Logout\"/>\n\n    return (\n      <View style={styles.container}>\n        <Text> {loginStatus} </Text>\n        {this.state.currentUserId !== undefined ? logoutButton : loginButton}\n      </View>\n    );\n  }\n\n  _loadClient() {\n    Stitch.initializeDefaultAppClient('<your-client-app-id>').then(client => {\n      this.setState({ client });\n\n      if(client.auth.isLoggedIn) {\n        this.setState({ currentUserId: client.auth.user.id })\n      }\n    });\n  }\n\n  _onPressLogin() {\n    this.state.client.auth.loginWithCredential(new AnonymousCredential()).then(user => {\n        console.log(`Successfully logged in as user ${user.id}`);\n        this.setState({ currentUserId: user.id })\n    }).catch(err => {\n        console.log(`Failed to log in anonymously: ${err}`);\n        this.setState({ currentUserId: undefined })\n    });\n  }\n\n  _onPressLogout() {\n    this.state.client.auth.logout().then(user => {\n        console.log(`Successfully logged out`);\n        this.setState({ currentUserId: undefined })\n    }).catch(err => {\n        console.log(`Failed to log out: ${err}`);\n        this.setState({ currentUserId: undefined })\n    });\n  }\n}\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    backgroundColor: '#fff',\n    alignItems: 'center',\n    justifyContent: 'center',\n  },\n});\n\n```\n\n6. Run the app by running `npm start` and following the instructions in the terminal.\n\n### Using the SDK\n\n#### Initialize the SDK\nWhen your app has started, use [Stitch.initializeDefaultAppClient](classes/stitch.html#initializedefaultappclient) to initialize the Stitch SDK. Replace `<your-client-app-id>` with your Stitch application's client app ID:\n\n```javascript\nimport { Stitch, AnonymousCredential } from 'mongodb-stitch-react-native-sdk';\n\nStitch.initializeDefaultAppClient('<your-client-app-id>').then(client => {\n    // use the client\n});\n```\n\n**Note:** Unlike the other Stitch SDKs, this client initialization \nmethod is asynchronous. This is due to the fact that the client stores \npersisted authentication information using React Native's \n[AsyncStorage](https://facebook.github.io/react-native/docs/asyncstorage.html)\nsystem.\n\n#### Logging In\n\nWe enabled [anonymous authentication](https://docs.mongodb.com/stitch/authentication/anonymous/) in the steps above, so let's log in with it! Add the following anywhere in your code:\n\n```javascript\nconst client = Stitch.defaultAppClient;\n\nconsole.log(\"logging in anonymously\");\nclient.auth.loginWithCredential(new AnonymousCredential()).then(user => {\n  console.log(`logged in anonymously as user ${user.id}`)\n});\n```\n\nWhen running this code, you should see the following in your standard out:\n\n```\nlogging in anonymously                                                    \t\nlogged in anonymously as user 58c5d6ebb9ede022a3d75050\n```\n\nSee [StitchAuth](interfaces/stitchauth.html) for more information.\n\n\n#### Executing a Stitch Function\n\nOne of Stitch's powerful features is serverless [Functions](https://docs.mongodb.com/stitch/functions/). Once logged in, the Stitch client can execute remote Stitch Functions using the [StitchAppClient.callFunction](interfaces/stitchappclient.html#callfunction) method:\n\n```javascript\nclient.callFunction(\"echoArg\", [\"Hello world!\"]).then(echoedResult => {\n  console.log(`Echoed result: ${echoedResult}`);\n})\n```\n\nAssuming you've configured your Stitch application to have a function named \"echoArg\" that returns its argument, you should see a message like:\n\n```\nEchoed result: Hello world!\n```\n\nThe `echoArg` Function in Stitch would look something like:\n\n```javascript\n// echoArg Function in the Stitch UI\nexports = function(arg) {\n  return {arg: arg};\n};\n```\n\n#### Using BSON and Extended JSON\n\nAs a convenience, the SDK includes the [bson](https://www.npmjs.com/package/bson) library. You can import it as you would import other classes and values from the SDK.\n\nHere is an example of importing BSON to generate a BSON `ObjectID`:\n\n```javascript\nimport { BSON } from 'mongodb-stitch-react-native-sdk';\n\nlet myObjectId = new BSON.ObjectId();\nconsole.log(`Generated ObjectId: ${myObjectId}`);\n```\n\n## Advanced Topics\n\n#### Customized Dependencies\n\nFor customized dependencies, use the following:\n\n```bash\n npm install mongodb-stitch-react-native-core\n npm install mongodb-stitch-react-native-services-aws\n npm install mongodb-stitch-react-native-services-http\n npm install mongodb-stitch-react-native-services-mongodb-remote\n npm install mongodb-stitch-react-native-services-twilio\n```\n\n#### Getting a StitchAppClient without Stitch.getDefaultAppClient (Advanced)\n\nIn the case that you don't want a single default initialized `StitchAppClient`, you can use the following with as many client app IDs as you'd like to initialize clients for multiple app IDs:\n\n```javascript\nconst client = Stitch.initializeAppClient(\"<your-client-app-id>\");\n```\n\nYou can use the client returned there or anywhere else in your app by using the following:\n\n```javascript\nconst client = Stitch.getAppClient(\"<your-client-app-id>\");\n```\n\n#### Closing the StitchAppClient\n\nThe client maintains some background processes in the event loop that must be \nshutdown when the client is no longer needed. Simply call `close` on the client \nwhen you are done with the client:\n\n```javascript\nclient.close();\n```\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "10.16.3"
+    },
+    "4.0.15-beta-1.0" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.0.15-beta-1.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.0.15-beta-1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.0.15-beta-1.0.tgz",
+        "shasum" : "c47d9dfd730a49c1f972519e523a8fa42458983d"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.0.15-beta-1.0",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.0.15-beta-1.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.0.15-beta-1.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.0.15-beta-1.0_1542735869131_0.8035645750322706"
+      },
+      "_nodeVersion" : "11.1.0"
+    },
+    "4.0.15-beta-2.0" : {
+      "name" : "mongodb-stitch-react-native-sdk",
+      "description" : "MongoDB Stitch JavaScript SDK - React Native SDK",
+      "version" : "4.0.15-beta-2.0",
+      "author" : {
+        "name" : "MongoDB Inc."
+      },
+      "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+      },
+      "contributors" : [ {
+        "name" : "Adam Chelminski",
+        "email" : "adam.chelminski@mongodb.com"
+      }, {
+        "name" : "Eric Daniels",
+        "email" : "eric.daniels@mongodb.com"
+      }, {
+        "name" : "Jason Flax",
+        "email" : "jason.flax@mongodb.com"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+      },
+      "main" : "dist/cjs/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/mongodb-stitch-react-native-sdk/-/mongodb-stitch-react-native-sdk-4.0.15-beta-2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fmongodb-stitch-react-native-sdk%2F-%2Fmongodb-stitch-react-native-sdk-4.0.15-beta-2.0.tgz",
+        "shasum" : "d62ba43d609a44455e50a5a04781d6f95815ee2b"
+      },
+      "dependencies" : {
+        "mongodb-stitch-react-native-core" : "^4.0.15-beta-2.0",
+        "mongodb-stitch-react-native-services-mongodb-remote" : "^4.0.15-beta-2.0"
+      },
+      "devDependencies" : {
+        "prettier" : "^1.13.5",
+        "rollup" : "^0.60.7",
+        "ts-jest" : "^22.4.6",
+        "tslint" : "^5.10.0",
+        "tslint-config-prettier" : "^1.13.0",
+        "typescript" : "^2.9.2"
+      },
+      "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+      "license" : "Apache-2.0",
+      "maintainers" : [ {
+        "email" : "adam.chelminski@mongodb.com",
+        "name" : "adamchel_mongodb"
+      }, {
+        "email" : "kaminsky@alumni.upenn.edu",
+        "name" : "dkaminsky"
+      }, {
+        "email" : "eric@erdaniels.com",
+        "name" : "edaniels"
+      }, {
+        "email" : "jsflax@gmail.com",
+        "name" : "jsflax"
+      }, {
+        "email" : "mpobrien005@gmail.com",
+        "name" : "mpobrien"
+      }, {
+        "email" : "caplingerc@gmail.com",
+        "name" : "unicodesnowman"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "build" : "npm run build-main && npm run build-module",
+        "build-main" : "tsc -p tsconfig.cjs.json",
+        "build-module" : "tsc -p tsconfig.esm.json",
+        "prepare" : "npm run build",
+        "watch" : "tsc -w -p tsconfig.esm.json",
+        "lint" : "tslint src/**/*.ts __tests__/**/*.ts",
+        "lint-fix" : "tslint --fix src/**/*.ts __tests__/**/*.ts",
+        "lint-check" : "tslint-config-prettier-check ./tslint.json",
+        "prettier" : "prettier --write \"{,!(node_modules),!(dist)/**/}*.ts\""
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "adamchel_mongodb",
+        "email" : "adam.chelminski@mongodb.com"
+      },
+      "_id" : "mongodb-stitch-react-native-sdk@4.0.15-beta-2.0",
+      "types" : "dist/esm/index.d.ts",
+      "module" : "dist/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/mongodb-stitch-react-native-sdk_4.0.15-beta-2.0_1543261071268_0.11154802273627173"
+      },
+      "readme" : "[![Join the chat at https://gitter.im/mongodb/stitch](https://badges.gitter.im/mongodb/stitch.svg)](https://gitter.im/mongodb/stitch?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n# MongoDB Stitch React Native SDK \n\nThe official [MongoDB Stitch](https://stitch.mongodb.com/) React Native SDK for JavaScript/TypeScript.\n\n### Index\n- [Documentation](#documentation)\n- [Discussion](#discussion)\n- [Installation](#installation)\n- [Example Usage](#example-usage)\n\n## Documentation\n* [API/Typedoc Documentation](https://s3.amazonaws.com/stitch-sdks/js-react-native/docs/4.1.0/index.html)\n* [MongoDB Stitch Documentation](https://docs.mongodb.com/stitch/)\n\n## Discussion\n* [MongoDB Stitch Users - Google Group](https://groups.google.com/d/forum/mongodb-stitch-users)\n* [MongoDB Stitch Announcements - Google Group](https://groups.google.com/d/forum/mongodb-stitch-announce)\n\n## Installation\n\n### NPM\n\nRun the following in the root directory of your NPM project.\n\n```bash\nnpm install mongodb-stitch-react-native-sdk\n```\n\nThis will start you off with the core SDK functionality as well as the remote MongoDB service.\n\nFor customized dependencies use the following:\n\n```bash\nnpm install mongodb-stitch-react-native-core\nnpm install mongodb-stitch-react-native-services-aws\nnpm install mongodb-stitch-react-native-services-http\nnpm install mongodb-stitch-react-native-services-mongodb-remote\nnpm install mongodb-stitch-react-native-services-twilio\n```\n\n## Example Usage\n\n### Creating a new app with the SDK (React Native)\n\n#### Set up an application on Stitch\n1. Go to [https://stitch.mongodb.com/](https://stitch.mongodb.com/) and log in to MongoDB Atlas.\n2. Create a new app in your project with your desired name.\n3. Go to your app in Stitch via Atlas by clicking Stitch Apps in the left side pane and clicking your app.\n4. Copy your app's client app id by going to Clients on the left side pane and clicking copy on the App ID section.\n5. Go to Providers from Users in the left side pane and edit and enable \"Allow users to log in anonymously\".\n\n#### Set up a React Native project\n1. Ensure that you have `npm` installed. See [npmjs.com](https://www.npmjs.com).\n2. Follow the instructions in React Native's [Getting Started](https://facebook.github.io/react-native/docs/getting-started) guide to create a basic React Native project.\n3. Once in the directory for your new project, add the MongoDB Stitch React Native SDK by running `npm install mongodb-stitch-react-native-sdk`.\n4. Run `npm install` again to ensure that the SDK's dependencies are properly fetched.\n5. In `App.js`, replace the existing code with the following, replacing `<your-client-app-id>` with the id you retrieved when setting up the application in MongoDB Stitch:\n\n```jsx\nimport React from 'react'\nimport { Button, StyleSheet, Text, View } from 'react-native';\nimport { Stitch, AnonymousCredential } from 'mongodb-stitch-react-native-sdk';\n\nexport default class App extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state={\n      currentUserId: undefined,\n      client: undefined\n    };\n    this._loadClient = this._loadClient.bind(this);\n    this._onPressLogin = this._onPressLogin.bind(this);\n    this._onPressLogout = this._onPressLogout.bind(this);\n  }\n\n  componentDidMount() {\n    this._loadClient();\n  }\n\n  render() {\n    let loginStatus = \"Currently logged out.\"\n\n    if(this.state.currentUserId) {\n      loginStatus = `Currently logged in as ${this.state.currentUserId}!`\n    }\n\n    loginButton = <Button\n                    onPress={this._onPressLogin}\n                    title=\"Login\"/>\n\n    logoutButton = <Button\n                    onPress={this._onPressLogout}\n                    title=\"Logout\"/>\n\n    return (\n      <View style={styles.container}>\n        <Text> {loginStatus} </Text>\n        {this.state.currentUserId !== undefined ? logoutButton : loginButton}\n      </View>\n    );\n  }\n\n  _loadClient() {\n    Stitch.initializeDefaultAppClient('<your-client-app-id>').then(client => {\n      this.setState({ client });\n\n      if(client.auth.isLoggedIn) {\n        this.setState({ currentUserId: client.auth.user.id })\n      }\n    });\n  }\n\n  _onPressLogin() {\n    this.state.client.auth.loginWithCredential(new AnonymousCredential()).then(user => {\n        console.log(`Successfully logged in as user ${user.id}`);\n        this.setState({ currentUserId: user.id })\n    }).catch(err => {\n        console.log(`Failed to log in anonymously: ${err}`);\n        this.setState({ currentUserId: undefined })\n    });\n  }\n\n  _onPressLogout() {\n    this.state.client.auth.logout().then(user => {\n        console.log(`Successfully logged out`);\n        this.setState({ currentUserId: undefined })\n    }).catch(err => {\n        console.log(`Failed to log out: ${err}`);\n        this.setState({ currentUserId: undefined })\n    });\n  }\n}\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    backgroundColor: '#fff',\n    alignItems: 'center',\n    justifyContent: 'center',\n  },\n});\n\n```\n\n6. Run the app by running `npm start` and following the instructions in the terminal.\n\n### Using the SDK\n\n#### Initialize the SDK\n1. When your app has started, run the following code to initialize the Stitch SDK, replacing `<your-client-app-id>` with your Stitch application's client app ID:\n\n```javascript\nimport { Stitch, AnonymousCredential } from 'mongodb-stitch-react-native-sdk';\n\nStitch.initializeDefaultAppClient('<your-client-app-id>').then(client => {\n    // use the client\n});\n```\n\nPlease take note that unlike the other Stitch SDKs, this client initialization \nmethod is asynchronous. This is due to the fact that the client stores \npersisted authentication information using React Native's \n[AsyncStorage](https://facebook.github.io/react-native/docs/asyncstorage.html)\nsystem.\n\n2. To get an already-initialized client to use for logging in and communicating \n   with Stitch, use `Stitch.defaultAppClient`\n\n```javascript\nconst stitchClient = Stitch.defaultAppClient;\n```\n\n#### Logging In\n1. We enabled anonymous log in, so let's log in with it; add the following anywhere in your code:\n\n```javascript\nconst client = Stitch.defaultAppClient;\n\nconsole.log(\"logging in anonymously\");\nclient.auth.loginWithCredential(new AnonymousCredential()).then(user => {\n  console.log(`logged in anonymously as user ${user.id}`)\n});\n```\n\n2. When running this code, you should see the following in your standard out:\n\n```\nlogging in anonymously                                                    \t\nlogged in anonymously as user 58c5d6ebb9ede022a3d75050\n```\n\n#### Executing a function\n1. Once logged in, executing a function happens via the `StitchAppClient`'s `callFunction()` method\n\n```javascript\nclient.callFunction(\"echoArg\", [\"Hello world!\"]).then(echoedResult => {\n  console.log(`Echoed result: ${echoedResult}`);\n})\n```\n\n2. If you've configured your Stitch application to have a function named \"echoArg\" that returns its argument, you should see a message like:\n\n```\nEchoed result: Hello world!\n```\n\t\n#### Getting a StitchAppClient without Stitch.getDefaultAppClient\n\nIn the case that you don't want a single default initialized `StitchAppClient`, \nyou can use the following with as many client app IDs as you'd like to \ninitialize clients for multiple app IDs:\n\n```javascript\nStitch.initializeAppClient(\"<your-client-app-id>\").then(client => {\n    // use the client\n});\n```\nYou can use the client here or anywhere else in your app by using the following:\n\n```javascript\nconst client = Stitch.getAppClient(\"<your-client-app-id>\");\n```\n\n#### Closing the StitchAppClient\n\nThe client maintains some background processes in the event loop that must be \nshutdown when the client is no longer needed. Simply call `close` on the client \nwhen you are done with the client:\n\n```javascript\nclient.close();\n```\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "11.1.0"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "email" : "npm622@yahoo.com",
+    "name" : "npm622"
+  }, {
+    "email" : "martin.burdette@mongodb.com",
+    "name" : "martyb"
+  }, {
+    "email" : "tim.sedgwick@mongodb.com",
+    "name" : "tim.sedgwick"
+  }, {
+    "email" : "mpobrien005@gmail.com",
+    "name" : "mpobrien"
+  }, {
+    "email" : "jsflax@gmail.com",
+    "name" : "jsflax"
+  }, {
+    "email" : "eric@erdaniels.com",
+    "name" : "edaniels"
+  }, {
+    "email" : "adam.chelminski@mongodb.com",
+    "name" : "adamchel_mongodb"
+  }, {
+    "email" : "caplingerc@gmail.com",
+    "name" : "unicodesnowman"
+  } ],
+  "author" : {
+    "name" : "MongoDB Inc."
+  },
+  "time" : {
+    "4.0.13" : "2018-08-02T20:32:31.652Z",
+    "4.0.14" : "2018-10-15T03:05:52.731Z",
+    "4.0.11" : "2018-07-27T20:16:49.428Z",
+    "4.0.12" : "2018-07-27T20:24:02.658Z",
+    "4.1.1" : "2018-12-06T18:54:27.443Z",
+    "4.2.0" : "2019-01-29T19:57:54.400Z",
+    "4.1.2" : "2018-12-26T23:44:20.438Z",
+    "4.3.0" : "2019-02-15T21:35:48.869Z",
+    "4.1.0" : "2018-11-27T20:45:10.381Z",
+    "4.6.0" : "2019-10-23T21:45:40.515Z",
+    "4.7.0" : "2019-11-06T17:03:54.732Z",
+    "4.1.3" : "2019-01-24T19:55:35.631Z",
+    "4.3.1" : "2019-03-05T18:44:01.467Z",
+    "4.4.0" : "2019-05-16T22:02:31.993Z",
+    "4.3.2" : "2019-03-12T20:26:55.529Z",
+    "4.4.1" : "2019-06-11T22:15:33.368Z",
+    "4.5.0" : "2019-07-12T17:37:29.723Z",
+    "modified" : "2020-04-16T19:33:45.259Z",
+    "4.0.14-1" : "2018-10-10T22:43:07.923Z",
+    "4.0.15-0" : "2018-10-15T03:22:48.577Z",
+    "4.0.14-5" : "2018-10-23T18:31:20.792Z",
+    "4.0.14-4" : "2018-10-23T17:59:50.010Z",
+    "4.0.14-3" : "2018-10-23T17:43:40.085Z",
+    "4.0.14-2" : "2018-10-12T21:30:00.115Z",
+    "created" : "2018-07-27T20:16:49.286Z",
+    "4.0.14-6" : "2018-11-12T21:02:09.133Z",
+    "4.7.1" : "2019-11-11T10:57:38.285Z",
+    "4.8.0" : "2020-01-03T17:11:52.768Z",
+    "4.9.0" : "2020-01-31T15:31:48.320Z",
+    "4.0.15-beta-1.0" : "2018-11-20T17:44:29.355Z",
+    "4.0.15-beta-2.0" : "2018-11-26T19:37:51.386Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/mongodb/stitch-js-sdk.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/mongodb/stitch-js-sdk#readme",
+  "keywords" : [ "mongodb", "aws", "twilio", "http", "mobile", "serverless", "stitch", "atlas", "react-native" ],
+  "contributors" : [ {
+    "name" : "Adam Chelminski",
+    "email" : "adam.chelminski@mongodb.com"
+  }, {
+    "name" : "Eric Daniels",
+    "email" : "eric.daniels@mongodb.com"
+  }, {
+    "name" : "Jason Flax",
+    "email" : "jason.flax@mongodb.com"
+  }, {
+    "name" : "Doug Kaminsky",
+    "email" : "douglas.kaminsky@mongodb.com"
+  }, {
+    "name" : "Tyler Kaye",
+    "email" : "tyler.kaye@mongodb.com"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/mongodb/stitch-js-sdk/issues"
+  },
+  "license" : "Apache-2.0"
+}

@@ -1,0 +1,178 @@
+{
+  "_id" : "omggif",
+  "_rev" : "8-3cbfb401a0f938102e99b71e1db25cfe",
+  "name" : "omggif",
+  "description" : "omggif is a JavaScript implementation of a GIF 89a encoder and decoder.",
+  "dist-tags" : {
+    "latest" : "1.0.10"
+  },
+  "versions" : {
+    "1.0.5" : {
+      "name" : "omggif",
+      "description" : "omggif is a JavaScript implementation of a GIF 89a encoder and decoder.",
+      "version" : "1.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/deanm/omggif"
+      },
+      "main" : "omggif.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/omggif/-/omggif-1.0.5.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fomggif%2F-%2Fomggif-1.0.5.tgz",
+        "shasum" : "3c9016094cd48d4b3c57f3983d0137a060f85842"
+      },
+      "directories" : {
+      },
+      "_npmVersion" : "1.1.61",
+      "_npmUser" : {
+        "name" : "deanm",
+        "email" : "dean@gmail.com"
+      },
+      "_id" : "omggif@1.0.5"
+    },
+    "1.0.6" : {
+      "name" : "omggif",
+      "description" : "omggif is a JavaScript implementation of a GIF 89a encoder and decoder.",
+      "version" : "1.0.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/deanm/omggif"
+      },
+      "main" : "omggif.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/omggif/-/omggif-1.0.6.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fomggif%2F-%2Fomggif-1.0.6.tgz",
+        "shasum" : "293a1ce6a6ffe513591b2c15e1445695465a7097"
+      },
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "deanm",
+        "email" : "dean@gmail.com"
+      },
+      "_id" : "omggif@1.0.6"
+    },
+    "1.0.7" : {
+      "name" : "omggif",
+      "description" : "omggif is a JavaScript implementation of a GIF 89a encoder and decoder.",
+      "version" : "1.0.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/deanm/omggif"
+      },
+      "main" : "omggif.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/omggif/-/omggif-1.0.7.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fomggif%2F-%2Fomggif-1.0.7.tgz",
+        "shasum" : "59d2eecb0263de84635b3feb887c0c9973f1e49d"
+      },
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "deanm",
+        "email" : "dean@gmail.com"
+      },
+      "_id" : "omggif@1.0.7"
+    },
+    "1.0.8" : {
+      "name" : "omggif",
+      "description" : "omggif is a JavaScript implementation of a GIF 89a encoder and decoder.",
+      "version" : "1.0.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/deanm/omggif"
+      },
+      "main" : "omggif.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/omggif/-/omggif-1.0.8.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fomggif%2F-%2Fomggif-1.0.8.tgz",
+        "shasum" : "178f37b2ab0b3d7b46ed3a0e46bd0790b58d3530"
+      },
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "deanm",
+        "email" : "dean@gmail.com"
+      },
+      "_id" : "omggif@1.0.8"
+    },
+    "1.0.9" : {
+      "name" : "omggif",
+      "description" : "omggif is a JavaScript implementation of a GIF 89a encoder and decoder.",
+      "version" : "1.0.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/deanm/omggif"
+      },
+      "main" : "omggif.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/omggif/-/omggif-1.0.9.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fomggif%2F-%2Fomggif-1.0.9.tgz",
+        "shasum" : "dcb7024dacd50c52b4d303f04802c91c057c765f"
+      },
+      "directories" : {
+      },
+      "_from" : ".",
+      "_npmVersion" : "1.4.3",
+      "_npmUser" : {
+        "name" : "deanm",
+        "email" : "dean@gmail.com"
+      },
+      "_id" : "omggif@1.0.9",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/omggif-1.0.9.tgz_1513813900270_0.12212618836201727"
+      }
+    },
+    "1.0.10" : {
+      "name" : "omggif",
+      "description" : "omggif is a JavaScript implementation of a GIF 89a encoder and decoder.",
+      "version" : "1.0.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/deanm/omggif.git"
+      },
+      "main" : "omggif.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/omggif/-/omggif-1.0.10.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Fomggif%2F-%2Fomggif-1.0.10.tgz",
+        "shasum" : "ddaaf90d4a42f532e9e7cb3a95ecdd47f17c7b19"
+      },
+      "license" : "MIT",
+      "directories" : {
+      },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "deanm",
+        "email" : "dean@gmail.com"
+      },
+      "_id" : "omggif@1.0.10",
+      "gitHead" : "334a0c0b6aa2eb5e63fae64ba7911ee647655ab2",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/omggif_1.0.10_1563267318864_0.15145359231851208"
+      },
+      "_nodeVersion" : "8.9.3"
+    }
+  },
+  "readme" : "omggif is a JavaScript implementation of a GIF 89a encoder and decoder.\n\nhttps://github.com/deanm/omggif\n\n\n(c) Dean McNamee <dean@gmail.com>, 2013.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to\ndeal in the Software without restriction, including without limitation the\nrights to use, copy, modify, merge, publish, distribute, sublicense, and/or\nsell copies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\nFROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS\nIN THE SOFTWARE.\n",
+  "time" : {
+    "1.0.5" : "2014-01-27T20:46:55.867Z",
+    "1.0.6" : "2015-05-11T08:27:59.995Z",
+    "1.0.7" : "2015-05-27T19:36:06.267Z",
+    "1.0.8" : "2015-06-04T20:51:51.342Z",
+    "created" : "2014-01-27T20:46:53.714Z",
+    "1.0.9" : "2017-12-20T23:51:40.344Z",
+    "1.0.10" : "2019-07-16T08:55:18.951Z",
+    "modified" : "2019-07-16T08:55:22.965Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/deanm/omggif.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README",
+  "license" : "MIT"
+}

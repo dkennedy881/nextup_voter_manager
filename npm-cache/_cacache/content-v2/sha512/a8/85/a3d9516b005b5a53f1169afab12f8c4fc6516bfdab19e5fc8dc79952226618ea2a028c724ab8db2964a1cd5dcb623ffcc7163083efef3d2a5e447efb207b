@@ -1,0 +1,619 @@
+{
+  "_id" : "react-native-status-bar-height",
+  "_rev" : "12-92209158abb1924c0f59205076d8b7bb",
+  "name" : "react-native-status-bar-height",
+  "description" : "Get status bar height for React Native App",
+  "dist-tags" : {
+    "latest" : "2.5.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "react-native-status-bar-height",
+      "description" : "Get status bar height for React Native App",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Dmitry Patsura",
+        "email" : "talk@dmtry.me"
+      },
+      "homepage" : "https://github.com/ovr/react-native-status-bar-height#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ovr/react-native-status-bar-height.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ovr/react-native-status-bar-height/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-status-bar-height/-/react-native-status-bar-height-2.0.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-status-bar-height%2F-%2Freact-native-status-bar-height-2.0.0.tgz",
+        "shasum" : "9def59bdfa162da73134aff4f480ef2fc873ee0a"
+      },
+      "dependencies" : {
+        "react-native-iphone-x-helper" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "flow-bin" : "^0.55.0",
+        "react-native" : "^0.48.4"
+      },
+      "keywords" : [ "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      },
+      "_id" : "react-native-status-bar-height@2.0.0",
+      "gitHead" : "e359a103ca684db4b5c88e9b703343458ef95526",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-status-bar-height-2.0.0.tgz_1516595807514_0.9992978828959167"
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "2.1.0" : {
+      "name" : "react-native-status-bar-height",
+      "description" : "Get status bar height for React Native App",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Dmitry Patsura",
+        "email" : "talk@dmtry.me"
+      },
+      "homepage" : "https://github.com/ovr/react-native-status-bar-height#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ovr/react-native-status-bar-height.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ovr/react-native-status-bar-height/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-status-bar-height/-/react-native-status-bar-height-2.1.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-status-bar-height%2F-%2Freact-native-status-bar-height-2.1.0.tgz",
+        "shasum" : "cb70fcdbb8dfdf0b9140d77625d27e4ea32fd7f4"
+      },
+      "devDependencies" : {
+        "flow-bin" : "^0.55.0",
+        "react-native" : "^0.48.4"
+      },
+      "keywords" : [ "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      },
+      "_id" : "react-native-status-bar-height@2.1.0",
+      "gitHead" : "164f01c5bb910d1989204d88eb73ae56ca8bdabf",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-status-bar-height_2.1.0_1537534543445_0.16921519391752615"
+      },
+      "_nodeVersion" : "10.10.0"
+    },
+    "2.2.2" : {
+      "name" : "react-native-status-bar-height",
+      "description" : "Get status bar height for React Native App",
+      "version" : "2.2.2",
+      "author" : {
+        "name" : "Dmitry Patsura",
+        "email" : "talk@dmtry.me"
+      },
+      "homepage" : "https://github.com/ovr/react-native-status-bar-height#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ovr/react-native-status-bar-height.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ovr/react-native-status-bar-height/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-status-bar-height/-/react-native-status-bar-height-2.2.2.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-status-bar-height%2F-%2Freact-native-status-bar-height-2.2.2.tgz",
+        "shasum" : "78dc13a9955ad54b862e3a646551eccb6972fb46"
+      },
+      "devDependencies" : {
+        "flow-bin" : "^0.55.0",
+        "react-native" : "^0.48.4"
+      },
+      "keywords" : [ "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      },
+      "_id" : "react-native-status-bar-height@2.2.2",
+      "gitHead" : "73a49c4622bd4917e9e03abdc8f992199592aca9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-status-bar-height_2.2.2_1552745377520_0.8483688595130634"
+      },
+      "_nodeVersion" : "11.11.0"
+    },
+    "2.3.1" : {
+      "name" : "react-native-status-bar-height",
+      "description" : "Get status bar height for React Native App",
+      "version" : "2.3.1",
+      "author" : {
+        "name" : "Dmitry Patsura",
+        "email" : "talk@dmtry.me"
+      },
+      "homepage" : "https://github.com/ovr/react-native-status-bar-height#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ovr/react-native-status-bar-height.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ovr/react-native-status-bar-height/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-status-bar-height/-/react-native-status-bar-height-2.3.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-status-bar-height%2F-%2Freact-native-status-bar-height-2.3.1.tgz",
+        "shasum" : "b92ce9112c2367290847ac11284d9d84a6330169"
+      },
+      "devDependencies" : {
+        "flow-bin" : "^0.95.1",
+        "react-native" : "^0.48.4",
+        "typescript" : "^3.3.3333"
+      },
+      "keywords" : [ "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1",
+        "tsc" : "tsc"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      },
+      "_id" : "react-native-status-bar-height@2.3.1",
+      "gitHead" : "0f0e21ef4fd84bf6e695e142fd88c0b7995b474a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-status-bar-height_2.3.1_1552900766498_0.06657764702289737"
+      },
+      "_nodeVersion" : "11.11.0"
+    },
+    "2.4.0" : {
+      "name" : "react-native-status-bar-height",
+      "description" : "Get status bar height for React Native App",
+      "version" : "2.4.0",
+      "author" : {
+        "name" : "Dmitry Patsura",
+        "email" : "talk@dmtry.me"
+      },
+      "homepage" : "https://github.com/ovr/react-native-status-bar-height#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ovr/react-native-status-bar-height.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ovr/react-native-status-bar-height/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-status-bar-height/-/react-native-status-bar-height-2.4.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-status-bar-height%2F-%2Freact-native-status-bar-height-2.4.0.tgz",
+        "shasum" : "de8cee4bb733a196167210d2d0bc1fa10acba3e3"
+      },
+      "devDependencies" : {
+        "flow-bin" : "^0.104",
+        "react-native" : "^0.60.4",
+        "typescript" : "^3.3.3333"
+      },
+      "keywords" : [ "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1",
+        "tsc" : "tsc"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      },
+      "_id" : "react-native-status-bar-height@2.4.0",
+      "gitHead" : "2553a9782da5cd631210e530e4c1bf1bba568adf",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-status-bar-height_2.4.0_1564833863583_0.14172162343285177"
+      },
+      "_nodeVersion" : "12.5.0"
+    },
+    "3.0.0-alpha.1" : {
+      "name" : "react-native-status-bar-height",
+      "description" : "Get status bar height for React Native App",
+      "version" : "3.0.0-alpha.1",
+      "author" : {
+        "name" : "Dmitry Patsura",
+        "email" : "talk@dmtry.me"
+      },
+      "homepage" : "https://github.com/ovr/react-native-status-bar-height#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ovr/react-native-status-bar-height.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ovr/react-native-status-bar-height/issues"
+      },
+      "main" : "dist/index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-status-bar-height/-/react-native-status-bar-height-3.0.0-alpha.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-status-bar-height%2F-%2Freact-native-status-bar-height-3.0.0-alpha.1.tgz",
+        "shasum" : "e597ac175d010f03367aeec25b20e2b0b7e8180a"
+      },
+      "dependencies" : {
+        "@types/react" : "^16.9.23",
+        "@types/react-native" : "^0.61.23"
+      },
+      "devDependencies" : {
+        "flow-bin" : "^0.104",
+        "react" : "^16.13.0",
+        "react-native" : "^0.60.4",
+        "typescript" : "^3.8.3"
+      },
+      "keywords" : [ "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1",
+        "tsc" : "tsc",
+        "prepublishOnly" : "rm -rf dist/ && npm run tsc"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      },
+      "_id" : "react-native-status-bar-height@3.0.0-alpha.1",
+      "gitHead" : "a2c9d3bfc1032fd145009b184adbf9a1598651eb",
+      "typings" : "dist/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-status-bar-height_3.0.0-alpha.1_1584614694808_0.6349844024599947"
+      },
+      "_nodeVersion" : "12.5.0"
+    },
+    "2.5.0" : {
+      "name" : "react-native-status-bar-height",
+      "description" : "Get status bar height for React Native App",
+      "version" : "2.5.0",
+      "author" : {
+        "name" : "Dmitry Patsura",
+        "email" : "talk@dmtry.me"
+      },
+      "homepage" : "https://github.com/ovr/react-native-status-bar-height#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ovr/react-native-status-bar-height.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ovr/react-native-status-bar-height/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-status-bar-height/-/react-native-status-bar-height-2.5.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-status-bar-height%2F-%2Freact-native-status-bar-height-2.5.0.tgz",
+        "shasum" : "bc0fb85230603850aab9667ee8111a62954de90c"
+      },
+      "devDependencies" : {
+        "flow-bin" : "^0.104",
+        "react-native" : "^0.60.4",
+        "typescript" : "^3.3.3333"
+      },
+      "keywords" : [ "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1",
+        "tsc" : "tsc"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      },
+      "_id" : "react-native-status-bar-height@2.5.0",
+      "gitHead" : "dad52b6befea4416877000cac9158f9daee372a1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-status-bar-height_2.5.0_1584991905098_0.9842169656102759"
+      },
+      "_nodeVersion" : "12.5.0"
+    },
+    "1.0.1" : {
+      "name" : "react-native-status-bar-height",
+      "description" : "Get status bar height for React Native App",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Dmitry Patsura",
+        "email" : "talk@dmtry.me"
+      },
+      "homepage" : "https://github.com/ovr/react-native-status-bar-height#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ovr/react-native-status-bar-height.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ovr/react-native-status-bar-height/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-status-bar-height/-/react-native-status-bar-height-1.0.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-status-bar-height%2F-%2Freact-native-status-bar-height-1.0.1.tgz",
+        "shasum" : "5179e05646f99313439185dedd90d25e74b218ed"
+      },
+      "dependencies" : {
+        "react-native-iphone-x-helper" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "flow-bin" : "^0.55.0",
+        "react-native" : "^0.48.4"
+      },
+      "keywords" : [ "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "5.4.2",
+      "_npmUser" : {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      },
+      "_id" : "react-native-status-bar-height@1.0.1",
+      "gitHead" : "4dfa1c6b4d53b6c6328fb1cb76121a75c422c834",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-status-bar-height-1.0.1.tgz_1506243127548_0.6100767978932709"
+      },
+      "_nodeVersion" : "8.5.0"
+    },
+    "2.2.0" : {
+      "name" : "react-native-status-bar-height",
+      "description" : "Get status bar height for React Native App",
+      "version" : "2.2.0",
+      "author" : {
+        "name" : "Dmitry Patsura",
+        "email" : "talk@dmtry.me"
+      },
+      "homepage" : "https://github.com/ovr/react-native-status-bar-height#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ovr/react-native-status-bar-height.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ovr/react-native-status-bar-height/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-status-bar-height/-/react-native-status-bar-height-2.2.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-status-bar-height%2F-%2Freact-native-status-bar-height-2.2.0.tgz",
+        "shasum" : "3bd51de134660efc5f5ad136ca573c7d5790f7ed"
+      },
+      "devDependencies" : {
+        "flow-bin" : "^0.55.0",
+        "react-native" : "^0.48.4"
+      },
+      "keywords" : [ "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      },
+      "_id" : "react-native-status-bar-height@2.2.0",
+      "gitHead" : "e64f681460a74bed3a2824e057fa89a96ac0f23e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-status-bar-height_2.2.0_1543220885620_0.849959211973742"
+      },
+      "_nodeVersion" : "10.11.0"
+    },
+    "2.2.1" : {
+      "name" : "react-native-status-bar-height",
+      "description" : "Get status bar height for React Native App",
+      "version" : "2.2.1",
+      "author" : {
+        "name" : "Dmitry Patsura",
+        "email" : "talk@dmtry.me"
+      },
+      "homepage" : "https://github.com/ovr/react-native-status-bar-height#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ovr/react-native-status-bar-height.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ovr/react-native-status-bar-height/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-status-bar-height/-/react-native-status-bar-height-2.2.1.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-status-bar-height%2F-%2Freact-native-status-bar-height-2.2.1.tgz",
+        "shasum" : "d3e7bfe88ac10d3d8565078afd7728736fb2dab4"
+      },
+      "devDependencies" : {
+        "flow-bin" : "^0.55.0",
+        "react-native" : "^0.48.4"
+      },
+      "keywords" : [ "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      },
+      "_id" : "react-native-status-bar-height@2.2.1",
+      "gitHead" : "38b710fc0a871cde9d2d70fc927c6589a9adb953",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-status-bar-height_2.2.1_1552744869451_0.35566192742979763"
+      },
+      "_nodeVersion" : "11.11.0"
+    },
+    "2.3.0" : {
+      "name" : "react-native-status-bar-height",
+      "description" : "Get status bar height for React Native App",
+      "version" : "2.3.0",
+      "author" : {
+        "name" : "Dmitry Patsura",
+        "email" : "talk@dmtry.me"
+      },
+      "homepage" : "https://github.com/ovr/react-native-status-bar-height#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ovr/react-native-status-bar-height.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ovr/react-native-status-bar-height/issues"
+      },
+      "main" : "index.js",
+      "dist" : {
+        "tarball" : "https://na.artifactory.swg-devops.com:443/artifactory/api/npm/fxo-cio-ies-npm-virtual/react-native-status-bar-height/-/react-native-status-bar-height-2.3.0.tgz?dl=https%3A%2F%2Fregistry.npmjs.org%2Freact-native-status-bar-height%2F-%2Freact-native-status-bar-height-2.3.0.tgz",
+        "shasum" : "97c358d07c22ef213a0cd16af885e090dc7618b5"
+      },
+      "devDependencies" : {
+        "flow-bin" : "^0.55.0",
+        "react-native" : "^0.48.4",
+        "typescript" : "^3.3.3333"
+      },
+      "keywords" : [ "react-native" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      } ],
+      "directories" : {
+      },
+      "scripts" : {
+        "test" : "echo \"Error: no test specified\" && exit 1",
+        "tsc" : "tsc"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "ovr",
+        "email" : "talk@dmtry.me"
+      },
+      "_id" : "react-native-status-bar-height@2.3.0",
+      "gitHead" : "439f5c6c3f0505e080ca46fc0b86fdb98e1f4a58",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/react-native-status-bar-height_2.3.0_1552745737687_0.6530669776124669"
+      },
+      "_nodeVersion" : "11.11.0"
+    }
+  },
+  "readme" : "# react-native-status-bar-height\n\n> Small library that helps you to get status bar height\n\nP.S :iphone:X supported :heart:\n\n## Install\n\n```bash\n$ npm install --save react-native-status-bar-height\n# OR\n$ yarn add react-native-status-bar-height\n```\n\n## Usage getStatusBarHeight(skipAndroid: boolean = false)\n\n```js\nimport { getStatusBarHeight } from 'react-native-status-bar-height';\n\n// 44 - on iPhoneX\n// 20 - on iOS device\n// X - on Android platfrom (runtime value)\n// 0 - on all other platforms (default)\nconsole.log(getStatusBarHeight());\n\n// will be 0 on Android, because You pass true to skipAndroid\nconsole.log(getStatusBarHeight(true));\n```\n\n## License\n\nThis project is open-sourced software licensed under the MIT License.\n\nSee the [LICENSE](LICENSE) file for more information.\n",
+  "maintainers" : [ {
+    "name" : "ovr",
+    "email" : "talk@dmtry.me"
+  } ],
+  "author" : {
+    "name" : "Dmitry Patsura",
+    "email" : "talk@dmtry.me"
+  },
+  "time" : {
+    "2.0.0" : "2018-01-22T04:36:48.490Z",
+    "2.1.0" : "2018-09-21T12:55:43.660Z",
+    "created" : "2017-09-24T08:52:08.515Z",
+    "2.2.2" : "2019-03-16T14:09:37.709Z",
+    "2.3.1" : "2019-03-18T09:19:26.631Z",
+    "2.4.0" : "2019-08-03T12:04:23.714Z",
+    "3.0.0-alpha.1" : "2020-03-19T10:44:54.926Z",
+    "2.5.0" : "2020-03-23T19:31:45.245Z",
+    "2.2.0" : "2018-11-26T08:28:05.762Z",
+    "2.2.1" : "2019-03-16T14:01:09.572Z",
+    "2.3.0" : "2019-03-16T14:15:37.781Z",
+    "modified" : "2020-03-23T19:31:47.626Z",
+    "1.0.1" : "2017-09-24T08:52:08.515Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/ovr/react-native-status-bar-height.git"
+  },
+  "users" : {
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/ovr/react-native-status-bar-height#readme",
+  "keywords" : [ "react-native" ],
+  "bugs" : {
+    "url" : "https://github.com/ovr/react-native-status-bar-height/issues"
+  },
+  "license" : "MIT"
+}
