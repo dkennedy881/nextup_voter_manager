@@ -2,11 +2,7 @@
   "expo": {
     "name": "nextup_voter_manager",
     "slug": "nextup_voter_manager",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,12 +14,10 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "nextupvoter"
+      "bundleIdentifier": "voternextup"
     },
     "githubUrl": "https://github.com/dkennedy881/nextup_voter_manager",
     "description": ""

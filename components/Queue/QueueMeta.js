@@ -309,6 +309,794 @@ function QueueMeta({
     }
   };
 
+  const displayHourOnDay = () => {
+    switch (new Date().getDay()) {
+      case 1:
+        return (
+          <View
+            style={{
+              padding: 2,
+              paddingTop: 0,
+              paddingBottom: 0,
+              backgroundColor: "white",
+              display: "flex",
+              flexDirection: "row",
+            }}
+          >
+            <View style={styles.MetaTitleTextViewDays}>
+              <Text style={styles.MetaTitleTextSM}>Monday</Text>
+            </View>
+            <View
+              style={{
+                flex: 1,
+                padding: 20,
+                paddingTop: 15,
+                borderRadius: 9,
+                height: 90,
+                display: "flex",
+                alignContent: "center",
+                justifyContent: "flex-end",
+              }}
+            >
+              <Text style={{ textAlign: "right" }}>
+                Open -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeMonday(!showTimeMonday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {monday.open}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeMonday}
+                mode="time"
+                headerTextIOS="What time does your business open on Monday?"
+                date={timeConvertor(monday.open.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setOpen(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "monday"
+                  );
+                  setShowTimeMonday(!showTimeMonday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeMonday(!showTimeMonday);
+                }}
+              />
+              <Text style={{ textAlign: "right", marginTop: 10 }}>
+                Close -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeCloseMonday(!showTimeCloseMonday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {monday.close}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeCloseMonday}
+                mode="time"
+                headerTextIOS="What time does your business close on Monday?"
+                date={timeConvertor(monday.close.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setClose(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "monday"
+                  );
+                  setShowTimeCloseMonday(!showTimeCloseMonday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeCloseMonday(!showTimeCloseMonday);
+                }}
+              />
+            </View>
+            <View
+              style={{
+                paddingTop: 15,
+                height: 90,
+                width: 120,
+                backgroundColor: "white",
+              }}
+            >
+              <CheckBox
+                containerStyle={{
+                  backgroundColor: "white",
+                  borderColor: "white",
+                }}
+                textStyle={{ color: "black", fontWeight: "300" }}
+                iconRight={true}
+                checkedColor={"#6da8bd"}
+                checked={monday.active}
+                onPress={() => setChecked("monday")}
+              />
+              {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
+                      Clear Hours
+                    </Text> */}
+            </View>
+          </View>
+        );
+
+      case 2:
+        return (
+          <View
+            style={{
+              padding: 2,
+              paddingTop: 0,
+              paddingBottom: 0,
+              backgroundColor: "white",
+              display: "flex",
+              flexDirection: "row",
+            }}
+          >
+            <View style={styles.MetaTitleTextViewDays}>
+              <Text style={styles.MetaTitleTextSM}>Tuesday</Text>
+            </View>
+            <View
+              style={{
+                flex: 1,
+                padding: 20,
+                paddingTop: 15,
+                borderRadius: 9,
+                height: 90,
+                display: "flex",
+                alignContent: "center",
+                justifyContent: "flex-end",
+              }}
+            >
+              <Text style={{ textAlign: "right" }}>
+                Open -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeTuesday(!showTimeTuesday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {tuesday.open}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeTuesday}
+                mode="time"
+                headerTextIOS="What time does your business open on Tuesday?"
+                date={timeConvertor(tuesday.open.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setOpen(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "tuesday"
+                  );
+                  setShowTimeTuesday(!showTimeTuesday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeTuesday(!showTimeTuesday);
+                }}
+              />
+              <Text style={{ textAlign: "right", marginTop: 10 }}>
+                Close -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeCloseTuesday(!showTimeCloseTuesday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {tuesday.close}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeCloseTuesday}
+                mode="time"
+                headerTextIOS="What time does your business close on Tuesday?"
+                date={timeConvertor(tuesday.close.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setClose(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "tuesday"
+                  );
+                  setShowTimeCloseTuesday(!showTimeCloseTuesday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeCloseTuesday(!showTimeCloseTuesday);
+                }}
+              />
+            </View>
+            <View
+              style={{
+                paddingTop: 15,
+                height: 90,
+                width: 120,
+                backgroundColor: "white",
+              }}
+            >
+              <CheckBox
+                containerStyle={{
+                  backgroundColor: "white",
+                  borderColor: "white",
+                }}
+                textStyle={{ color: "black", fontWeight: "300" }}
+                iconRight={true}
+                checkedColor={"#6da8bd"}
+                checked={tuesday.active}
+                onPress={() => setChecked("tuesday")}
+              />
+              {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
+                      Clear Hours
+                    </Text> */}
+            </View>
+          </View>
+        );
+
+      case 3:
+        return (
+          <View
+            style={{
+              padding: 2,
+              paddingTop: 0,
+              paddingBottom: 0,
+              backgroundColor: "white",
+              display: "flex",
+              flexDirection: "row",
+            }}
+          >
+            <View style={styles.MetaTitleTextViewDays}>
+              <Text style={styles.MetaTitleTextSM}>Wednesday</Text>
+            </View>
+            <View
+              style={{
+                flex: 1,
+                padding: 20,
+                paddingTop: 15,
+                borderRadius: 9,
+                height: 90,
+                display: "flex",
+                alignContent: "center",
+                justifyContent: "flex-end",
+              }}
+            >
+              <Text style={{ textAlign: "right" }}>
+                Open -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeWednesday(!showTimeWednesday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {wednesday.open}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeWednesday}
+                mode="time"
+                headerTextIOS="What time does your business open on Wednesday?"
+                date={timeConvertor(wednesday.open.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setOpen(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "wednesday"
+                  );
+                  setShowTimeWednesday(!showTimeWednesday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeWednesday(!showTimeWednesday);
+                }}
+              />
+              <Text style={{ textAlign: "right", marginTop: 10 }}>
+                Close -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeCloseWednesday(!showTimeCloseWednesday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {wednesday.close}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeCloseWednesday}
+                mode="time"
+                headerTextIOS="What time does your business close on Wednesday?"
+                date={timeConvertor(wednesday.close.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setClose(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "wednesday"
+                  );
+                  setShowTimeCloseWednesday(!showTimeCloseWednesday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeCloseWednesday(!showTimeCloseWednesday);
+                }}
+              />
+            </View>
+            <View
+              style={{
+                paddingTop: 15,
+                height: 90,
+                width: 120,
+                backgroundColor: "white",
+              }}
+            >
+              <CheckBox
+                containerStyle={{
+                  backgroundColor: "white",
+                  borderColor: "white",
+                }}
+                textStyle={{ color: "black", fontWeight: "300" }}
+                iconRight={true}
+                checkedColor={"#6da8bd"}
+                checked={wednesday.active}
+                onPress={() => setChecked("wednesday")}
+              />
+              {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
+                      Clear Hours
+                    </Text> */}
+            </View>
+          </View>
+        );
+
+      case 4:
+        return (
+          <View
+            style={{
+              padding: 2,
+              paddingTop: 0,
+              paddingBottom: 0,
+              backgroundColor: "white",
+              display: "flex",
+              flexDirection: "row",
+            }}
+          >
+            <View style={styles.MetaTitleTextViewDays}>
+              <Text style={styles.MetaTitleTextSM}>Thursday</Text>
+            </View>
+            <View
+              style={{
+                flex: 1,
+                padding: 20,
+                paddingTop: 15,
+                borderRadius: 9,
+                height: 90,
+                display: "flex",
+                alignContent: "center",
+                justifyContent: "flex-end",
+              }}
+            >
+              <Text style={{ textAlign: "right" }}>
+                Open -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeThursday(!showTimeThursday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {thursday.open}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeThursday}
+                mode="time"
+                headerTextIOS="What time does your business open on Thursday?"
+                date={timeConvertor(thursday.open.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setOpen(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "thursday"
+                  );
+                  setShowTimeThursday(!showTimeThursday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeThursday(!showTimeThursday);
+                }}
+              />
+              <Text style={{ textAlign: "right", marginTop: 10 }}>
+                Close -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeCloseThursday(!showTimeCloseThursday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {thursday.close}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeCloseThursday}
+                mode="time"
+                headerTextIOS="What time does your business close on Thursday?"
+                date={timeConvertor(thursday.close.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setClose(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "thursday"
+                  );
+                  setShowTimeCloseThursday(!showTimeCloseThursday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeCloseThursday(!showTimeCloseThursday);
+                }}
+              />
+            </View>
+            <View
+              style={{
+                paddingTop: 15,
+                height: 90,
+                width: 120,
+                backgroundColor: "white",
+              }}
+            >
+              <CheckBox
+                containerStyle={{
+                  backgroundColor: "white",
+                  borderColor: "white",
+                }}
+                textStyle={{ color: "black", fontWeight: "300" }}
+                iconRight={true}
+                checkedColor={"#6da8bd"}
+                checked={thursday.active}
+                onPress={() => setChecked("thursday")}
+              />
+              {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
+                      Clear Hours
+                    </Text> */}
+            </View>
+          </View>
+        );
+
+      case 5:
+        return (
+          <View
+            style={{
+              padding: 2,
+              paddingTop: 0,
+              paddingBottom: 0,
+              backgroundColor: "white",
+              display: "flex",
+              flexDirection: "row",
+            }}
+          >
+            <View style={styles.MetaTitleTextViewDays}>
+              <Text style={styles.MetaTitleTextSM}>Friday</Text>
+            </View>
+            <View
+              style={{
+                flex: 1,
+                padding: 20,
+                paddingTop: 15,
+                borderRadius: 9,
+                height: 90,
+                display: "flex",
+                alignContent: "center",
+                justifyContent: "flex-end",
+              }}
+            >
+              <Text style={{ textAlign: "right" }}>
+                Open -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeFriday(!showTimeFriday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {friday.open}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeFriday}
+                mode="time"
+                headerTextIOS="What time does your business open Friday?"
+                date={timeConvertor(friday.open.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setOpen(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "friday"
+                  );
+                  setShowTimeFriday(!showTimeFriday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeFriday(!showTimeFriday);
+                }}
+              />
+              <Text style={{ textAlign: "right", marginTop: 10 }}>
+                Close -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeCloseFriday(!showTimeCloseFriday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {friday.close}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeCloseFriday}
+                mode="time"
+                headerTextIOS="What time does your business close on Friday?"
+                date={timeConvertor(friday.close.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setClose(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "friday"
+                  );
+                  setShowTimeCloseFriday(!showTimeCloseFriday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeCloseFriday(!showTimeCloseFriday);
+                }}
+              />
+            </View>
+            <View
+              style={{
+                paddingTop: 15,
+                height: 90,
+                width: 120,
+                backgroundColor: "white",
+              }}
+            >
+              <CheckBox
+                containerStyle={{
+                  backgroundColor: "white",
+                  borderColor: "white",
+                }}
+                textStyle={{ color: "black", fontWeight: "300" }}
+                iconRight={true}
+                checkedColor={"#6da8bd"}
+                checked={friday.active}
+                onPress={() => setChecked("friday")}
+              />
+              {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
+                      Clear Hours
+                    </Text> */}
+            </View>
+          </View>
+        );
+
+      case 6:
+        return (
+          <View
+            style={{
+              padding: 2,
+              paddingTop: 0,
+              paddingBottom: 0,
+              backgroundColor: "white",
+              display: "flex",
+              flexDirection: "row",
+            }}
+          >
+            <View style={styles.MetaTitleTextViewDays}>
+              <Text style={styles.MetaTitleTextSM}>Saturday</Text>
+            </View>
+            <View
+              style={{
+                flex: 1,
+                padding: 20,
+                paddingTop: 15,
+                borderRadius: 9,
+                height: 90,
+                display: "flex",
+                alignContent: "center",
+                justifyContent: "flex-end",
+              }}
+            >
+              <Text style={{ textAlign: "right" }}>
+                Open -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeSaturday(!showTimeSaturday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {saturday.open}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeSaturday}
+                mode="time"
+                headerTextIOS="What time does your business open Saturday?"
+                date={timeConvertor(saturday.open.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setOpen(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "saturday"
+                  );
+                  setShowTimeSaturday(!showTimeSaturday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeSaturday(!showTimeSaturday);
+                }}
+              />
+              <Text style={{ textAlign: "right", marginTop: 10 }}>
+                Close -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeCloseSaturday(!showTimeCloseSaturday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {saturday.close}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeCloseSaturday}
+                mode="time"
+                headerTextIOS="What time does your business close on Saturday?"
+                date={timeConvertor(saturday.close.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setClose(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "saturday"
+                  );
+                  setShowTimeCloseSaturday(!showTimeCloseSaturday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeCloseSaturday(!showTimeCloseSaturday);
+                }}
+              />
+            </View>
+            <View
+              style={{
+                paddingTop: 15,
+                height: 90,
+                width: 120,
+                backgroundColor: "white",
+              }}
+            >
+              <CheckBox
+                containerStyle={{
+                  backgroundColor: "white",
+                  borderColor: "white",
+                }}
+                textStyle={{ color: "black", fontWeight: "300" }}
+                iconRight={true}
+                checkedColor={"#6da8bd"}
+                checked={saturday.active}
+                onPress={() => setChecked("saturday")}
+              />
+              {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
+                      Clear Hours
+                    </Text> */}
+            </View>
+          </View>
+        );
+
+      default:
+        return (
+          <View
+            style={{
+              padding: 2,
+              paddingTop: 0,
+              paddingBottom: 0,
+              backgroundColor: "white",
+              display: "flex",
+              flexDirection: "row",
+            }}
+          >
+            <View style={styles.MetaTitleTextViewDays}>
+              <Text style={styles.MetaTitleTextSM}>Sunday</Text>
+            </View>
+            <View
+              style={{
+                flex: 1,
+                padding: 20,
+                paddingTop: 15,
+                borderRadius: 9,
+                height: 90,
+                display: "flex",
+                alignContent: "center",
+                justifyContent: "flex-end",
+              }}
+            >
+              <Text style={{ textAlign: "right" }}>
+                Open -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeSunday(!showTimeSunday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {sunday.open}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeSunday}
+                mode="time"
+                headerTextIOS="What time does your business open Sunday?"
+                date={timeConvertor(sunday.open.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setOpen(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "sunday"
+                  );
+                  setShowTimeSunday(!showTimeSunday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeSunday(!showTimeSunday);
+                }}
+              />
+              <Text style={{ textAlign: "right", marginTop: 10 }}>
+                Close -{" "}
+                <Text
+                  onPress={() => {
+                    setShowTimeCloseSunday(!showTimeCloseSunday);
+                  }}
+                  style={{ color: "#6da8bd", fontWeight: "800" }}
+                >
+                  {sunday.close}
+                </Text>
+              </Text>
+              <DateTimePickerModal
+                isVisible={showTimeCloseSunday}
+                mode="time"
+                headerTextIOS="What time does your business close on Sunday?"
+                date={timeConvertor(sunday.close.replace(/\s/g, ":00"))}
+                onConfirm={(value) => {
+                  setClose(
+                    new Date(value)
+                      .toLocaleTimeString("en-US")
+                      .replace(/:\d{2}\s/g, " "),
+                    "sunday"
+                  );
+                  setShowTimeCloseSunday(!showTimeCloseSunday);
+                }}
+                onCancel={(value) => {
+                  setShowTimeCloseSunday(!showTimeCloseSunday);
+                }}
+              />
+            </View>
+            <View
+              style={{
+                paddingTop: 15,
+                height: 90,
+                width: 120,
+                backgroundColor: "white",
+              }}
+            >
+              <CheckBox
+                containerStyle={{
+                  backgroundColor: "white",
+                  borderColor: "white",
+                }}
+                textStyle={{ color: "black", fontWeight: "300" }}
+                iconRight={true}
+                checkedColor={"#6da8bd"}
+                checked={sunday.active}
+                onPress={() => setChecked("sunday")}
+              />
+              {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
+                      Clear Hours
+                    </Text> */}
+            </View>
+          </View>
+        );
+    }
+  };
+
   if (editing) {
     return (
       <KeyboardAvoidingView
@@ -417,9 +1205,9 @@ function QueueMeta({
                 </View>
               </View>
 
-              <Text style={styles.titleText}>Business Details</Text>
+              <Text style={styles.titleText}>Location Details</Text>
               <View style={styles.MetaRowEditing}>
-                <Text style={styles.MetaTitleText}>Update Business Status</Text>
+                <Text style={styles.MetaTitleText}>Location Status</Text>
                 <Text style={styles.MetaTitleTextSM}>
                   keep your prospective customers informed
                 </Text>
@@ -476,7 +1264,7 @@ function QueueMeta({
                 </View>
               </View>
 
-              <View style={styles.MetaRowEditing}>
+              {/* <View style={styles.MetaRowEditing}>
                 <Text style={styles.MetaTitleText}>Business Name</Text>
                 <Text style={styles.MetaTitleTextSM}>
                   The name customers will see when using the app.
@@ -486,15 +1274,16 @@ function QueueMeta({
                   defaultValue={title}
                   onChangeText={(value) => setTitle(value)}
                 ></TextInput>
-              </View>
-              <View style={styles.MetaRowEditing}>
+              </View> */}
+
+              {/* <View style={styles.MetaRowEditing}>
                 <Text style={styles.MetaTitleText}>Business Phone Number</Text>
                 <TextInput
                   style={styles.MetaDataTextInput}
                   defaultValue={businessNumber}
                   onChangeText={(value) => setBusinessNumber(value)}
                 ></TextInput>
-              </View>
+              </View> */}
 
               <View
                 style={{
@@ -509,7 +1298,7 @@ function QueueMeta({
                 }}
               >
                 <Text style={styles.MetaTitleText}>Hours of Operation</Text>
-                <TouchableOpacity
+                {/* <TouchableOpacity
                   onPress={() => {
                     setShowTime(true);
                   }}
@@ -523,8 +1312,8 @@ function QueueMeta({
                   >
                     Update All Open Hours
                   </Text>
-                </TouchableOpacity>
-                <DateTimePickerModal
+                </TouchableOpacity> */}
+                {/* <DateTimePickerModal
                   isVisible={showTime}
                   mode="time"
                   headerTextIOS="What time does your business open?"
@@ -545,8 +1334,8 @@ function QueueMeta({
                   onCancel={(value) => {
                     setShowTime(!showTime);
                   }}
-                />
-                <TouchableOpacity
+                /> */}
+                {/* <TouchableOpacity
                   onPress={() => {
                     setShowTimeClose(true);
                   }}
@@ -582,767 +1371,10 @@ function QueueMeta({
                   onCancel={(value) => {
                     setShowTimeClose(!showTimeClose);
                   }}
-                />
-                <View
-                  style={{
-                    padding: 2,
-                    paddingTop: 0,
-                    paddingBottom: 0,
-                    backgroundColor: "white",
-                    display: "flex",
-                    flexDirection: "row",
-                  }}
-                >
-                  <View style={styles.MetaTitleTextViewDays}>
-                    <Text style={styles.MetaTitleTextSM}>Monday</Text>
-                  </View>
-                  <View
-                    style={{
-                      flex: 1,
-                      padding: 20,
-                      paddingTop: 15,
-                      borderRadius: 9,
-                      height: 90,
-                      display: "flex",
-                      alignContent: "center",
-                      justifyContent: "flex-end",
-                    }}
-                  >
-                    <Text style={{ textAlign: "right" }}>
-                      Open -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeMonday(!showTimeMonday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {monday.open}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeMonday}
-                      mode="time"
-                      headerTextIOS="What time does your business open on Monday?"
-                      date={timeConvertor(monday.open.replace(/\s/g, ":00"))}
-                      onConfirm={(value) => {
-                        setOpen(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "monday"
-                        );
-                        setShowTimeMonday(!showTimeMonday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeMonday(!showTimeMonday);
-                      }}
-                    />
-                    <Text style={{ textAlign: "right", marginTop: 10 }}>
-                      Close -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeCloseMonday(!showTimeCloseMonday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {monday.close}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeCloseMonday}
-                      mode="time"
-                      headerTextIOS="What time does your business close on Monday?"
-                      date={timeConvertor(monday.close.replace(/\s/g, ":00"))}
-                      onConfirm={(value) => {
-                        setClose(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "monday"
-                        );
-                        setShowTimeCloseMonday(!showTimeCloseMonday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeCloseMonday(!showTimeCloseMonday);
-                      }}
-                    />
-                  </View>
-                  <View
-                    style={{
-                      paddingTop: 15,
-                      height: 90,
-                      width: 120,
-                      backgroundColor: "white",
-                    }}
-                  >
-                    <CheckBox
-                      containerStyle={{
-                        backgroundColor: "white",
-                        borderColor: "white",
-                      }}
-                      textStyle={{ color: "black", fontWeight: "300" }}
-                      iconRight={true}
-                      checkedColor={"#6da8bd"}
-                      checked={monday.active}
-                      onPress={() => setChecked("monday")}
-                    />
-                    {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
-                      Clear Hours
-                    </Text> */}
-                  </View>
-                </View>
-                <View
-                  style={{
-                    padding: 2,
-                    paddingTop: 0,
-                    paddingBottom: 0,
-                    backgroundColor: "white",
-                    display: "flex",
-                    flexDirection: "row",
-                  }}
-                >
-                  <View style={styles.MetaTitleTextViewDays}>
-                    <Text style={styles.MetaTitleTextSM}>Tuesday</Text>
-                  </View>
-                  <View
-                    style={{
-                      flex: 1,
-                      padding: 20,
-                      paddingTop: 15,
-                      borderRadius: 9,
-                      height: 90,
-                      display: "flex",
-                      alignContent: "center",
-                      justifyContent: "flex-end",
-                    }}
-                  >
-                    <Text style={{ textAlign: "right" }}>
-                      Open -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeTuesday(!showTimeTuesday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {tuesday.open}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeTuesday}
-                      mode="time"
-                      headerTextIOS="What time does your business open on Tuesday?"
-                      date={timeConvertor(tuesday.open.replace(/\s/g, ":00"))}
-                      onConfirm={(value) => {
-                        setOpen(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "tuesday"
-                        );
-                        setShowTimeTuesday(!showTimeTuesday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeTuesday(!showTimeTuesday);
-                      }}
-                    />
-                    <Text style={{ textAlign: "right", marginTop: 10 }}>
-                      Close -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeCloseTuesday(!showTimeCloseTuesday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {tuesday.close}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeCloseTuesday}
-                      mode="time"
-                      headerTextIOS="What time does your business close on Tuesday?"
-                      date={timeConvertor(tuesday.close.replace(/\s/g, ":00"))}
-                      onConfirm={(value) => {
-                        setClose(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "tuesday"
-                        );
-                        setShowTimeCloseTuesday(!showTimeCloseTuesday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeCloseTuesday(!showTimeCloseTuesday);
-                      }}
-                    />
-                  </View>
-                  <View
-                    style={{
-                      paddingTop: 15,
-                      height: 90,
-                      width: 120,
-                      backgroundColor: "white",
-                    }}
-                  >
-                    <CheckBox
-                      containerStyle={{
-                        backgroundColor: "white",
-                        borderColor: "white",
-                      }}
-                      textStyle={{ color: "black", fontWeight: "300" }}
-                      iconRight={true}
-                      checkedColor={"#6da8bd"}
-                      checked={tuesday.active}
-                      onPress={() => setChecked("tuesday")}
-                    />
-                    {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
-                      Clear Hours
-                    </Text> */}
-                  </View>
-                </View>
-                <View
-                  style={{
-                    padding: 2,
-                    paddingTop: 0,
-                    paddingBottom: 0,
-                    backgroundColor: "white",
-                    display: "flex",
-                    flexDirection: "row",
-                  }}
-                >
-                  <View style={styles.MetaTitleTextViewDays}>
-                    <Text style={styles.MetaTitleTextSM}>Wednesday</Text>
-                  </View>
-                  <View
-                    style={{
-                      flex: 1,
-                      padding: 20,
-                      paddingTop: 15,
-                      borderRadius: 9,
-                      height: 90,
-                      display: "flex",
-                      alignContent: "center",
-                      justifyContent: "flex-end",
-                    }}
-                  >
-                    <Text style={{ textAlign: "right" }}>
-                      Open -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeWednesday(!showTimeWednesday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {wednesday.open}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeWednesday}
-                      mode="time"
-                      headerTextIOS="What time does your business open on Wednesday?"
-                      date={timeConvertor(wednesday.open.replace(/\s/g, ":00"))}
-                      onConfirm={(value) => {
-                        setOpen(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "wednesday"
-                        );
-                        setShowTimeWednesday(!showTimeWednesday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeWednesday(!showTimeWednesday);
-                      }}
-                    />
-                    <Text style={{ textAlign: "right", marginTop: 10 }}>
-                      Close -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeCloseWednesday(!showTimeCloseWednesday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {wednesday.close}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeCloseWednesday}
-                      mode="time"
-                      headerTextIOS="What time does your business close on Wednesday?"
-                      date={timeConvertor(
-                        wednesday.close.replace(/\s/g, ":00")
-                      )}
-                      onConfirm={(value) => {
-                        setClose(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "wednesday"
-                        );
-                        setShowTimeCloseWednesday(!showTimeCloseWednesday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeCloseWednesday(!showTimeCloseWednesday);
-                      }}
-                    />
-                  </View>
-                  <View
-                    style={{
-                      paddingTop: 15,
-                      height: 90,
-                      width: 120,
-                      backgroundColor: "white",
-                    }}
-                  >
-                    <CheckBox
-                      containerStyle={{
-                        backgroundColor: "white",
-                        borderColor: "white",
-                      }}
-                      textStyle={{ color: "black", fontWeight: "300" }}
-                      iconRight={true}
-                      checkedColor={"#6da8bd"}
-                      checked={wednesday.active}
-                      onPress={() => setChecked("wednesday")}
-                    />
-                    {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
-                      Clear Hours
-                    </Text> */}
-                  </View>
-                </View>
-                <View
-                  style={{
-                    padding: 2,
-                    paddingTop: 0,
-                    paddingBottom: 0,
-                    backgroundColor: "white",
-                    display: "flex",
-                    flexDirection: "row",
-                  }}
-                >
-                  <View style={styles.MetaTitleTextViewDays}>
-                    <Text style={styles.MetaTitleTextSM}>Thursday</Text>
-                  </View>
-                  <View
-                    style={{
-                      flex: 1,
-                      padding: 20,
-                      paddingTop: 15,
-                      borderRadius: 9,
-                      height: 90,
-                      display: "flex",
-                      alignContent: "center",
-                      justifyContent: "flex-end",
-                    }}
-                  >
-                    <Text style={{ textAlign: "right" }}>
-                      Open -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeThursday(!showTimeThursday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {thursday.open}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeThursday}
-                      mode="time"
-                      headerTextIOS="What time does your business open on Thursday?"
-                      date={timeConvertor(thursday.open.replace(/\s/g, ":00"))}
-                      onConfirm={(value) => {
-                        setOpen(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "thursday"
-                        );
-                        setShowTimeThursday(!showTimeThursday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeThursday(!showTimeThursday);
-                      }}
-                    />
-                    <Text style={{ textAlign: "right", marginTop: 10 }}>
-                      Close -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeCloseThursday(!showTimeCloseThursday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {thursday.close}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeCloseThursday}
-                      mode="time"
-                      headerTextIOS="What time does your business close on Thursday?"
-                      date={timeConvertor(thursday.close.replace(/\s/g, ":00"))}
-                      onConfirm={(value) => {
-                        setClose(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "thursday"
-                        );
-                        setShowTimeCloseThursday(!showTimeCloseThursday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeCloseThursday(!showTimeCloseThursday);
-                      }}
-                    />
-                  </View>
-                  <View
-                    style={{
-                      paddingTop: 15,
-                      height: 90,
-                      width: 120,
-                      backgroundColor: "white",
-                    }}
-                  >
-                    <CheckBox
-                      containerStyle={{
-                        backgroundColor: "white",
-                        borderColor: "white",
-                      }}
-                      textStyle={{ color: "black", fontWeight: "300" }}
-                      iconRight={true}
-                      checkedColor={"#6da8bd"}
-                      checked={thursday.active}
-                      onPress={() => setChecked("thursday")}
-                    />
-                    {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
-                      Clear Hours
-                    </Text> */}
-                  </View>
-                </View>
-                <View
-                  style={{
-                    padding: 2,
-                    paddingTop: 0,
-                    paddingBottom: 0,
-                    backgroundColor: "white",
-                    display: "flex",
-                    flexDirection: "row",
-                  }}
-                >
-                  <View style={styles.MetaTitleTextViewDays}>
-                    <Text style={styles.MetaTitleTextSM}>Friday</Text>
-                  </View>
-                  <View
-                    style={{
-                      flex: 1,
-                      padding: 20,
-                      paddingTop: 15,
-                      borderRadius: 9,
-                      height: 90,
-                      display: "flex",
-                      alignContent: "center",
-                      justifyContent: "flex-end",
-                    }}
-                  >
-                    <Text style={{ textAlign: "right" }}>
-                      Open -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeFriday(!showTimeFriday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {friday.open}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeFriday}
-                      mode="time"
-                      headerTextIOS="What time does your business open Friday?"
-                      date={timeConvertor(friday.open.replace(/\s/g, ":00"))}
-                      onConfirm={(value) => {
-                        setOpen(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "friday"
-                        );
-                        setShowTimeFriday(!showTimeFriday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeFriday(!showTimeFriday);
-                      }}
-                    />
-                    <Text style={{ textAlign: "right", marginTop: 10 }}>
-                      Close -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeCloseFriday(!showTimeCloseFriday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {friday.close}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeCloseFriday}
-                      mode="time"
-                      headerTextIOS="What time does your business close on Friday?"
-                      date={timeConvertor(friday.close.replace(/\s/g, ":00"))}
-                      onConfirm={(value) => {
-                        setClose(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "friday"
-                        );
-                        setShowTimeCloseFriday(!showTimeCloseFriday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeCloseFriday(!showTimeCloseFriday);
-                      }}
-                    />
-                  </View>
-                  <View
-                    style={{
-                      paddingTop: 15,
-                      height: 90,
-                      width: 120,
-                      backgroundColor: "white",
-                    }}
-                  >
-                    <CheckBox
-                      containerStyle={{
-                        backgroundColor: "white",
-                        borderColor: "white",
-                      }}
-                      textStyle={{ color: "black", fontWeight: "300" }}
-                      iconRight={true}
-                      checkedColor={"#6da8bd"}
-                      checked={friday.active}
-                      onPress={() => setChecked("friday")}
-                    />
-                    {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
-                      Clear Hours
-                    </Text> */}
-                  </View>
-                </View>
-                <View
-                  style={{
-                    padding: 2,
-                    paddingTop: 0,
-                    paddingBottom: 0,
-                    backgroundColor: "white",
-                    display: "flex",
-                    flexDirection: "row",
-                  }}
-                >
-                  <View style={styles.MetaTitleTextViewDays}>
-                    <Text style={styles.MetaTitleTextSM}>Saturday</Text>
-                  </View>
-                  <View
-                    style={{
-                      flex: 1,
-                      padding: 20,
-                      paddingTop: 15,
-                      borderRadius: 9,
-                      height: 90,
-                      display: "flex",
-                      alignContent: "center",
-                      justifyContent: "flex-end",
-                    }}
-                  >
-                    <Text style={{ textAlign: "right" }}>
-                      Open -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeSaturday(!showTimeSaturday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {saturday.open}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeSaturday}
-                      mode="time"
-                      headerTextIOS="What time does your business open Saturday?"
-                      date={timeConvertor(saturday.open.replace(/\s/g, ":00"))}
-                      onConfirm={(value) => {
-                        setOpen(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "saturday"
-                        );
-                        setShowTimeSaturday(!showTimeSaturday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeSaturday(!showTimeSaturday);
-                      }}
-                    />
-                    <Text style={{ textAlign: "right", marginTop: 10 }}>
-                      Close -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeCloseSaturday(!showTimeCloseSaturday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {saturday.close}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeCloseSaturday}
-                      mode="time"
-                      headerTextIOS="What time does your business close on Saturday?"
-                      date={timeConvertor(saturday.close.replace(/\s/g, ":00"))}
-                      onConfirm={(value) => {
-                        setClose(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "saturday"
-                        );
-                        setShowTimeCloseSaturday(!showTimeCloseSaturday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeCloseSaturday(!showTimeCloseSaturday);
-                      }}
-                    />
-                  </View>
-                  <View
-                    style={{
-                      paddingTop: 15,
-                      height: 90,
-                      width: 120,
-                      backgroundColor: "white",
-                    }}
-                  >
-                    <CheckBox
-                      containerStyle={{
-                        backgroundColor: "white",
-                        borderColor: "white",
-                      }}
-                      textStyle={{ color: "black", fontWeight: "300" }}
-                      iconRight={true}
-                      checkedColor={"#6da8bd"}
-                      checked={saturday.active}
-                      onPress={() => setChecked("saturday")}
-                    />
-                    {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
-                      Clear Hours
-                    </Text> */}
-                  </View>
-                </View>
-                <View
-                  style={{
-                    padding: 2,
-                    paddingTop: 0,
-                    paddingBottom: 0,
-                    backgroundColor: "white",
-                    display: "flex",
-                    flexDirection: "row",
-                  }}
-                >
-                  <View style={styles.MetaTitleTextViewDays}>
-                    <Text style={styles.MetaTitleTextSM}>Sunday</Text>
-                  </View>
-                  <View
-                    style={{
-                      flex: 1,
-                      padding: 20,
-                      paddingTop: 15,
-                      borderRadius: 9,
-                      height: 90,
-                      display: "flex",
-                      alignContent: "center",
-                      justifyContent: "flex-end",
-                    }}
-                  >
-                    <Text style={{ textAlign: "right" }}>
-                      Open -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeSunday(!showTimeSunday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {sunday.open}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeSunday}
-                      mode="time"
-                      headerTextIOS="What time does your business open Sunday?"
-                      date={timeConvertor(sunday.open.replace(/\s/g, ":00"))}
-                      onConfirm={(value) => {
-                        setOpen(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "sunday"
-                        );
-                        setShowTimeSunday(!showTimeSunday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeSunday(!showTimeSunday);
-                      }}
-                    />
-                    <Text style={{ textAlign: "right", marginTop: 10 }}>
-                      Close -{" "}
-                      <Text
-                        onPress={() => {
-                          setShowTimeCloseSunday(!showTimeCloseSunday);
-                        }}
-                        style={{ color: "#6da8bd", fontWeight: "800" }}
-                      >
-                        {sunday.close}
-                      </Text>
-                    </Text>
-                    <DateTimePickerModal
-                      isVisible={showTimeCloseSunday}
-                      mode="time"
-                      headerTextIOS="What time does your business close on Sunday?"
-                      date={timeConvertor(sunday.close.replace(/\s/g, ":00"))}
-                      onConfirm={(value) => {
-                        setClose(
-                          new Date(value)
-                            .toLocaleTimeString("en-US")
-                            .replace(/:\d{2}\s/g, " "),
-                          "sunday"
-                        );
-                        setShowTimeCloseSunday(!showTimeCloseSunday);
-                      }}
-                      onCancel={(value) => {
-                        setShowTimeCloseSunday(!showTimeCloseSunday);
-                      }}
-                    />
-                  </View>
-                  <View
-                    style={{
-                      paddingTop: 15,
-                      height: 90,
-                      width: 120,
-                      backgroundColor: "white",
-                    }}
-                  >
-                    <CheckBox
-                      containerStyle={{
-                        backgroundColor: "white",
-                        borderColor: "white",
-                      }}
-                      textStyle={{ color: "black", fontWeight: "300" }}
-                      iconRight={true}
-                      checkedColor={"#6da8bd"}
-                      checked={sunday.active}
-                      onPress={() => setChecked("sunday")}
-                    />
-                    {/* <Text style={{ color: "#6da8bd", fontWeight: "800" }}>
-                      Clear Hours
-                    </Text> */}
-                  </View>
-                </View>
+                /> */}
+                {displayHourOnDay()}
               </View>
-              <View style={styles.MetaRowEditing}>
+              {/* <View style={styles.MetaRowEditing}>
                 <Text style={styles.MetaTitleText}>City</Text>
                 <View style={styles.inputField}>
                   <RNPickerSelect
@@ -1370,25 +1402,25 @@ function QueueMeta({
                     ]}
                   />
                 </View>
-              </View>
-              <View style={styles.MetaRowEditing}>
+              </View> */}
+              {/* <View style={styles.MetaRowEditing}>
                 <Text style={styles.MetaTitleText}>Address</Text>
                 <TextInput
                   style={styles.MetaDataTextInput}
                   defaultValue={address}
                   onChangeText={(value) => setAddress(value)}
                 ></TextInput>
-              </View>
+              </View> */}
 
-              <View style={styles.MetaRowEditing}>
+              {/* <View style={styles.MetaRowEditing}>
                 <Text style={styles.MetaTitleText}>Zip Code</Text>
                 <TextInput
                   style={styles.MetaDataTextInput}
                   defaultValue={zipCode}
                   onChangeText={(value) => setZipCode(value)}
                 ></TextInput>
-              </View>
-              <View
+              </View> */}
+              {/* <View
                 style={{
                   marginTop: 5,
                   marginBottom: 5,
@@ -1444,7 +1476,7 @@ function QueueMeta({
                     ]}
                   />
                 </View>
-              </View>
+              </View> */}
             </View>
           </TouchableWithoutFeedback>
         </ScrollView>
@@ -1536,7 +1568,7 @@ function QueueMeta({
             </View>
             <View style={styles.MetaRow}>
               <View style={{ paddingRight: 20, paddingLeft: 20 }}>
-                <Text style={styles.MetaTitleText}>Business Message</Text>
+                <Text style={styles.MetaTitleText}>Location Message</Text>
                 {/* <Text style={styles.MetaData}>{queueData.message}</Text> */}
                 <TextInput
                   style={styles.MetaDataParagraphInput}

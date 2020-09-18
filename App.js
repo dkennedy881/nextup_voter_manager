@@ -80,7 +80,7 @@ export default class App extends Component {
         userObj: false,
         queueData: false,
         isLoggedIn: !isLoggedIn,
-        isSignedUp: false,
+        isSignedUp: true,
         showSettings: false,
       }));
     } else {
