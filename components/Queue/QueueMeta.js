@@ -65,6 +65,9 @@ function QueueMeta({
   const [saturday, setSaturday] = useState(queueData.saturday);
   const [sunday, setSunday] = useState(queueData.sunday);
 
+  const [estHours, setEstHours] = useState(queueData.estHours);
+  const [estMinutes, setEstMinutes] = useState(queueData.estMinutes);
+
   const [showTimeMonday, setShowTimeMonday] = useState(false);
   const [showTimeCloseMonday, setShowTimeCloseMonday] = useState(false);
 
@@ -88,7 +91,6 @@ function QueueMeta({
 
   const [showTime, setShowTime] = useState(false);
   const [showTimeClose, setShowTimeClose] = useState(false);
-
   const [og, setOG] = useState({
     title,
     message,
@@ -102,6 +104,8 @@ function QueueMeta({
     businessNumber,
     address,
     zipCode,
+    estHours,
+    estMinutes,
     monday: monday,
     tuesday: tuesday,
     wednesday: wednesday,
@@ -138,6 +142,8 @@ function QueueMeta({
       businessNumber,
       address,
       zipCode,
+      estHours,
+      estMinutes,
       monday: monday,
       tuesday: tuesday,
       wednesday: wednesday,
@@ -184,7 +190,6 @@ function QueueMeta({
   async function update() {
     setShowSaving(true);
     Keyboard.dismiss();
-
     await updateQueueMeta({
       id,
       title,
@@ -207,6 +212,8 @@ function QueueMeta({
       friday,
       saturday,
       sunday,
+      estHours,
+      estMinutes,
     });
     // setTimeout(() => {
     setOG({
@@ -222,6 +229,8 @@ function QueueMeta({
       businessNumber,
       address,
       zipCode,
+      estHours,
+      estMinutes,
       monday: monday,
       tuesday: tuesday,
       wednesday: wednesday,
@@ -1207,10 +1216,10 @@ function QueueMeta({
 
               <Text style={styles.titleText}>Location Details</Text>
               <View style={styles.MetaRowEditing}>
-                <Text style={styles.MetaTitleText}>Location Status</Text>
-                <Text style={styles.MetaTitleTextSM}>
-                  keep your prospective customers informed
-                </Text>
+                <Text style={styles.MetaTitleText}>Location Message</Text>
+                {/* <Text style={styles.MetaTitleTextSM}>
+                  Keep your prospective customers informed
+                </Text> */}
                 <TextInput
                   style={styles.MetaDataParagraphInput}
                   defaultValue={message}
@@ -1261,6 +1270,97 @@ function QueueMeta({
                       }
                     }}
                   ></TextInput>
+                </View>
+              </View>
+              <View
+                style={{
+                  marginTop: 5,
+                  marginBottom: 5,
+                  padding: 50,
+                  paddingRight: 0,
+                  paddingBottom: 0,
+                  paddingTop: 10,
+                  backgroundColor: "white",
+                  display: "flex",
+                }}
+              >
+                <Text style={styles.MetaTitleText}>Estimated Wait Time</Text>
+                <View
+                  style={{
+                    padding: 0,
+                    paddingRight: 50,
+                    paddingTop: 0,
+                    paddingBottom: 0,
+                    backgroundColor: "white",
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "space-evenly",
+                  }}
+                >
+                  <View
+                    style={{
+                      padding: 0,
+                      paddingTop: 0,
+                      paddingBottom: 0,
+                      backgroundColor: "white",
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                    }}
+                  >
+                    <Text style={{ paddingRight: 5 }}>Hours:</Text>
+
+                    <TextInput
+                      style={styles.MetaDataTextInputFlex}
+                      defaultValue={estHours}
+                      keyboardType="numeric"
+                      onChangeText={(value) => setEstHours(value)}
+                      onBlur={() => {
+                        if (
+                          isNaN(estHours) ||
+                          "" === estHours ||
+                          null === estHours ||
+                          isNaN(parseInt(estHours))
+                        ) {
+                          setEstHours("0");
+                        } else {
+                          setEstHours(parseInt(estHours).toString());
+                        }
+                      }}
+                    ></TextInput>
+                  </View>
+                  <View
+                    style={{
+                      padding: 0,
+                      paddingTop: 0,
+                      paddingBottom: 0,
+                      backgroundColor: "white",
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                    }}
+                  >
+                    <Text style={{ paddingRight: 5 }}>Minutes:</Text>
+                    <TextInput
+                      style={styles.MetaDataTextInputFlex}
+                      defaultValue={estMinutes}
+                      keyboardType="numeric"
+                      onChangeText={(value) => setEstMinutes(value)}
+                      onBlur={() => {
+                        if (
+                          isNaN(estMinutes) ||
+                          "" === estMinutes ||
+                          null === estMinutes ||
+                          isNaN(parseInt(estMinutes)) ||
+                          parseInt(estMinutes) > 59
+                        ) {
+                          setEstMinutes("0");
+                        } else {
+                          setEstMinutes(parseInt(estMinutes).toString());
+                        }
+                      }}
+                    ></TextInput>
+                  </View>
                 </View>
               </View>
 
@@ -1600,9 +1700,7 @@ function QueueMeta({
                 <View style={styles.MetaTitleTextView}>
                   <Text style={styles.MetaTitleText}>Active</Text>
                   <View style={styles.MetaTitleTextSMFlex}>
-                    <Text>
-                      Determines if business visible to queue members.
-                    </Text>
+                    <Text>Determines if location visible to voters.</Text>
                   </View>
                 </View>
                 <View
@@ -1655,6 +1753,19 @@ const pickerSelectStyles = StyleSheet.create({
   inputIOS: {
     color: "#87c8e0",
     fontWeight: "800",
+  },
+});
+const pickerSelectStyles2 = StyleSheet.create({
+  inputIOS: {
+    borderStyle: "solid",
+    borderColor: "#87c8e0",
+    borderWidth: 1,
+    height: 50,
+    borderRadius: 9,
+    marginTop: 5,
+    marginBottom: 5,
+    width: 60,
+    textAlign: "center",
   },
 });
 

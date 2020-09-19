@@ -36,13 +36,13 @@ function LogInQueueManager({ logIn, toggleLogInSignUp, callResetPassword }) {
         <View>
           <Text style={styles.logInTitleText}>Forgot Password?</Text>
           <Text style={styles.logInTitleTextSub}>
-            Please enter your account email
+            Please enter your User ID
           </Text>
           <View style={styles.logInFieldTextContainer}>
             {/* <Text style={styles.logInFieldText}>Email</Text> */}
             <TextInput
               style={styles.inputField}
-              placeholder="Email"
+              placeholder="User ID"
               defaultValue={username}
               onChangeText={(value) => setUsername(value)}
               secureTextEntry={false}
@@ -83,7 +83,7 @@ function LogInQueueManager({ logIn, toggleLogInSignUp, callResetPassword }) {
             {/* <Text style={styles.logInFieldText}>Email</Text> */}
             <TextInput
               style={styles.inputField}
-              placeholder="Email"
+              placeholder="User ID"
               value={username}
               onChangeText={(value) => setUsername(value)}
               textContentType={"emailAddress"}
@@ -112,14 +112,14 @@ function LogInQueueManager({ logIn, toggleLogInSignUp, callResetPassword }) {
               </Text>
             </TouchableOpacity>
           </View>
-          {/* <View style={styles.logInFieldBtnContainer}>
+          <View style={styles.logInFieldBtnContainer}>
             <TouchableOpacity
               onPress={() => setShowPassword(!showPassword)}
               style={styles.signInBtnCenterContainer}
             >
               <Text style={styles.signInBtnCenter}>Forgot password ?</Text>
             </TouchableOpacity>
-          </View> */}
+          </View>
           {/* <View style={styles.logInFieldTextContainer}>
             <View
               style={{

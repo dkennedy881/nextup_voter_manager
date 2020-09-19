@@ -47,7 +47,7 @@ function Step1({
             value={username}
             style={styles.inputField}
             onChangeText={(text) => updateUsername(text)}
-            placeholder="Email"
+            placeholder="User ID"
             textContentType={"emailAddress"}
             autoCompleteType={"email"}
             keyboardType={"email-address"}

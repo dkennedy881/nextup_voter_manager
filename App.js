@@ -124,6 +124,8 @@ export default class App extends Component {
           friday: queueData.friday,
           saturday: queueData.saturday,
           sunday: queueData.sunday,
+          estHours: queueData.estHours["$numberLong"],
+          estMinutes: queueData.estMinutes["$numberLong"],
         };
         queueData = newJSON;
       } catch (e) {
@@ -205,6 +207,8 @@ export default class App extends Component {
     friday,
     saturday,
     sunday,
+    estHours,
+    estMinutes,
   }) => {
     return new Promise(async (res, rej) => {
       // return;
@@ -234,6 +238,8 @@ export default class App extends Component {
             friday,
             saturday,
             sunday,
+            estHours: parseInt(estHours),
+            estMinutes: parseInt(estMinutes),
           }
         );
         // return;
@@ -259,6 +265,8 @@ export default class App extends Component {
           friday: queueData.friday,
           saturday: queueData.saturday,
           sunday: queueData.sunday,
+          estHours: queueData.estHours["$numberLong"],
+          estMinutes: queueData.estMinutes["$numberLong"],
         };
         queueData = newJSON;
 
@@ -310,7 +318,6 @@ export default class App extends Component {
       updateUserQueue,
       resetPassword,
     } = this;
-
     if (isLoggedIn)
       return (
         <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
@@ -351,6 +358,10 @@ function DisplayLogInSignUp({
   return (
     <View style={styles.loginSignUpContainer}>
       <StatusBar translucent barStyle="dark-content" />
+      {/* <TouchableWithoutFeedback
+        style={styles.logInContainer}
+        onPress={Keyboard.dismiss}
+      > */}
       <View
         style={{
           display: "flex",
@@ -367,6 +378,7 @@ function DisplayLogInSignUp({
           source={require("./images/next-up_text-color.jpeg")}
         />
       </View>
+      {/* </TouchableWithoutFeedback> */}
       {isSignedUp ? (
         <LogInContainer
           queueMember={false}

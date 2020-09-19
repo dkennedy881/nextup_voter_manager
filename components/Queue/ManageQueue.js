@@ -3,12 +3,7 @@ import React, { useState, Component } from "react";
 //comps
 import QueueMeta from "./QueueMeta";
 
-import {
-  StyleSheet,
-  View,
-  Text,
-  Keyboard,
-} from "react-native";
+import { StyleSheet, View, Text, Keyboard } from "react-native";
 
 class ManageQueue extends Component {
   constructor(props) {
@@ -44,7 +39,6 @@ class ManageQueue extends Component {
 
   static getDerivedStateFromProps(nextProps, prevState) {
     let { queueData, showSettings } = nextProps;
-
     if (queueData) {
       return {
         queueData,
