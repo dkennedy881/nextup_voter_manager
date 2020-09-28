@@ -119,6 +119,16 @@ function QueueMeta({
     setCount(queueData.count);
   });
 
+  const setEstHoursTo = (x) => {
+    setEstMinutes("0");
+    setEstHours(x.toString());
+  };
+
+  const setEstMinutesTo = (x) => {
+    setEstHours("0");
+    setEstMinutes(x.toString());
+  };
+
   const preSetState = (val) => {
     if (val) {
       const city = val.split(",")[0].trim();
@@ -1278,13 +1288,161 @@ function QueueMeta({
                   marginBottom: 5,
                   padding: 50,
                   paddingRight: 0,
-                  paddingBottom: 0,
+                  paddingBottom: 10,
                   paddingTop: 10,
                   backgroundColor: "white",
                   display: "flex",
                 }}
               >
                 <Text style={styles.MetaTitleText}>Estimated Wait Time</Text>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    paddingTop: 10,
+                    paddingBottom: 10,
+                  }}
+                >
+                  <View style={{ padding: 5, paddingLeft: 0 }}>
+                    <Text>Set to: </Text>
+                  </View>
+                  <TouchableOpacity onPress={() => setEstMinutesTo(5)}>
+                    <View
+                      style={{
+                        marginLeft: 5,
+                        marginRight: 5,
+                        borderStyle: "solid",
+                        borderWidth: 0.5,
+                        padding: 5,
+                        paddingLeft: 10,
+                        paddingRight: 10,
+                        borderRadius: 9,
+                        backgroundColor: "#87c8e0",
+                        borderColor: "#eee",
+                        color: "white",
+                      }}
+                    >
+                      <Text style={{ color: "white" }}>5 Minutes</Text>
+                    </View>
+                  </TouchableOpacity>
+                  <TouchableOpacity onPress={() => setEstMinutesTo(10)}>
+                    <View
+                      style={{
+                        marginLeft: 5,
+                        marginRight: 5,
+                        borderStyle: "solid",
+                        borderWidth: 0.5,
+                        padding: 5,
+                        paddingLeft: 10,
+                        paddingRight: 10,
+                        borderRadius: 9,
+                        backgroundColor: "#87c8e0",
+                        borderColor: "#eee",
+                        color: "white",
+                      }}
+                    >
+                      <Text style={{ color: "white" }}>10 Minutes</Text>
+                    </View>
+                  </TouchableOpacity>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    paddingTop: 10,
+                    paddingBottom: 10,
+                  }}
+                >
+                  <TouchableOpacity onPress={() => setEstMinutesTo(15)}>
+                    <View
+                      style={{
+                        marginLeft: 5,
+                        marginRight: 5,
+                        borderStyle: "solid",
+                        borderWidth: 0.5,
+                        padding: 5,
+                        paddingLeft: 10,
+                        paddingRight: 10,
+                        borderRadius: 9,
+                        backgroundColor: "#87c8e0",
+                        borderColor: "#eee",
+                        color: "white",
+                      }}
+                    >
+                      <Text style={{ color: "white" }}>15 Minutes</Text>
+                    </View>
+                  </TouchableOpacity>
+                  <TouchableOpacity onPress={() => setEstMinutesTo(20)}>
+                    <View
+                      style={{
+                        marginLeft: 5,
+                        marginRight: 5,
+                        borderStyle: "solid",
+                        borderWidth: 0.5,
+                        padding: 5,
+                        paddingLeft: 10,
+                        paddingRight: 10,
+                        borderRadius: 9,
+                        backgroundColor: "#87c8e0",
+                        borderColor: "#eee",
+                        color: "white",
+                      }}
+                    >
+                      <Text style={{ color: "white" }}>20 Minutes</Text>
+                    </View>
+                  </TouchableOpacity>
+                  <TouchableOpacity onPress={() => setEstMinutesTo(30)}>
+                    <View
+                      style={{
+                        marginLeft: 5,
+                        marginRight: 5,
+                        borderStyle: "solid",
+                        borderWidth: 0.5,
+                        padding: 5,
+                        paddingLeft: 10,
+                        paddingRight: 10,
+                        borderRadius: 9,
+                        backgroundColor: "#87c8e0",
+                        borderColor: "#eee",
+                        color: "white",
+                      }}
+                    >
+                      <Text style={{ color: "white" }}>30 Minutes</Text>
+                    </View>
+                  </TouchableOpacity>
+                </View>
+                <View
+                  style={{
+                    display: "flex",
+                    flexDirection: "row",
+                    paddingTop: 10,
+                    paddingBottom: 10,
+                  }}
+                >
+                  <TouchableOpacity
+                    onPress={() => {
+                      setEstHoursTo(1);
+                    }}
+                  >
+                    <View
+                      style={{
+                        marginLeft: 5,
+                        marginRight: 5,
+                        borderStyle: "solid",
+                        borderWidth: 0.5,
+                        padding: 5,
+                        paddingLeft: 10,
+                        paddingRight: 10,
+                        borderRadius: 9,
+                        backgroundColor: "#87c8e0",
+                        borderColor: "#eee",
+                        color: "white",
+                      }}
+                    >
+                      <Text style={{ color: "white" }}>1 Hour</Text>
+                    </View>
+                  </TouchableOpacity>
+                </View>
                 <View
                   style={{
                     padding: 0,
